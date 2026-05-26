@@ -1,0 +1,10 @@
+log_enable(3,1);
+SET u{GRAPH} http://data.ga-group.nl/ics/gics/;
+SPARQL CREATE SILENT GRAPH <$u{GRAPH}>;
+SPARQL CLEAR GRAPH <$u{GRAPH}>;
+DELETE FROM DB.DBA.LOAD_LIST WHERE ll_file LIKE '/home/freundt/author/ics/gics%.ttl';
+ld_add('/home/freundt/author/ics/gics.ttl', '$u{GRAPH}');
+rdf_loader_run();
+CHECKPOINT;
+LOAD 'sql/prov-massage.sql';
+CHECKPOINT;
