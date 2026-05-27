@@ -21,17 +21,17 @@ DB.DBA.XML_REMOVE_NS_BY_PREFIX('dbpedia',3);
 DB.DBA.XML_SET_NS_DECL('wd','http://www.wikidata.org/entity/', 1);
 
 include(sql/dump-generic.sql)
-CREATE DUMP_PROCEDURE(dump_gics,
+CREATE DUMP_PROCEDURE(dump_gics1999,
 SPARQL
 DEFINE input:storage ""
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 SELECT ?s ?p ?o
-FROM <http://data.ga-group.nl/ics/gics/>
+FROM <http://data.ga-group.nl/ics/gics/1999/>
 WHERE {
 	?s a ?t ; ?p ?o .
 	FILTER(?t != owl:Ontology)
 }
 );
 
-dump_gics('/tmp/gics.ttl');
+dump_gics1999('/tmp/gics1999.ttl');
 CHECKPOINT;
