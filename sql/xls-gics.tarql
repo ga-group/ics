@@ -23,10 +23,11 @@ PREFIX gics: <http://data.ga-group.nl/ics/gics/>
 CONSTRUCT {
 	?_gics
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , owl:NamedIndividual ;
-		tempo:validFrom	?_from ;
 		skos:definition ?_desc ;
 		rdfs:label ?_text ;
 		skos:notation ?gics ;
+		tempo:validFrom	?_from ;
+		tempo:validTill	?_till ;
 		## provenance
 		pav:importedOn ?now ;
 		pav:lastRefreshedOn ?now ;
@@ -36,8 +37,10 @@ CONSTRUCT {
 WHERE {
 	BIND(NOW() AS ?now)
 	BIND(xsd:dateTime(COALESCE(?accd,"2019-06-07T09:41:30Z")) AS ?_accd)
-	BIND(IRI(CONCAT(STR(gics:),?vers,'/',?gics)) AS ?_gics)
+	BIND(COALESCE(?vers, SUBSTR(?from,1,4)) AS ?_vers)
+	BIND(IRI(CONCAT(STR(gics:),?_vers,'/',?gics)) AS ?_gics)
 	BIND(xsd:date(?from) AS ?_from)
+	BIND(xsd:date(?till) AS ?_till)
 	BIND(STRLANG(?desc, ?lang) AS ?_desc)
 	BIND(STRLANG(?text, ?lang) AS ?_text)
 }
