@@ -3,9 +3,12 @@ SHELL := /bin/zsh
 include .make.env
 
 all: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 .imported.gics2023
+export: export.gics1999 export.gics2002 export.gics2003 export.gics2004 export.gics2005 export.gics2006 export.gics2008 export.gics2010 export.gics2014 export.gics2016 export.gics2018 export.gics2023
 check: check.gics
 
 TODAY := $(shell dateconv today)
+
+.inferred.replacements: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 .imported.gics2023
 
 
 check.%: %.ttl shacl/%.shacl.ttl
@@ -39,10 +42,21 @@ check.%: %.ttl shacl/%.shacl.sql
 	$(csvsql) < sql/load-$*.sql \
 	&& touch $@
 
-export.%: sql/dump-%.sql .imported.%
+.inferred.%:: sql/infer-%.sql
+	$(csvsql) < $< \
+	&& touch $@
+
+/tmp/%.ttl:: sql/dump-%.sql .imported.%
 	m4 $< | $(csvsql)
 	$(RM) $@
 	$(RSYNC)/tmp/$*.ttl /tmp/$*.ttl
+
+/tmp/%.ttl:: sql/dump-%.sql .inferred.%
+	m4 $< | $(csvsql)
+	$(RM) $@
+	$(RSYNC)/tmp/$*.ttl /tmp/$*.ttl
+
+export.%: /tmp/%.ttl
 	-mawk '(x+=$$0=="")<=3&&($$0==""||(x=0)||1)' $*.ttl > $@
 	sed 's/rdf:type/a/' /tmp/$*.ttl \
 	| ttl2ttl --sortable --expand-generic \
@@ -52,6 +66,19 @@ export.%: sql/dump-%.sql .imported.%
 	>> $@
 	mv $@ $*.ttl
 	touch .imported.$*
+
+
+tmp/%.out:: sql/%.sql
+	$(csvsql) < $< \
+        | unqpc --only-printable \
+	$(if $(V),| tee $@.t,> $@.t) \
+	&& mv $@.t $@
+
+tmp/%.out:: tmp/%.sql
+	$(csvsql) < $< \
+        | unqpc --only-printable \
+	| tee $@.t && mv $@.t $@
+
 
 setup-stardog:
 	$(stardog)-admin db create -o reasoning.sameas=OFF -n ics

@@ -53,6 +53,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/10101010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/10101010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -66,6 +67,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/10101020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/10101020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -79,6 +81,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/101010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/101010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -91,6 +94,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/10102010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/10102010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -104,6 +108,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/10102020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/10102020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -117,6 +122,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/10102030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/10102030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -130,6 +136,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/101020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/101020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -142,6 +149,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/1010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/1010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -154,6 +162,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/10>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/10> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -166,6 +175,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15101010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15101010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -179,6 +189,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15101020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15101020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -192,6 +203,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15101030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15101030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -205,6 +217,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15101040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15101040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -218,6 +231,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15101050>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15101050> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -231,6 +245,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/151010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/151010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -243,6 +258,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15102010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15102010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -256,6 +272,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/151020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/151020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -268,6 +285,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15103010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15103010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -281,6 +299,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15103020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15103020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -294,6 +313,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/151030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/151030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -306,6 +326,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15104010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15104010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -319,6 +340,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15104020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15104020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -332,6 +354,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15104030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15104030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -345,6 +368,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15104040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15104040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -358,6 +382,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15104050>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15104050> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -371,6 +396,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/151040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/151040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -383,6 +409,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15105010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15105010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -396,6 +423,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15105020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15105020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -409,6 +437,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/151050>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/151050> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -421,6 +450,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/1510>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/1510> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -433,6 +463,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/15>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/15> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -445,6 +476,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20101010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20101010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -458,6 +490,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/201010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/201010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -470,6 +503,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20102010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20102010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -483,6 +517,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/201020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/201020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -495,6 +530,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20103010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20103010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -508,6 +544,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/201030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/201030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -520,6 +557,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20104010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20104010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -533,6 +571,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20104020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20104020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -546,6 +585,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/201040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/201040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -558,6 +598,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20105010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20105010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -571,6 +612,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/201050>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/201050> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -583,6 +625,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20106010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20106010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -596,6 +639,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20106020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20106020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -609,6 +653,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/201060>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/201060> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -621,6 +666,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20107010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20107010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -634,6 +680,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/201070>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/201070> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -646,6 +693,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/2010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/2010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -658,6 +706,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20201010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20201010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -671,6 +720,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20201020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20201020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -684,6 +734,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20201030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20201030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -697,6 +748,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20201040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20201040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -710,6 +762,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20201050>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20201050> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -723,6 +776,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20201060>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20201060> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -736,6 +790,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/202010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/202010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -748,6 +803,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/2020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/2020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -760,6 +816,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20301010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20301010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -773,6 +830,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/203010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/203010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -785,6 +843,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20302010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20302010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -798,6 +857,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/203020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/203020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -810,6 +870,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20303010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20303010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -823,6 +884,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/203030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/203030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -835,6 +897,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20304010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20304010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -848,6 +911,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20304020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20304020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -861,6 +925,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/203040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/203040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -873,6 +938,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20305010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20305010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -886,6 +952,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20305020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20305020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -899,6 +966,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20305030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20305030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -912,6 +980,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/203050>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/203050> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -924,6 +993,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/2030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/2030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -936,6 +1006,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/20>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/20> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -948,6 +1019,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25101010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25101010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -961,6 +1033,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25101020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25101020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -974,6 +1047,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/251010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/251010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -986,6 +1060,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25102010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25102010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -999,6 +1074,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25102020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25102020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1012,6 +1088,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/251020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/251020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1024,6 +1101,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/2510>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/2510> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1036,6 +1114,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25201010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25201010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1049,6 +1128,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25201020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25201020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1062,6 +1142,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25201030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25201030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1075,6 +1156,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25201040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25201040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1088,6 +1170,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25201050>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25201050> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1101,6 +1184,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/252010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/252010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1113,6 +1197,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25202010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25202010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1126,6 +1211,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25202020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25202020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1139,6 +1225,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/252020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/252020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1151,6 +1238,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25203010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25203010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1164,6 +1252,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25203020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25203020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1177,6 +1266,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25203030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25203030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1190,6 +1280,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/252030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/252030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1202,6 +1293,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/2520>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/2520> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1214,6 +1306,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25301010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25301010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1227,6 +1320,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25301020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25301020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1240,6 +1334,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25301030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25301030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1253,6 +1348,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25301040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25301040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1266,6 +1362,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/253010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/253010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1278,6 +1375,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/2530>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/2530> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1290,6 +1388,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25401010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25401010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1303,6 +1402,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25401020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25401020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1316,6 +1416,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25401030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25401030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1329,6 +1430,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25401040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25401040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1342,6 +1444,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/254010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/254010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1354,6 +1457,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/2540>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/2540> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1366,6 +1470,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25501010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25501010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1379,6 +1484,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/255010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/255010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1391,6 +1497,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25502010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25502010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1404,6 +1511,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25502020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25502020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1417,6 +1525,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/255020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/255020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1429,6 +1538,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25503010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25503010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1442,6 +1552,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25503020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25503020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1455,6 +1566,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/255030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/255030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1467,6 +1579,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25504010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25504010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1480,6 +1593,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25504020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25504020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1493,6 +1607,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25504030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25504030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1506,6 +1621,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25504040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25504040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1519,6 +1635,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/255040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/255040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1531,6 +1648,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/2550>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/2550> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1543,6 +1661,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/25>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/25> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1555,6 +1674,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30101010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30101010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1568,6 +1688,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30101020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30101020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1581,6 +1702,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30101030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30101030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1594,6 +1716,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/301010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/301010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1606,6 +1729,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/3010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/3010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1618,6 +1742,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30201010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30201010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1631,6 +1756,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30201020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30201020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1644,6 +1770,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30201030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30201030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1657,6 +1784,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/302010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/302010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1669,6 +1797,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30202010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30202010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1695,6 +1824,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30202030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30202030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1708,6 +1838,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/302020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/302020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1720,6 +1851,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30203010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30203010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1733,6 +1865,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/302030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/302030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1745,6 +1878,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/3020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/3020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1757,6 +1891,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30301010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30301010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1770,6 +1905,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/303010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/303010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1782,6 +1918,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30302010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30302010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1795,6 +1932,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/303020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/303020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1807,6 +1945,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/3030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/3030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1819,6 +1958,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/30>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/30> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1831,6 +1971,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/35101010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/35101010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1844,6 +1985,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/35101020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/35101020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1857,6 +1999,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/351010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/351010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1869,6 +2012,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/35102010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/35102010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1882,6 +2026,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/35102020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/35102020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1895,6 +2040,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/35102030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/35102030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1908,6 +2054,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/351020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/351020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1920,6 +2067,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/3510>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/3510> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1932,6 +2080,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/35201010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/35201010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1945,6 +2094,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/352010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/352010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1957,6 +2107,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/35202010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/35202010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1970,6 +2121,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/352020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/352020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1982,6 +2134,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/3520>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/3520> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -1994,6 +2147,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/35>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/35> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2006,6 +2160,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40101010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40101010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2019,6 +2174,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/401010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/401010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2031,6 +2187,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/4010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/4010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2043,6 +2200,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40201010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40201010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2056,6 +2214,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40201020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40201020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2069,6 +2228,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40201030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40201030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2082,6 +2242,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/402010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/402010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2094,6 +2255,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/4020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/4020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2106,6 +2268,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40301010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40301010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2119,6 +2282,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40301020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40301020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2132,6 +2296,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40301030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40301030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2145,6 +2310,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40301040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40301040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2158,6 +2324,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40301050>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40301050> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2171,6 +2338,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/403010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/403010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2183,6 +2351,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/4030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/4030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2195,6 +2364,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40401010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40401010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2208,6 +2378,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40401020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40401020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2221,6 +2392,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/404010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/404010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2233,6 +2405,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/4040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/4040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2245,6 +2418,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/40>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/40> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2257,6 +2431,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45101010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45101010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2270,6 +2445,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/451010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/451010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2282,6 +2458,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45102010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45102010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2295,6 +2472,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/451020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/451020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2307,6 +2485,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45103010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45103010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2320,6 +2499,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45103020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45103020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2333,6 +2513,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/451030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/451030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2345,6 +2526,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/4510>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/4510> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2357,6 +2539,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45201010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45201010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2370,6 +2553,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45201020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45201020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2383,6 +2567,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/452010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/452010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2395,6 +2580,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45202010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45202010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2408,6 +2594,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45202020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45202020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2421,6 +2608,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/452020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/452020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2433,6 +2621,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45203010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45203010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2446,6 +2635,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/452030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/452030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2458,6 +2648,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45204010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45204010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2471,6 +2662,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/452040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/452040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2483,6 +2675,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45205010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45205010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2496,6 +2689,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45205020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45205020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2509,6 +2703,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/452050>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/452050> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2521,6 +2716,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/4520>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/4520> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2533,6 +2729,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/45>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/45> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2545,6 +2742,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/50101010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/50101010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2558,6 +2756,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/50101020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/50101020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2571,6 +2770,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/501010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/501010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2583,6 +2783,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/50102010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/50102010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2596,6 +2797,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/501020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/501020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2608,6 +2810,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/5010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/5010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2620,6 +2823,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/50>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/50> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2632,6 +2836,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/55101010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/55101010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2645,6 +2850,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/551010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/551010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2657,6 +2863,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/55102010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/55102010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2670,6 +2877,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/551020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/551020> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2682,6 +2890,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/55103010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/55103010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2695,6 +2904,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/551030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/551030> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2707,6 +2917,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/55104010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/55104010> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2720,6 +2931,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/551040>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/551040> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2732,6 +2944,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/5510>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/5510> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
@@ -2744,6 +2957,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/1999/55>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2002/55> ;
 	pav:importedOn	"2026-05-27T07:56:48.543Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
