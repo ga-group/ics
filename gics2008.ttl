@@ -1,0 +1,3278 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix delta: <http://www.w3.org/2004/delta#> .
+@prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/> .
+@prefix gics2008: <http://data.ga-group.nl/ics/gics/2008/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.ga-group.nl/ics/gics/2008/>
+	a	owl:Ontology ;
+	dcat:downloadURL	<https://github.com/ga-group/ics/gics.ttl> ;
+	dct:abstract	"""This ontology includes individuals representing the set of classification codes based on the principal business activity of the company.
+This set of classification codes is valid from 2008-08-30 till 2010-07-01."""@en ;
+	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
+	dct:description	"""The Global Industry Classification Standard (GICS) is an industry taxonomy developed in 1999 by MSCI and Standard & Poor's (S&P) for use by the global financial community.
+Codes are four-tiered, numeric, and not prefix-free.  The first tier is the sector, the second tier is the industry group, the third tier is the industy, and the fourth tier is the sub-industry.
+S&P is responsible for assigning a GICS code to all major public companies.  The assignment is based on the principal busines activity of the company."""@en ;
+	dct:format	"text/turtle"^^xsd:string ;
+	dct:issued	"2026-05-24T02:25:19Z"^^xsd:dateTime ;
+	dct:language	"en"^^xsd:language ;
+	dct:license	<https://creativecommons.org/licenses/by-sa/4.0/> ;
+	dct:modified	"2026-05-24T02:25:19Z"^^xsd:dateTime ;
+	dct:publisher	<https://orcid.org/0000-0002-7352-2825> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2006/> ;
+	dct:title	"gics individuals" ;
+	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
+	owl:imports	fibo-sec-sec-cls: ;
+	owl:versionInfo	"2008"^^xsd:string ;
+	owl:versionIRI	<http://data.ga-group.nl/ics/gics/2008/> ;
+	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
+	rdfs:label	"gics"@en ;
+	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
+	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
+	sm:copyright	"Copyright (c) 1999 S&P Dow Jones Indices LLC" , "Copyright (c) 1999 MSCI Inc." , "Copyright (c) 2019-2026 PAMIYA Strategic Advisors GmbH" ;
+	sm:filename	"gics.ttl" ;
+        tempo:validFrom	"2008-08-30"^^xsd:date ;
+        tempo:validTill	"2010-07-01"^^xsd:date ;
+	vann:preferredNamespacePrefix	"gics2008"^^xsd:string ;
+	vann:preferredNamespaceUri	"http://data.ga-group.nl/ics/gics/2008/" .
+
+
+
+
+<http://data.ga-group.nl/ics/gics/2008/10101010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Oil & Gas Drilling"@en ;
+	skos:definition	"Drilling contractors or owners of drilling rigs that contract their services for drilling wells"@en ;
+	skos:notation	"10101010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/10101020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Oil & Gas Equipment & Services"@en ;
+	skos:definition	"Manufacturers of equipment, including drilling rigs and equipment, and providers of supplies and services to companies involved in the drilling, evaluation and completion of oil and gas wells."@en ;
+	skos:notation	"10101020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/101010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Energy Equipment & Services"@en ;
+	skos:notation	"101010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/10102010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Integrated Oil & Gas"@en ;
+	skos:definition	"Integrated oil companies engaged in the exploration & production of oil and gas, as well as at least one other significant activity in either refining, marketing and transportation, or chemicals."@en ;
+	skos:notation	"10102010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/10102020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Oil & Gas Exploration & Production"@en ;
+	skos:definition	"Companies engaged in the exploration and production of oil and gas not classified elsewhere."@en ;
+	skos:notation	"10102020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/10102030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Oil & Gas Refining & Marketing"@en ;
+	skos:definition	"Companies engaged in the refining and marketing of oil, gas and/or refined products not classified in the Integrated Oil & Gas or Independent Power Producers & Energy Traders Sub-Industries."@en ;
+	skos:notation	"10102030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/10102040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Oil & Gas Storage & Transportation"@en ;
+	skos:definition	"Companies engaged in the storage and/or transportation of oil, gas and/or refined products. Includes diversified midstream natural gas companies facing competitive markets, oil and refined product pipelines, coal slurry pipelines and oil & gas shipping companies."@en ;
+	skos:notation	"10102040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/10102050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Coal & Consumable Fuels"@en ;
+	skos:definition	"Companies primarily involved in the production and mining of coal, related products and other consumable fuels related to the generation of energy.  Excludes companies primarily producing gases classified in the Industrial Gases Sub-Industry."@en ;
+	skos:notation	"10102050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/101020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Oil, Gas & Consumable Fuels"@en ;
+	skos:notation	"101020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/1010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Energy"@en ;
+	skos:notation	"1010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/10>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Energy"@en ;
+	skos:notation	"10" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15101010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Commodity Chemicals"@en ;
+	skos:definition	"Companies that primarily produce industrial chemicals and basic chemicals. Including but not limited to plastics, synthetic fibers, films, commodity-based paints & pigments, explosives and petrochemicals. Excludes chemical companies classified in the Diversified Chemicals, Fertilizers & Agricultural Chemicals, Industrial Gases, or Specialty Chemicals Sub-Industries."@en ;
+	skos:notation	"15101010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15101020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Diversified Chemicals"@en ;
+	skos:definition	"Manufacturers of a diversified range of chemical products not classified in the Industrial Gases, Commodity Chemicals, Specialty Chemicals or Fertilizers & Agricultural Chemicals Sub-Industries."@en ;
+	skos:notation	"15101020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15101030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Fertilizers & Agricultural Chemicals"@en ;
+	skos:definition	"Producers of fertilizers, pesticides, potash or other agriculture-related chemicals not classified elsewhere."@en ;
+	skos:notation	"15101030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15101040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Industrial Gases"@en ;
+	skos:definition	"Manufacturers of industrial gases."@en ;
+	skos:notation	"15101040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15101050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Specialty Chemicals"@en ;
+	skos:definition	"Companies that primarily produce high value-added chemicals used in the manufacture of a wide variety of products, including but not limited to fine chemicals, additives, advanced polymers, adhesives, sealants and specialty paints, pigments and coatings."@en ;
+	skos:notation	"15101050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/151010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Chemicals"@en ;
+	skos:notation	"151010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15102010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Construction Materials"@en ;
+	skos:definition	"Manufacturers of construction materials including sand, clay, gypsum, lime, aggregates, cement, concrete and bricks. Other finished or semi-finished building materials are classified in the Building Products Sub-Industry."@en ;
+	skos:notation	"15102010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/151020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Construction Materials"@en ;
+	skos:notation	"151020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15103010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Metal & Glass Containers"@en ;
+	skos:definition	"Manufacturers of metal, glass or plastic containers. Includes corks and caps."@en ;
+	skos:notation	"15103010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15103020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Paper Packaging"@en ;
+	skos:definition	"Manufacturers of paper and cardboard containers and packaging."@en ;
+	skos:notation	"15103020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/151030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Containers & Packaging"@en ;
+	skos:notation	"151030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15104010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Aluminum"@en ;
+	skos:definition	"Producers of aluminum and related products, including companies that mine or process bauxite and companies that recycle aluminum to produce finished or semi-finished products. Excludes companies that primarily produce aluminum building materials classified in the Building Products Sub-Industry."@en ;
+	skos:notation	"15104010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15104020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Diversified Metals & Mining"@en ;
+	skos:definition	"Companies engaged in diversified production or extraction of metals and minerals not classified elsewhere."@en ;
+	skos:notation	"15104020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15104030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Gold"@en ;
+	skos:definition	"Producers of gold and related products, including companies that mine or process gold and the South African finance houses which primarily invest in, but do not operate, gold mines."@en ;
+	skos:notation	"15104030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15104040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Precious Metals & Minerals"@en ;
+	skos:definition	"Companies mining precious metals and minerals not classified in the Gold Sub-Industry. Includes companies primarily mining platinum."@en ;
+	skos:notation	"15104040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15104050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Steel"@en ;
+	skos:definition	"Producers of iron and steel and related products"@en ;
+	skos:notation	"15104050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/151040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Metals & Mining"@en ;
+	skos:notation	"151040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15105010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Forest Products"@en ;
+	skos:definition	"Manufacturers of timber and related wood products. Includes lumber for the building industry."@en ;
+	skos:notation	"15105010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15105020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Paper Products"@en ;
+	skos:definition	"Manufacturers of all grades of paper. Excludes companies specializing in paper packaging classified in the Paper Packaging Sub-Industry."@en ;
+	skos:notation	"15105020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/151050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Paper & Forest Products"@en ;
+	skos:notation	"151050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/1510>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Materials"@en ;
+	skos:notation	"1510" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/15>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Materials"@en ;
+	skos:notation	"15" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20101010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Aerospace & Defense"@en ;
+	skos:definition	"Manufacturers of civil or military aerospace and defense equipment, parts or products. Includes defense electronics and space equipment."@en ;
+	skos:notation	"20101010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/201010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Aerospace & Defense"@en ;
+	skos:notation	"201010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20102010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Building Products"@en ;
+	skos:definition	"Manufacturers of building components and home improvement products and equipment. Excludes lumber and plywood classified under Forest Products and cement and other materials classified in the Construction Materials Sub-Industry."@en ;
+	skos:notation	"20102010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/201020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Building Products"@en ;
+	skos:notation	"201020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20103010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Construction & Engineering"@en ;
+	skos:definition	"Companies engaged in primarily non-residential construction. Includes civil engineering companies and large-scale contractors. Excludes companies classified in the Homebuilding Sub-Industry."@en ;
+	skos:notation	"20103010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/201030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Construction & Engineering"@en ;
+	skos:notation	"201030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20104010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Electrical Components & Equipment"@en ;
+	skos:definition	"Companies that produce electric cables and wires, electrical components or equipment not classified in the Heavy Electrical Equipment Sub-Industry."@en ;
+	skos:notation	"20104010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20104020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Heavy Electrical Equipment"@en ;
+	skos:definition	"Manufacturers of power-generating equipment and other heavy electrical equipment, including power turbines, heavy electrical machinery intended for fixed-use and large electrical systems. Excludes cables and wires, classified in the Electrical Components & Equipment Sub-Industry."@en ;
+	skos:notation	"20104020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/201040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Electrical Equipment"@en ;
+	skos:notation	"201040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20105010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Industrial Conglomerates"@en ;
+	skos:definition	"Diversified industrial companies with business activities in three or more sectors, none of which contributes a majority of revenues. Stakes held are predominantly of a controlling nature and stake holders maintain an operational interest in the running of the subsidiaries."@en ;
+	skos:notation	"20105010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/201050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Industrial Conglomerates"@en ;
+	skos:notation	"201050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20106010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Construction & Farm Machinery & Heavy Trucks"@en ;
+	skos:definition	"Manufacturers of heavy duty trucks, rolling machinery, earth-moving and construction equipment, heavy farm machinery and manufacturers of related parts. Includes non-military shipbuilding."@en ;
+	skos:notation	"20106010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20106020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Industrial Machinery"@en ;
+	skos:definition	"Manufacturers of industrial machinery and industrial components. Includes companies that manufacture presses, machine tools, compressors, pollution control equipment, elevators, escalators, insulators, pumps, roller bearings and other metal fabrications."@en ;
+	skos:notation	"20106020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/201060>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Machinery"@en ;
+	skos:notation	"201060" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20107010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Trading Companies & Distributors"@en ;
+	skos:definition	"Trading companies and other distributors of industrial equipment and products."@en ;
+	skos:notation	"20107010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/201070>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Trading Companies & Distributors"@en ;
+	skos:notation	"201070" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/2010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Capital Goods"@en ;
+	skos:notation	"2010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20201010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Commercial Printing"@en ;
+	skos:definition	"Companies providing commercial printing services. Includes printers primarily serving the media industry."@en ;
+	skos:notation	"20201010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20201050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Environmental & Facilities Services"@en ;
+	skos:definition	"Companies providing environmental and facilities maintenance services. Includes waste management, facilities management and pollution control services.  Excludes large-scale water treatment systems classified in the Water Utilities Sub-Industry."@en ;
+	skos:notation	"20201050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20201060>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Office Services & Supplies"@en ;
+	skos:definition	"Providers of office services and manufacturers of office supplies and equipment not classified elsewhere."@en ;
+	skos:notation	"20201060" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20201070>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Diversified Support Services"@en ;
+	skos:definition	"Companies primarily providing labor oriented support services to businesses and governments.  Includes commercial cleaning services, dining & catering services, equipment repair services, industrial maintenance services, industrial auctioneers, storage & warehousing, transaction services, uniform rental services, and other business support services."@en ;
+	skos:notation	"20201070" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20201080>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Security & Alarm Services"@en ;
+	skos:definition	"Companies providing security and protection services to business and governments. Includes companies providing services such as correctional facilities, security & alarm services, armored transportation & guarding.  Excludes companies providing security software classified under the Systems Software Sub-Industry and home security services classified under the Specialized Consumer Services Sub-Industry. Also excludes companies manufacturing security system equipment classified under the Electronic Equipment & Instruments Sub-Industry."@en ;
+	skos:notation	"20201080" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/202010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Commercial Services & Supplies"@en ;
+	skos:notation	"202010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20202010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Human Resource & Employment Services"@en ;
+	skos:definition	"Companies providing business support services relating to human capital management. Includes employment agencies, employee training, payroll & benefit support services, retirement support services and temporary agencies."@en ;
+	skos:notation	"20202010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20202020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Research & Consulting Services"@en ;
+	skos:definition	"Companies primarily providing research and consulting services to businesses and governments not classified elsewhere.  Includes companies involved in management consulting services, architectural design, business information or scientific research, marketing, and testing & certification services. Excludes companies providing information technology consulting services classified in the IT Consulting & Other Services Sub-Industry."@en ;
+	skos:notation	"20202020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/202020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Professional Services"@en ;
+	skos:notation	"202020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/2020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Commercial & Professional Services"@en ;
+	skos:notation	"2020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20301010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Air Freight & Logistics"@en ;
+	skos:definition	"Companies providing air freight transportation, courier and logistics services, including package and mail delivery and customs agents. Excludes those companies classified in the Airlines, Marine or Trucking Sub-Industries."@en ;
+	skos:notation	"20301010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/203010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Air Freight & Logistics"@en ;
+	skos:notation	"203010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20302010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Airlines"@en ;
+	skos:definition	"Companies providing primarily passenger air transportation."@en ;
+	skos:notation	"20302010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/203020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Airlines"@en ;
+	skos:notation	"203020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20303010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Marine"@en ;
+	skos:definition	"Companies providing goods or passenger maritime transportation. Excludes cruise-ships classified in the Hotels, Resorts & Cruise Lines Sub-Industry."@en ;
+	skos:notation	"20303010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/203030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Marine"@en ;
+	skos:notation	"203030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20304010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Railroads"@en ;
+	skos:definition	"Companies providing primarily goods and passenger rail transportation."@en ;
+	skos:notation	"20304010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20304020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Trucking"@en ;
+	skos:definition	"Companies providing primarily goods and passenger land transportation. Includes vehicle rental and taxi companies."@en ;
+	skos:notation	"20304020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/203040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Road & Rail"@en ;
+	skos:notation	"203040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20305010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Airport Services"@en ;
+	skos:definition	"Operators of airports and companies providing related services."@en ;
+	skos:notation	"20305010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20305020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Highways & Railtracks"@en ;
+	skos:definition	"Owners and operators of roads, tunnels and railtracks."@en ;
+	skos:notation	"20305020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20305030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Marine Ports & Services"@en ;
+	skos:definition	"Owners and operators of marine ports and related services."@en ;
+	skos:notation	"20305030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/203050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Transportation Infrastructure"@en ;
+	skos:notation	"203050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/2030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Transportation"@en ;
+	skos:notation	"2030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/20>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Industrials"@en ;
+	skos:notation	"20" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25101010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Auto Parts & Equipment"@en ;
+	skos:definition	"Manufacturers of parts and accessories for automobiles and motorcycles. Excludes companies classified in the Tires & Rubber Sub-Industry."@en ;
+	skos:notation	"25101010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25101020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Tires & Rubber"@en ;
+	skos:definition	"Manufacturers of tires and rubber."@en ;
+	skos:notation	"25101020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/251010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Auto Components"@en ;
+	skos:notation	"251010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25102010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Automobile Manufacturers"@en ;
+	skos:definition	"Companies that produce mainly passenger automobiles and light trucks. Excludes companies producing mainly motorcycles and three-wheelers classified in the Motorcycle Manufacturers Sub-Industry and heavy duty trucks classified in the Construction & Farm Machinery & Heavy Trucks Sub-Industry."@en ;
+	skos:notation	"25102010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25102020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Motorcycle Manufacturers"@en ;
+	skos:definition	"Companies that produce motorcycles, scooters or three-wheelers. Excludes bicycles classified in the Leisure Products Sub-Industry."@en ;
+	skos:notation	"25102020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/251020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Automobiles"@en ;
+	skos:notation	"251020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/2510>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Automobiles & Components"@en ;
+	skos:notation	"2510" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25201010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Consumer Electronics"@en ;
+	skos:definition	"Manufacturers of consumer electronics products including TVs, VCRs, hi-fi equipment, game consoles and related products. Excludes personal home computer manufacturers classified in the Computer Hardware Sub-Industry, and electric household appliances classified in the Household Appliances Sub-Industry."@en ;
+	skos:notation	"25201010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25201020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Home Furnishings"@en ;
+	skos:definition	"Manufacturers of soft home furnishings or furniture, including upholstery, carpets and wall-coverings."@en ;
+	skos:notation	"25201020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25201030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Homebuilding"@en ;
+	skos:definition	"Residential construction companies. Includes manufacturers of prefabricated houses and semi-fixed manufactured homes."@en ;
+	skos:notation	"25201030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25201040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Household Appliances"@en ;
+	skos:definition	"Manufacturers of electric household appliances and related products.  Includes manufacturers of power and hand tools, including garden improvement tools.  Excludes TVs and other audio and video products classified in the Consumer Electronics Sub-Industry and personal computers classified in the Computer Hardware Sub-Industry."@en ;
+	skos:notation	"25201040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25201050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Housewares & Specialties"@en ;
+	skos:definition	"Manufacturers of durable household products, including cutlery, cookware, glassware, crystal, silverware, utensils, kitchenware and consumer specialties not classified elsewhere."@en ;
+	skos:notation	"25201050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/252010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Household Durables"@en ;
+	skos:notation	"252010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25202010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Leisure Products"@en ;
+	skos:definition	"Manufacturers of leisure products and equipment including sports equipment, bicycles and toys."@en ;
+	skos:notation	"25202010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25202020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Photographic Products"@en ;
+	skos:definition	"Manufacturers of photographic equipment and related products."@en ;
+	skos:notation	"25202020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/252020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Leisure Equipment & Products"@en ;
+	skos:notation	"252020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25203010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Apparel, Accessories & Luxury Goods"@en ;
+	skos:definition	"Manufacturers of apparel, accessories & luxury goods. Includes companies primarily producing designer handbags, wallets, luggage, jewelry and watches. Excludes shoes classified in the Footwear Sub-Industry."@en ;
+	skos:notation	"25203010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25203020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Footwear"@en ;
+	skos:definition	"Manufacturers of footwear. Includes sport and leather shoes."@en ;
+	skos:notation	"25203020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25203030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Textiles"@en ;
+	skos:definition	"Manufacturers of textile and related products not classified in the Apparel, Accessories & Luxury Goods, Footwear or Home Furnishings Sub-Industries."@en ;
+	skos:notation	"25203030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/252030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Textiles, Apparel & Luxury Goods"@en ;
+	skos:notation	"252030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/2520>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Consumer Durables & Apparel"@en ;
+	skos:notation	"2520" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25301010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Casinos & Gaming"@en ;
+	skos:definition	"Owners and operators of casinos and gaming facilities. Includes companies providing lottery and betting services."@en ;
+	skos:notation	"25301010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25301020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Hotels, Resorts & Cruise Lines"@en ;
+	skos:definition	"Owners and operators of hotels, resorts and cruise-ships. Includes travel agencies, tour operators and related services not classified elsewhere . Excludes casino-hotels classified in the Casinos & Gaming Sub-Industry."@en ;
+	skos:notation	"25301020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25301030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Leisure Facilities"@en ;
+	skos:definition	"Owners and operators of leisure facilities, including sport and fitness centers, stadiums, golf courses and amusement parks not classified in the Movies & Entertainment Sub-Industry."@en ;
+	skos:notation	"25301030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25301040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Restaurants"@en ;
+	skos:definition	"Owners and operators of restaurants, bars, pubs, fast-food or take-out facilities. Includes companies that provide food catering services."@en ;
+	skos:notation	"25301040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/253010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Hotels, Restaurants & Leisure"@en ;
+	skos:notation	"253010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25302010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Education Services"@en ;
+	skos:definition	"Companies providing educational services, either on-line or through conventional teaching methods. Includes, private universities, correspondence teaching, providers of educational seminars, educational materials and technical education. Excludes companies providing employee education programs classified in the Human Resources & Employment Services Sub-Industry"@en ;
+	skos:notation	"25302010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25302020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Specialized Consumer Services"@en ;
+	skos:definition	"Companies providing consumer services not classified elsewhere.  Includes residential services, home security, legal services, personal services, renovation & interior design services, consumer auctions and wedding & funeral services."@en ;
+	skos:notation	"25302020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/253020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Diversified Consumer Services"@en ;
+	skos:notation	"253020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/2530>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Consumer Services"@en ;
+	skos:notation	"2530" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25401010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Advertising"@en ;
+	skos:definition	"Companies providing advertising, marketing or public relations services."@en ;
+	skos:notation	"25401010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25401020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Broadcasting"@en ;
+	skos:definition	"Owners and operators of television or radio broadcasting systems, including programming. Includes, radio and television broadcasting, radio networks, and radio stations."@en ;
+	skos:notation	"25401020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25401025>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Cable & Satellite"@en ;
+	skos:definition	"Providers of cable or satellite television services. Includes cable networks and program distribution."@en ;
+	skos:notation	"25401025" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25401030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Movies & Entertainment"@en ;
+	skos:definition	"Companies that engage in producing and selling entertainment products and services, including companies engaged in the production, distribution and screening of movies and television shows, producers and distributors of music, entertainment theaters and sports teams."@en ;
+	skos:notation	"25401030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25401040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Publishing"@en ;
+	skos:definition	"Publishers of newspapers, magazines and books, and providers of information in print or electronic formats."@en ;
+	skos:notation	"25401040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/254010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Media"@en ;
+	skos:notation	"254010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/2540>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Media"@en ;
+	skos:notation	"2540" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25501010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Distributors"@en ;
+	skos:definition	"Distributors and wholesalers of general merchandise not classified elsewhere. Includes vehicle distributors."@en ;
+	skos:notation	"25501010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/255010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Distributors"@en ;
+	skos:notation	"255010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25502010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Catalog Retail"@en ;
+	skos:definition	"Mail order and TV home shopping retailers. Includes companies that provide door-to-door retail."@en ;
+	skos:notation	"25502010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25502020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Internet Retail"@en ;
+	skos:definition	"Companies providing retail services primarily on the internet, not classified elsewhere."@en ;
+	skos:notation	"25502020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/255020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Internet & Catalog Retail"@en ;
+	skos:notation	"255020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25503010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Department Stores"@en ;
+	skos:definition	"Owners and operators of department stores."@en ;
+	skos:notation	"25503010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25503020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"General Merchandise Stores"@en ;
+	skos:definition	"Owners and operators of stores offering diversified general merchandise. Excludes hypermarkets and large-scale super centers classified in the Hypermarkets & Super Centers Sub-Industry."@en ;
+	skos:notation	"25503020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/255030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Multiline Retail"@en ;
+	skos:notation	"255030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25504010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Apparel Retail"@en ;
+	skos:definition	"Retailers specialized mainly in apparel and accessories."@en ;
+	skos:notation	"25504010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25504020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Computer & Electronics Retail"@en ;
+	skos:definition	"Owners and operators of consumer electronics, computers, video and related products retail stores."@en ;
+	skos:notation	"25504020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25504030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Home Improvement Retail"@en ;
+	skos:definition	"Owners and operators of home and garden improvement retail stores. Includes stores offering building materials and supplies."@en ;
+	skos:notation	"25504030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25504040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Specialty Stores"@en ;
+	skos:definition	"Owners and operators of specialty retail stores not classified elsewhere. Includes jewelry stores, toy stores, office supply stores, health & vision care stores, and book & entertainment stores."@en ;
+	skos:notation	"25504040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25504050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Automotive Retail"@en ;
+	skos:definition	"Owners and operators of stores specializing in automotive retail.  Includes auto dealers, gas stations, and retailers of auto accessories, motorcycles & parts, automotive glass, and automotive equipment & parts."@en ;
+	skos:notation	"25504050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25504060>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Homefurnishing Retail"@en ;
+	skos:definition	"Owners and operators of furniture and home furnishings retail stores.  Includes residential furniture, homefurnishings, housewares, and interior design.  Excludes home and garden improvement stores, classified in the Home Improvement Retail Sub-Industry."@en ;
+	skos:notation	"25504060" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/255040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Specialty Retail"@en ;
+	skos:notation	"255040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/2550>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Retailing"@en ;
+	skos:notation	"2550" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/25>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Consumer Discretionary"@en ;
+	skos:notation	"25" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30101010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Drug Retail"@en ;
+	skos:definition	"Owners and operators of primarily drug retail stores and pharmacies."@en ;
+	skos:notation	"30101010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30101020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Food Distributors"@en ;
+	skos:definition	"Distributors of food products to other companies and not directly to the consumer."@en ;
+	skos:notation	"30101020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30101030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Food Retail"@en ;
+	skos:definition	"Owners and operators of primarily food retail stores."@en ;
+	skos:notation	"30101030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30101040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Hypermarkets & Super Centers"@en ;
+	skos:definition	"Owners and operators of hypermarkets and super centers selling food and a wide-range of consumer staple products.  Excludes Food and Drug Retailers classified in the Food Retail and Drug Retail Sub-Industries, respectively."@en ;
+	skos:notation	"30101040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/301010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Food & Staples Retailing"@en ;
+	skos:notation	"301010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/3010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Food & Staples Retailing"@en ;
+	skos:notation	"3010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30201010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Brewers"@en ;
+	skos:definition	"Producers of beer and malt liquors. Includes breweries not classified in the Restaurants Sub-Industry."@en ;
+	skos:notation	"30201010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30201020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Distillers & Vintners"@en ;
+	skos:definition	"Distillers, vintners and producers of alcoholic beverages not classified in the Brewers Sub-Industry."@en ;
+	skos:notation	"30201020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30201030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Soft Drinks"@en ;
+	skos:definition	"Producers of non-alcoholic beverages including mineral waters. Excludes producers of milk classified in the Packaged Foods Sub-Industry."@en ;
+	skos:notation	"30201030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/302010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Beverages"@en ;
+	skos:notation	"302010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30202010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Agricultural Products"@en ;
+	skos:definition	"Producers of agricultural products. Includes crop growers, owners of plantations and companies that produce and process foods but do not package and market them. Excludes companies classified in the Forest Products Sub-Industry and those that package and market the food products classified in the Packaged Foods Sub-Industry."@en ;
+	skos:notation	"30202010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30202030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Packaged Foods & Meats"@en ;
+	skos:definition	"Producers of packaged foods including dairy products, fruit juices, meats, poultry, fish and pet foods."@en ;
+	skos:notation	"30202030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/302020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Food Products"@en ;
+	skos:notation	"302020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30203010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Tobacco"@en ;
+	skos:definition	"Manufacturers of cigarettes and other tobacco products."@en ;
+	skos:notation	"30203010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/302030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Tobacco"@en ;
+	skos:notation	"302030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/3020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Food, Beverage & Tobacco"@en ;
+	skos:notation	"3020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30301010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Household Products"@en ;
+	skos:definition	"Producers of non-durable household products, including detergents, soaps, diapers and other tissue and household paper products not classified in the Paper Products Sub-Industry."@en ;
+	skos:notation	"30301010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/303010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Household Products"@en ;
+	skos:notation	"303010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30302010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Personal Products"@en ;
+	skos:definition	"Manufacturers of personal and beauty care products, including cosmetics and perfumes."@en ;
+	skos:notation	"30302010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/303020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Personal Products"@en ;
+	skos:notation	"303020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/3030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Household & Personal Products"@en ;
+	skos:notation	"3030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/30>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Consumer Staples"@en ;
+	skos:notation	"30" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/35101010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Health Care Equipment"@en ;
+	skos:definition	"Manufacturers of health care equipment and devices. Includes medical instruments, drug delivery systems, cardiovascular & orthopedic devices, and diagnostic equipment."@en ;
+	skos:notation	"35101010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/35101020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Health Care Supplies"@en ;
+	skos:definition	"Manufacturers of health care supplies and medical products not classified elsewhere. Includes eye care products, hospital supplies, and safety needle & syringe devices."@en ;
+	skos:notation	"35101020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/351010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Health Care Equipment & Supplies"@en ;
+	skos:notation	"351010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/35102010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Health Care Distributors"@en ;
+	skos:definition	"Distributors and wholesalers of health care products not classified elsewhere."@en ;
+	skos:notation	"35102010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/35102015>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Health Care Services"@en ;
+	skos:definition	"Providers of patient health care services not classified elsewhere. Includes dialysis centers, lab testing services, and pharmacy management services. Also includes companies providing business support services to health care providers, such as clerical support services, collection agency services, staffing services and outsourced sales & marketing services"@en ;
+	skos:notation	"35102015" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/35102020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Health Care Facilities"@en ;
+	skos:definition	"Owners and operators of health care facilities, including hospitals, nursing homes, rehabilitation centers and animal hospitals."@en ;
+	skos:notation	"35102020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/35102030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Managed Health Care"@en ;
+	skos:definition	"Owners and operators of Health Maintenance Organizations (HMOs) and other managed plans."@en ;
+	skos:notation	"35102030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/351020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Health Care Providers & Services"@en ;
+	skos:notation	"351020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/35103010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Health Care Technology"@en ;
+	skos:definition	"Companies providing information technology services primarily to health care providers.  Includes companies providing application, systems and/or data processing software, internet-based tools, and IT consulting services to doctors, hospitals or businesses operating primarily in the Health Care Sector"@en ;
+	skos:notation	"35103010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/351030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Health Care Technology"@en ;
+	skos:notation	"351030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/3510>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Health Care Equipment & Services"@en ;
+	skos:notation	"3510" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/35201010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Biotechnology"@en ;
+	skos:definition	"Companies primarily engaged in the research, development, manufacturing and/or marketing of products based on genetic analysis and genetic engineering.  Includes companies specializing in protein-based therapeutics to treat human diseases"@en ;
+	skos:notation	"35201010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/352010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Biotechnology"@en ;
+	skos:notation	"352010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/35202010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Pharmaceuticals"@en ;
+	skos:definition	"Companies engaged in the research, development or production of pharmaceuticals. Includes veterinary drugs."@en ;
+	skos:notation	"35202010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/352020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Pharmaceuticals"@en ;
+	skos:notation	"352020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/35203010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Life Sciences Tools & Services"@en ;
+	skos:definition	"Companies enabling the drug discovery, development and production continuum by providing analytical tools, instruments, consumables & supplies, clinical trial services and contract research services.  Includes firms primarily servicing the pharmaceutical and biotechnology industries."@en ;
+	skos:notation	"35203010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/352030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Life Sciences Tools & Services"@en ;
+	skos:notation	"352030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/3520>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Pharmaceuticals, Biotechnology & Life Sciences"@en ;
+	skos:notation	"3520" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/35>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Health Care"@en ;
+	skos:notation	"35" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40101010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Diversified Banks"@en ;
+	skos:definition	"Commercial banks whose businesses are derived primarily from commercial lending operations and have significant business activity in retail banking and small and medium corporate lending.  Excludes banks classified in the Regional Banks and Thrifts & Mortgage Finance sub-industries. Also excludes investment banks classified in the Investment Banking & Brokerage Sub-Industry."@en ;
+	skos:notation	"40101010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40101015>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Regional Banks"@en ;
+	skos:definition	"Commercial banks whose businesses are derived primarily from commercial lending operations and have significant business activity in retail banking and small and medium corporate lending. Regional banks tend to operate in limited geographic regions. Excludes companies classified in the Diversified Banks and Thrifts & Mortgage Banks sub-industries. Also excludes investment banks classified in the Investment Banking & Brokerage Sub-Industry."@en ;
+	skos:notation	"40101015" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/401010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Commercial Banks"@en ;
+	skos:notation	"401010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40102010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Thrifts & Mortgage Finance"@en ;
+	skos:definition	"Financial institutions providing mortgage and mortgage related services.  These include financial institutions whose assets are primarily mortgage related, savings & loans, mortgage GSE’s (government sponsored enterprises), mortgage lending institutions, building societies and companies providing insurance to mortgage banks."@en ;
+	skos:notation	"40102010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/401020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Thrifts & Mortgage Finance"@en ;
+	skos:notation	"401020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/4010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Banks"@en ;
+	skos:notation	"4010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40201020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Other Diversified Financial Services"@en ;
+	skos:definition	"Providers of a diverse range of financial services and/or with some interest in a wide range of financial services including banking, insurance and capital markets, but with no dominant business line."@en ;
+	skos:notation	"40201020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40201030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Multi-Sector Holdings"@en ;
+	skos:definition	"A company with significantly diversified holdings across three or more sectors, none of which contributes a majority of profit and/or sales. Stakes held are predominantly of a non-controlling nature.  Includes diversified financial companies where stakes held are of a controlling nature. Excludes other diversified companies classified in the Industrials Conglomerates Sub-Industry."@en ;
+	skos:notation	"40201030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40201040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Specialized Finance"@en ;
+	skos:definition	"Providers of specialized financial services. Includes credit agencies, stock exchanges and specialty boutiques. Companies in this Sub-Industry derive a majority of revenue from one, specialized line of business."@en ;
+	skos:notation	"40201040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/402010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Diversified Financial Services"@en ;
+	skos:notation	"402010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40202010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Consumer Finance"@en ;
+	skos:definition	"Providers of consumer finance services, including personal credit, credit cards, lease financing, travel-related money services and pawn shops.  Excludes mortgage lenders classified in the Thrifts & Mortgage Banks Sub-Industry."@en ;
+	skos:notation	"40202010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/402020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Consumer Finance"@en ;
+	skos:notation	"402020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40203010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Asset Management & Custody Banks"@en ;
+	skos:definition	"Financial institutions primarily engaged in investment management and/or related custody and securities fee-based services. Includes companies operating mutual funds, closed-end funds and unit investment trusts.  Excludes banks and other financial institutions primarily involved in commercial lending, investment banking, brokerage and other specialized financial activities."@en ;
+	skos:notation	"40203010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40203020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Investment Banking & Brokerage"@en ;
+	skos:definition	"Financial institutions primarily engaged in investment banking & brokerage services, including equity and debt underwriting, mergers and acquisitions, securities lending and advisory services. Excludes banks and other financial institutions primarily involved in commercial lending, asset management and specialized financial activities."@en ;
+	skos:notation	"40203020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40203030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Diversified Capital Markets"@en ;
+	skos:definition	"Financial institutions primarily engaged in diversified capital markets activities, including a significant presence in at least two of the following area: large/major corporate lending, investment banking, brokerage and asset management. Excludes less diversified companies classified in the Asset Management & Custody Banks or Investment Banking & Brokerage sub-industries.  Also excludes companies classified in the Banks or Insurance industry groups or the Consumer Finance Sub-Industry."@en ;
+	skos:notation	"40203030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/402030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Capital Markets"@en ;
+	skos:notation	"402030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/4020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Diversified Financials"@en ;
+	skos:notation	"4020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40301010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Insurance Brokers"@en ;
+	skos:definition	"Insurance and reinsurance brokerage firms."@en ;
+	skos:notation	"40301010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40301020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Life & Health Insurance"@en ;
+	skos:definition	"Companies providing primarily life, disability, indemnity or supplemental health insurance. Excludes managed care companies classified in the Managed Health Care Sub-Industry."@en ;
+	skos:notation	"40301020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40301030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Multi-line Insurance"@en ;
+	skos:definition	"Insurance companies with diversified interests in life, health and property and casualty insurance."@en ;
+	skos:notation	"40301030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40301040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Property & Casualty Insurance"@en ;
+	skos:definition	"Companies providing primarily property and casualty insurance."@en ;
+	skos:notation	"40301040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40301050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Reinsurance"@en ;
+	skos:definition	"Companies providing primarily reinsurance."@en ;
+	skos:notation	"40301050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/403010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Insurance"@en ;
+	skos:notation	"403010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/4030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Insurance"@en ;
+	skos:notation	"4030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40402010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Diversified REIT's"@en ;
+	skos:definition	"A company or Trust with significantly diversified operations across two or more property types."@en ;
+	skos:notation	"40402010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40402020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Industrial REIT's"@en ;
+	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of industrial properties. Includes companies operating industrial warehouses and distribution properties."@en ;
+	skos:notation	"40402020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40402030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Mortgage REIT's"@en ;
+	skos:definition	"Companies or Trusts that service, originate, purchase and/or securitize residential and/or commercial mortgage loans.  Includes trusts that invest in mortgage-backed securities and other mortgage related assets."@en ;
+	skos:notation	"40402030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40402040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Office REIT's"@en ;
+	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of office properties."@en ;
+	skos:notation	"40402040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40402050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Residential REIT's"@en ;
+	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of residential properties including multifamily homes, apartments, manufactured homes and student housing properties"@en ;
+	skos:notation	"40402050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40402060>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Retail REIT's"@en ;
+	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of shopping malls, outlet malls, neighborhood and community shopping centers."@en ;
+	skos:notation	"40402060" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40402070>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Specialized REIT's"@en ;
+	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of properties not classified elsewhere. Includes trusts that operate and invest in health care, leisure, hotel/resort and storage properties. It also includes REITs that do not generate a majority of their revenues and income from real estate rental and leasing operations."@en ;
+	skos:notation	"40402070" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/404020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Real Estate Investment Trusts (REITs)"@en ;
+	skos:notation	"404020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40403010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Diversified Real Estate Activities"@en ;
+	skos:definition	"Companies engaged in a diverse spectrum of real estate activities including real estate development & sales, real estate management, or real estate services, but with no dominant business line."@en ;
+	skos:notation	"40403010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40403020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Real Estate Operating Companies"@en ;
+	skos:definition	"Companies engaged in operating real estate properties for the purpose of leasing & management."@en ;
+	skos:notation	"40403020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40403030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Real Estate Development"@en ;
+	skos:definition	"Companies that develop real estate and sell the properties after development. Excludes companies classified in the Homebuilding Sub-Industry."@en ;
+	skos:notation	"40403030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40403040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Real Estate Services"@en ;
+	skos:definition	"Real estate service providers such as real estate agents, brokers & real estate appraisers."@en ;
+	skos:notation	"40403040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/404030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Real Estate Management & Development"@en ;
+	skos:notation	"404030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/4040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Real Estate"@en ;
+	skos:notation	"4040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/40>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Financials"@en ;
+	skos:notation	"40" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45101010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Internet Software & Services"@en ;
+	skos:definition	"Companies developing and marketing internet software and/or providing internet services including online databases and interactive services, web address registration services, database construction and internet design services. Excludes companies classified in the Internet Retail Sub-Industry."@en ;
+	skos:notation	"45101010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/451010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Internet Software & Services"@en ;
+	skos:notation	"451010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45102010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"IT Consulting & Other Services"@en ;
+	skos:definition	"Providers of information technology and systems integration services not classified in the Data Processing & Outsourced Services or Internet Software & Services Sub-Industries.  Includes information technology consulting and information management services."@en ;
+	skos:notation	"45102010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45102020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Data Processing & Outsourced Services"@en ;
+	skos:definition	"Providers of commercial electronic data processing and/or business process outsourcing services.  Includes companies that provide services for back-office automation."@en ;
+	skos:notation	"45102020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/451020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"IT Services"@en ;
+	skos:notation	"451020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45103010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Application Software"@en ;
+	skos:definition	"Companies engaged in developing and producing software designed for specialized applications for the business or consumer market. Includes enterprise and technical software. Excludes companies classified in the Home Entertainment Software Sub-Industry. Also excludes companies producing systems or database management software classified in the Systems Software Sub-Industry."@en ;
+	skos:notation	"45103010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45103020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Systems Software"@en ;
+	skos:definition	"Companies engaged in developing and producing systems and database management software."@en ;
+	skos:notation	"45103020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45103030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Home Entertainment Software"@en ;
+	skos:definition	"Manufacturers of home entertainment software and educational software used primarily in the home."@en ;
+	skos:notation	"45103030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/451030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Software"@en ;
+	skos:notation	"451030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/4510>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Software & Services"@en ;
+	skos:notation	"4510" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45201020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Communications Equipment"@en ;
+	skos:definition	"Manufacturers of communication equipment and products, including LANs, WANs, routers, telephones, switchboards and exchanges."@en ;
+	skos:notation	"45201020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/452010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Communications Equipment"@en ;
+	skos:notation	"452010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45202010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Computer Hardware"@en ;
+	skos:definition	"Manufacturers of personal computers, servers, mainframes and workstations. Includes manufacturers of Automatic Teller Machines (ATMs). Excludes manufacturers of copiers, faxes and related products classified in the Office Electronics Sub-Industry."@en ;
+	skos:notation	"45202010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45202020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Computer Storage & Peripherals"@en ;
+	skos:definition	"Manufacturers of electronic computer components and peripherals. Includes data storage components, motherboards, audio and video cards, monitors, keyboards, printers and other peripherals. Excludes semiconductors classified in the Semiconductors Sub-Industry."@en ;
+	skos:notation	"45202020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/452020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Computers & Peripherals"@en ;
+	skos:notation	"452020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45203010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Electronic Equipment & Instruments"@en ;
+	skos:definition	"Manufacturers of electronic equipment and instruments including analytical, electronic test and measurement instruments, scanner/barcode products, lasers, display screens, point-of-sales machines, and security system equipment."@en ;
+	skos:notation	"45203010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45203015>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Electronic Components"@en ;
+	skos:definition	"Manufacturers of electronic components. Includes electronic components, connection devices, electron tubes, electronic capacitors and resistors, electronic coil, printed circuit board, transformer and other inductors, signal processing technology/components and other electronic equipment not classified elsewhere."@en ;
+	skos:notation	"45203015" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45203020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Electronic Manufacturing Services"@en ;
+	skos:definition	"Producers of electronic equipment mainly for the OEM (Original Equipment Manufacturers) markets."@en ;
+	skos:notation	"45203020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45203030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Technology Distributors"@en ;
+	skos:definition	"Distributors of technology hardware and equipment. Includes distributors of communications equipment, computers & peripherals, semiconductors, and electronic equipment and components."@en ;
+	skos:notation	"45203030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/452030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Electronic Equipment, Instruments & Components"@en ;
+	skos:notation	"452030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45204010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Office Electronics"@en ;
+	skos:definition	"Manufacturers of office electronic equipment including copiers and faxes."@en ;
+	skos:notation	"45204010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/452040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Office Electronics"@en ;
+	skos:notation	"452040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/4520>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Technology Hardware & Equipment"@en ;
+	skos:notation	"4520" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45301010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Semiconductor Equipment"@en ;
+	skos:definition	"Manufacturers of semiconductor equipment."@en ;
+	skos:notation	"45301010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45301020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Semiconductors"@en ;
+	skos:definition	"Manufacturers of semiconductors and related products."@en ;
+	skos:notation	"45301020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/453010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Semiconductors & Semiconductor Equipment"@en ;
+	skos:notation	"453010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/4530>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Semiconductors & Semiconductor Equipment"@en ;
+	skos:notation	"4530" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/45>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Information Technology"@en ;
+	skos:notation	"45" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/50101010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Alternative Carriers"@en ;
+	skos:definition	"Providers of communications and high-density data transmission services primarily through a high bandwidth/fiber-optic cable network."@en ;
+	skos:notation	"50101010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/50101020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Integrated Telecommunication Services"@en ;
+	skos:definition	"Operators of primarily fixed-line telecommunications networks and companies providing both wireless and fixed-line telecommunications services not classified elsewhere."@en ;
+	skos:notation	"50101020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/501010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Diversified Telecommunication Services"@en ;
+	skos:notation	"501010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/50102010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Wireless Telecommunication Services"@en ;
+	skos:definition	"Providers of primarily cellular or wireless telecommunication services, including paging services."@en ;
+	skos:notation	"50102010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/501020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Wireless Telecommunication Services"@en ;
+	skos:notation	"501020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/5010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Telecommunication Services"@en ;
+	skos:notation	"5010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/50>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Telecommunication Services"@en ;
+	skos:notation	"50" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/55101010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Electric Utilities"@en ;
+	skos:definition	"Companies that produce or distribute electricity. Includes both nuclear and non-nuclear facilities."@en ;
+	skos:notation	"55101010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/551010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Electric Utilities"@en ;
+	skos:notation	"551010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/55102010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Gas Utilities"@en ;
+	skos:definition	"Companies whose main charter is to distribute and transmit natural and manufactured gas. Excludes companies primarily involved in gas exploration or production classified in the Oil & Gas Exploration & Production Sub-Industry.  Also excludes diversified midstream natural gas companies classified in the Oil & Gas Storage & Transportation Sub-Industry."@en ;
+	skos:notation	"55102010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/551020>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Gas Utilities"@en ;
+	skos:notation	"551020" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/55103010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Multi-Utilities"@en ;
+	skos:definition	"Utility companies with significantly diversified activities in addition to core Electric Utility, Gas Utility and/or Water Utility operations."@en ;
+	skos:notation	"55103010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/551030>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Multi-Utilities"@en ;
+	skos:notation	"551030" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/55104010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Water Utilities"@en ;
+	skos:definition	"Companies that purchase and redistribute water to the end-consumer. Includes large-scale water treatment systems."@en ;
+	skos:notation	"55104010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/551040>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Water Utilities"@en ;
+	skos:notation	"551040" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/55105010>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Independent Power Producers & Energy Traders"@en ;
+	skos:definition	"Companies that operate as Independent Power Producers (IPPs), Gas & Power Marketing & Trading Specialists and/or Integrated Energy Merchants. Excludes electric transmission companies and utility distribution companies classified in the Electric Utilities Sub-Industry."@en ;
+	skos:notation	"55105010" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/551050>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Independent Power Producers & Energy Traders"@en ;
+	skos:notation	"551050" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/5510>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Utilities"@en ;
+	skos:notation	"5510" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/gics/2008/55>
+	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+	a	owl:NamedIndividual ;
+	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:label	"Utilities"@en ;
+	skos:notation	"55" ;
+	tempo:validFrom	"2008-08-30"^^xsd:date ;
+	tempo:validTill	"2010-07-01"^^xsd:date .
