@@ -9,7 +9,7 @@ check: check.gics
 TODAY := $(shell dateconv today)
 
 .inferred.replacements: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 ##.imported.gics2023
-.inferred.gics: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 ##.imported.gics2023
+.inferred.gics: .inferred.replacements
 
 
 check.%: %.ttl shacl/%.shacl.ttl

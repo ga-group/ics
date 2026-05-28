@@ -17,6 +17,8 @@ INSERT {
 		rdfs:label ?lbl ;
 		skos:definition ?defn ;
 		skos:notation ?code ;
+		pav:sourceAccessedOn ?acc1 ;
+		pav:sourceLastAccessedOn ?accl ;
 		tempo:validFrom ?from ;
 		tempo:validTill ?till ;
 		pav:derivedFrom ?z ;
@@ -39,9 +41,13 @@ WHERE {
 	WHERE {
 		?z a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 			rdfs:label ?lbl ;
-			skos:notation ?code .
+			skos:notation ?code ;
+			dct:isVersionOf ?x .
+		FILTER(LANG(?lbl) = "en")
+			
 		OPTIONAL {
 		?z skos:definition ?defn
+		FILTER(LANG(?defn) = "en")
 		}
 		OPTIONAL {
 		?z tempo:validFrom ?from
@@ -49,8 +55,12 @@ WHERE {
 		OPTIONAL {
 		?z tempo:validTill ?till
 		}
-
-		BIND(IRI(CONCAT("http://data.ga-group.nl/ics/gics/",REPLACE(STR(?z),".*/",""))) AS ?x)
+		OPTIONAL {
+		?z pav:sourceAccessedOn ?acc1
+		}
+		OPTIONAL {
+		?z pav:sourceLastAccessedOn ?accl
+		}
 	}
 	ORDER BY ?x ?from ?z
 	}
@@ -69,8 +79,10 @@ WITH <$u{TGTGR}>
 INSERT {
 	?minsub a delta:keep ;
 		pav:derivedFrom ?z ;
+		pav:sourceAccessedOn ?acc1 ;
+		pav:sourceLastAccessedOn ?accl ;
 		tempo:validFrom ?from ;
-		tempo:validTill ?till
+		tempo:validTill ?till .
 }
 WHERE {
 	{
@@ -102,6 +114,12 @@ WHERE {
 	OPTIONAL {
 	?sub tempo:validTill ?till
 	}
+	OPTIONAL {
+	?sub pav:sourceAccessedOn ?acc1
+	}
+	OPTIONAL {
+	?sub pav:sourceLastAccessedOn ?accl
+	}
 }
 ;
 ECHO $ROWCNT"\n";
@@ -117,6 +135,8 @@ WITH <$u{TGTGR}>
 INSERT {
 	?minsub a delta:keep ;
 		pav:derivedFrom ?z ;
+		pav:sourceAccessedOn ?acc1 ;
+		pav:sourceLastAccessedOn ?accl ;
 		tempo:validFrom ?from ;
 		tempo:validTill ?till
 }
@@ -150,6 +170,12 @@ WHERE {
 	}
 	OPTIONAL {
 	?sub tempo:validTill ?till
+	}
+	OPTIONAL {
+	?sub pav:sourceAccessedOn ?acc1
+	}
+	OPTIONAL {
+	?sub pav:sourceLastAccessedOn ?accl
 	}
 }
 ;
@@ -199,46 +225,91 @@ WHERE {
 ;
 ECHO $ROWCNT"\n";
 
--- ECHO "adding beef ... ";
--- SPARQL
--- DEFINE sql:log-enable 3
--- DEFINE input:same-as "yes"
--- PREFIX lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/>
--- PREFIX rgn: <http://data.ga-group.nl/region/>
--- 
--- WITH <$u{TGTGR}>
--- INSERT {
--- 	?z
--- 		rdfs:label ?lbl ;
--- 		foaf:name ?nam ;
--- 		lcc-cr:isClassifiedBy ?cls ;
--- 		dct:source ?src ;
--- 		skos:definition ?def
--- }
--- USING <$u{SRCGR}>
--- WHERE {
--- 	?z a rgn:keep ;
--- 		pav:derivedFrom ?x .
--- 
--- 	OPTIONAL {
--- 	?x rdfs:label ?lbl
--- 	}
--- 	OPTIONAL {
--- 	?x dct:source ?src
--- 	}
--- 	OPTIONAL {
--- 	?x foaf:name ?nam
--- 	}
--- 	OPTIONAL {
--- 	?x skos:definition ?def
--- 	}
--- 	OPTIONAL {
--- 	?x lcc-cr:isClassifiedBy ?cls
--- 	}
--- }
--- ;
--- ECHO $ROWCNT"\n";
--- CHECKPOINT;
+ECHO "condensing source access ... ";
+SPARQL
+DEFINE sql:log-enable 3
+PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX delta: <http://www.w3.org/2004/delta#>
+
+WITH <$u{TGTGR}>
+DELETE {
+	?x
+		pav:sourceAccessedOn ?acco
+}
+WHERE {
+	?x pav:sourceAccessedOn ?acc1 , ?acco .
+	FILTER(?acco > ?acc1)
+}
+;
+ECHO $ROWCNT" + ";
+SPARQL
+DEFINE sql:log-enable 3
+PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX delta: <http://www.w3.org/2004/delta#>
+
+WITH <$u{TGTGR}>
+DELETE {
+	?x
+		pav:sourceLastAccessedOn ?acco
+}
+WHERE {
+	?x pav:sourceLastAccessedOn ?accl , ?acco .
+	FILTER(?acco < ?accl)
+}
+;
+ECHO $ROWCNT"\n";
+
+ECHO "adding beef ... ";
+SPARQL
+DEFINE sql:log-enable 3
+DEFINE input:same-as "yes"
+PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX delta: <http://www.w3.org/2004/delta#>
+
+WITH <$u{TGTGR}>
+INSERT {
+	?x
+		pav:createdWith <file:infer-gics.sql> ;
+		pav:sourceAccessedOn ?acc1 ;
+		pav:sourceLastAccessedOn ?accl ;
+		tempo:validFrom ?minfrom ;
+		tempo:validTill ?maxtill ;
+		rdfs:label ?lbl ;
+		skos:definition ?defn ;
+		skos:notation ?code .
+}
+WHERE {
+	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier .
+	FILTER(!ISBLANK(?x))
+
+	{
+	SELECT ?x MIN(?z) AS ?minz MAX(?z) AS ?maxz
+	WHERE {
+	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+		pav:derivedFrom ?z
+	}
+	GROUP BY ?x
+	}
+
+	## now collect all the beef
+	?minz tempo:validFrom ?minfrom .
+	OPTIONAL {
+	?minz pav:sourceAccessedOn ?acc1
+	}
+	?maxz
+		rdfs:label ?lbl ;
+		skos:definition ?defn ;
+		skos:notation ?code .
+	OPTIONAL {
+	?maxz tempo:validTill ?maxtill
+	}
+	OPTIONAL {
+	?maxz pav:sourceLastAccessedOn ?accl
+	}
+}
+;
+ECHO $ROWCNT"\n";
+CHECKPOINT;
 
 ECHO "cleaning up ... ";
 SPARQL
