@@ -35,6 +35,7 @@ USING <http://data.ga-group.nl/ics/gics/2010/>
 USING <http://data.ga-group.nl/ics/gics/2014/>
 USING <http://data.ga-group.nl/ics/gics/2016/>
 USING <http://data.ga-group.nl/ics/gics/2018/>
+USING <http://data.ga-group.nl/ics/gics/2023/>
 WHERE {
 	{
 	SELECT *
@@ -298,8 +299,10 @@ WHERE {
 	}
 	?maxz
 		rdfs:label ?lbl ;
-		skos:definition ?defn ;
 		skos:notation ?code .
+	OPTIONAL {
+	?maxz skos:definition ?defn
+	}
 	OPTIONAL {
 	?maxz tempo:validTill ?maxtill
 	}

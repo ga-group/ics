@@ -25,9 +25,11 @@ WHERE {
 	GRAPH ?gx {
 	?x skos:notation ?cod .
 	}
+	FILTER(?gx != <http://data.ga-group.nl/ics/gics/>)
 	GRAPH ?gy {
 	?y skos:notation ?cod .
 	}
+	FILTER(?gy != <http://data.ga-group.nl/ics/gics/>)
 	FILTER(STR(?x) < STR(?y))
 	OPTIONAL {
 	?z skos:notation ?cod
@@ -61,6 +63,7 @@ USING <http://data.ga-group.nl/ics/gics/2010/>
 USING <http://data.ga-group.nl/ics/gics/2014/>
 USING <http://data.ga-group.nl/ics/gics/2016/>
 USING <http://data.ga-group.nl/ics/gics/2018/>
+USING <http://data.ga-group.nl/ics/gics/2023/>
 WHERE {
 	GRAPH ?g {
 	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier
