@@ -2,13 +2,14 @@ SHELL := /bin/zsh
 
 include .make.env
 
-all: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 .imported.gics2023
+all: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 ##.imported.gics2023
 export: export.gics1999 export.gics2002 export.gics2003 export.gics2004 export.gics2005 export.gics2006 export.gics2008 export.gics2010 export.gics2014 export.gics2016 export.gics2018 export.gics2023
 check: check.gics
 
 TODAY := $(shell dateconv today)
 
-.inferred.replacements: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 .imported.gics2023
+.inferred.replacements: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 ##.imported.gics2023
+.inferred.gics: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 ##.imported.gics2023
 
 
 check.%: %.ttl shacl/%.shacl.ttl
@@ -46,26 +47,29 @@ check.%: %.ttl shacl/%.shacl.sql
 	$(csvsql) < $< \
 	&& touch $@
 
-/tmp/%.ttl:: sql/dump-%.sql .imported.%
+/tmp/%.ttl: sql/dump-%.sql .imported.%
 	m4 $< | $(csvsql)
 	$(RM) $@
-	$(RSYNC)/tmp/$*.ttl /tmp/$*.ttl
+	$(RSYNC)/tmp/$*.ttl /tmp/$*.ttl \
+	&& touch $@
 
-/tmp/%.ttl:: sql/dump-%.sql .inferred.%
+/tmp/%.ttl: sql/dump-%.sql .inferred.%
 	m4 $< | $(csvsql)
 	$(RM) $@
-	$(RSYNC)/tmp/$*.ttl /tmp/$*.ttl
+	$(RSYNC)/tmp/$*.ttl /tmp/$*.ttl \
+	&& touch $@
 
 export.%: /tmp/%.ttl
-	-mawk '(x+=$$0=="")<=3&&($$0==""||(x=0)||1)' $*.ttl > $@
-	sed 's/rdf:type/a/' /tmp/$*.ttl \
+	-mawk 'END{if (x<3){exit 1}}(x+=$$0=="")<=3&&($$0==""||(x=0)||1)' $*.ttl \
+	> $@
+	sed 's/rdf:type/a/' $< \
 	| ttl2ttl --sortable --expand-generic \
 	| sort -u \
 	| ttl2ttl -BQU \
 	| sed '/^@/d;s@rdf:predicate\ta@rdf:predicate\trdf:type@' \
 	>> $@
 	mv $@ $*.ttl
-	touch .imported.$*
+	touch .*.$*
 
 
 tmp/%.out:: sql/%.sql
