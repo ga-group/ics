@@ -23,7 +23,7 @@ if (sys.nframe() == 0L) {
 
 	a <- as.POSIXct(sapply(args, file.mtime), origin="1970-01-01")
 	a <- sapply(a, strftime, format="%FT%TZ")
-	X <- lapply(args, read_excel, na="", col_types="text", skip=3L)
+	X <- lapply(args, read_excel, na="", col_types="text", col_names=FALSE)
 
 	for (i in seq_len(length(X))) {
 		X[[i]]$accd <- a[[i]]
@@ -38,19 +38,24 @@ if (sys.nframe() == 0L) {
 	## massaging
 	if (exists("asof")) {
 		X[, from:=asof]
+	} else {
+		X[, from:=NA_character_]
 	}
+	## readxl can't skip nicely, we do it for him
+	grep("^[0-9]+$",X$`...1`)[[1L]] -> skip
+	X[-(1L:(skip-1L))] -> X
 
 	## last one is special because every other line contains the definition
-	X[, .(gics=`Sub-Industry`,stuf=`...8`,`accd`,`from`)] -> Y
-	Y[seq(1L,.N,by=2), gics] -> G
-	Y[seq(1L,.N,by=2), var:="A"]
+	X[, .(gics=`...7`,stuf=`...8`,`accd`,`from`)] -> Y
+	Y[seq(1L,.N-.N%%2L,by=2), gics] -> G
+	Y[seq(1L,.N-.N%%2L,by=2), var:="A"]
 	Y[seq(2L,.N,by=2), gics:=G]
 	Y[seq(2L,.N,by=2), var:="B"]
 
-	rbind(X[, .(gics=`Sector`,text=`...2`,desc=NA_character_, `accd`,`from`)],
-		X[, .(gics=`Industry Group`,text=`...4`,desc=NA_character_,`accd`,`from`)],
-		X[, .(gics=`Industry`,text=`...6`,desc=NA_character_,`accd`,`from`)],
-		dcast(Y,gics+accd+from~var,value.var="stuf")[,.(gics,A,B,accd,from)],
+	rbind(X[, .(gics=`...1`,text=`...2`,desc=NA_character_, `accd`,`from`)],
+		X[, .(gics=`...3`,text=`...4`,desc=NA_character_,`accd`,`from`)],
+		X[, .(gics=`...4`,text=`...6`,desc=NA_character_,`accd`,`from`)],
+		dcast(Y[gics>" "],gics+accd+from~var,value.var="stuf")[,.(gics,A,B,accd,from)],
 		use.names=FALSE) -> X
 
 	X[, lang:="en"]
