@@ -2295,6 +2295,7 @@ This Sub-Industry excludes companies providing information technology consulting
 <http://data.ga-group.nl/ics/gics/20202030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/45102020> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -7879,6 +7880,7 @@ This Sub-Industry excludes companies that offer management & technology consulti
 <http://data.ga-group.nl/ics/gics/45102020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/20202030> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -8130,6 +8132,7 @@ This Sub-Industry excludes companies classified in the Interactive Home Entertai
 <http://data.ga-group.nl/ics/gics/45201010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/45201020> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -8153,6 +8156,7 @@ This Sub-Industry excludes companies classified in the Interactive Home Entertai
 <http://data.ga-group.nl/ics/gics/45201020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/45201010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;

@@ -12,6 +12,7 @@ PREFIX delta: <http://www.w3.org/2004/delta#>
 WITH <$u{TGTGR}>
 INSERT {
 	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , owl:NamedIndividual ;
+	dct:isReplacedBy ?w ;
 	pav:derivedFrom [
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 		rdfs:label ?lbl ;
@@ -62,6 +63,12 @@ WHERE {
 		OPTIONAL {
 		?z pav:sourceLastAccessedOn ?accl
 		}
+		OPTIONAL {
+		?z dct:isReplacedBy ?u .
+		?z dct:isContemporaryVersionOf ?v .
+		?u dct:isContemporaryVersionOf ?w .
+		FILTER(?v != ?w)
+		}
 	}
 	ORDER BY ?x ?from ?z
 	}
@@ -106,6 +113,9 @@ WHERE {
 		skos:notation ?code ;
 		skos:definition ?defn .
 
+	OPTIONAL {
+	?sub dct:isReplacedBy ?w
+	}
 	OPTIONAL {
 	?sub pav:derivedFrom ?z
 	}
@@ -259,6 +269,36 @@ WHERE {
 }
 ;
 ECHO $ROWCNT"\n";
+
+ECHO "condensing replacements ... ";
+SPARQL
+DEFINE sql:log-enable 3
+PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX delta: <http://www.w3.org/2004/delta#>
+
+WITH <$u{TGTGR}>
+DELETE {
+	?x dct:isReplacedBy ?x .
+}
+WHERE {
+	?x dct:isReplacedBy ?x .
+}
+;
+ECHO "+"$ROWCNT" ";
+SPARQL
+DEFINE sql:log-enable 3
+PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX delta: <http://www.w3.org/2004/delta#>
+
+WITH <$u{TGTGR}>
+INSERT {
+	?y dct:replaces ?x .
+}
+WHERE {
+	?x dct:isReplacedBy ?y .
+}
+;
+ECHO "+"$ROWCNT"\n";
 
 ECHO "adding beef ... ";
 SPARQL
