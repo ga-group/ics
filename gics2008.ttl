@@ -3358,7 +3358,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2010/45102020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/45102020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/20202030> , <http://data.ga-group.nl/ics/gics/45102020> ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/2006/45102020> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;

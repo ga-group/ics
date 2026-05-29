@@ -3060,7 +3060,8 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 <http://data.ga-group.nl/ics/gics/2018/45102020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/45102020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2023/20202030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/20202030> , <http://data.ga-group.nl/ics/gics/45102020> ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/2016/45102020> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;

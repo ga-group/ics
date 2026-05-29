@@ -2298,24 +2298,34 @@ This Sub-Industry excludes companies providing information technology consulting
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+		pav:derivedFrom	<http://data.ga-group.nl/ics/gics/2003/45102020> , <http://data.ga-group.nl/ics/gics/2004/45102020> , <http://data.ga-group.nl/ics/gics/2005/45102020> , <http://data.ga-group.nl/ics/gics/2006/45102020> , <http://data.ga-group.nl/ics/gics/2008/45102020> , <http://data.ga-group.nl/ics/gics/2010/45102020> , <http://data.ga-group.nl/ics/gics/2014/45102020> , <http://data.ga-group.nl/ics/gics/2016/45102020> , <http://data.ga-group.nl/ics/gics/2018/45102020> ;
+		pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+		pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+		rdfs:label	"Data Processing & Outsourced Services"@en ;
+		skos:definition	"Providers of commercial electronic data processing and/or business process outsourcing services.  Includes companies that provide services for back-office automation."@en ;
+		skos:notation	"45102020" ;
+		tempo:validFrom	"2003-05-01"^^xsd:date ;
+		tempo:validTill	"2023-03-18"^^xsd:date ;
+	] , [
+		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 		pav:derivedFrom	<http://data.ga-group.nl/ics/gics/2023/20202030> ;
 		pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 		pav:sourceLastAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
-		rdfs:label	"Data Processing & Outsourced Services (Sector Change, New Code & Definition Update)"@en ;
+		rdfs:label	"Data Processing & Outsourced Services"@en ;
 		skos:definition	"""Providers of commercial data processing and/or business process outsourcing services.
 
 This Sub-Industry includes companies providing services for customer experience management, back-office automation, call center management, and investor communications."""@en ;
 		skos:notation	"20202030" ;
 		tempo:validFrom	"2023-03-18"^^xsd:date ;
 	] ;
-	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
-	rdfs:label	"Data Processing & Outsourced Services (Sector Change, New Code & Definition Update)"@en ;
+	rdfs:label	"Data Processing & Outsourced Services"@en ;
 	skos:definition	"""Providers of commercial data processing and/or business process outsourcing services.
 
 This Sub-Industry includes companies providing services for customer experience management, back-office automation, call center management, and investor communications."""@en ;
 	skos:notation	"20202030" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
+	tempo:validFrom	"2003-05-01"^^xsd:date .
 
 <http://data.ga-group.nl/ics/gics/202020>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -7872,32 +7882,22 @@ This Sub-Industry excludes companies that offer management & technology consulti
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-		pav:derivedFrom	<http://data.ga-group.nl/ics/gics/2003/45102020> , <http://data.ga-group.nl/ics/gics/2004/45102020> , <http://data.ga-group.nl/ics/gics/2005/45102020> , <http://data.ga-group.nl/ics/gics/2006/45102020> , <http://data.ga-group.nl/ics/gics/2008/45102020> , <http://data.ga-group.nl/ics/gics/2010/45102020> , <http://data.ga-group.nl/ics/gics/2016/45102020> , <http://data.ga-group.nl/ics/gics/2018/45102020> ;
+		pav:derivedFrom	<http://data.ga-group.nl/ics/gics/2003/45102020> , <http://data.ga-group.nl/ics/gics/2004/45102020> , <http://data.ga-group.nl/ics/gics/2005/45102020> , <http://data.ga-group.nl/ics/gics/2006/45102020> , <http://data.ga-group.nl/ics/gics/2008/45102020> , <http://data.ga-group.nl/ics/gics/2010/45102020> , <http://data.ga-group.nl/ics/gics/2014/45102020> , <http://data.ga-group.nl/ics/gics/2016/45102020> , <http://data.ga-group.nl/ics/gics/2018/45102020> ;
 		pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 		pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 		rdfs:label	"Data Processing & Outsourced Services"@en ;
 		skos:definition	"Providers of commercial electronic data processing and/or business process outsourcing services.  Includes companies that provide services for back-office automation."@en ;
 		skos:notation	"45102020" ;
-		tempo:validFrom	"2003-05-01"^^xsd:date , "2016-09-01"^^xsd:date ;
-		tempo:validTill	"2014-03-01"^^xsd:date , "2023-03-18"^^xsd:date ;
-	] , [
-		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-		pav:derivedFrom	<http://data.ga-group.nl/ics/gics/2014/45102020> ;
-		pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
-		pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
-		rdfs:label	"Data Processing & Outsourced Services"@en ;
-		skos:definition	"Providers of commercial electronic data processing and/or business process outsourcing services. Includes companies that provide services for back-office automation."@en ;
-		skos:notation	"45102020" ;
-		tempo:validFrom	"2014-03-01"^^xsd:date ;
-		tempo:validTill	"2016-09-01"^^xsd:date ;
+		tempo:validFrom	"2003-05-01"^^xsd:date ;
+		tempo:validTill	"2023-03-18"^^xsd:date ;
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Data Processing & Outsourced Services"@en ;
-	skos:definition	"Providers of commercial electronic data processing and/or business process outsourcing services. Includes companies that provide services for back-office automation."@en ;
+	skos:definition	"Providers of commercial electronic data processing and/or business process outsourcing services.  Includes companies that provide services for back-office automation."@en ;
 	skos:notation	"45102020" ;
-	tempo:validFrom	"2003-05-01"^^xsd:date , "2016-09-01"^^xsd:date ;
-	tempo:validTill	"2016-09-01"^^xsd:date .
+	tempo:validFrom	"2003-05-01"^^xsd:date ;
+	tempo:validTill	"2023-03-18"^^xsd:date .
 
 <http://data.ga-group.nl/ics/gics/45102030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;

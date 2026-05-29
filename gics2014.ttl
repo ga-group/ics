@@ -3394,14 +3394,14 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	owl:NamedIndividual ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2016/45102020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/45102020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/20202030> , <http://data.ga-group.nl/ics/gics/45102020> ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/2010/45102020> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Data Processing & Outsourced Services"@en ;
-	skos:definition	"Providers of commercial electronic data processing and/or business process outsourcing services. Includes companies that provide services for back-office automation."@en ;
+	skos:definition	"Providers of commercial electronic data processing and/or business process outsourcing services.  Includes companies that provide services for back-office automation."@en ;
 	skos:notation	"45102020" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .

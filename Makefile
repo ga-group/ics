@@ -3,7 +3,7 @@ SHELL := /bin/zsh
 include .make.env
 
 all: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 .imported.gics2023
-export: export.gics1999 export.gics2002 export.gics2003 export.gics2004 export.gics2005 export.gics2006 export.gics2008 export.gics2010 export.gics2014 export.gics2016 export.gics2018 export.gics2023
+export: .inferred.replacements export.gics1999 export.gics2002 export.gics2003 export.gics2004 export.gics2005 export.gics2006 export.gics2008 export.gics2010 export.gics2014 export.gics2016 export.gics2018 export.gics2023
 check: check.gics
 
 TODAY := $(shell dateconv today)
