@@ -7,11 +7,12 @@ ECHO "determining validity within code/label/definition ... ";
 SPARQL
 DEFINE sql:log-enable 3
 PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX gics: <http://data.ga-group.nl/ics/gics/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
 INSERT {
-	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , owl:NamedIndividual ;
+	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , owl:NamedIndividual , ?tier ;
 	dct:isReplacedBy ?w ;
 	pav:derivedFrom [
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , ?typ ;
@@ -54,6 +55,11 @@ WHERE {
 		?z dct:isAnachronousVersionOf ?avx
 		}
 		BIND(IRI(IF(?cvx = ?x, prov:ContemporaryDerivation, IF(?avx = ?x, prov:AnachronousDerivation, prov:Derivation))) AS ?typ)
+
+		OPTIONAL {
+		?z a ?tier
+		FILTER(STRSTARTS(STR(?tier),STR(gics:)))
+		}
 
 		OPTIONAL {
 		?z skos:definition ?defn
