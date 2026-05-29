@@ -14,7 +14,7 @@ INSERT {
 	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , owl:NamedIndividual ;
 	dct:isReplacedBy ?w ;
 	pav:derivedFrom [
-		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , ?typ ;
 		rdfs:label ?lbl ;
 		skos:definition ?defn ;
 		skos:notation ?code ;
@@ -46,7 +46,15 @@ WHERE {
 			skos:notation ?code ;
 			dct:isVersionOf ?x .
 		FILTER(LANG(?lbl) = "en")
-			
+
+		OPTIONAL {
+		?z dct:isContemporaryVersionOf ?cvx
+		}
+		OPTIONAL {
+		?z dct:isAnachronousVersionOf ?avx
+		}
+		BIND(IRI(IF(?cvx = ?x, prov:ContemporaryDerivation, IF(?avx = ?x, prov:AnachronousDerivation, prov:Derivation))) AS ?typ)
+
 		OPTIONAL {
 		?z skos:definition ?defn
 		FILTER(LANG(?defn) = "en")
@@ -327,7 +335,8 @@ WHERE {
 	SELECT ?x MIN(?z) AS ?minz MAX(?z) AS ?maxz
 	WHERE {
 	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-		pav:derivedFrom ?z
+		pav:derivedFrom ?z .
+	?z a prov:ContemporaryDerivation .
 	}
 	GROUP BY ?x
 	}
