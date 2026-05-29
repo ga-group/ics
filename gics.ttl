@@ -44,6 +44,34 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	vann:preferredNamespacePrefix	"gics"^^xsd:string ;
 	vann:preferredNamespaceUri	"http://data.ga-group.nl/ics/gics/" .
 
+prov:AnachronousDerivation
+	a	owl:Class ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/> ;
+	rdfs:label	"anachronous derivation"@en ;
+	rdfs:subClassOf	prov:Derivation ;
+	skos:definition	"An anachronous derivation is a derivation that wasn't known at the time of validity of the base entity."@en .
+
+prov:ContemporaryDerivation
+	a	owl:Class ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/> ;
+	rdfs:label	"contemporary derivation"@en ;
+	rdfs:subClassOf	prov:Derivation ;
+	skos:definition	"A contemporary derivation is a derivation that was valid at the time of validity of the base entity."@en .
+
+dct:isAnachronousVersionOf
+	a	owl:ObjectProperty ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/> ;
+	rdfs:label	"is anachronous version of"@en ;
+	rdfs:subPropertyOf	dct:isVersionOf ;
+	skos:definition	"Links a (revision of an) entity to the revision-agnostic entity.  The latter was not known at the time of validity of the former."@en .
+
+dct:isContemporaryVersionOf
+	a	owl:ObjectProperty ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/> ;
+	rdfs:label	"is anachronous version of"@en ;
+	rdfs:subPropertyOf	dct:isVersionOf ;
+	skos:definition	"Links a (revision of an) entity to the revision-agnostic entity.  The latter was valid at the time of validity of the former."@en .
+
 
 
 

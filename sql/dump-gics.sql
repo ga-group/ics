@@ -30,6 +30,8 @@ FROM <http://data.ga-group.nl/ics/gics/>
 WHERE {
 	?s a ?t ; ?p ?o .
 	FILTER(?t != owl:Ontology)
+	FILTER(?t != owl:Class)
+	FILTER(?t != owl:ObjectProperty)
 }
 );
 
