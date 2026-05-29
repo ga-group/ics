@@ -54,7 +54,7 @@ if (sys.nframe() == 0L) {
 
 	rbind(X[, .(gics=`...1`,text=`...2`,desc=NA_character_, `accd`,`from`)],
 		X[, .(gics=`...3`,text=`...4`,desc=NA_character_,`accd`,`from`)],
-		X[, .(gics=`...4`,text=`...6`,desc=NA_character_,`accd`,`from`)],
+		X[, .(gics=`...5`,text=`...6`,desc=NA_character_,`accd`,`from`)],
 		dcast(Y[gics>" "],gics+accd+from~var,value.var="stuf")[,.(gics,A,B,accd,from)],
 		use.names=FALSE) -> X
 
