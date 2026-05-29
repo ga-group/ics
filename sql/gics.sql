@@ -16,10 +16,11 @@ WHERE {
 	?x skos:notation ?gics ;
 		tempo:validFrom ?from ;
 		rdfs:label ?text .
+	BIND(LANG(?text) AS ?lang)
 	OPTIONAL {
 	?x skos:definition ?desc
+	FILTER(LANG(?desc) = ?lang)
 	}
-	BIND(LANG(?text) AS ?lang)
 }
-ORDER BY ?from ?gics
+ORDER BY ?lang ?from ?gics
 ;
