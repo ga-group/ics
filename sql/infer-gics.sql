@@ -332,20 +332,30 @@ WHERE {
 	FILTER(!ISBLANK(?x))
 
 	{
-	SELECT ?x MIN(?z) AS ?minz MAX(?z) AS ?maxz
+	SELECT ?x MIN(?from) AS ?minfrom MAX(?from) AS ?maxfrom
 	WHERE {
 	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 		pav:derivedFrom ?z .
-	?z a prov:ContemporaryDerivation .
+	?z a prov:ContemporaryDerivation ;
+		tempo:validFrom ?from
 	}
 	GROUP BY ?x
 	}
 
-	## now collect all the beef
-	?minz tempo:validFrom ?minfrom .
+	## find the guy with minfrom validity
+	?x pav:derivedFrom ?minz .
+	?minz tempo:validFrom ?fromn .
+	FILTER(STR(?fromn) = STR(?minfrom))
 	OPTIONAL {
 	?minz pav:sourceAccessedOn ?acc1
 	}
+
+	## find the guy with maxfrom validity
+	?x pav:derivedFrom ?maxz .
+	?maxz tempo:validFrom ?fromx .
+	FILTER(STR(?fromx) = STR(?maxfrom))
+
+	## and maxz''s beef
 	?maxz
 		rdfs:label ?lbl ;
 		skos:notation ?code .
@@ -354,6 +364,7 @@ WHERE {
 	}
 	OPTIONAL {
 	?maxz tempo:validTill ?maxtill
+	FILTER(STR(?maxtill) > STR(?maxfrom))
 	}
 	OPTIONAL {
 	?maxz pav:sourceLastAccessedOn ?accl

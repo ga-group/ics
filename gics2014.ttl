@@ -997,7 +997,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Environmental & Facilities Services"@en ;
-	skos:definition	"Companies providing environmental and facilities maintenance services. Includes waste management, facilities management and pollution control services. Excludes large-scale water treatment systems classified in the Water Utilities Sub-Industry."@en ;
+	skos:definition	"Companies providing environmental and facilities maintenance services. Includes waste management, facilities management and pollution control services.  Excludes large-scale water treatment systems classified in the Water Utilities Sub-Industry."@en ;
 	skos:notation	"20201050" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -1033,7 +1033,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Diversified Support Services"@en ;
-	skos:definition	"Companies primarily providing labor oriented support services to businesses and governments. Includes commercial cleaning services, dining & catering services, equipment repair services, industrial maintenance services, industrial auctioneers, storage & warehousing, transaction services, uniform rental services, and other business support services."@en ;
+	skos:definition	"Companies primarily providing labor oriented support services to businesses and governments.  Includes commercial cleaning services, dining & catering services, equipment repair services, industrial maintenance services, industrial auctioneers, storage & warehousing, transaction services, uniform rental services, and other business support services."@en ;
 	skos:notation	"20201070" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -1051,7 +1051,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Security & Alarm Services"@en ;
-	skos:definition	"Companies providing security and protection services to business and governments. Includes companies providing services such as correctional facilities, security & alarm services, armored transportation & guarding. Excludes companies providing security software classified under the Systems Software Sub-Industry and home security services classified under the Specialized Consumer Services Sub-Industry. Also excludes companies manufacturing security system equipment classified under the Electronic Equipment & Instruments Sub-Industry."@en ;
+	skos:definition	"Companies providing security and protection services to business and governments. Includes companies providing services such as correctional facilities, security & alarm services, armored transportation & guarding.  Excludes companies providing security software classified under the Systems Software Sub-Industry and home security services classified under the Specialized Consumer Services Sub-Industry. Also excludes companies manufacturing security system equipment classified under the Electronic Equipment & Instruments Sub-Industry."@en ;
 	skos:notation	"20201080" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -1104,7 +1104,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Research & Consulting Services"@en ;
-	skos:definition	"Companies primarily providing research and consulting services to businesses and governments not classified elsewhere. Includes companies involved in management consulting services, architectural design, business information or scientific research, marketing, and testing & certification services. Excludes companies providing information technology consulting services classified in the IT Consulting & Other Services Sub-Industry."@en ;
+	skos:definition	"Companies primarily providing research and consulting services to businesses and governments not classified elsewhere.  Includes companies involved in management consulting services, architectural design, business information or scientific research, marketing, and testing & certification services. Excludes companies providing information technology consulting services classified in the IT Consulting & Other Services Sub-Industry."@en ;
 	skos:notation	"20202020" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -1879,7 +1879,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Specialized Consumer Services"@en ;
-	skos:definition	"Companies providing consumer services not classified elsewhere. Includes residential services, home security, legal services, personal services, renovation & interior design services, consumer auctions and wedding & funeral services."@en ;
+	skos:definition	"Companies providing consumer services not classified elsewhere.  Includes residential services, home security, legal services, personal services, renovation & interior design services, consumer auctions and wedding & funeral services."@en ;
 	skos:notation	"25302020" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -2267,7 +2267,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Automotive Retail"@en ;
-	skos:definition	"Owners and operators of stores specializing in automotive retail. Includes auto dealers, gas stations, and retailers of auto accessories, motorcycles & parts, automotive glass, and automotive equipment & parts."@en ;
+	skos:definition	"Owners and operators of stores specializing in automotive retail.  Includes auto dealers, gas stations, and retailers of auto accessories, motorcycles & parts, automotive glass, and automotive equipment & parts."@en ;
 	skos:notation	"25504050" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -2285,7 +2285,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Homefurnishing Retail"@en ;
-	skos:definition	"Owners and operators of furniture and home furnishings retail stores. Includes residential furniture, homefurnishings, housewares, and interior design. Excludes home and garden improvement stores, classified in the Home Improvement Retail Sub-Industry."@en ;
+	skos:definition	"Owners and operators of furniture and home furnishings retail stores.  Includes residential furniture, homefurnishings, housewares, and interior design.  Excludes home and garden improvement stores, classified in the Home Improvement Retail Sub-Industry."@en ;
 	skos:notation	"25504060" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -2408,7 +2408,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Hypermarkets & Super Centers"@en ;
-	skos:definition	"Owners and operators of hypermarkets and super centers selling food and a wide-range of consumer staple products. Excludes Food and Drug Retailers classified in the Food Retail and Drug Retail Sub-Industries, respectively."@en ;
+	skos:definition	"Owners and operators of hypermarkets and super centers selling food and a wide-range of consumer staple products.  Excludes Food and Drug Retailers classified in the Food Retail and Drug Retail Sub-Industries, respectively."@en ;
 	skos:notation	"30101040" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -2882,7 +2882,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Health Care Technology"@en ;
-	skos:definition	"Companies providing information technology services primarily to health care providers. Includes companies providing application, systems and/or data processing software, internet-based tools, and IT consulting services to doctors, hospitals or businesses operating primarily in the Health Care Sector"@en ;
+	skos:definition	"Companies providing information technology services primarily to health care providers.  Includes companies providing application, systems and/or data processing software, internet-based tools, and IT consulting services to doctors, hospitals or businesses operating primarily in the Health Care Sector"@en ;
 	skos:notation	"35103010" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -3004,7 +3004,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Life Sciences Tools & Services"@en ;
-	skos:definition	"Companies enabling the drug discovery, development and production continuum by providing analytical tools, instruments, consumables & supplies, clinical trial services and contract research services. Includes firms primarily servicing the pharmaceutical and biotechnology industries."@en ;
+	skos:definition	"Companies enabling the drug discovery, development and production continuum by providing analytical tools, instruments, consumables & supplies, clinical trial services and contract research services.  Includes firms primarily servicing the pharmaceutical and biotechnology industries."@en ;
 	skos:notation	"35203010" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -3196,7 +3196,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Multi-Sector Holdings"@en ;
-	skos:definition	"A company with significantly diversified holdings across three or more sectors, none of which contributes a majority of profit and/or sales. Stakes held are predominantly of a non-controlling nature. Includes diversified financial companies where stakes held are of a controlling nature. Excludes other diversified companies classified in the Industrials Conglomerates Sub-Industry."@en ;
+	skos:definition	"A company with significantly diversified holdings across three or more sectors, none of which contributes a majority of profit and/or sales. Stakes held are predominantly of a non-controlling nature.  Includes diversified financial companies where stakes held are of a controlling nature. Excludes other diversified companies classified in the Industrials Conglomerates Sub-Industry."@en ;
 	skos:notation	"40201030" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -3284,7 +3284,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Asset Management & Custody Banks"@en ;
-	skos:definition	"Financial institutions primarily engaged in investment management and/or related custody and securities fee-based services. Includes companies operating mutual funds, closed-end funds and unit investment trusts. Excludes banks and other financial institutions primarily involved in commercial lending, investment banking, brokerage and other specialized financial activities."@en ;
+	skos:definition	"Financial institutions primarily engaged in investment management and/or related custody and securities fee-based services. Includes companies operating mutual funds, closed-end funds and unit investment trusts.  Excludes banks and other financial institutions primarily involved in commercial lending, investment banking, brokerage and other specialized financial activities."@en ;
 	skos:notation	"40203010" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -3320,7 +3320,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Diversified Capital Markets"@en ;
-	skos:definition	"Financial institutions primarily engaged in diversified capital markets activities, including a significant presence in at least two of the following area: large/major corporate lending, investment banking, brokerage and asset management. Excludes less diversified companies classified in the Asset Management & Custody Banks or Investment Banking & Brokerage sub-industries. Also excludes companies classified in the Banks or Insurance industry groups or the Consumer Finance Sub-Industry."@en ;
+	skos:definition	"Financial institutions primarily engaged in diversified capital markets activities, including a significant presence in at least two of the following area: large/major corporate lending, investment banking, brokerage and asset management. Excludes less diversified companies classified in the Asset Management & Custody Banks or Investment Banking & Brokerage sub-industries.  Also excludes companies classified in the Banks or Insurance industry groups or the Consumer Finance Sub-Industry."@en ;
 	skos:notation	"40203030" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -3831,7 +3831,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"IT Consulting & Other Services"@en ;
-	skos:definition	"Providers of information technology and systems integration services not classified in the Data Processing & Outsourced Services or Internet Software & Services Sub-Industries. Includes information technology consulting and information management services."@en ;
+	skos:definition	"Providers of information technology and systems integration services not classified in the Data Processing & Outsourced Services or Internet Software & Services Sub-Industries.  Includes information technology consulting and information management services."@en ;
 	skos:notation	"45102010" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
@@ -4391,7 +4391,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	rdfs:label	"Gas Utilities"@en ;
-	skos:definition	"Companies whose main charter is to distribute and transmit natural and manufactured gas. Excludes companies primarily involved in gas exploration or production classified in the Oil & Gas Exploration & Production Sub-Industry. Also excludes diversified midstream natural gas companies classified in the Oil & Gas Storage & Transportation Sub-Industry."@en ;
+	skos:definition	"Companies whose main charter is to distribute and transmit natural and manufactured gas. Excludes companies primarily involved in gas exploration or production classified in the Oil & Gas Exploration & Production Sub-Industry.  Also excludes diversified midstream natural gas companies classified in the Oil & Gas Storage & Transportation Sub-Industry."@en ;
 	skos:notation	"55102010" ;
 	tempo:validFrom	"2014-03-01"^^xsd:date ;
 	tempo:validTill	"2016-09-01"^^xsd:date .
