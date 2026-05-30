@@ -4,6 +4,7 @@
 @prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
 @prefix fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/> .
 @prefix gics: <http://data.ga-group.nl/ics/gics/> .
+@prefix ics: <http://data.ga-group.nl/ics/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -33,7 +34,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:publisher	<https://orcid.org/0000-0002-7352-2825> ;
 	dct:title	"gics individuals" ;
 	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
-	owl:imports	fibo-sec-sec-cls: ;
+	owl:imports	fibo-sec-sec-cls: , ics: ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
 	rdfs:label	"gics"@en ;
 	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
@@ -44,33 +45,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	vann:preferredNamespacePrefix	"gics"^^xsd:string ;
 	vann:preferredNamespaceUri	"http://data.ga-group.nl/ics/gics/" .
 
-prov:AnachronousDerivation
-	a	owl:Class ;
-	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/> ;
-	rdfs:label	"anachronous derivation"@en ;
-	rdfs:subClassOf	prov:Derivation ;
-	skos:definition	"An anachronous derivation is a derivation that wasn't known at the time of validity of the base entity."@en .
-
-prov:ContemporaryDerivation
-	a	owl:Class ;
-	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/> ;
-	rdfs:label	"contemporary derivation"@en ;
-	rdfs:subClassOf	prov:Derivation ;
-	skos:definition	"A contemporary derivation is a derivation that was valid at the time of validity of the base entity."@en .
-
-dct:isAnachronousVersionOf
-	a	owl:ObjectProperty ;
-	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/> ;
-	rdfs:label	"is anachronous version of"@en ;
-	rdfs:subPropertyOf	dct:isVersionOf ;
-	skos:definition	"Links a (revision of an) entity to the revision-agnostic entity.  The latter was not known at the time of validity of the former."@en .
-
-dct:isContemporaryVersionOf
-	a	owl:ObjectProperty ;
-	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/> ;
-	rdfs:label	"is anachronous version of"@en ;
-	rdfs:subPropertyOf	dct:isVersionOf ;
-	skos:definition	"Links a (revision of an) entity to the revision-agnostic entity.  The latter was valid at the time of validity of the former."@en .
+## the ABox is auto-generated, do not edit
 
 
 

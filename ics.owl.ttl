@@ -1,0 +1,227 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix delta: <http://www.w3.org/2004/delta#> .
+@prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/> .
+@prefix gics: <http://data.ga-group.nl/ics/gics/> .
+@prefix ics: <http://data.ga-group.nl/ics/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.ga-group.nl/ics/>
+	a	owl:Ontology ;
+	dcat:downloadURL	<https://github.com/ga-group/ics/ics.owl.ttl> ;
+	dct:abstract	"""This is the base ontology to support ..."""@en ;
+	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
+	dct:description	"""Any industry classification standard ..."""@en ;
+	dct:format	"text/turtle"^^xsd:string ;
+	dct:issued	"2026-05-24T02:25:19Z"^^xsd:dateTime ;
+	dct:language	"en"^^xsd:language ;
+	dct:license	<https://creativecommons.org/licenses/by-sa/4.0/> ;
+	dct:modified	"2026-05-24T02:25:19Z"^^xsd:dateTime ;
+	dct:publisher	<https://orcid.org/0000-0002-7352-2825> ;
+	dct:title	"ics base ontology" ;
+	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
+	owl:imports	fibo-sec-sec-cls: ;
+	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
+	rdfs:label	"ics"@en ;
+	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
+	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
+	sm:copyright	"Copyright (c) 2022-2026 PAMIYA Strategic Advisors GmbH" ;
+	sm:filename	"ics.owl.ttl" ;
+	vann:preferredNamespacePrefix	"ics"^^xsd:string ;
+	vann:preferredNamespaceUri	"http://data.ga-group.nl/ics/" .
+
+#################################################################
+# Classes
+#################################################################
+
+prov:AnachronousDerivation
+	a	owl:Class ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"anachronous derivation"@en ;
+	rdfs:subClassOf	prov:Derivation ;
+	skos:definition	"An anachronous derivation is a derivation that wasn't known at the time of validity of the base entity."@en .
+
+prov:ContemporaryDerivation
+	a	owl:Class ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"contemporary derivation"@en ;
+	rdfs:subClassOf	prov:Derivation ;
+	skos:definition	"A contemporary derivation is a derivation that was valid at the time of validity of the base entity."@en .
+
+ics:Tier
+	a	owl:Class ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"tier"@en ;
+	skos:definition	"A tier is a level or layer in a structured arrangement."@en .
+
+ics:TieredClassifier
+	a	owl:Class ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"tiered classifier"@en ;
+	skos:definition	"A tiered classifier is an instance of a classification system that organises categories in a hierarchical structure, allowing for multi-level classifications."@en .
+
+gics:SectorClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	gics:hasIndustryGroup ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"sector classifier"@en ;
+	rdfs:subClassOf	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , ics:TieredClassifier ;
+	skos:definition	"The top-level tier in the Global Industry Classification Standard system."@en .
+
+gics:IndustryGroupClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	gics:isIndustryGroupOf ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
+	] , [
+		a	owl:Restriction ;
+		owl:onProperty	gics:hasIndustry ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"industry group classifier"@en ;
+	rdfs:subClassOf	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , ics:TieredClassifier ;
+	skos:definition	"The second-level tier in the Global Industry Classification Standard system."@en .
+
+gics:IndustryClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	gics:isIndustryOf ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
+	] , [
+		a	owl:Restriction ;
+		owl:onProperty	gics:hasSubindustry ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"industry classifier"@en ;
+	rdfs:subClassOf	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , ics:TieredClassifier ;
+	skos:definition	"The third-level tier in the Global Industry Classification Standard system."@en .
+
+gics:SubindustryClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	gics:isSubindustryOf ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"sub-industry classifier"@en ;
+	rdfs:subClassOf	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , ics:TieredClassifier ;
+	skos:definition	"The fourth-level tier in the Global Industry Classification Standard system."@en .
+
+#################################################################
+# Object Properties
+#################################################################
+
+dct:isAnachronousVersionOf
+	a	owl:ObjectProperty ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is anachronous version of"@en ;
+	rdfs:subPropertyOf	dct:isVersionOf ;
+	skos:definition	"Links a (revision of an) entity to the revision-agnostic entity.  The latter was not known at the time of validity of the former."@en .
+
+dct:isContemporaryVersionOf
+	a	owl:ObjectProperty ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is anachronous version of"@en ;
+	rdfs:subPropertyOf	dct:isVersionOf ;
+	skos:definition	"Links a (revision of an) entity to the revision-agnostic entity.  The latter was valid at the time of validity of the former."@en .
+
+ics:hasParent
+	a	owl:ObjectProperty ;
+	owl:inverseOf	ics:hasChild ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has parent"@en ;
+	skos:definition	"Links a (tiered) classifier to the classifier in the tier immediately above it."@en .
+
+ics:hasChild
+	a	owl:ObjectProperty ;
+	owl:inverseOf	ics:hasParent ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has child"@en ;
+	skos:definition	"Links a (tiered) classifier to the classifier(s) in the tier immediately below it."@en .
+
+gics:hasIndustryGroup
+	a	owl:ObjectProperty ;
+	owl:inverseOf	gics:isIndustryGroupOf ;
+	rdfs:domain	gics:SectorClassifier ;
+	rdfs:range	gics:IndustryGroupClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has industry group"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links a sector to its industry groups."@en .
+
+gics:isIndustryGroupOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	gics:hasIndustryGroup ;
+	rdfs:domain	gics:IndustryGroupClassifier ;
+	rdfs:range	gics:SectorClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is industry group of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links an industry group to its sector."@en .
+
+gics:hasIndustry
+	a	owl:ObjectProperty ;
+	owl:inverseOf	gics:isIndustryOf ;
+	rdfs:domain	gics:IndustryGroupClassifier ;
+	rdfs:range	gics:IndustryClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has industry"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links an industry group to its industries."@en .
+
+gics:isIndustryOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	gics:hasIndustry ;
+	rdfs:domain	gics:IndustryClassifier ;
+	rdfs:range	gics:IndustryGroupClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is industry of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links an industry to its industry group."@en .
+
+gics:hasSubindustry
+	a	owl:ObjectProperty ;
+	owl:inverseOf	gics:isSubindustryOf ;
+	rdfs:domain	gics:IndustryClassifier ;
+	rdfs:range	gics:SubindustryClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has sub-industry"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links an industry to its sub-industries."@en .
+
+gics:isSubindustryOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	gics:hasSubindustry ;
+	rdfs:domain	gics:SubindustryClassifier ;
+	rdfs:range	gics:IndustryClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is sub-industry of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a sub-industry to its industry."@en .
