@@ -24,7 +24,7 @@
 This set of classification codes is valid from 2010-07-01 till 2014-03-01."""@en ;
 	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
 	dct:description	"""The Global Industry Classification Standard (GICS) is an industry taxonomy developed in 1999 by MSCI and Standard & Poor's (S&P) for use by the global financial community.
-Codes are four-tiered, numeric, and not prefix-free.  The first tier is the sector, the second tier is the industry group, the third tier is the industy, and the fourth tier is the sub-industry.
+Codes are four-tiered, numeric, and not prefix-free.  The first tier is the sector, the second tier is the industry group, the third tier is the industry, and the fourth tier is the sub-industry.
 S&P is responsible for assigning a GICS code to all major public companies.  The assignment is based on the principal busines activity of the company."""@en ;
 	dct:format	"text/turtle"^^xsd:string ;
 	dct:issued	"2026-05-24T02:25:19Z"^^xsd:dateTime ;
