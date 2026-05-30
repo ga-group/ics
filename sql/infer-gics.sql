@@ -14,6 +14,7 @@ WITH <$u{TGTGR}>
 INSERT {
 	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , owl:NamedIndividual , ?tier ;
 	dct:isReplacedBy ?w ;
+	?hasparent ?parx ;
 	pav:derivedFrom [
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , ?typ ;
 		rdfs:label ?lbl ;
@@ -82,6 +83,15 @@ WHERE {
 		?z dct:isContemporaryVersionOf ?v .
 		?u dct:isContemporaryVersionOf ?w .
 		FILTER(?v != ?w)
+		}
+		OPTIONAL {
+		VALUES ?hasparent {
+		gics:isIndustryGroupOf
+		gics:isIndustryOf
+		gics:isSubindustryOf
+		}
+		?z ?hasparent ?parz .
+		?parz dct:isContemporaryVersionOf ?parx .
 		}
 	}
 	ORDER BY ?x ?from ?z
