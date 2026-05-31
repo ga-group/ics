@@ -148,7 +148,7 @@ dct:isAnachronousVersionOf
 dct:isContemporaryVersionOf
 	a	owl:ObjectProperty ;
 	rdfs:isDefinedBy	ics: ;
-	rdfs:label	"is anachronous version of"@en ;
+	rdfs:label	"is contemporary version of"@en ;
 	rdfs:subPropertyOf	dct:isVersionOf ;
 	skos:definition	"Links a (revision of an) entity to the revision-agnostic entity.  The latter was valid at the time of validity of the former."@en .
 
