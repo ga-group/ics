@@ -1335,22 +1335,6 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	skos:notation	"20304010" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
 
-<http://data.ga-group.nl/ics/gics/2023/20304020>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/20304020> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/20304020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/20304020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/203040> ;
-	pav:importedOn	"2026-05-29T15:55:15.877Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:05:02Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Autotrasporti (attività cessata)"@it , "Straßenverkehr (Eingestellt)"@de , "Transport routier (supprimé)"@fr , "Transporte por Caminhões (descontinuada)"@pt , "Transporte por Carretera"@es , "Перевозки автомобильным транспортом(упразднено)"@ru , "陆运（终止生效）"@zh , "陸運（廃止）"@ja , "陸運（終止生效）"@zh-hant , "육상 운송회사 (폐지)"@ko ;
-	skos:definition	"Aziende che forniscono principalmente servizi di trasporto via terra di merci o passeggeri. Sono comprese le aziende di autonoleggio e taxi."@it , "Empresas provedoras principalmente de transporte terrestre de mercadorias e passageiros. Inclui empresas de aluguel de veículos e de táxi."@pt , "Empresas que proporcionan servicios de transporte terrestre de mercancías y pasajeros. Se incluyen los servicios de taxi y alquiler de vehículos."@es , "Sociétés qui fournissent principalement des services de transport de marchandises et de personnes par voie terrestre. Sont incluses les agences de location de véhicules et les sociétés de taxis."@fr , "Unternehmen, die hauptsächlich Güter- und Personenbeförderung auf dem Landweg anbieten. Dazu gehören Fahrzeugvermietung und Taxiunternehmen."@de , "Компании, основной деятельностью которых являются грузовые и пассажирские перевозки автомобильным транспортом, в том числе компании по аренде автомобилей и таксомоторные компании."@ru , "主要提供公路货运和客运服务的公司。包括租车公司和出租车公司。"@zh , "主要提供陸路客運和貨運服務的公司。包括租車公司和計程車公司。"@zh-hant , "貨物・旅客の陸上輸送サービスを主に行う会社。車両レンタル・タクシー会社を含む。"@ja , "주로 화물과 승객의 육상 운송을 제공하는 회사. 차량 렌탈과 택시 회사 포함."@ko ;
-	skos:notation	"20304020" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
 <http://data.ga-group.nl/ics/gics/2023/20304030>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
@@ -2013,116 +1997,6 @@ This Sub-Industry excludes companies providing employee education programs class
 	skos:notation	"2530" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
 
-<http://data.ga-group.nl/ics/gics/2023/25401010>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/25401010> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/25401010> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/25401010> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/254010> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Publicidad (descontinuado a partir del cierre del 30 de Septiembre de 2018)"@es ;
-	skos:definition	"Empresas dedicadas a servicios de publicidad, marketing o relaciones públicas."@es ;
-	skos:notation	"25401010" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/25401020>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/25401020> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/25401020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/25401020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/254010> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Difusión por Radio y Televisión (descontinuado a partir del cierre del 30 de Septiembre de 2018)"@es ;
-	skos:definition	"Propietarios y operadores de sistemas de difusión por radio y televisión, incluida la programación. Incluye emisoras de radio y televisión, cadenas radiofónicas y estaciones de radio."@es ;
-	skos:notation	"25401020" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/25401025>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/25401025> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/25401025> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/25401025> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/254010> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Televisión por Cable y Vía Satélite (descontinuado a partir del cierre del 30 de Septiembre de 2018)"@es ;
-	skos:definition	"Proveedores de servicios de televisión por cable o vía satélite. Incluye cadenas de cable y distribución de programación."@es ;
-	skos:notation	"25401025" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/25401030>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/25401030> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/25401030> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/25401030> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/254010> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Películas y Entretenimiento (descontinuado a partir del cierre del 30 de Septiembre de 2018)"@es ;
-	skos:definition	"Empresas dedicadas a la producción y venta de productos y servicios de entretenimiento. Se incluyen las empresas dedicadas a la producción, distribución y proyección de películas y programas televisivos, productores y distribuidores de música, teatros y equipos (clubes) deportivos."@es ;
-	skos:notation	"25401030" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/25401040>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/25401040> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/25401040> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/25401040> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/254010> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Publicación (descontinuado a partir del cierre del 30 de Septiembre de 2018)"@es ;
-	skos:definition	"Empresas dedicadas a la publicación de periódicos, revistas y libros y proveedores de información en formato impreso o electrónico."@es ;
-	skos:notation	"25401040" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/254010>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:IndustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/254010> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/254010> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/254010> ;
-	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/2023/2540> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Medios de Comunicación (descontinuado a partir del cierre del 30 de Septiembre de 2018)"@es ;
-	skos:notation	"254010" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/2540>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:IndustryGroupClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/2540> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/2540> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/2540> ;
-	gics:isIndustryGroupOf	<http://data.ga-group.nl/ics/gics/2023/25> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Medios de Comunicación (descontinuado a partir del cierre del 30 de Septiembre de 2018)"@es ;
-	skos:notation	"2540" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
 <http://data.ga-group.nl/ics/gics/2023/25501010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
@@ -2156,69 +2030,6 @@ This Sub-Industry includes companies distributing or wholesaling consumer mercha
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
 	rdfs:label	"Distribuidores"@es , "Distribuidores"@pt , "Distributeurs"@fr , "Distributori"@it , "Distributors"@en , "Vertriebsunternehmen"@de , "Дистрибьюторская деятельность"@ru , "經銷商"@zh-hant , "经销商"@zh , "販売"@ja , "판매업체"@ko ;
 	skos:notation	"255010" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/25502020>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/25502020> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/25502020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/25502020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/255020> ;
-	pav:importedOn	"2026-05-29T15:55:15.877Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:05:02Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Einzelhandel: Internet und Direktmarketing (Eingestellt)"@de , "Vendas pela Internet ou por Catáçogo (descontinuada)"@pt , "Vendita al dettaglio tramite internet e marketing diretto (attività cessata)"@it , "Ventas por Internet y Marketing Directo"@es , "Vente par Internet et marketing direct (supprimé)"@fr , "Интернет и прямая розничная торговля (упразднено)"@ru , "インターネット販売・通信販売（廃止）"@ja , "互联网与直销零售（终止生效）"@zh , "互聯網與直銷零售（終止生效）"@zh-hant , "인터넷 및 직접 마케팅 소매 (폐지)"@ko ;
-	skos:definition	"Aziende che forniscono servizi al dettaglio principalmente su Internet, per corrispondenza e attraverso televendite. Sono inoltre comprese le aziende che forniscono marketplace online per prodotti e servizi di consumo."@it , "Einzelhandelsunternehmen, die Einzelhandelsdienstleistungen primär über das Internet, den Versandhandel oder Teleshopping anbieten. Dazu gehören auch Unternehmen, die Online-Marktplätze für Konsumgüter und Dienstleistungen anbieten."@de , "Empresas dedicadas principalmente a servicios de ventas por Internet, por correo o por televisión. También incluye compañías proveedoras de mercados en línea para el comusmo de bienes y servicios."@es , "Empresas provedoras de serviços de vendas principalmente via internet, correio ou televisão. Também inclui empresas que proporcionam venda de produtos  e serviços de terceiros para clientes."@pt , "Sociétés qui fournissent des services de vente au détail principalement sur Internet, par correspondance et télé-achat. Sont également incluses les sociétés qui offrent des places de marché en ligne pour les biens et services de consommation."@fr , "Компании, занимающиеся розничной торговлей преимущественно в Интернете, посредством отправки заказов по почте, а также телемагазины, в том числе компании, предоставляющие торговые площадки в Интернете для потребительских услуг и продуктов."@ru , "インターネットや通販、テレビホームショッピングでの小売り販売サービスを提供し���いる会社。また、消費者商品およびサービスのオンライン市場を提供する会社も含む。"@ja , "主要在互聯網上、透過郵購及電視購物零售商向顧客提供零售服務的公司。亦包括為消費者產品和服務提供網上市場的公司。"@zh-hant , "주로 인터넷과 우편 주문을 통해 소매 서비스를 제공하는 회사와 TV 홈쇼핑 소매업체. 소비재 제품 및 서비스와 관련된 온라인 시장을 제공하는 업체 포함."@ko , "���要通过互联网、邮购和家庭电视购物零售商提供零售服务的公司。包括为消费产品和服务提供线上市场的公司。"@zh ;
-	skos:notation	"25502020" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/255020>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:IndustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/255020> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/255020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/255020> ;
-	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/2023/2550> ;
-	pav:importedOn	"2026-05-29T15:55:15.877Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:05:02Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Einzelhandel: Internet und Direktmarketing (Eingestellt)"@de , "Vendas pela Internet ou por Catálogo (descontinuada)"@pt , "Vendita al dettaglio tramite internet e marketing diretto (attività cessata)"@it , "Ventas por Internet y Marketing Directo"@es , "Vente par Internet et marketing direct (supprimé)"@fr , "Интернет и прямая розничная торговля (упразднено)"@ru , "インターネット販売・通信販売（廃止）"@ja , "互联网与直销零售（终止生效）"@zh , "互聯網與直銷零售（終止生效）"@zh-hant , "인터넷 및 직접 마케팅 소매 (폐지)"@ko ;
-	skos:notation	"255020" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/25503010>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/25503010> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/25503010> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/25503010> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/255030> ;
-	pav:importedOn	"2026-05-29T15:55:15.877Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:05:02Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Grandes Almacenes"@es , "Grandi magazzini (attività cessata)"@it , "Grands magasins (supprimé)"@fr , "Kaufhäuser (Eingestellt)"@de , "Lojas de Departamentos (descontinuada)"@pt , "Деятельность универсальных магазинов (упразднено)"@ru , "百貨商店（終止生效）"@zh-hant , "百貨店（廃止）"@ja , "百货商店（终止生效）"@zh , "백화점 (폐지)"@ko ;
-	skos:definition	"Inhaber und Betreiber von Kaufhäusern."@de , "Propietarios y operadores de grandes almacenes."@es , "Propriétaires et gérants de grands magasins."@fr , "Proprietários e operadores de lojas de departamentos."@pt , "Proprietari e gestori di grandi magazzini."@it , "Компании, владеющие универсальными магазинами и занимающиеся их эксплуатацией."@ru , "百貨商店的東主及營運商。"@zh-hant , "百貨店の所有者や運営業者。"@ja , "百货商店的业主和运营商。"@zh , "백화점의 소유자와 운영자"@ko ;
-	skos:notation	"25503010" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/25503020>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/25503020> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/25503020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/25503020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/255030> ;
-	pav:importedOn	"2026-05-29T15:55:15.877Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:05:02Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Distribution diversifiée (arrêté)"@fr , "Establecimientos de Venta de Productos Generales"@es , "Gemischtwarenhandel (Eingestellt)"@de , "Lojas de Mercadorias Gerais (descontinuada)"@pt , "Negozi di articoli generici (attività cessata)"@it , "Деятельность магазинов со смешанным ассортиментом товаров (упразднено)"@ru , "綜合貨品商店（終止生效）"@zh-hant , "総合小売り（廃止）"@ja , "综合货品商店（终止生效）"@zh , "일반 상점 (폐지)"@ko ;
-	skos:definition	"Inhaber und Betreiber von Läden, die eine Mischung allgemeiner Güter anbieten. Ausgeschlossen sind Verbrauchermärkte und große Supercenter, die der Branche „Verbrauchermärkte und Supercenter“ angehören."@de , "Propietarios y operadores de establecimientos de venta de productos generales variados. Se excluyen los hipermercados y grandes superficies pertenecientes a la rama Hipermercados y Grandes Superficies."@es , "Propriétaires et gérants de magasins offrant une grande variété de marchandises. Ne sont pas inclus les supermarchés et les hypermarchés de grande taille classés dans la sous-industrie des supermarchés et des hypermarchés."@fr , "Proprietários e operadores de lojas que oferecem mercadorias gerais diversificadas. Exclui hipermercados e supercentros de grande escala classificados na Sub-Indústria de Hipermercados e Supercentros."@pt , "Proprietari e gestori di negozi che offrono merci generiche diversificate. Sono esclusi gli ipermercati e i centri commerciali di grandi dimensioni classificati nel sottosettore Ipermercati e centri commerciali."@it , "Компании, владеющие магазинами со смешанным ассортиментом това��ов и занимающиеся их эксплуатацией. В данную группу не входят гипермаркеты и крупные торговые центры, включенные в подотрасль «Деятельность гипермаркетов и крупных торговых центров»."@ru , "出售各色日用商品的综合货品商店的业主和运营商。不包括归类于“大卖场与大型超市”子行业中的超级市场和特大购物中心。"@zh , "各種一般商品を提供している店舗の所有者や運営業者。産業サブグループの「大型スーパーマーケット・スーパーマーケット」に分類される超大型マーケット、大型スーパーマーケットは除く。"@ja , "提供多元化綜合商品的商店的東主及營運商。不包括「大型超市與特大購物中心」子行業中的大型超市與特大購物中心。"@zh-hant , "다각화된 일반 상품을 제공하는 상점의 소유자와 운영자. ‘하이퍼마켓과 대형 쇼핑센터’ 하부산업으로 분류되는 하이퍼마켓과 대형 쇼핑센터는 제외."@ko ;
-	skos:notation	"25503020" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
 
 <http://data.ga-group.nl/ics/gics/2023/25503030>
@@ -3176,37 +2987,6 @@ This Sub-Industry excludes companies classified in the Diversified Banks, Commer
 	skos:notation	"401010" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
 
-<http://data.ga-group.nl/ics/gics/2023/40102010>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/40102010> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/40102010> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/40102010> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/401020> ;
-	pav:importedOn	"2026-05-29T15:55:15.877Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:05:02Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Ahorro y Financiamiento de Hipotecas"@es , "Casse di risparmio e credito ipotecario (attività cessata)"@it , "Poupança e Financiamento de Hipotecas (descontinuada)"@pt , "Sparkassen- und Hypothekenfinanzierung (Eingestellt)"@de , "Épargne et prêts hypothécaires (supprimé)"@fr , "Сберегательные и ипотечные финансовые организации(упразднено)"@ru , "互助储蓄与抵押信贷金融服务（终止生效）"@zh , "互助儲蓄銀行與按揭融資（終止生效）"@zh-hant , "貯蓄・抵当・不動産金融（廃止）"@ja , "저축 & 모기지 금융 (폐지)"@ko ;
-	skos:definition	"Finanzinstitute, die Hypothekendienste oder hypothekenbezogene Dienste anbieten. Dazu gehören Finanzinstitute, deren Aktiva in erster Linie hypothekarisch besichert sind, Sparkassen, Hypothekenbanken, Bausparkassen und Unternehmen, die Hypothekenbanken versichern."@de , "Instituciones financieras que proporcionan hipotecas y servicios relacionados. Se incluyen las instituciones financieras cuyos activos están relacionados principalmente con hipotecas, ahorros y préstamos, instituciones de préstamos hipotecarios, cooperativas de crédito y empresas de seguros para bancos hipotecarios."@es , "Instituições financeiras que proveem serviços de hipoteca e relacionados à hipoteca. Estes incluem instituições financeiras cujos ativos são principalmente relacionados a hipotecas, poupança e empréstimos, instituições de crédito hipotecário, sociedades construtoras e empresas provedoras de seguro a bancos de crédito hipotecário."@pt , "Institutions financières qui fournissent des services de prêts hypothécaires et des services connexes. Il s’agit notamment des institutions financières dont les actifs sont principalement liés à l’hypothèque, l’épargne et les prêts, les établissements de crédit hypothécaire, les sociétés de crédit foncier et les entreprises fournissant des assurances aux banques spécialisées en prêts hypothécaires."@fr , "Istituti finanziari che offrono credito ipotecario e servizi correlati. Sono compresi istituti finanziari le cui attività sono principalmente legate a mutui ipotecari, risparmi e prestiti, istituti di credito ipotecario, società edilizie e aziende che forniscono assicurazioni a istituti di credito ipotecario."@it , "Финансовые организации, предоставляющие ипотечные и сопутствующие услуги. В данную группу входят финансовые организации, активы которых связаны преимущественн�� с ипотекой, сбережениями и займами, организации (учреждения) ипотечного кредитования, строительные общества и компании, предоставляющие услуги страхования ипотечным банкам."@ru , "抵当・不動産および関連サービスを提供する金融機関。資産が主に抵当・不動産関連である金融機関、貯蓄・貸付組合、住宅ローン貸付機関、住宅組合、および住宅ローン貸付銀行に保険を提供する会社を含む。"@ja , "提供抵押贷款以及抵押贷款相关服务的金融机构。包括那些其资产主要与抵押贷款相关的金融机构、储蓄与贷款、抵押贷款机构、建房互助协会以及向抵押银行提供保险的公司。"@zh , "提供按揭和按揭相關服務的金融機構。其中包括資產主要與按揭貸款、儲蓄和貸款相關的金融機構、按揭貸款機構、建築協會和向按揭銀行提供保險的公司。"@zh-hant , "모기지, 모기지 관련 서비스를 제공하는 금융기관. 자산이 주로 모기지, 저축, 대출과 관련이 있는 금융 기관, 모기지 대출 기관, 주택금융조합, 모기지 은행에 대한 보험 제공 회사 포함"@ko ;
-	skos:notation	"40102010" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/401020>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:IndustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/401020> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/401020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/401020> ;
-	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/2023/4010> ;
-	pav:importedOn	"2026-05-29T15:55:15.877Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:05:02Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Ahorro y Financiamiento de Hipotecas"@es , "Casse di risparmio e credito ipotecario (attività cessata)"@it , "Poupança e Financiamento de Hipotecas (descontinuada)"@pt , "Sparkassen- und Hypothekenfinanzierung (Eingestellt)"@de , "Épargne et prêts hypothécaires (supprimé)"@fr , "Сберегательные и ипотечные финансовые организации(упразднено)"@ru , "互助储蓄银行与抵押信贷（终止生效）"@zh , "互助儲蓄銀行與按揭融資（終止生效）"@zh-hant , "貯蓄・抵当・不動産金融（廃止）"@ja , "저축 & 모기지 금융 (폐지)"@ko ;
-	skos:notation	"401020" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
 <http://data.ga-group.nl/ics/gics/2023/4010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:IndustryGroupClassifier , owl:NamedIndividual ;
@@ -3649,37 +3429,6 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	skos:notation	"40" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
 
-<http://data.ga-group.nl/ics/gics/2023/45101010>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/45101010> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/45101010> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/45101010> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/451010> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Software y Servicios de Internet (descontinuado a partir del cierre del 30 de Septiembre de 2018)"@es ;
-	skos:definition	"Empresas dedicadas al desarrollo y comercialización de programas relacionados con Internet o proveedores de servicios de Internet como, bases de datos en línea y servicios interactivos, asi como empresas cuyos ingresos provienen mayoritariamente de la publicidad en internet. Se excluyen a las empresas incluidas en la rama de Ventas por Internet y Marketing Directo."@es ;
-	skos:notation	"45101010" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/451010>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:IndustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/451010> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/451010> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/451010> ;
-	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/2023/4510> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Software y Servicios de Internet (descontinuado a partir del cierre del 30 de Septiembre de 2018)"@es ;
-	skos:notation	"451010" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
 <http://data.ga-group.nl/ics/gics/2023/45102010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
@@ -3699,22 +3448,6 @@ This Sub-Industry includes information technology consulting and information man
 
 This Sub-Industry excludes companies that offer management & technology consulting services to government and defense organizations classified in the Research & Consulting Services Sub-Industry."""@en , "Ко��пании, предоставляющие услуги в сфере информационных технологий и системной интеграции, не включенные в подотрасли «Предоставление услуг по обработке данных и услуг, переданных на аутсорсинг» или «Программное обеспечение и услуги в области Интернета». В данную группу входят компании, оказывающие консультационные услуги в области информационных технологий и управления информацией."@ru , "‘데이터 처리와 아웃소싱 서비스’ 또는 ‘인터넷 소프트웨어와 서비스’ 하부산업으로 분류되지 않은 정보 기술 및 시스템 통합 서비스 제공업체. 정보 기술 컨설팅과 정보 관리 서비스 포함."@ko , "情報技術テクノロジー、およびシステム統合サービスを提供する会社で、産業サブグループの「情報処理・外注サービス」、「インターネットソフトウェア・サービス」に分類されないもの。情報技術コンサルティングや情報管理サービスを含む。"@ja , "提供信息科技和系统集成服务的公司（未归类于“数据处理与外包服务”或者“互联网软件与服务”子行业）。包括信息科技咨询和信息管理服务。"@zh , "未歸類於「數據處理與外判服務」或「互聯網軟件與服務」子行業中的資訊科技和系統整合服務供應商。包括資訊科技諮詢和資訊管理服務。"@zh-hant ;
 	skos:notation	"45102010" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/45102020>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/45102020> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/45102020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/45102020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/451020> ;
-	pav:importedOn	"2026-05-29T15:55:15.877Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:05:02Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Datenverarbeitungs- und Outsourcing-Dienste (Eingestellt)"@de , "Elaborazione dati e servizi in outsourcing (attività cessata)"@it , "Procesamiento de Datos y Servicios Subcontratados"@es , "Serviços Terceirizados e de Processamento de Dados (descontinuada)"@pt , "Traitement des données et services externalisés (supprimé)"@fr , "Предоставление услуг по обработке данных и услуг, переданных на аутсорсинг (упразднено)"@ru , "情報処理・外注サービス（廃止���"@ja , "数据处理与外包服务（终止生效）"@zh , "數據處理與外判服務（終止生效）"@zh-hant , "데이터 처리 및 아웃소싱 서비스 (폐지)"@ko ;
-	skos:definition	"Anbieter von kommerziellen Diensten für die elektronische Datenverarbeitung und/oder Outsourcing von Geschäftsprozessen. Hierzu gehören auch Unternehmen, die Dienste für die Backoffice-Automatisierung anbieten."@de , "Empresas que proporcionan servicios de procesamiento electrónico de datos comerciales y/o servicios de subcontratación de procesos empresariales. Se incluyen empresas que proporcionan servicios de automatización de Back Office."@es , "Fornitori di servizi commerciali di elaborazione elettronica dei dati e/o di esternalizzazione di processi aziendali. Sono comprese le aziende che forniscono servizi per l’automatizzazione del back-office."@it , "Fournisseurs de services de traitement des données électroniques commerciales et/ou de services externalisés des processus d’entreprises. Sont incluses les entreprises qui offrent des services d’automatisation du back-office."@fr , "Provedores de serviços de processamento de dados eletrônicos comerciais e/ou terceirização de processos comerciais. Inclui empresas que prestam serviços para automação de retaguarda."@pt , "Поставщики услуг по обработке коммерческих данных и (или) аутсорсингу бизнес-процессов. В данную группу входят компании, предоставляющие услуги по автоматизации бэк-офиса."@ru , "商業電子情報処理、会社業務外注サービスの提供業者。バックオフィス自動化サービスを提供する会社を含む。"@ja , "商業電子數據處理及／或業務流程外判服務的供應商。包括為後勤辦公室自動化提供服務的公司。"@zh-hant , "提供商业电子数据处理和/或经营流程外包服务的公司。包括那些提供事务部门办公自动化服务的公司。"@zh , "상업용 전자 데이터 처리 및/또는 비즈니스 프로세스 아웃소싱 서비스 제공업체. 백오피스 자동화를 위한 서비스 제공 회사 포함."@ko ;
-	skos:notation	"45102020" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
 
 <http://data.ga-group.nl/ics/gics/2023/45102030>
@@ -3790,22 +3523,6 @@ This Sub-Industry excludes companies classified in the Interactive Home Entertai
 	rdfs:label	"Logiciels systèmes"@fr , "Software de Sistemas"@es , "Software de Sistemas"@pt , "Software di sistema"@it , "System-Software"@de , "Systems Software"@en , "Производство системного программного обеспечения"@ru , "システム・ソフトウェア"@ja , "系統軟件"@zh-hant , "系统软件"@zh , "시스템 소프트웨어"@ko ;
 	skos:definition	"Aziende impegnate nello sviluppo e la produzione di software di sistema e di gestione dei database."@it , "Companies engaged in developing and producing software for operating systems & platforms, database management software and firewalls."@en , "Empresas dedicadas al desarrollo y producción de programas para la administración de sistemas o bases de datos."@es , "Empresas envolvidas no desenvolvimento e produção de software de gerenciamento de sistemas e base de dados."@pt , "Sociétés spécialisées dans le développement et la production de logiciels de gestion de bases de données et de logiciels systèmes."@fr , "Unternehmen, die System- und Datenbankverwaltungs-Software entwickeln und herstellen."@de , "Компании, занимающиеся разработкой и производством системного программного обеспечения и программного обеспечения для управления базами данных."@ru , "システム・データベース管理ソフトウェアの製造・開発を行う会社。"@ja , "从事开发与生产系统和数据库管理软件的公司。"@zh , "從事開發和生產系統及數據庫管理軟件的公司。"@zh-hant , "시스템과 데이터베이스 관리 소프트웨어 개발 및 제작과 관련된 회사."@ko ;
 	skos:notation	"45103020" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/45103030>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/45103030> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/45103030> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/45103030> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/451030> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Software de Uso Doméstico (descontinuado a partir del cierre del 30 de Septiembre de 2018)"@es ;
-	skos:definition	"Empresas dedicadas a la fabricación de programas informáticos educativos y de entretenimiento para uso doméstico."@es ;
-	skos:notation	"45103030" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
 
 <http://data.ga-group.nl/ics/gics/2023/451030>
@@ -4665,118 +4382,6 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	skos:notation	"60101010" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
 
-<http://data.ga-group.nl/ics/gics/2023/60101020>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/60101020> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/601010> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"REIT Industriales"@es ;
-	skos:definition	"Empresas o fideicomisos dedicados a la adquisición, desarrollo, propiedad, alquiler, administración y operación de bienes inmuebles industriales. Se incluyen las empresas que operan almacenes industriales e inmuebles de distribución."@es ;
-	skos:notation	"60101020" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/60101030>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/60101030> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101030> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101030> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/601010> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"REIT de Hoteles y Propiedades de Recreación"@es ;
-	skos:definition	"Empresas o fideicomisos dedicados a la adquisición, desarrollo, posesión, alquiler, administración y operación de hoteles y propiedades de recreación."@es ;
-	skos:notation	"60101030" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/60101040>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/60101040> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101040> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101040> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/601010> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"REIT de Oficinas"@es ;
-	skos:definition	"Empresas o fideicomisos dedicados a la adquisición, desarrollo, posesión, alquiler, administración y operación de inmuebles para oficinas."@es ;
-	skos:notation	"60101040" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/60101050>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/60101050> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101050> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101050> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/601010> ;
-	pav:importedOn	"2026-05-29T16:09:04.379Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:07:50Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"REIT de Propiedades Dedicadas al Cuidado de Salud"@es , "건강관리 리츠 (새코드)"@ko ;
-	skos:definition	"Empresas o fideicomisos dedicados a la adquisición, desarrollo, posesión, alquiler, administración y operación de inmuebles para servicios médicos, incluyendo hospitales, asilos y centros de vida asistida."@es , "건강관리업을 제공하는 병원, 요양원, 생활지원 시설을 포함한 자산의 인수, 개발, 소유, 임대, 관리, 운영과 관련된 회사나 신탁회사."@ko ;
-	skos:notation	"60101050" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/60101060>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/60101060> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101060> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101060> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/601010> ;
-	pav:importedOn	"2026-05-29T16:08:45.475Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:07:46Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"REIT Residenciais (descontinuada)"@pt , "REIT Residenciales"@es , "住宅房地产投资信托（终止生效）"@zh , "住宅用不動産投資信託（廃止）"@ja , "주택용 리츠 (폐지)"@ko ;
-	skos:definition	"Empresas o fideicomisos dedicados a la adquisición, desarrollo, posesión, alquiler, administración y operación de inmuebles residenciales. Se incluyen las viviendas multifamiliares, departamentos, casas prefabricadas e inmuebles para alojamiento de estudiantes."@es , "Empresas ou Trustes envolvidos na aquisição, desenvolvimento, propriedade, arrendamento, gestão e operação de propriedades residenciais, incluindo casas para várias famílias, apartamentos, casas pré-fabricadas e propriedades para alojamento de estudantes."@pt , "从事住宅物业（包括多户住宅、公寓、流动房屋及学生公寓）的收购、开发、所有权、租赁、管理和经营的公司或信托公司。"@zh , "複数世帯住宅、アパート、プレハブ住宅、学生寮を含む住宅用不動産の��収、開発、所有、賃貸、管理、運営を行う会社または信託機関。"@ja , "다가구 주택, 아파트, 조립식 주택, 학생 숙소 자산을 포함한 주택 자산의 획득, 개발, 소유, 임대, 관리, 운영과 관련된 회사나 신탁."@ko ;
-	skos:notation	"60101060" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/60101070>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/60101070> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101070> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101070> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/601010> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"REIT Comerciales"@es ;
-	skos:definition	"Empresas o fideicomisos dedicados a la adquisición, desarrollo, posesión, alquiler, administración y operación de centros comerciales, tiendas al por menor y centros comerciales en barrios y comunidades."@es ;
-	skos:notation	"60101070" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/60101080>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/60101080> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101080> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101080> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/601010> ;
-	pav:importedOn	"2026-05-29T16:09:04.379Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:07:50Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"REIT Especializados"@es , "특수 리츠"@ko ;
-	skos:definition	"Empresas o fideicomisos dedicados a la adquisición, desarrollo, posesión, alquiler, administración y operación de propiedades no clasificados previamente. Incluye fideicomisos que operan e invierten en inmuebles de almacenamiento. Tambien incluye REIT que no generan la mayoria de sus ingresos del alquiler o arrendamiento de inmuebles."@es , "다른 곳에서 분류하지 않은 자산의 획득, 개발, 소유, 임대, 관리, 운영 관련 회사나 신탁회사. 보관시설을 운영하고 투자하는 신탁회사 포함. 매출과 소득의 대부분이 부동산 임대 운영에서 발생하지 않는 리츠 포함."@ko ;
-	skos:notation	"60101080" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
 <http://data.ga-group.nl/ics/gics/2023/601010>
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:IndustryClassifier , owl:NamedIndividual ;
@@ -4791,85 +4396,6 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
 	rdfs:label	"Diversified REITs"@en , "Diversifizierte REITs"@de , "Fideicomisos Hipotecarios de Inversión en Bienes Inmobiliarios (REIT)"@es , "REIT diversificati (nuovo nome)"@it , "REITs Diversificados (nome novo)"@pt , "SIIC diversifiées (nouveau nom)"@fr , "Диверсифицированные инвестиционные фонды недвижимости (новое наименование)"@ru , "各種不動産投資信託（新名称）"@ja , "多元化REIT （新名称）"@zh , "多元化房地產投資信託基金（新名稱）"@zh-hant , "다각화된 리츠 (새 명칭)"@ko ;
 	skos:notation	"601010" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/60102010>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/60102010> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60102010> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60102010> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/601020> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Actividades Diversificadas Relacionadas con Bienes Inmobiliarios"@es ;
-	skos:definition	"Empresas dedicadas a un espectro diverso de actividades relacionadas con los bienes inmobiliarios que incluyen el desarrollo y venta de bienes inmuebles, la administración de bienes inmuebles o servicios para bienes inmuebles, pero sin una línea de negocios dominante."@es ;
-	skos:notation	"60102010" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/60102020>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/60102020> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60102020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60102020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/601020> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Empresas Operadoras de Bienes Inmobiliarios"@es ;
-	skos:definition	"Empresas dedicadas a operar propiedades inmobiliarias para efectos de alquiler y administración."@es ;
-	skos:notation	"60102020" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/60102030>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/60102030> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60102030> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60102030> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/601020> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Desarrollo Inmobiliario"@es ;
-	skos:definition	"Empresas que desarrollan bienes inmuebles y venden las propiedades después de urbanizarlas. Se excluyen empresas clasificadas en la rama de Construcción de Viviendas."@es ;
-	skos:notation	"60102030" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/60102040>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:SubindustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/60102040> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60102040> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60102040> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/601020> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Servicios Inmobiliarios"@es ;
-	skos:definition	"Proveedores de servicios inmobiliarios, como agentes de bienes raíces, corredores y tasadores de bienes inmuebles."@es ;
-	skos:notation	"60102040" ;
-	tempo:validFrom	"2023-03-18"^^xsd:date .
-
-<http://data.ga-group.nl/ics/gics/2023/601020>
-	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-	a	gics:IndustryClassifier , owl:NamedIndividual ;
-	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/gics/601020> ;
-	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/601020> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/601020> ;
-	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/2023/6010> ;
-	pav:importedOn	"2026-05-29T16:12:47.952Z"^^xsd:dateTime ;
-	pav:lastRefreshedOn	"2026-05-30T14:54:50.074Z"^^xsd:dateTime ;
-	pav:sourceAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
-	rdfs:label	"Desarrollo y Administración de Bienes Inmobiliarios"@es ;
-	skos:notation	"601020" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
 
 <http://data.ga-group.nl/ics/gics/2023/60102510>
