@@ -51,11 +51,19 @@ if (sys.nframe() == 0L) {
 	Y[seq(1L,.N-.N%%2L,by=2), var:="A"]
 	Y[seq(2L,.N,by=2), gics:=G]
 	Y[seq(2L,.N,by=2), var:="B"]
+	Y[grepl("[1-9]", gics)] -> Y
+
+	Y[, .N, by=c("gics","accd","from","var")][N > 1L] -> Z
+	if (Z[,.N] > 0L) {
+		sink(stderr())
+		print(merge(Y,Z,by=c("gics","accd","from","var")))
+		sink()
+	}
 
 	rbind(X[, .(gics=`...1`,text=`...2`,desc=NA_character_, `accd`,`from`)],
 		X[, .(gics=`...3`,text=`...4`,desc=NA_character_,`accd`,`from`)],
 		X[, .(gics=`...5`,text=`...6`,desc=NA_character_,`accd`,`from`)],
-		dcast(Y[gics>" "],gics+accd+from~var,value.var="stuf")[,.(gics,A,B,accd,from)],
+		dcast(Y,gics+accd+from~var,value.var="stuf")[,.(gics,A,B,accd,from)],
 		use.names=FALSE) -> X
 
 	X[, lang:="en"]
