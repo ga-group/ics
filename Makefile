@@ -2,16 +2,23 @@ SHELL := /bin/zsh
 
 include .make.env
 
-all: .imported.ics.owl .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 .imported.gics2023 tmp/gics.out
-export: .inferred.replacements export.gics1999 export.gics2002 export.gics2003 export.gics2004 export.gics2005 export.gics2006 export.gics2008 export.gics2010 export.gics2014 export.gics2016 export.gics2018 export.gics2023
+GICS := gics1999 gics2002 gics2003 gics2004 gics2005 gics2006 gics2008 gics2010 gics2014 gics2016 gics2018 gics2023
+ICB := icb2005 icb2007 icb2019 icb2019_1
+
+all: .imported.ics.owl $(GICS:%=.imported.%) $(ICB:%=.imported.%) tmp/gics.out
+exgics: .inferred.replacements $(GICS:%=export.%)
+exicb: .inferred.icb-rplc $(ICB:%=export.%))
+export: exgics exicb
 check: check.gics
 
 TODAY := $(shell dateconv today)
 
-.inferred.replacements: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 .imported.gics2023
+.inferred.replacements: $(GICS:%=.imported.%)
+.inferred.icb-rplc: $(ICB:%=.imported.%)
 .inferred.gics: .inferred.replacements
+.inferred.icb: .inferred.icb-rplc
 
-tmp/gics.out: .imported.gics1999 .imported.gics2002 .imported.gics2003 .imported.gics2004 .imported.gics2005 .imported.gics2006 .imported.gics2008 .imported.gics2010 .imported.gics2014 .imported.gics2016 .imported.gics2018 .imported.gics2023
+tmp/gics.out: $(GICS:%=.imported.%)
 
 
 check.%: %.ttl shacl/%.shacl.ttl
