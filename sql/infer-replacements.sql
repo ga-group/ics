@@ -163,7 +163,9 @@ WHERE {
 	FILTER NOT EXISTS {
 	?y dct:isReplacedBy ?othr
 	}
+	BIND(IRI(CONCAT("http://data.ga-group.nl/ics/gics/",REPLACE(STR(?x),".*/",""))) AS ?u)
 	BIND(IRI(CONCAT("http://data.ga-group.nl/ics/gics/",REPLACE(STR(?y),".*/",""))) AS ?z)
+	FILTER(?u != ?z)
 }
 ;
 ECHO "+"$ROWCNT"\n";
