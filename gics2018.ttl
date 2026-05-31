@@ -20,7 +20,7 @@
 
 <http://data.ga-group.nl/ics/gics/2018/>
 	a	owl:Ontology ;
-	dcat:downloadURL	<https://github.com/ga-group/ics/gics.ttl> ;
+	dcat:downloadURL	<http://data.ga-group.nl/ics/gics2018.ttl> ;
 	dct:abstract	"""This ontology includes individuals representing the set of classification codes based on the principal business activity of the company.
 This set of classification codes is valid from 2018-09-29 till 2023-03-18."""@en ;
 	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;

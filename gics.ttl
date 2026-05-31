@@ -20,7 +20,7 @@
 
 <http://data.ga-group.nl/ics/gics/>
 	a	owl:Ontology ;
-	dcat:downloadURL	<https://github.com/ga-group/ics/gics.ttl> ;
+	dcat:downloadURL	<http://data.ga-group.nl/ics/gics.ttl> ;
 	dct:abstract	"""This ontology includes individuals representing the set of classification codes based on the principal business activity of the company.
 This graph contains all GICS codes that have ever been valid along with validity information."""@en ;
 	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
