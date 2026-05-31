@@ -13,6 +13,7 @@ PREFIX delta: <http://www.w3.org/2004/delta#>
 WITH <$u{TGTGR}>
 INSERT {
 	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , owl:NamedIndividual , ?tier ;
+	rdfs:isDefinedBy gics: ;
 	dct:isReplacedBy ?w ;
 	?hasparent ?parx ;
 	pav:derivedFrom [

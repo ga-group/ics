@@ -63,6 +63,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Oil & Gas Drilling"@en ;
 	skos:definition	"Manufacturers of oil rigs and drilling equipment, and providers of drilling services."@en ;
 	skos:notation	"10101010" ;
@@ -80,6 +81,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Oil & Gas Equipment & Services"@en ;
 	skos:definition	"Manufacturers of equipment for and providers of services to the oil and gas industry not classified elsewhere. Includes companies providing seismic data collection services."@en ;
 	skos:notation	"10101020" ;
@@ -97,6 +99,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Energy Equipment & Services"@en ;
 	skos:notation	"101010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -113,6 +116,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Integrated Oil & Gas"@en ;
 	skos:definition	"Integrated oil companies engaged in the exploration, production, refinement and distribution of oil and gas products."@en ;
 	skos:notation	"10102010" ;
@@ -130,6 +134,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Oil & Gas Exploration & Production"@en ;
 	skos:definition	"Companies engaged in the exploration and production of oil and gas not classified elsewhere."@en ;
 	skos:notation	"10102020" ;
@@ -147,6 +152,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Oil & Gas Refining & Marketing"@en ;
 	skos:definition	"Companies engaged in the refining and marketing of oil and gas products not classified in the Integrated Oil & Gas sub-industry."@en ;
 	skos:notation	"10102030" ;
@@ -164,6 +170,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Oil & Gas"@en ;
 	skos:notation	"101020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -180,6 +187,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Energy"@en ;
 	skos:notation	"1010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -195,6 +203,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Energy"@en ;
 	skos:notation	"10" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -211,6 +220,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Commodity Chemicals"@en ;
 	skos:definition	"Companies that primarily produce industrial chemicals and basic chemicals. Includes plastics, synthetic fibers, films, paints, explosives and petrochemicals. Excludes chemical companies classified in the Diversified Chemicals, Fertilizers & Agricultural Chemicals, Industrial Gases, or Specialty Chemicals sub-industries."@en ;
 	skos:notation	"15101010" ;
@@ -228,6 +238,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Diversified Chemicals"@en ;
 	skos:definition	"Manufacturers of a diversified range of chemical products not classified in the Industrial Gases, Commodity Chemicals, Specialty Chemicals or Fertilizers & Agricultural Chemicals sub-industries."@en ;
 	skos:notation	"15101020" ;
@@ -245,6 +256,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Fertilizers & Agricultural Chemicals"@en ;
 	skos:definition	"Producers of fertilizers, pesticides, potash or other agriculture-related chemicals not classified elsewhere."@en ;
 	skos:notation	"15101030" ;
@@ -262,6 +274,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Industrial Gases"@en ;
 	skos:definition	"Manufacturers of industrial gases."@en ;
 	skos:notation	"15101040" ;
@@ -279,6 +292,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Specialty Chemicals"@en ;
 	skos:definition	"Companies that primarily produce high value-added chemicals used in the manufacture of a wide variety of products, including fine chemicals, pigments, additives, advanced polymers and specialty coatings."@en ;
 	skos:notation	"15101050" ;
@@ -296,6 +310,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Chemicals"@en ;
 	skos:notation	"151010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -312,6 +327,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Construction Materials"@en ;
 	skos:definition	"Manufacturers of construction materials including sand, clay, gypsum, lime, aggregates, cement, concrete and bricks. Other finished or semi-finished building materials are classified in the Building Products sub-industry."@en ;
 	skos:notation	"15102010" ;
@@ -329,6 +345,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Construction Materials"@en ;
 	skos:notation	"151020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -345,6 +362,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Metal & Glass Containers"@en ;
 	skos:definition	"Manufacturers of metal, glass or plastic containers. Includes corks and caps."@en ;
 	skos:notation	"15103010" ;
@@ -362,6 +380,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Paper Packaging"@en ;
 	skos:definition	"Manufacturers of paper and cardboard containers and packaging."@en ;
 	skos:notation	"15103020" ;
@@ -379,6 +398,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Containers & Packaging"@en ;
 	skos:notation	"151030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -395,6 +415,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Aluminum"@en ;
 	skos:definition	"Producers of aluminum and related products, including companies that mine or process bauxite and companies that recycle aluminum to produce finished or semi-finished products. Excludes companies that primarily produce aluminum building materials classified in the Building Products sub-industry."@en ;
 	skos:notation	"15104010" ;
@@ -412,6 +433,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Diversified Metals & Mining"@en ;
 	skos:definition	"Companies engaged in diversified production or extraction of metals and minerals not classified elsewhere. Includes companies that are primarily involved in coal mining or production."@en ;
 	skos:notation	"15104020" ;
@@ -429,6 +451,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Gold"@en ;
 	skos:definition	"Producers of gold and related products, including companies that mine or process gold and the South African finance houses which primarily invest in, but do not operate, gold mines."@en ;
 	skos:notation	"15104030" ;
@@ -446,6 +469,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Precious Metals & Minerals"@en ;
 	skos:definition	"Companies mining precious metals and minerals not classified in the Gold sub-industry. Includes companies primarily mining platinum."@en ;
 	skos:notation	"15104040" ;
@@ -463,6 +487,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Steel"@en ;
 	skos:definition	"Producers of iron and steel and related products"@en ;
 	skos:notation	"15104050" ;
@@ -480,6 +505,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Metals & Mining"@en ;
 	skos:notation	"151040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -496,6 +522,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Forest Products"@en ;
 	skos:definition	"Manufacturers of timber and related wood products. Includes lumber for the building industry."@en ;
 	skos:notation	"15105010" ;
@@ -513,6 +540,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Paper Products"@en ;
 	skos:definition	"Manufacturers of all grades of paper. Excludes companies specializing in paper packaging classified in the Paper Packaging sub-industry."@en ;
 	skos:notation	"15105020" ;
@@ -530,6 +558,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Paper & Forest Products"@en ;
 	skos:notation	"151050" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -546,6 +575,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Materials"@en ;
 	skos:notation	"1510" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -561,6 +591,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Materials"@en ;
 	skos:notation	"15" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -577,6 +608,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Aerospace & Defense"@en ;
 	skos:definition	"Manufacturers of civil or military aerospace and defense equipment, parts or products. Includes defense electronics and space equipment."@en ;
 	skos:notation	"20101010" ;
@@ -594,6 +626,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Aerospace & Defense"@en ;
 	skos:notation	"201010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -610,6 +643,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Building Products"@en ;
 	skos:definition	"Manufacturers of building components and home improvement products and equipment. Excludes lumber and plywood classified under Forest Products and cement and other materials classified in the Construction Materials sub-industry."@en ;
 	skos:notation	"20102010" ;
@@ -627,6 +661,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Building Products"@en ;
 	skos:notation	"201020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -643,6 +678,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Construction & Engineering"@en ;
 	skos:definition	"Companies engaged in primarily non-residential construction. Includes civil engineering companies and large-scale contractors. Excludes companies classified in the Homebuilding sub-industry."@en ;
 	skos:notation	"20103010" ;
@@ -660,6 +696,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Construction & Engineering"@en ;
 	skos:notation	"201030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -676,6 +713,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Electrical Components & Equipment"@en ;
 	skos:definition	"Companies that produce electric cables and wires, electrical components or equipment not classified in the Heavy Electrical Equipment sub-industry."@en ;
 	skos:notation	"20104010" ;
@@ -693,6 +731,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Heavy Electrical Equipment"@en ;
 	skos:definition	"Manufacturers of power-generating equipment and other heavy electrical equipment, including power turbines, heavy electrical machinery intended for fixed-use and large electrical systems. Excludes cables and wires, classified in the Electrical Components & Equipment sub-industry."@en ;
 	skos:notation	"20104020" ;
@@ -710,6 +749,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Electrical Equipment"@en ;
 	skos:notation	"201040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -726,6 +766,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Industrial Conglomerates"@en ;
 	skos:definition	"Diversified industrial companies with business activities in three or more of the Energy, Industrials, Materials, Consumer Discretionary, Health Care and Information Technology sectors, none of which contributes a majority of revenues. Excludes companies classified in the Multi-Sector Holdings sub-industry."@en ;
 	skos:notation	"20105010" ;
@@ -743,6 +784,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Industrial Conglomerates"@en ;
 	skos:notation	"201050" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -759,6 +801,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Construction & Farm Machinery"@en ;
 	skos:definition	"Manufacturers of heavy duty trucks, rolling machinery, earth-moving and construction equipment, heavy farm machinery and manufacturers of related parts. Includes shipbuilding."@en ;
 	skos:notation	"20106010" ;
@@ -776,6 +819,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Industrial Machinery"@en ;
 	skos:definition	"Manufacturers of industrial machinery and industrial components. Includes companies that manufacture presses, machine tools, compressors, pollution control equipment, elevators, escalators, insulators, pumps, roller bearings and other metal fabrications."@en ;
 	skos:notation	"20106020" ;
@@ -793,6 +837,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Machinery"@en ;
 	skos:notation	"201060" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -809,6 +854,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Trading Companies & Distributors"@en ;
 	skos:definition	"Trading companies and other distributors of industrial equipment and products."@en ;
 	skos:notation	"20107010" ;
@@ -826,6 +872,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Trading Companies & Distributors"@en ;
 	skos:notation	"201070" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -842,6 +889,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Capital Goods"@en ;
 	skos:notation	"2010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -858,6 +906,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Commercial Printing"@en ;
 	skos:definition	"Companies providing commercial printing services. Excludes printers primarily serving the media industry, classified under Publishing & Printing."@en ;
 	skos:notation	"20201010" ;
@@ -875,6 +924,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Data Processing Services"@en ;
 	skos:definition	"Providers of commercial electronic data processing services."@en ;
 	skos:notation	"20201020" ;
@@ -892,6 +942,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Diversified Commercial Services"@en ;
 	skos:definition	"Companies providing commercial and consumer services not classified elsewhere. Includes commercial cleaning services, education services and security services."@en ;
 	skos:notation	"20201030" ;
@@ -910,6 +961,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Employment Services"@en ;
 	skos:definition	"Employment agencies and related services."@en ;
 	skos:notation	"20201040" ;
@@ -927,6 +979,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Environmental Services"@en ;
 	skos:definition	"Providers of environmental services. Includes waste management and pollution control services. Excludes large-scale water treatment systems classified in the Water Utilities sub-industry."@en ;
 	skos:notation	"20201050" ;
@@ -944,6 +997,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Office Services & Supplies"@en ;
 	skos:definition	"Providers of office services and manufacturers of office supplies and equipment not classified elsewhere."@en ;
 	skos:notation	"20201060" ;
@@ -961,6 +1015,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Commercial Services & Supplies"@en ;
 	skos:notation	"202010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -977,6 +1032,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Commercial Services & Supplies"@en ;
 	skos:notation	"2020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -993,6 +1049,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Air Freight & Couriers"@en ;
 	skos:definition	"Companies providing air freight transportation and logistics services, including package and mail delivery and customs agents. Excludes those companies classified in the Airlines or Marine sub-industries."@en ;
 	skos:notation	"20301010" ;
@@ -1010,6 +1067,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Air Freight & Couriers"@en ;
 	skos:notation	"203010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1026,6 +1084,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Airlines"@en ;
 	skos:definition	"Companies providing primarily passenger air transportation."@en ;
 	skos:notation	"20302010" ;
@@ -1043,6 +1102,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Airlines"@en ;
 	skos:notation	"203020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1059,6 +1119,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Marine"@en ;
 	skos:definition	"Companies providing goods or passenger maritime transportation. Excludes cruise-ships classified in the Hotels sub-industry."@en ;
 	skos:notation	"20303010" ;
@@ -1076,6 +1137,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Marine"@en ;
 	skos:notation	"203030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1092,6 +1154,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Railroads"@en ;
 	skos:definition	"Companies providing primarily goods and passenger rail transportation."@en ;
 	skos:notation	"20304010" ;
@@ -1109,6 +1172,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Trucking"@en ;
 	skos:definition	"Companies providing primarily goods and passenger land transportation. Includes vehicle rental and taxi companies."@en ;
 	skos:notation	"20304020" ;
@@ -1126,6 +1190,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Road & Rail"@en ;
 	skos:notation	"203040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1142,6 +1207,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Airport Services"@en ;
 	skos:definition	"Operators of airports and companies providing related services."@en ;
 	skos:notation	"20305010" ;
@@ -1159,6 +1225,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Highways & Railtracks"@en ;
 	skos:definition	"Owners and operators of roads, tunnels and railtracks."@en ;
 	skos:notation	"20305020" ;
@@ -1176,6 +1243,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Marine Ports & Services"@en ;
 	skos:definition	"Owners and operators of marine ports and related services."@en ;
 	skos:notation	"20305030" ;
@@ -1193,6 +1261,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Transportation Infrastructure"@en ;
 	skos:notation	"203050" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1209,6 +1278,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Transportation"@en ;
 	skos:notation	"2030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1224,6 +1294,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Industrials"@en ;
 	skos:notation	"20" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1240,6 +1311,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Auto Parts & Equipment"@en ;
 	skos:definition	"Manufacturers of parts and accessories for automobiles and motorcycles. Excludes companies classified in the Tires & Rubber sub-industry."@en ;
 	skos:notation	"25101010" ;
@@ -1257,6 +1329,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Tires & Rubber"@en ;
 	skos:definition	"Manufacturers of tires and rubber."@en ;
 	skos:notation	"25101020" ;
@@ -1274,6 +1347,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Auto Components"@en ;
 	skos:notation	"251010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1290,6 +1364,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Automobile Manufacturers"@en ;
 	skos:definition	"Companies that produce mainly passenger automobiles and light trucks. Excludes companies producing mainly motorcycles and three-wheelers classified in the Motorcycle Manufacturers sub-industry and heavy duty trucks classified in the Construction & Farm Machinery sub-industry."@en ;
 	skos:notation	"25102010" ;
@@ -1307,6 +1382,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Motorcycle Manufacturers"@en ;
 	skos:definition	"Companies that produce motorcycles, scooters or three-wheelers. Excludes bicycles classified in Leisure Products & Toys."@en ;
 	skos:notation	"25102020" ;
@@ -1324,6 +1400,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Automobiles"@en ;
 	skos:notation	"251020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1340,6 +1417,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Automobiles & Components"@en ;
 	skos:notation	"2510" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1356,6 +1434,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Consumer Electronics"@en ;
 	skos:definition	"Manufacturers of consumer electronics products including TVs, VCRs, hi-fi equipment, game consoles and related products. Excludes personal home computer manufacturers classified in the Computer Hardware sub-industry, and electric household appliances classified in the Household Appliances sub-industry."@en ;
 	skos:notation	"25201010" ;
@@ -1373,6 +1452,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Home Furnishings"@en ;
 	skos:definition	"Manufacturers of soft home furnishings or furniture, including upholstery, carpets and wall-coverings."@en ;
 	skos:notation	"25201020" ;
@@ -1390,6 +1470,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Homebuilding"@en ;
 	skos:definition	"Residential construction companies. Includes manufacturers of prefabricated houses and semi-fixed manufactured homes."@en ;
 	skos:notation	"25201030" ;
@@ -1407,6 +1488,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Household Appliances"@en ;
 	skos:definition	"Manufacturers of electric household appliances and related products.  Includes manufacturers of power and hand tools, including garden improvement tools. Excludes TVs and other audio and video products classified in the Consumer Electronics sub-industry and personal computers classified in the Computer Hardware sub-industry."@en ;
 	skos:notation	"25201040" ;
@@ -1424,6 +1506,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Housewares & Specialties"@en ;
 	skos:definition	"Manufacturers of durable household products, including cutlery, cookware, glassware, crystal, silverware, utensils, kitchenware and consumer specialties not classified elsewhere."@en ;
 	skos:notation	"25201050" ;
@@ -1441,6 +1524,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Household Durables"@en ;
 	skos:notation	"252010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1457,6 +1541,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Leisure Products"@en ;
 	skos:definition	"Manufacturers of leisure products and equipment including sports equipment, bicycles and toys."@en ;
 	skos:notation	"25202010" ;
@@ -1474,6 +1559,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Photographic Products"@en ;
 	skos:definition	"Manufacturers of photographic equipment and related products."@en ;
 	skos:notation	"25202020" ;
@@ -1491,6 +1577,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Leisure Equipment & Products"@en ;
 	skos:notation	"252020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1507,6 +1594,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Apparel & Accessories"@en ;
 	skos:definition	"Manufacturers of apparel and accessories. Includes companies primarily producing designer handbags, wallets, luggage, jewelry and watches. Excludes shoes classified in the Footwear sub-industry."@en ;
 	skos:notation	"25203010" ;
@@ -1524,6 +1612,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Footwear"@en ;
 	skos:definition	"Manufacturers of footwear. Includes sport and leather shoes."@en ;
 	skos:notation	"25203020" ;
@@ -1541,6 +1630,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Textiles"@en ;
 	skos:definition	"Manufacturers of textile and related products not classified in the Apparel & Accessories, Footwear or Home Furnishings sub-industries."@en ;
 	skos:notation	"25203030" ;
@@ -1558,6 +1648,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Textiles & Apparel"@en ;
 	skos:notation	"252030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1574,6 +1665,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Consumer Durables & Apparel"@en ;
 	skos:notation	"2520" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1590,6 +1682,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Casinos & Gaming"@en ;
 	skos:definition	"Owners and operators of casinos and gaming facilities. Includes companies providing lottery and betting services."@en ;
 	skos:notation	"25301010" ;
@@ -1607,6 +1700,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Hotels"@en ;
 	skos:definition	"Owners and operators of hotels, resorts and cruise-ships. Includes travel agencies, tour operators and related services not classified elsewhere . Excludes casino-hotels classified in the Casinos & Gaming sub-industry."@en ;
 	skos:notation	"25301020" ;
@@ -1624,6 +1718,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Leisure Facilities"@en ;
 	skos:definition	"Owners and operators of leisure facilities, including sport and fitness centers, stadiums, golf courses and amusement parks not classified in the Movies & Entertainment sub-industry."@en ;
 	skos:notation	"25301030" ;
@@ -1641,6 +1736,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Restaurants"@en ;
 	skos:definition	"Owners and operators of restaurants, bars, pubs, fast-food or take-out facilities. Includes companies that provide food catering services."@en ;
 	skos:notation	"25301040" ;
@@ -1658,6 +1754,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Hotels Restaurants & Leisure"@en ;
 	skos:notation	"253010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1674,6 +1771,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Hotels Restaurants & Leisure"@en ;
 	skos:notation	"2530" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1691,6 +1789,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Advertising"@en ;
 	skos:definition	"Companies providing advertising, marketing or public relations services."@en ;
 	skos:notation	"25401010" ;
@@ -1709,6 +1808,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Broadcasting & Cable TV"@en ;
 	skos:definition	"Owners and operators of television or radio broadcasting systems and providers of cable or satellite television services. including programming."@en ;
 	skos:notation	"25401020" ;
@@ -1727,6 +1827,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Movies & Entertainment"@en ;
 	skos:definition	"Companies that engage in producing and selling entertainment products and services, including companies engaged in the production, distribution and screening of movies and television shows, producers and distributors of music, entertainment theaters and sports teams."@en ;
 	skos:notation	"25401030" ;
@@ -1745,6 +1846,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Publishing & Printing"@en ;
 	skos:definition	"Publishers of newspapers, magazines and books, printers for the media industry, and providers of information in print or electronic formats."@en ;
 	skos:notation	"25401040" ;
@@ -1763,6 +1865,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Media"@en ;
 	skos:notation	"254010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1780,6 +1883,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Media"@en ;
 	skos:notation	"2540" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1796,6 +1900,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Distributors"@en ;
 	skos:definition	"Distributors and wholesalers of general merchandise not classified elsewhere. Includes vehicle distributors."@en ;
 	skos:notation	"25501010" ;
@@ -1813,6 +1918,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Distributors"@en ;
 	skos:notation	"255010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1829,6 +1935,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Catalog Retail"@en ;
 	skos:definition	"Mail order and TV home shopping retailers. Includes companies that provide door-to-door retail."@en ;
 	skos:notation	"25502010" ;
@@ -1846,6 +1953,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Internet Retail"@en ;
 	skos:definition	"Companies providing retail services primarily on the internet, not classified elsewhere."@en ;
 	skos:notation	"25502020" ;
@@ -1863,6 +1971,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Internet & Catalog Retail"@en ;
 	skos:notation	"255020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1879,6 +1988,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Department Stores"@en ;
 	skos:definition	"Owners and operators of department stores."@en ;
 	skos:notation	"25503010" ;
@@ -1896,6 +2006,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"General Merchandise Stores"@en ;
 	skos:definition	"Owners and operators of stores offering diversified general merchandise. Includes stores offering goods at discounted prices and \"members-only\" stores."@en ;
 	skos:notation	"25503020" ;
@@ -1913,6 +2024,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Multiline Retail"@en ;
 	skos:notation	"255030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -1929,6 +2041,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Apparel Retail"@en ;
 	skos:definition	"Retailers specialized mainly in apparel and accessories."@en ;
 	skos:notation	"25504010" ;
@@ -1946,6 +2059,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Computer & Electronics Retail"@en ;
 	skos:definition	"Owners and operators of consumer electronics, computers, video and related products retail stores."@en ;
 	skos:notation	"25504020" ;
@@ -1963,6 +2077,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Home Improvement Retail"@en ;
 	skos:definition	"Owners and operators of home and garden improvement retail stores. Includes stores offering building materials and supplies."@en ;
 	skos:notation	"25504030" ;
@@ -1980,6 +2095,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Specialty Stores"@en ;
 	skos:definition	"Owners and operators of specialty retail stores not classified elsewhere. Includes toy stores, office supply stores and automotive retail."@en ;
 	skos:notation	"25504040" ;
@@ -1997,6 +2113,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Specialty Retail"@en ;
 	skos:notation	"255040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2013,6 +2130,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Retailing"@en ;
 	skos:notation	"2550" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2028,6 +2146,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Consumer Discretionary"@en ;
 	skos:notation	"25" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2044,6 +2163,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Drug Retail"@en ;
 	skos:definition	"Owners and operators of primarily drug retail stores and pharmacies."@en ;
 	skos:notation	"30101010" ;
@@ -2061,6 +2181,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Food Distributors"@en ;
 	skos:definition	"Distributors of food products to other companies and not directly to the consumer."@en ;
 	skos:notation	"30101020" ;
@@ -2078,6 +2199,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Food Retail"@en ;
 	skos:definition	"Owners and operators of primarily food retail stores."@en ;
 	skos:notation	"30101030" ;
@@ -2095,6 +2217,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Food & Drug Retailing"@en ;
 	skos:notation	"301010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2111,6 +2234,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Food & Drug Retailing"@en ;
 	skos:notation	"3010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2127,6 +2251,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Brewers"@en ;
 	skos:definition	"Producers of beer and malt liquors. Includes breweries not classified in the Restaurants sub-industry."@en ;
 	skos:notation	"30201010" ;
@@ -2144,6 +2269,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Distillers & Vintners"@en ;
 	skos:definition	"Distillers, vintners and producers of alcoholic beverages not classified in the Brewers sub-industry."@en ;
 	skos:notation	"30201020" ;
@@ -2161,6 +2287,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Soft Drinks"@en ;
 	skos:definition	"Producers of non-alcoholic beverages including mineral waters. Excludes producers of milk classified in the Packaged Foods sub-industry."@en ;
 	skos:notation	"30201030" ;
@@ -2178,6 +2305,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Beverages"@en ;
 	skos:notation	"302010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2194,6 +2322,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Agricultural Products"@en ;
 	skos:definition	"Producers of agricultural products. Includes crop growers, owners of plantations and companies that produce and process foods but do not package and market them. Excludes companies classified in the Forest Products sub-industry and those that package and market the food products classified in the Packaged Foods sub-industry."@en ;
 	skos:notation	"30202010" ;
@@ -2212,6 +2341,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Meat Poultry & Fish"@en ;
 	skos:definition	"Companies that raise livestock or poultry, fishing companies and other producers of meat, poultry or fish products."@en ;
 	skos:notation	"30202020" ;
@@ -2229,6 +2359,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Packaged Foods"@en ;
 	skos:definition	"Producers of packaged foods including dairy products, fruit juices and pet foods."@en ;
 	skos:notation	"30202030" ;
@@ -2246,6 +2377,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Food Products"@en ;
 	skos:notation	"302020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2262,6 +2394,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Tobacco"@en ;
 	skos:definition	"Manufacturers of cigarettes and other tobacco products."@en ;
 	skos:notation	"30203010" ;
@@ -2279,6 +2412,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Tobacco"@en ;
 	skos:notation	"302030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2295,6 +2429,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Food Beverage & Tobacco"@en ;
 	skos:notation	"3020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2311,6 +2446,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Household Products"@en ;
 	skos:definition	"Producers of non-durable household products, including detergents, soaps, diapers and other tissue and household paper products not classified in the Paper Products sub-industry."@en ;
 	skos:notation	"30301010" ;
@@ -2328,6 +2464,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Household Products"@en ;
 	skos:notation	"303010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2344,6 +2481,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Personal Products"@en ;
 	skos:definition	"Manufacturers of personal and beauty care products, including cosmetics and perfumes."@en ;
 	skos:notation	"30302010" ;
@@ -2361,6 +2499,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Personal Products"@en ;
 	skos:notation	"303020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2377,6 +2516,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Household & Personal Products"@en ;
 	skos:notation	"3030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2392,6 +2532,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Consumer Staples"@en ;
 	skos:notation	"30" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2408,6 +2549,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Health Care Equipment"@en ;
 	skos:definition	"Manufacturers of health care equipment and devices. Includes medical electronic precision instruments.  Includes drug delivery systems."@en ;
 	skos:notation	"35101010" ;
@@ -2425,6 +2567,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Health Care Supplies"@en ;
 	skos:definition	"Manufacturers of health care supplies and medical products not classified elsewhere. Includes eye care products."@en ;
 	skos:notation	"35101020" ;
@@ -2442,6 +2585,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Health Care Equipment & Supplies"@en ;
 	skos:notation	"351010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2458,6 +2602,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Health Care Distributors & Services"@en ;
 	skos:definition	"Distributors and wholesalers of health care products and providers of health care services not classified elsewhere. Includes dialysis centers and lab testing services."@en ;
 	skos:notation	"35102010" ;
@@ -2475,6 +2620,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Health Care Facilities"@en ;
 	skos:definition	"Owners and operators of health care facilities, including hospitals, nursing homes, rehabilitation and retirement centers, animal hospitals, cemeteries and funeral homes."@en ;
 	skos:notation	"35102020" ;
@@ -2492,6 +2638,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Managed Health Care"@en ;
 	skos:definition	"Owners and operators of Health Maintenance Organizations (HMOs) and other managed plans."@en ;
 	skos:notation	"35102030" ;
@@ -2509,6 +2656,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Health Care Providers & Services"@en ;
 	skos:notation	"351020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2525,6 +2673,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Health Care Equipment & Services"@en ;
 	skos:notation	"3510" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2541,6 +2690,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Biotechnology"@en ;
 	skos:definition	"Companies primarily involved in the development, manufacturing or marketing of products based on advanced biotechnology research."@en ;
 	skos:notation	"35201010" ;
@@ -2558,6 +2708,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Biotechnology"@en ;
 	skos:notation	"352010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2574,6 +2725,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Pharmaceuticals"@en ;
 	skos:definition	"Companies engaged in the research, development or production of pharmaceuticals. Includes veterinary drugs."@en ;
 	skos:notation	"35202010" ;
@@ -2591,6 +2743,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Pharmaceuticals"@en ;
 	skos:notation	"352020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2607,6 +2760,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Pharmaceuticals & Biotechnology"@en ;
 	skos:notation	"3520" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2622,6 +2776,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Health Care"@en ;
 	skos:notation	"35" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2638,6 +2793,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Banks"@en ;
 	skos:definition	"All banks, including savings & loans and mortgage banks. Excludes investment banks classified in the Diversified Financial Services sub-industry.  Excludes merchant banks."@en ;
 	skos:notation	"40101010" ;
@@ -2655,6 +2811,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Banks"@en ;
 	skos:notation	"401010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2671,6 +2828,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Banks"@en ;
 	skos:notation	"4010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2688,6 +2846,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Consumer Finance"@en ;
 	skos:definition	"Providers of consumer finance services, including personal credit, credit cards, lease financing, mortgage lenders, travel-related money services and pawn shops."@en ;
 	skos:notation	"40201010" ;
@@ -2705,6 +2864,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Diversified Financial Services"@en ;
 	skos:definition	"Providers of a diversified range of financial services and/or with substantial interests in banking and/or insurance activities, not classified in the Banks or Insurance industries or the Consumer Finance sub-industry. Includes investment management firms and merchant banks."@en ;
 	skos:notation	"40201020" ;
@@ -2722,6 +2882,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Multi-Sector Holdings"@en ;
 	skos:definition	"A company with significantly diversified holdings across three or more sectors, none of which contributes a majority of profit and/or sales not classified in the Industrial Conglomerates sub-industry."@en ;
 	skos:notation	"40201030" ;
@@ -2739,6 +2900,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Diversified Financials"@en ;
 	skos:notation	"402010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2755,6 +2917,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Diversified Financials"@en ;
 	skos:notation	"4020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2771,6 +2934,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Insurance Brokers"@en ;
 	skos:definition	"Insurance and reinsurance brokerage firms."@en ;
 	skos:notation	"40301010" ;
@@ -2788,6 +2952,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Life & Health Insurance"@en ;
 	skos:definition	"Companies providing primarily life, disability, indemnity or supplemental health insurance. Excludes managed care companies classified in the Managed Health Care sub-industry."@en ;
 	skos:notation	"40301020" ;
@@ -2805,6 +2970,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Multi-line Insurance"@en ;
 	skos:definition	"Insurance companies with diversified interests in life, health and property and casualty insurance."@en ;
 	skos:notation	"40301030" ;
@@ -2822,6 +2988,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Property & Casualty Insurance"@en ;
 	skos:definition	"Companies providing primarily property and casualty insurance."@en ;
 	skos:notation	"40301040" ;
@@ -2839,6 +3006,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Reinsurance"@en ;
 	skos:definition	"Companies providing primarily reinsurance."@en ;
 	skos:notation	"40301050" ;
@@ -2856,6 +3024,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Insurance"@en ;
 	skos:notation	"403010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2872,6 +3041,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Insurance"@en ;
 	skos:notation	"4030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2888,6 +3058,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Real Estate Investment Trusts"@en ;
 	skos:definition	"Real estate investment trusts (REITs)."@en ;
 	skos:notation	"40401010" ;
@@ -2905,6 +3076,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Real Estate Management & Development"@en ;
 	skos:definition	"Companies engaged in real estate ownership, development or management."@en ;
 	skos:notation	"40401020" ;
@@ -2922,6 +3094,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Real Estate"@en ;
 	skos:notation	"404010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2939,6 +3112,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Real Estate"@en ;
 	skos:notation	"4040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2954,6 +3128,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Financials"@en ;
 	skos:notation	"40" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -2970,6 +3145,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Internet Software & Services"@en ;
 	skos:definition	"Companies developing and marketing internet software and/or providing internet services including online databases and interactive services, web address registration services, database construction and internet design services. Excludes companies classified in the Internet Retail sub-industry."@en ;
 	skos:notation	"45101010" ;
@@ -2987,6 +3163,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Internet Software & Services"@en ;
 	skos:notation	"451010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3003,6 +3180,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"IT Consulting & Services"@en ;
 	skos:definition	"Providers of information technology services not classified in the Data Processing Services or Internet Software & Services sub-industries. Includes information technology consulting and information management services."@en ;
 	skos:notation	"45102010" ;
@@ -3020,6 +3198,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"IT Consulting & Services"@en ;
 	skos:notation	"451020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3036,6 +3215,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Application Software"@en ;
 	skos:definition	"Companies engaged in developing and producing software designed for specialized applications for the business or consumer market. Includes enterprise, technical and entertainment software. Excludes companies producing systems or database management software classified in the Systems Software sub-industry."@en ;
 	skos:notation	"45103010" ;
@@ -3053,6 +3233,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Systems Software"@en ;
 	skos:definition	"Companies engaged in developing and producing systems and database management software."@en ;
 	skos:notation	"45103020" ;
@@ -3070,6 +3251,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Software"@en ;
 	skos:notation	"451030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3086,6 +3268,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Software & Services"@en ;
 	skos:notation	"4510" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3103,6 +3286,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Networking Equipment"@en ;
 	skos:definition	"Manufacturers of computer networking equipment and products, including LANs, WANs and routers."@en ;
 	skos:notation	"45201010" ;
@@ -3120,6 +3304,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Telecommunications Equipment"@en ;
 	skos:definition	"Manufacturers of telecommunication equipment, including telephones, switchboards and exchanges. Excludes companies classified in the Networking Equipment sub-industry."@en ;
 	skos:notation	"45201020" ;
@@ -3137,6 +3322,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Communications Equipment"@en ;
 	skos:notation	"452010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3154,6 +3340,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Computer Hardware"@en ;
 	skos:definition	"Manufacturers of personal computers, servers, mainframes and workstations. Includes manufacturers of Automatic Teller Machines (ATMs). Excludes manufacturers of copiers, faxes and related products classified in the Office Electronics sub-industry."@en ;
 	skos:notation	"45202010" ;
@@ -3172,6 +3359,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Computer Storage & Peripherals"@en ;
 	skos:definition	"Manufacturers of electronic computer components and peripherals. Includes data storage components, motherboards, audio and video cards, monitors, keyboards, printers and other peripherals. Excludes semiconductors classified in the Semiconductors sub-industry."@en ;
 	skos:notation	"45202020" ;
@@ -3189,6 +3377,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Computers & Peripherals"@en ;
 	skos:notation	"452020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3205,6 +3394,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Electronic Equipment & Instruments"@en ;
 	skos:definition	"Producers and/or distributors of electronic equipment, instruments or components. Includes analytical, electronic test and measurement instruments, electronic components, connection devices and equipment not classified elsewhere."@en ;
 	skos:notation	"45203010" ;
@@ -3222,6 +3412,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Electronic Equipment & Instruments"@en ;
 	skos:notation	"452030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3238,6 +3429,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Office Electronics"@en ;
 	skos:definition	"Manufacturers of office electronic equipment including copiers and faxes."@en ;
 	skos:notation	"45204010" ;
@@ -3255,6 +3447,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Office Electronics"@en ;
 	skos:notation	"452040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3272,6 +3465,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Semiconductor Equipment"@en ;
 	skos:definition	"Manufacturers of semiconductor equipment."@en ;
 	skos:notation	"45205010" ;
@@ -3290,6 +3484,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Semiconductors"@en ;
 	skos:definition	"Manufacturers of semiconductors and related products."@en ;
 	skos:notation	"45205020" ;
@@ -3307,6 +3502,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Semiconductor Equipment & Products"@en ;
 	skos:notation	"452050" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3323,6 +3519,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Technology Hardware & Equipment"@en ;
 	skos:notation	"4520" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3338,6 +3535,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Information Technology"@en ;
 	skos:notation	"45" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3354,6 +3552,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Alternative Carriers"@en ;
 	skos:definition	"Providers of communications and high-density data transmission services primarily through a high bandwidth/fiber-optic cable network."@en ;
 	skos:notation	"50101010" ;
@@ -3371,6 +3570,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Integrated Telecommunication Services"@en ;
 	skos:definition	"Operators of primarily fixed-line telecommunications networks and companies providing both wireless and fixed-line telecommunications services not classified elsewhere."@en ;
 	skos:notation	"50101020" ;
@@ -3388,6 +3588,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Diversified Telecommunication Services"@en ;
 	skos:notation	"501010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3404,6 +3605,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Wireless Telecommunication Services"@en ;
 	skos:definition	"Providers of primarily cellular or wireless telecommunication services, including paging services."@en ;
 	skos:notation	"50102010" ;
@@ -3421,6 +3623,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Wireless Telecommunication Services"@en ;
 	skos:notation	"501020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3437,6 +3640,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Telecommunication Services"@en ;
 	skos:notation	"5010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3452,6 +3656,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Telecommunication Services"@en ;
 	skos:notation	"50" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3468,6 +3673,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Electric Utilities"@en ;
 	skos:definition	"Companies that produce or distribute electricity. Includes both nuclear and non-nuclear facilities, as well as independent power producers."@en ;
 	skos:notation	"55101010" ;
@@ -3485,6 +3691,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Electric Utilities"@en ;
 	skos:notation	"551010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3501,6 +3708,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Gas Utilities"@en ;
 	skos:definition	"Distributors of natural and manufactured gas. Excludes companies primarily involved in gas exploration or production classified in Oil & Gas Exploration & Production sub-industry. Includes owners and operators of gas pipelines."@en ;
 	skos:notation	"55102010" ;
@@ -3518,6 +3726,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Gas Utilities"@en ;
 	skos:notation	"551020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3534,6 +3743,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Multi-Utilities"@en ;
 	skos:definition	"Utility companies with significantly diversified activities in the Electric Utilities, Gas Utilities and/or Water Utilities sub-industries not classified elsewhere."@en ;
 	skos:notation	"55103010" ;
@@ -3551,6 +3761,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Multi-Utilities"@en ;
 	skos:notation	"551030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3567,6 +3778,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Water Utilities"@en ;
 	skos:definition	"Companies that purchase and redistribute water to the end-consumer. Includes large-scale water treatment systems."@en ;
 	skos:notation	"55104010" ;
@@ -3584,6 +3796,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Water Utilities"@en ;
 	skos:notation	"551040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3600,6 +3813,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Utilities"@en ;
 	skos:notation	"5510" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -3615,6 +3829,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/gics/1999/> ;
 	rdfs:label	"Utilities"@en ;
 	skos:notation	"55" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;

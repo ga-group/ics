@@ -7,9 +7,6 @@ PREFIX fibo-fbc-fct-mkti: <https://spec.edmcouncil.org/fibo/ontology/FBC/Functio
 PREFIX fibo-fbc-pas-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/>
 PREFIX fibo-fnd-plc-vrt: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/>
 PREFIX fibo-fnd-arr-arr: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/>
-PREFIX gleif: <https://rdf.gleif.org/L1/>
-PREFIX lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
-PREFIX lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX pav: <http://purl.org/pav/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -25,6 +22,7 @@ CONSTRUCT {
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , owl:NamedIndividual , ?tier ;
 		skos:definition ?_desc ;
 		rdfs:label ?_text ;
+		rdfs:isDefinedBy ?_vgics ;
 		skos:notation ?gics ;
 		?hasparent ?_pgics ;
 		tempo:validFrom	?_from ;
@@ -39,6 +37,7 @@ WHERE {
 	BIND(NOW() AS ?now)
 	BIND(xsd:dateTime(COALESCE(?accd,"2019-06-07T09:41:30Z")) AS ?_accd)
 	BIND(COALESCE(?vers, SUBSTR(?from,1,4)) AS ?_vers)
+	BIND(IRI(CONCAT(STR(gics:),?_vers,'/')) AS ?_vgics)
 	BIND(IRI(CONCAT(STR(gics:),?_vers,'/',?gics)) AS ?_gics)
 	BIND(IRI(CONCAT(STR(gics:),?_vers,'/',SUBSTR(?gics,1,STRLEN(?gics)-2))) AS ?_pgics)
 	BIND(xsd:date(?from) AS ?_from)

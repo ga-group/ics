@@ -91,6 +91,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Oil & Gas Drilling"@en ;
 	skos:definition	"Drilling contractors or owners of drilling rigs that contract their services for drilling wells."@en ;
 	skos:notation	"10101010" ;
@@ -140,6 +141,7 @@ This Sub-Industry excludes oil spill services companies classified in the Enviro
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Oil & Gas Equipment & Services"@en ;
 	skos:definition	"""Manufacturers of equipment, including drilling rigs and equipment, and providers of supplies such as fractured silica and services to companies involved in the drilling, evaluation and completion of oil and gas wells.
 
@@ -166,6 +168,7 @@ This Sub-Industry excludes oil spill services companies classified in the Enviro
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Energy Equipment & Services"@en ;
 	skos:notation	"101010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -199,6 +202,7 @@ This Sub-Industry excludes oil spill services companies classified in the Enviro
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Integrated Oil & Gas"@en ;
 	skos:definition	"Integrated oil companies engaged in the exploration & production of oil and gas, as well as at least one other significant activity in either refining, marketing and transportation, or chemicals."@en ;
 	skos:notation	"10102010" ;
@@ -233,6 +237,7 @@ This Sub-Industry excludes oil spill services companies classified in the Enviro
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Oil & Gas Exploration & Production"@en ;
 	skos:definition	"Companies engaged in the exploration and production of oil and gas, not classified elsewhere."@en ;
 	skos:notation	"10102020" ;
@@ -304,6 +309,7 @@ This Sub-Industry excludes retail automotive stores and convenience stores that 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Oil & Gas Refining & Marketing"@en ;
 	skos:definition	"""Companies engaged in the refining and marketing of oil, gas and/or refined products not classified in the Integrated Oil & Gas or Independent Power Producers & Energy Traders Sub-Industries.
 
@@ -357,6 +363,7 @@ This Sub-Industry excludes natural gas transmission companies that operate gas p
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Oil & Gas Storage & Transportation"@en ;
 	skos:definition	"""Companies engaged in the storage and/or transportation of oil, gas and/or refined products, including diversified midstream natural gas companies, oil and refined product pipelines, coal slurry pipelines and oil & gas shipping companies.
 
@@ -408,6 +415,7 @@ This Sub-Industry excludes companies primarily producing gases classified in the
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Coal & Consumable Fuels"@en ;
 	skos:definition	"""Companies primarily involved in the production and mining of coal, related products and other consumable fuels related to the generation of energy such as bituminous (thermal) coal, uranium, biomass, hydrogen, and petroleum coke.
 
@@ -442,6 +450,7 @@ This Sub-Industry excludes companies primarily producing gases classified in the
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Oil, Gas & Consumable Fuels"@en ;
 	skos:notation	"101020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -463,6 +472,7 @@ This Sub-Industry excludes companies primarily producing gases classified in the
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Energy"@en ;
 	skos:notation	"1010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -483,6 +493,7 @@ This Sub-Industry excludes companies primarily producing gases classified in the
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Energy"@en ;
 	skos:notation	"10" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -542,6 +553,7 @@ This Sub-Industry excludes chemical companies classified in the Diversified Chem
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Commodity Chemicals"@en ;
 	skos:definition	"""Companies that primarily produce industrial chemicals and basic chemicals.
 
@@ -580,6 +592,7 @@ This Sub-Industry excludes chemical companies classified in the Diversified Chem
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Chemicals"@en ;
 	skos:definition	"Manufacturers of a diversified range of chemical products not classified in the Industrial Gases, Commodity Chemicals, Specialty Chemicals or Fertilizers & Agricultural Chemicals Sub-Industries."@en ;
 	skos:notation	"15101020" ;
@@ -614,6 +627,7 @@ This Sub-Industry excludes chemical companies classified in the Diversified Chem
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Fertilizers & Agricultural Chemicals"@en ;
 	skos:definition	"Producers of fertilizers, pesticides, potash (including potash miners) or other agriculture-related chemicals, not classified elsewhere."@en ;
 	skos:notation	"15101030" ;
@@ -648,6 +662,7 @@ This Sub-Industry excludes chemical companies classified in the Diversified Chem
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Industrial Gases"@en ;
 	skos:definition	"Manufacturers of industrial gases such as Oxygen, Nitrogen, Hydrogen, Carbon Dioxide, Dry Ice, Helium, and Acetylene. This Sub-Industry excludes Hydrogen used for the production of energy classified in the Coal & Consumable Fuels Sub-Industry."@en ;
 	skos:notation	"15101040" ;
@@ -697,6 +712,7 @@ This Sub-Industry excludes raw materials and chemicals used specifically for bat
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Specialty Chemicals"@en ;
 	skos:definition	"""Companies that primarily produce high value-added chemicals used in the manufacture of a wide variety of products, including but not limited to fine chemicals, additives, advanced polymers, adhesives, sealants, and specialty paints, pigments & coatings.
 
@@ -723,6 +739,7 @@ This Sub-Industry excludes raw materials and chemicals used specifically for bat
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Chemicals"@en ;
 	skos:notation	"151010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -768,6 +785,7 @@ This Sub-Industry excludes other finished or semi-finished building materials cl
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Construction Materials"@en ;
 	skos:definition	"""Manufacturers of construction materials, including sand, clay, gypsum, lime, aggregates, cement, concrete, bricks, and refractory materials.
 This Sub-Industry excludes other finished or semi-finished building materials classified in the Building Products Sub-Industry."""@en ;
@@ -791,6 +809,7 @@ This Sub-Industry excludes other finished or semi-finished building materials cl
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Construction Materials"@en ;
 	skos:notation	"151020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -826,6 +845,7 @@ This Sub-Industry excludes manufacturers of glassware classified in the Housewar
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Metal, Glass & Plastic Containers "@en ;
 	skos:definition	"""Manufacturers of metal, glass or plastic containers, including corks and caps.
 
@@ -862,6 +882,7 @@ This Sub-Industry excludes manufacturers of glassware classified in the Housewar
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Paper & Plastic Packaging Products & Materials"@en ;
 	skos:definition	"Manufacturers of paper and cardboard containers & packaging, plastic packaging materials, wood containers, and related packaging products."@en ;
 	skos:notation	"15103020" ;
@@ -884,6 +905,7 @@ This Sub-Industry excludes manufacturers of glassware classified in the Housewar
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Containers & Packaging"@en ;
 	skos:notation	"151030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -930,6 +952,7 @@ This Sub-Industry excludes companies that primarily produce aluminum building ma
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Aluminum"@en ;
 	skos:definition	"""Producers of aluminum and related products, including companies that mine or process bauxite and companies that recycle aluminum to produce finished or semi-finished products.
 
@@ -1003,6 +1026,7 @@ This Sub-Industry excludes iron ore mining classified in the Steel Sub-Industry,
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Metals & Mining"@en ;
 	skos:definition	"""Companies engaged in the diversified production or extraction of metals and minerals, not classified elsewhere.
 
@@ -1043,6 +1067,7 @@ This Sub-Industry excludes manufacturers of copper wires used mainly for electri
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Copper"@en ;
 	skos:definition	"""Companies involved primarily in copper ore mining and companies that manufacture primary and basic copper products such as rods, tubes, and wires.
 
@@ -1068,6 +1093,7 @@ This Sub-Industry excludes manufacturers of copper wires used mainly for electri
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Gold"@en ;
 	skos:definition	"Producers of gold and related products, including companies that mine or process gold and the South African finance houses which primarily invest in, but do not operate, gold mines."@en ;
 	skos:notation	"15104030" ;
@@ -1115,6 +1141,7 @@ This Sub-Industry includes companies primarily mining platinum group metals, dia
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Precious Metals & Minerals"@en ;
 	skos:definition	"""Companies mining precious metals and minerals not classified in the Gold Sub-Industry.
 
@@ -1153,6 +1180,7 @@ This Sub-Industry excludes companies classified in the Gold or Precious Metals &
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Silver"@en ;
 	skos:definition	"""Companies primarily mining silver.
 
@@ -1202,6 +1230,7 @@ This Sub-Industry includes ferrous metal, iron and steel foundries."""@en ;
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Steel"@en ;
 	skos:definition	"""Producers of iron and steel and related products, including iron ore mining and metallurgical (coking) coal mining used for steel production.
 
@@ -1226,6 +1255,7 @@ This Sub-Industry includes ferrous metal, iron and steel foundries."""@en ;
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Metals & Mining"@en ;
 	skos:notation	"151040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -1260,6 +1290,7 @@ This Sub-Industry includes timber tract operations, forest nurseries, and manufa
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Forest Products"@en ;
 	skos:definition	"""Manufacturers of timber and related wood products.
 This Sub-Industry includes timber tract operations, forest nurseries, and manufacturers of lumber and plywood for the building industry such as wood panels."""@en ;
@@ -1310,6 +1341,7 @@ This Sub-Industry excludes companies specializing in paper packaging classified 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Paper Products"@en ;
 	skos:definition	"""Manufacturers of all grades of paper.
 
@@ -1336,6 +1368,7 @@ This Sub-Industry excludes companies specializing in paper packaging classified 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Paper & Forest Products"@en ;
 	skos:notation	"151050" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -1357,6 +1390,7 @@ This Sub-Industry excludes companies specializing in paper packaging classified 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Materials"@en ;
 	skos:notation	"1510" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -1377,6 +1411,7 @@ This Sub-Industry excludes companies specializing in paper packaging classified 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Materials"@en ;
 	skos:notation	"15" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -1414,6 +1449,7 @@ This Sub-Industry excludes companies that offer management & technology consulti
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Aerospace & Defense"@en ;
 	skos:definition	"""Manufacturers of civil or military aerospace and defense equipment, parts or products, such as defense electronics and space equipment.
 
@@ -1440,6 +1476,7 @@ This Sub-Industry excludes companies that offer management & technology consulti
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Aerospace & Defense"@en ;
 	skos:notation	"201010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -1486,6 +1523,7 @@ This Sub-Industry excludes lumber and plywood classified in the Forest Products 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Building Products"@en ;
 	skos:definition	"""Manufacturers of building components and home improvement products and equipment.
 
@@ -1510,6 +1548,7 @@ This Sub-Industry excludes lumber and plywood classified in the Forest Products 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Building Products"@en ;
 	skos:notation	"201020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -1558,6 +1597,7 @@ This Sub-Industry excludes companies classified in the Homebuilding Sub-Industry
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Construction & Engineering"@en ;
 	skos:definition	"""Companies engaged in primarily non-residential construction.
 
@@ -1584,6 +1624,7 @@ This Sub-Industry excludes companies classified in the Homebuilding Sub-Industry
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Construction & Engineering"@en ;
 	skos:notation	"201030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -1630,6 +1671,7 @@ This Sub-Industry includes cables and wires, motors and generators (except autom
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Electrical Components & Equipment"@en ;
 	skos:definition	"""Companies that produce electric cables and wires, electrical components or equipment not classified in the Heavy Electrical Equipment Sub-Industry.
 
@@ -1681,6 +1723,7 @@ This Sub-Industry excludes cables and wires classified in the Electrical Compone
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Heavy Electrical Equipment"@en ;
 	skos:definition	"""Manufacturers of power-generating equipment and other heavy electrical equipment, including power turbines, heavy electrical machinery intended for fixed-use and large electrical systems.
 
@@ -1707,6 +1750,7 @@ This Sub-Industry excludes cables and wires classified in the Electrical Compone
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Electrical Equipment"@en ;
 	skos:notation	"201040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -1755,6 +1799,7 @@ This Sub-Industry also excludes mono holding companies that invest in only one s
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Industrial Conglomerates"@en ;
 	skos:definition	"""Industrial companies with diversified business activities in three or more GICS Sectors, none of which contributes a majority of revenues. Stakes held are predominantly of a controlling nature and stake holders maintain an operational interest in the running of the subsidiaries.
 
@@ -1781,6 +1826,7 @@ This Sub-Industry also excludes mono holding companies that invest in only one s
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Industrial Conglomerates"@en ;
 	skos:notation	"201050" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -1838,6 +1884,7 @@ This Sub-Industry includes non-military shipbuilding."""@en ;
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Construction Machinery & Heavy Transportation Equipment"@en ;
 	skos:definition	"""Manufacturers of heavy duty trucks, rolling machinery, earth-moving & construction equipment, and related parts.
 
@@ -1876,6 +1923,7 @@ This Sub-Industry includes machinery used for the production of crops & agricult
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Agricultural & Farm Machinery"@en ;
 	skos:definition	"""Companies manufacturing agricultural machinery, farm machinery, and related parts.
 
@@ -1914,6 +1962,7 @@ This Sub-Industry includes companies that manufacture presses, 3D printers & rel
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Industrial Machinery & Supplies & Components"@en ;
 	skos:definition	"""Manufacturers of industrial machinery and industrial components.
 
@@ -1938,6 +1987,7 @@ This Sub-Industry includes companies that manufacture presses, 3D printers & rel
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Machinery"@en ;
 	skos:notation	"201060" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -1975,6 +2025,7 @@ This Sub-Industry also includes companies distributing or wholesaling industrial
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Trading Companies & Distributors"@en ;
 	skos:definition	"""Trading companies and distributors of industrial equipment and products.
 
@@ -2001,6 +2052,7 @@ This Sub-Industry also includes companies distributing or wholesaling industrial
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Trading Companies & Distributors"@en ;
 	skos:notation	"201070" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -2022,6 +2074,7 @@ This Sub-Industry also includes companies distributing or wholesaling industrial
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Capital Goods"@en ;
 	skos:notation	"2010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -2068,6 +2121,7 @@ This Sub-Industry includes printers primarily serving the media industry."""@en 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Commercial Printing"@en ;
 	skos:definition	"""Companies providing commercial printing services.
 
@@ -2094,6 +2148,7 @@ This Sub-Industry includes printers primarily serving the media industry."""@en 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Data Processing Services"@en ;
 	skos:definition	"Providers of commercial electronic data processing services."@en ;
 	skos:notation	"20201020" ;
@@ -2130,6 +2185,7 @@ This Sub-Industry includes printers primarily serving the media industry."""@en 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Commercial & Professional Services"@en ;
 	skos:definition	"Companies primarily providing commercial, industrial and professional services to businesses and governments not classified elsewhere.  Includes commercial cleaning services, consulting services, correctional facilities, dining & catering services, document & communication services, equipment repair services, security & alarm services, storage & warehousing, and uniform rental services."@en ;
 	skos:notation	"20201030" ;
@@ -2167,6 +2223,7 @@ This Sub-Industry includes printers primarily serving the media industry."""@en 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Human Resource & Employment Services"@en ;
 	skos:definition	"Companies providing business support services relating to human capital management. Includes employment agencies, employee training, payroll & benefit support services, retirement support services and temporary agencies."@en ;
 	skos:notation	"20201040" ;
@@ -2217,6 +2274,7 @@ This Sub-Industry excludes large-scale water treatment systems classified in the
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Environmental & Facilities Services"@en ;
 	skos:definition	"""Companies providing environmental and facilities maintenance services.
 
@@ -2257,6 +2315,7 @@ This Sub-Industry includes distributors of office equipment, products and suppli
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Office Services & Supplies"@en ;
 	skos:definition	"""Providers of office services and manufacturers of office supplies and equipment, not classified elsewhere.
 
@@ -2297,6 +2356,7 @@ This Sub-Industry excludes debt collection companies that purchase debt portfoli
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Support Services"@en ;
 	skos:definition	"""Companies primarily providing labor oriented support services to businesses and governments.
 
@@ -2339,6 +2399,7 @@ This Sub-Industry excludes companies providing security software classified in t
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Security & Alarm Services"@en ;
 	skos:definition	"""Companies providing security and protection services to business and governments.
 
@@ -2365,6 +2426,7 @@ This Sub-Industry excludes companies providing security software classified in t
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Commercial Services & Supplies"@en ;
 	skos:notation	"202010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -2425,6 +2487,7 @@ This Sub-Industry excludes job portals that mainly publish job related informati
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Human Resource & Employment Services"@en ;
 	skos:definition	"""Companies providing business support services relating to human capital management.
 
@@ -2467,6 +2530,7 @@ This Sub-Industry excludes companies providing information technology consulting
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Research & Consulting Services"@en ;
 	skos:definition	"""Companies primarily providing research and consulting services to businesses and governments, not classified elsewhere. 
 
@@ -2508,6 +2572,7 @@ This Sub-Industry includes companies providing services for customer experience 
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Data Processing & Outsourced Services"@en ;
 	skos:definition	"""Providers of commercial data processing and/or business process outsourcing services.
 
@@ -2532,6 +2597,7 @@ This Sub-Industry includes companies providing services for customer experience 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Professional Services"@en ;
 	skos:notation	"202020" ;
 	tempo:validFrom	"2008-08-30"^^xsd:date .
@@ -2573,6 +2639,7 @@ This Sub-Industry includes companies providing services for customer experience 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Commercial  & Professional Services"@en ;
 	skos:notation	"2020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -2630,6 +2697,7 @@ This Sub-Industry excludes companies classified in the Passenger Airlines, Marin
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Air Freight & Logistics"@en ;
 	skos:definition	"""Companies providing air freight transportation, courier & logistics services, including package & mail delivery and customs agents.
 
@@ -2664,6 +2732,7 @@ This Sub-Industry excludes companies classified in the Passenger Airlines, Marin
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Air Freight & Logistics"@en ;
 	skos:notation	"203010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -2697,6 +2766,7 @@ This Sub-Industry excludes companies classified in the Passenger Airlines, Marin
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Passenger Airlines"@en ;
 	skos:definition	"Companies providing primarily passenger air transportation."@en ;
 	skos:notation	"20302010" ;
@@ -2729,6 +2799,7 @@ This Sub-Industry excludes companies classified in the Passenger Airlines, Marin
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Passenger Airlines"@en ;
 	skos:notation	"203020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -2786,6 +2857,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Marine Transportation"@en ;
 	skos:definition	"""Companies providing goods or passenger maritime transportation.
 
@@ -2820,6 +2892,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Marine Transportation"@en ;
 	skos:notation	"203030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -2853,6 +2926,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Rail Transportation"@en ;
 	skos:definition	"Companies providing primarily goods and passenger rail transportation."@en ;
 	skos:notation	"20304010" ;
@@ -2877,6 +2951,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Trucking"@en ;
 	skos:definition	"Companies providing primarily goods and passenger land transportation. Includes vehicle rental and taxi companies."@en ;
 	skos:notation	"20304020" ;
@@ -2901,6 +2976,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Cargo Ground Transportation"@en ;
 	skos:definition	"Companies providing ground transportation services for goods and freight."@en ;
 	skos:notation	"20304030" ;
@@ -2924,6 +3000,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Passenger Ground Transportation"@en ;
 	skos:definition	"Companies providing passenger ground transportation and related services, including bus, taxi, vehicle rental, ride sharing and on-demand ride sharing platforms, and other passenger logistics."@en ;
 	skos:notation	"20304040" ;
@@ -2956,6 +3033,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Ground Transportation"@en ;
 	skos:notation	"203040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -2989,6 +3067,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Airport Services"@en ;
 	skos:definition	"Operators of airports and companies providing related services such as air traffic control and other support activities for air transportation."@en ;
 	skos:notation	"20305010" ;
@@ -3023,6 +3102,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Highways & Railtracks"@en ;
 	skos:definition	"Owners and operators of roads, tunnels and railtracks, including companies providing support activities for road transportation."@en ;
 	skos:notation	"20305020" ;
@@ -3057,6 +3137,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Marine Ports & Services"@en ;
 	skos:definition	"Owners and operators of marine ports, including companies providing support activities for marine transportation."@en ;
 	skos:notation	"20305030" ;
@@ -3079,6 +3160,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Transportation Infrastructure"@en ;
 	skos:notation	"203050" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -3100,6 +3182,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Transportation"@en ;
 	skos:notation	"2030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -3120,6 +3203,7 @@ This Sub-Industry excludes cruise-ships classified in the Hotels, Resorts & Crui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Industrials"@en ;
 	skos:notation	"20" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -3165,6 +3249,7 @@ This Sub-Industry excludes companies classified in the Tires & Rubber Sub-Indust
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Automotive Parts & Equipment"@en ;
 	skos:definition	"""Manufacturers of parts and accessories for automobiles and motorcycles.
 This Sub-Industry excludes companies classified in the Tires & Rubber Sub-Industry."""@en ;
@@ -3189,6 +3274,7 @@ This Sub-Industry excludes companies classified in the Tires & Rubber Sub-Indust
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Tires & Rubber"@en ;
 	skos:definition	"Manufacturers of tires and rubber."@en ;
 	skos:notation	"25101020" ;
@@ -3221,6 +3307,7 @@ This Sub-Industry excludes companies classified in the Tires & Rubber Sub-Indust
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Automobile Components"@en ;
 	skos:notation	"251010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -3289,6 +3376,7 @@ This Sub-Industry excludes companies producing mainly motorcycles and three-whee
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Automobile Manufacturers"@en ;
 	skos:definition	"""Companies that produce mainly passenger automobiles and light trucks.
 
@@ -3360,6 +3448,7 @@ This Sub-Industry excludes bicycles classified in the Leisure Products Sub-Indus
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Motorcycle Manufacturers"@en ;
 	skos:definition	"""Companies that produce motorcycles, scooters or three-wheelers.
 
@@ -3384,6 +3473,7 @@ This Sub-Industry excludes bicycles classified in the Leisure Products Sub-Indus
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Automobiles"@en ;
 	skos:notation	"251020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -3405,6 +3495,7 @@ This Sub-Industry excludes bicycles classified in the Leisure Products Sub-Indus
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Automobiles & Components"@en ;
 	skos:notation	"2510" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -3462,6 +3553,7 @@ This Sub-Industry excludes manufacturers of smartphones, personal computers, lap
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Electronics"@en ;
 	skos:definition	"""Manufacturers of consumer electronics products, including TVs, home audio equipment, game consoles, digital cameras, and related products.
 
@@ -3487,6 +3579,7 @@ This Sub-Industry excludes manufacturers of smartphones, personal computers, lap
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Home Furnishings"@en ;
 	skos:definition	"Manufacturers of soft home furnishings or furniture, including upholstery, carpets and wall-coverings."@en ;
 	skos:notation	"25201020" ;
@@ -3525,6 +3618,7 @@ This Sub-Industry excludes companies that develop real estate classified under t
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Homebuilding"@en ;
 	skos:definition	"""Residential construction companies that mainly build residential units such as homes, apartments, and condominiums for the purpose of selling to homeowners.
 
@@ -3600,6 +3694,7 @@ This Sub-Industry excludes TVs and other audio & video products classified in th
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Household Appliances"@en ;
 	skos:definition	"""Manufacturers of electric household appliances and related products.
 
@@ -3638,6 +3733,7 @@ This Sub-Industry excludes TVs and other audio & video products classified in th
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Housewares & Specialties"@en ;
 	skos:definition	"Manufacturers of durable household products, including cutlery, cookware, glassware, crystal, silverware, utensils, kitchenware and consumer specialties, not classified elsewhere."@en ;
 	skos:notation	"25201050" ;
@@ -3660,6 +3756,7 @@ This Sub-Industry excludes TVs and other audio & video products classified in th
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Household Durables"@en ;
 	skos:notation	"252010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -3693,6 +3790,7 @@ This Sub-Industry excludes TVs and other audio & video products classified in th
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Leisure Products"@en ;
 	skos:definition	"Manufacturers of leisure products and equipment, including sports equipment, bicycles, toys, and arcade game equipment."@en ;
 	skos:notation	"25202010" ;
@@ -3717,6 +3815,7 @@ This Sub-Industry excludes TVs and other audio & video products classified in th
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Photographic Products"@en ;
 	skos:definition	"Manufacturers of photographic equipment and related products."@en ;
 	skos:notation	"25202020" ;
@@ -3750,6 +3849,7 @@ This Sub-Industry excludes TVs and other audio & video products classified in th
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Leisure Products"@en ;
 	skos:notation	"252020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -3809,6 +3909,7 @@ This Sub-Industry excludes shoes classified in the Footwear Sub-Industry."""@en 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Apparel, Accessories & Luxury Goods"@en ;
 	skos:definition	"""Manufacturers of apparel, accessories & luxury goods.
 
@@ -3847,6 +3948,7 @@ This Sub-Industry excludes shoes classified in the Footwear Sub-Industry."""@en 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Footwear"@en ;
 	skos:definition	"Manufacturers of footwear including sport and leather shoes."@en ;
 	skos:notation	"25203020" ;
@@ -3903,6 +4005,7 @@ This Sub-Industry excludes shoes classified in the Footwear Sub-Industry."""@en 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Textiles"@en ;
 	skos:definition	"Manufacturers of textile and related products, not classified in the Apparel, Accessories & Luxury Goods, Footwear or Home Furnishings Sub-Industries."@en ;
 	skos:notation	"25203030" ;
@@ -3935,6 +4038,7 @@ This Sub-Industry excludes shoes classified in the Footwear Sub-Industry."""@en 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Textiles, Apparel & Luxury Goods"@en ;
 	skos:notation	"252030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -3956,6 +4060,7 @@ This Sub-Industry excludes shoes classified in the Footwear Sub-Industry."""@en 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Durables & Apparel"@en ;
 	skos:notation	"2520" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -3993,6 +4098,7 @@ This Sub-Industry excludes manufacturers of arcade game equipment classified in 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Casinos & Gaming"@en ;
 	skos:definition	"""Owners and operators of casinos & gaming facilities and resorts.
 
@@ -4057,6 +4163,7 @@ This Sub-Industry excludes travel information sites that mainly offer informatio
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Hotels, Resorts & Cruise Lines"@en ;
 	skos:definition	"""Owners and operators of hotels, resorts and cruise-ships.
 
@@ -4106,6 +4213,7 @@ This Sub-Industry excludes travel information sites that mainly offer informatio
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Leisure Facilities"@en ;
 	skos:definition	"Owners and operators of leisure facilities, including sport & fitness centers, stadiums, golf courses and amusement parks, not classified in the Movies & Entertainment Sub-Industry."@en ;
 	skos:notation	"25301030" ;
@@ -4142,6 +4250,7 @@ This Sub-Industry includes food delivery companies and providers of food caterin
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Restaurants"@en ;
 	skos:definition	"""Owners and operators of restaurants, bars, pubs, fast-food or take-out facilities.
 
@@ -4176,6 +4285,7 @@ This Sub-Industry includes food delivery companies and providers of food caterin
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Hotels, Restaurants & Leisure"@en ;
 	skos:notation	"253010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -4213,6 +4323,7 @@ This Sub-Industry excludes companies providing employee education programs class
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Education Services"@en ;
 	skos:definition	"""Companies providing educational services, either on-line or through conventional teaching methods.
 
@@ -4251,6 +4362,7 @@ This Sub-Industry excludes companies providing employee education programs class
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Specialized Consumer Services"@en ;
 	skos:definition	"Companies providing consumer services such as home security services, consumer legal services, personal care services, residential renovation & interior design services, consumer auctions, day care centers and wedding & funeral services."@en ;
 	skos:notation	"25302020" ;
@@ -4273,6 +4385,7 @@ This Sub-Industry excludes companies providing employee education programs class
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Consumer Services"@en ;
 	skos:notation	"253020" ;
 	tempo:validFrom	"2005-04-30"^^xsd:date .
@@ -4314,6 +4427,7 @@ This Sub-Industry excludes companies providing employee education programs class
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Services"@en ;
 	skos:notation	"2530" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -4338,6 +4452,7 @@ This Sub-Industry excludes companies providing employee education programs class
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Advertising"@en ;
 	skos:definition	"Companies providing advertising, marketing or public relations services."@en ;
 	skos:notation	"25401010" ;
@@ -4386,6 +4501,7 @@ This Sub-Industry excludes companies providing employee education programs class
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Broadcasting"@en ;
 	skos:definition	"Owners and operators of television or radio broadcasting systems, including programming. Includes, radio and television broadcasting, radio networks, and radio stations."@en ;
 	skos:notation	"25401020" ;
@@ -4412,6 +4528,7 @@ This Sub-Industry excludes companies providing employee education programs class
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Cable & Satellite"@en ;
 	skos:definition	"Providers of cable or satellite television services. Includes cable networks and program distribution."@en ;
 	skos:notation	"25401025" ;
@@ -4438,6 +4555,7 @@ This Sub-Industry excludes companies providing employee education programs class
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Movies & Entertainment"@en ;
 	skos:definition	"Companies that engage in producing and selling entertainment products and services, including companies engaged in the production, distribution and screening of movies and television shows, producers and distributors of music, entertainment theaters and sports teams."@en ;
 	skos:notation	"25401030" ;
@@ -4475,6 +4593,7 @@ This Sub-Industry excludes companies providing employee education programs class
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Publishing"@en ;
 	skos:definition	"Publishers of newspapers, magazines and books, and providers of information in print or electronic formats."@en ;
 	skos:notation	"25401040" ;
@@ -4500,6 +4619,7 @@ This Sub-Industry excludes companies providing employee education programs class
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Media"@en ;
 	skos:notation	"254010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -4524,6 +4644,7 @@ This Sub-Industry excludes companies providing employee education programs class
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Media"@en ;
 	skos:notation	"2540" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -4560,6 +4681,7 @@ This Sub-Industry includes companies distributing or wholesaling consumer mercha
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Distributors"@en ;
 	skos:definition	"""Distributors and wholesalers of consumer merchandise, not classified elsewhere, including automobile distributors.
 
@@ -4584,6 +4706,7 @@ This Sub-Industry includes companies distributing or wholesaling consumer mercha
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Distributors"@en ;
 	skos:notation	"255010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -4607,6 +4730,7 @@ This Sub-Industry includes companies distributing or wholesaling consumer mercha
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Catalog Retail"@en ;
 	skos:definition	"Mail order and TV home shopping retailers. Includes companies that provide door-to-door retail."@en ;
 	skos:notation	"25502010" ;
@@ -4654,6 +4778,7 @@ This Sub-Industry includes companies distributing or wholesaling consumer mercha
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Internet & Direct Marketing Retail"@en ;
 	skos:definition	"Companies providing retail services primarily on the Internet, through mail order, and TV home shopping retailers.  Also includes companies providing online marketplaces for consumer products and services."@en ;
 	skos:notation	"25502020" ;
@@ -4688,6 +4813,7 @@ This Sub-Industry includes companies distributing or wholesaling consumer mercha
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Internet & Direct Marketing Retail"@en ;
 	skos:notation	"255020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -4712,6 +4838,7 @@ This Sub-Industry includes companies distributing or wholesaling consumer mercha
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Department Stores"@en ;
 	skos:definition	"Owners and operators of department stores."@en ;
 	skos:notation	"25503010" ;
@@ -4759,6 +4886,7 @@ This Sub-Industry includes companies distributing or wholesaling consumer mercha
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"General Merchandise Stores"@en ;
 	skos:definition	"Owners and operators of stores offering diversified general merchandise. Excludes hypermarkets and large-scale super centers classified in the Hypermarkets & Super Centers Sub-Industry."@en ;
 	skos:notation	"25503020" ;
@@ -4785,6 +4913,7 @@ This Sub-Industry includes general and discount merchandise retailers, departmen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Broadline Retail"@en ;
 	skos:definition	"""Retailers offering a wide range of consumer discretionary merchandise.
 
@@ -4819,6 +4948,7 @@ This Sub-Industry includes general and discount merchandise retailers, departmen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Broadline Retail"@en ;
 	skos:notation	"255030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -4854,6 +4984,7 @@ This Sub-Industry includes apparel manufactures that primarily sell through thei
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Apparel Retail"@en ;
 	skos:definition	"""Retailers of apparel,footwear, luggage and other accessories.
 
@@ -4890,6 +5021,7 @@ This Sub-Industry includes apparel manufactures that primarily sell through thei
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Computer & Electronics Retail"@en ;
 	skos:definition	"Retailers of consumer electronics, computers, smartphones, and related products."@en ;
 	skos:notation	"25504020" ;
@@ -4926,6 +5058,7 @@ This Sub-Industry includes companies that offer household goods repair & mainten
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Home Improvement Retail"@en ;
 	skos:definition	"""Retailers of home & garden improvement products, including building materials and related supplies.
 
@@ -4975,6 +5108,7 @@ This Sub-Industry includes tobacco retail, art dealers, manufactured (mobile) ho
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Other Specialty Retail"@en ;
 	skos:definition	"""Retailers of other consumer products, not classified elsewhere, such as jewelry, perfumes, cosmetics, toys, office supplies, health & vision care products, books and other entertainment products.
 
@@ -5013,6 +5147,7 @@ This Sub-Industry includes automotive dealers, gas stations, and retailers of au
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Automotive Retail"@en ;
 	skos:definition	"""Retailers of automotives.
 
@@ -5051,6 +5186,7 @@ This Sub-Industry excludes retailers of home and garden improvement products, cl
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Homefurnishing Retail"@en ;
 	skos:definition	"""Retailers of furniture and home furnishing products, including residential furniture, housewares, and interior design.
 
@@ -5075,6 +5211,7 @@ This Sub-Industry excludes retailers of home and garden improvement products, cl
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Specialty Retail"@en ;
 	skos:notation	"255040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5106,6 +5243,7 @@ This Sub-Industry excludes retailers of home and garden improvement products, cl
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Discretionary Distribution & Retail"@en ;
 	skos:notation	"2550" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5126,6 +5264,7 @@ This Sub-Industry excludes retailers of home and garden improvement products, cl
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Discretionary"@en ;
 	skos:notation	"25" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5159,6 +5298,7 @@ This Sub-Industry excludes retailers of home and garden improvement products, cl
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Drug Retail"@en ;
 	skos:definition	"Retailers of drugs including operators of pharmacies."@en ;
 	skos:notation	"30101010" ;
@@ -5195,6 +5335,7 @@ This Sub-Industry includes companies distributing or wholesaling food products t
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Food Distributors"@en ;
 	skos:definition	"""Distributors of food products to other companies and not directly to the consumer.
 
@@ -5231,6 +5372,7 @@ This Sub-Industry includes companies distributing or wholesaling food products t
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Food Retail"@en ;
 	skos:definition	"Retailers of food products."@en ;
 	skos:notation	"30101030" ;
@@ -5278,6 +5420,7 @@ This Sub-Industry includes hypermarkets, super centers and other consumer staple
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Staples Merchandise Retail"@en ;
 	skos:definition	"""Retailers offering a wide range of consumer staples merchandise such as food, household, and personal care products.
 
@@ -5322,6 +5465,7 @@ This Sub-Industry includes hypermarkets, super centers and other consumer staple
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Staples Distribution & Retail"@en ;
 	skos:notation	"301010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5363,6 +5507,7 @@ This Sub-Industry includes hypermarkets, super centers and other consumer staple
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Staples Distribution & Retail"@en ;
 	skos:notation	"3010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5407,6 +5552,7 @@ This Sub-Industry includes hypermarkets, super centers and other consumer staple
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Brewers"@en ;
 	skos:definition	"Producers of beer and malt liquors, including breweries not classified in the Restaurants Sub-Industry."@en ;
 	skos:notation	"30201010" ;
@@ -5441,6 +5587,7 @@ This Sub-Industry includes hypermarkets, super centers and other consumer staple
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Distillers & Vintners"@en ;
 	skos:definition	"Distillers, vintners and producers of alcoholic beverages not classified in the Brewers Sub-Industry."@en ;
 	skos:notation	"30201020" ;
@@ -5488,6 +5635,7 @@ This Sub-Industry excludes producers of milk, coffee, tea and fruit juices, clas
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Soft Drinks & Non-alcoholic Beverages"@en ;
 	skos:definition	"""Producers of non-alcoholic beverages including mineral waters, sodas and natural bottled water.
 
@@ -5512,6 +5660,7 @@ This Sub-Industry excludes producers of milk, coffee, tea and fruit juices, clas
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Beverages"@en ;
 	skos:notation	"302010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5560,6 +5709,7 @@ This Sub-Industry excludes companies classified in the Forest Products Sub-Indus
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Agricultural Products & Services"@en ;
 	skos:definition	"""Producers of agricultural products.
 
@@ -5589,6 +5739,7 @@ This Sub-Industry excludes companies classified in the Forest Products Sub-Indus
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Meat Poultry & Fish"@en ;
 	skos:definition	"Companies that raise livestock or poultry, fishing companies and other producers of meat, poultry or fish products."@en ;
 	skos:notation	"30202020" ;
@@ -5647,6 +5798,7 @@ This Sub-Industry excludes companies classified in the Forest Products Sub-Indus
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Packaged Foods & Meats"@en ;
 	skos:definition	"Producers of packaged foods including dairy products, coffee, tea, fruit juices, meats, poultry, fish, and pet & fish food."@en ;
 	skos:notation	"30202030" ;
@@ -5669,6 +5821,7 @@ This Sub-Industry excludes companies classified in the Forest Products Sub-Indus
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Food Products"@en ;
 	skos:notation	"302020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5704,6 +5857,7 @@ This Sub-Industry excludes companies primarily engaged in producing cannabis rel
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Tobacco"@en ;
 	skos:definition	"""Manufacturers of cigarettes and other tobacco products such as e-cigarettes.
 
@@ -5728,6 +5882,7 @@ This Sub-Industry excludes companies primarily engaged in producing cannabis rel
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Tobacco"@en ;
 	skos:notation	"302030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5759,6 +5914,7 @@ This Sub-Industry excludes companies primarily engaged in producing cannabis rel
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Food, Beverage & Tobacco"@en ;
 	skos:notation	"3020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5803,6 +5959,7 @@ This Sub-Industry excludes companies primarily engaged in producing cannabis rel
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Household Products"@en ;
 	skos:definition	"Producers of non-durable household products, including detergents, household cleaners & disinfectants and other tissue & household paper products, not classified in the Paper Products Sub-Industry."@en ;
 	skos:notation	"30301010" ;
@@ -5825,6 +5982,7 @@ This Sub-Industry excludes companies primarily engaged in producing cannabis rel
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Household Products"@en ;
 	skos:notation	"303010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5860,6 +6018,7 @@ This Sub-Industry excludes products of curative medical nature classified in the
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Personal Care Products"@en ;
 	skos:definition	"""Manufacturers of personal and beauty care products, including cosmetics, perfumes, toiletries, diapers, hygiene products, vitamins, dietary supplements and other herbal & holistic medicines.
 
@@ -5894,6 +6053,7 @@ This Sub-Industry excludes products of curative medical nature classified in the
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Personal Care Products"@en ;
 	skos:notation	"303020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5915,6 +6075,7 @@ This Sub-Industry excludes products of curative medical nature classified in the
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Household & Personal Products"@en ;
 	skos:notation	"3030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5935,6 +6096,7 @@ This Sub-Industry excludes products of curative medical nature classified in the
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Staples"@en ;
 	skos:notation	"30" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -5992,6 +6154,7 @@ This Sub-Industry includes medical instruments, drug delivery systems, cardiovas
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care Equipment"@en ;
 	skos:definition	"""Manufacturers of health care equipment and devices.
 
@@ -6041,6 +6204,7 @@ This Sub-Industry includes eye care products, hospital supplies, and safety need
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care Supplies"@en ;
 	skos:definition	"""Manufacturers of health care supplies and medical products that tend to be disposable.
 
@@ -6065,6 +6229,7 @@ This Sub-Industry includes eye care products, hospital supplies, and safety need
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care Equipment & Supplies"@en ;
 	skos:notation	"351010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -6111,6 +6276,7 @@ This Sub-Industry includes companies distributing or wholesaling health care pro
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care Distributors"@en ;
 	skos:definition	"""Distributors and wholesalers of health care products, not classified elsewhere.
 
@@ -6160,6 +6326,7 @@ This Sub-Industry includes dialysis centers, lab testing services, and pharmacy 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care Services"@en ;
 	skos:definition	"""Providers of patient health care services, not classified elsewhere.
 
@@ -6220,6 +6387,7 @@ This Sub-Industry includes residential care facilities and assisted living facil
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care Facilities"@en ;
 	skos:definition	"""Owners and operators of health care facilities, including hospitals, nursing homes, rehabilitation centers and animal hospitals.
 
@@ -6256,6 +6424,7 @@ This Sub-Industry includes residential care facilities and assisted living facil
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Managed Health Care"@en ;
 	skos:definition	"Owners and operators of Health Maintenance Organizations (HMOs) and other managed plans. These companies derive premium revenues from risk-based health insurance arrangements and include Preferred Provider Organizations (PPOs), Consumer Driven Health Plans (CDHPs), Health Maintenance Organizations (HMOs) and Point-of-Service (POS) plans. It also includes health and dental benefit plans."@en ;
 	skos:notation	"35102030" ;
@@ -6278,6 +6447,7 @@ This Sub-Industry includes residential care facilities and assisted living facil
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care Providers & Services"@en ;
 	skos:notation	"351020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -6313,6 +6483,7 @@ This Sub-Industry includes companies providing application, systems and/or data 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care Technology"@en ;
 	skos:definition	"""Companies providing information technology services primarily to health care providers.
 
@@ -6337,6 +6508,7 @@ This Sub-Industry includes companies providing application, systems and/or data 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care Technology"@en ;
 	skos:notation	"351030" ;
 	tempo:validFrom	"2006-04-29"^^xsd:date .
@@ -6358,6 +6530,7 @@ This Sub-Industry includes companies providing application, systems and/or data 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care Equipment & Services"@en ;
 	skos:notation	"3510" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -6428,6 +6601,7 @@ This Sub-Industry excludes companies manufacturing products using biotechnology 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Biotechnology"@en ;
 	skos:definition	"""Companies primarily engaged in the research, development, manufacturing and/or marketing of products based on genetic analysis and genetic engineering.
 
@@ -6454,6 +6628,7 @@ This Sub-Industry excludes companies manufacturing products using biotechnology 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Biotechnology"@en ;
 	skos:notation	"352010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -6487,6 +6662,7 @@ This Sub-Industry excludes companies manufacturing products using biotechnology 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Pharmaceuticals"@en ;
 	skos:definition	"Companies engaged in the research, development or production of pharmaceuticals, including active pharmaceutical ingredients (APIs) and veterinary drugs."@en ;
 	skos:notation	"35202010" ;
@@ -6509,6 +6685,7 @@ This Sub-Industry excludes companies manufacturing products using biotechnology 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Pharmaceuticals"@en ;
 	skos:notation	"352020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -6544,6 +6721,7 @@ This Sub-Industry includes companies primarily servicing the pharmaceutical and 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Life Sciences Tools & Services"@en ;
 	skos:definition	"""Companies enabling the drug discovery, development and production continuum by providing analytical tools, instruments, consumables & supplies, clinical trial services and contract research services.
 
@@ -6568,6 +6746,7 @@ This Sub-Industry includes companies primarily servicing the pharmaceutical and 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Life Sciences Tools & Services"@en ;
 	skos:notation	"352030" ;
 	tempo:validFrom	"2006-04-29"^^xsd:date .
@@ -6599,6 +6778,7 @@ This Sub-Industry includes companies primarily servicing the pharmaceutical and 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Pharmaceuticals, Biotechnology & Life Sciences"@en ;
 	skos:notation	"3520" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -6619,6 +6799,7 @@ This Sub-Industry includes companies primarily servicing the pharmaceutical and 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care"@en ;
 	skos:notation	"35" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -6698,6 +6879,7 @@ This Sub-Industry excludes companies classified in the Regional Banks, Commercia
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Banks"@en ;
 	skos:definition	"""Large, geographically diverse banks with a national footprint whose revenues are derived primarily from conventional banking operations, have significant business activity in retail banking and small and medium corporate lending, and provide a diverse range of financial services.
 
@@ -6758,6 +6940,7 @@ This Sub-Industry excludes companies classified in the Diversified Banks, Commer
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Regional Banks"@en ;
 	skos:definition	"""Commercial banks, savings banks and thrifts whose business are derived primarily from conventional banking operations such as retail banking, corporate lending and originating various residential and commercial mortgage loans funded mainly through deposits. Regional banks tend to operate in limited geographic regions.
 
@@ -6793,6 +6976,7 @@ This Sub-Industry excludes companies classified in the Diversified Banks, Commer
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Banks"@en ;
 	skos:notation	"401010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -6838,6 +7022,7 @@ This Sub-Industry excludes companies classified in the Diversified Banks, Commer
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Thrifts & Mortgage Finance"@en ;
 	skos:definition	"Financial institutions providing mortgage and mortgage related services.  These include financial institutions whose assets are primarily mortgage related, savings & loans, mortgage lending institutions, building societies and companies providing insurance to mortgage banks."@en ;
 	skos:notation	"40102010" ;
@@ -6862,6 +7047,7 @@ This Sub-Industry excludes companies classified in the Diversified Banks, Commer
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Thrifts & Mortgage Finance"@en ;
 	skos:notation	"401020" ;
 	tempo:validFrom	"2003-05-01"^^xsd:date ;
@@ -6884,6 +7070,7 @@ This Sub-Industry excludes companies classified in the Diversified Banks, Commer
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Banks"@en ;
 	skos:notation	"4010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -6908,6 +7095,7 @@ This Sub-Industry excludes companies classified in the Diversified Banks, Commer
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Finance"@en ;
 	skos:definition	"Providers of consumer finance services, including personal credit, credit cards, lease financing, mortgage lenders, travel-related money services and pawn shops."@en ;
 	skos:notation	"40201010" ;
@@ -6967,6 +7155,7 @@ This Sub-Industry excludes companies classified in the Regional Banks and Divers
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Financial Services"@en ;
 	skos:definition	"""Providers of a diverse range of financial services and/or with some interest in a wide range of financial services including banking, annuity, insurance, investment management and capital markets, but with no dominant business line.
 
@@ -7028,6 +7217,7 @@ This Sub-Industry excludes other diversified companies classified in the Industr
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Multi-Sector Holdings"@en ;
 	skos:definition	"""Companies with significantly diversified holdings across three or more GICS Sectors, none of which contributes a majority of profit and/or sales. Stakes held are predominantly of a non-controlling nature.
 This Sub-Industry includes diversified financial companies where stakes held are of a controlling nature.
@@ -7091,6 +7281,7 @@ This Sub-Industry excludes companies classified in the Financial Exchanges & Dat
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Specialized Finance"@en ;
 	skos:definition	"""Providers of specialized financial services, not classified elsewhere. Companies in this Sub-Industry derive a majority of revenue from one specialized line of business.
 
@@ -7120,6 +7311,7 @@ This Sub-Industry includes non-deposit funded mortgage lending institutions, bui
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Commercial & Residential Mortgage Finance"@en ;
 	skos:definition	"""Financial companies providing commercial and residential mortgage financing and related mortgage services.
 
@@ -7145,6 +7337,7 @@ This Sub-Industry includes non-deposit funded mortgage lending institutions, bui
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Transaction & Payment Processing Services"@en ;
 	skos:definition	"Providers of transaction & payment processing services and related payment services, including digital/mobile payment processors, payment service providers & gateways, and digital wallet providers."@en ;
 	skos:notation	"40201060" ;
@@ -7187,6 +7380,7 @@ This Sub-Industry includes non-deposit funded mortgage lending institutions, bui
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Financial Services"@en ;
 	skos:notation	"402010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -7269,6 +7463,7 @@ This Sub-Industry excludes mortgage lenders classified in the Commercial & Resid
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Finance"@en ;
 	skos:definition	"""Providers of consumer finance services, including personal credit, credit cards, lease financing, travel-related money services and pawn shops.
 
@@ -7295,6 +7490,7 @@ This Sub-Industry excludes mortgage lenders classified in the Commercial & Resid
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Consumer Finance"@en ;
 	skos:notation	"402020" ;
 	tempo:validFrom	"2003-05-01"^^xsd:date .
@@ -7343,6 +7539,7 @@ This Sub-Industry excludes banks and other financial institutions primarily invo
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Asset Management & Custody Banks"@en ;
 	skos:definition	"""Financial institutions primarily engaged in investment management and/or related custody and securities fee-based services.
 
@@ -7383,6 +7580,7 @@ This Sub-Industry excludes banks and other financial institutions primarily invo
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Investment Banking & Brokerage"@en ;
 	skos:definition	"""Financial institutions primarily engaged in investment banking & brokerage services, including equity & debt underwriting, mergers & acquisitions, securities lending and advisory services.
 
@@ -7432,6 +7630,7 @@ This Sub-Industry excludes less diversified companies classified in the Asset Ma
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Capital Markets"@en ;
 	skos:definition	"""Financial institutions primarily engaged in diversified capital markets activities, including a significant presence in at least two of the following areas: large/major corporate lending, investment banking, brokerage and asset management.
 
@@ -7470,6 +7669,7 @@ This Sub-Industry excludes providers of financial magazines, journals, and websi
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Financial Exchanges & Data"@en ;
 	skos:definition	"""Financial exchanges for securities, commodities, derivatives, cryptocurrencies and other financial instruments, and providers of financial decision support tools and products including ratings agencies.
 
@@ -7494,6 +7694,7 @@ This Sub-Industry excludes providers of financial magazines, journals, and websi
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Capital Markets"@en ;
 	skos:notation	"402030" ;
 	tempo:validFrom	"2003-05-01"^^xsd:date .
@@ -7552,6 +7753,7 @@ This Sub-Industry includes trusts that invest in mortgage-backed securities and 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Mortgage REITs"@en ;
 	skos:definition	"""Companies or Trusts that service, originate, purchase and/or securitize residential and/or commercial mortgage loans. 
 
@@ -7576,6 +7778,7 @@ This Sub-Industry includes trusts that invest in mortgage-backed securities and 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Mortgage Real Estate Investment Trusts (REITs)"@en ;
 	skos:notation	"402040" ;
 	tempo:validFrom	"2016-09-01"^^xsd:date .
@@ -7607,6 +7810,7 @@ This Sub-Industry includes trusts that invest in mortgage-backed securities and 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Financial Services"@en ;
 	skos:notation	"4020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -7629,6 +7833,7 @@ This Sub-Industry includes trusts that invest in mortgage-backed securities and 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Insurance Brokers"@en ;
 	skos:definition	"Insurance and reinsurance brokerage firms."@en ;
 	skos:notation	"40301010" ;
@@ -7676,6 +7881,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Life & Health Insurance"@en ;
 	skos:definition	"""Companies providing primarily life, disability, indemnity or supplemental health insurance.
 
@@ -7712,6 +7918,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Multi-line Insurance"@en ;
 	skos:definition	"Insurance companies with diversified interests in life, health and property & casualty insurance."@en ;
 	skos:notation	"40301030" ;
@@ -7746,6 +7953,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Property & Casualty Insurance"@en ;
 	skos:definition	"Companies providing primarily property and casualty insurance, including financial & title insurance."@en ;
 	skos:notation	"40301040" ;
@@ -7769,6 +7977,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Reinsurance"@en ;
 	skos:definition	"Companies providing primarily reinsurance."@en ;
 	skos:notation	"40301050" ;
@@ -7791,6 +8000,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Insurance"@en ;
 	skos:notation	"403010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -7812,6 +8022,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Insurance"@en ;
 	skos:notation	"4030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -7846,6 +8057,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Investment Trusts"@en ;
 	skos:definition	"Real estate investment trusts (REITs).  Includes Property Trusts."@en ;
 	skos:notation	"40401010" ;
@@ -7871,6 +8083,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Management & Development"@en ;
 	skos:definition	"Companies engaged in real estate ownership, development or management."@en ;
 	skos:notation	"40401020" ;
@@ -7895,6 +8108,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate"@en ;
 	skos:notation	"404010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -7931,6 +8145,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified REITs"@en ;
 	skos:definition	"A company or Trust with significantly diversified operations across two or more property types."@en ;
 	skos:notation	"40402010" ;
@@ -7968,6 +8183,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Industrial REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of industrial properties. Includes companies operating industrial warehouses and distribution properties."@en ;
 	skos:notation	"40402020" ;
@@ -8005,6 +8221,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Mortgage REITs"@en ;
 	skos:definition	"Companies or Trusts that service, originate, purchase and/or securitize residential and/or commercial mortgage loans. Includes trusts that invest in mortgage-backed securities and other mortgage related assets."@en ;
 	skos:notation	"40402030" ;
@@ -8031,6 +8248,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Hotel & Resort REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of hotel and resort properties."@en ;
 	skos:notation	"40402035" ;
@@ -8068,6 +8286,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Office REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of office properties."@en ;
 	skos:notation	"40402040" ;
@@ -8094,6 +8313,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of properties serving the health care industry, including hospitals, nursing homes, and assisted living properties."@en ;
 	skos:notation	"40402045" ;
@@ -8131,6 +8351,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Residential REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of residential properties including multifamily homes, apartments, manufactured homes and student housing properties"@en ;
 	skos:notation	"40402050" ;
@@ -8168,6 +8389,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Retail REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of shopping malls, outlet malls, neighborhood and community shopping centers."@en ;
 	skos:notation	"40402060" ;
@@ -8205,6 +8427,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Specialized REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of properties not classified elsewhere. Includes trusts that operate and invest in storage properties. It also includes REITs that do not generate a majority of their revenues and income from real estate rental and leasing operations."@en ;
 	skos:notation	"40402070" ;
@@ -8230,6 +8453,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Investment Trusts (REITs)"@en ;
 	skos:notation	"404020" ;
 	tempo:validFrom	"2006-04-29"^^xsd:date ;
@@ -8266,6 +8490,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Real Estate Activities"@en ;
 	skos:definition	"Companies engaged in a diverse spectrum of real estate activities including real estate development & sales, real estate management, or real estate services, but with no dominant business line."@en ;
 	skos:notation	"40403010" ;
@@ -8292,6 +8517,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Operating Companies"@en ;
 	skos:definition	"Companies engaged in operating real estate properties for the purpose of leasing & management."@en ;
 	skos:notation	"40403020" ;
@@ -8318,6 +8544,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Development"@en ;
 	skos:definition	"Companies that develop real estate and sell the properties after development. Excludes companies classified in the Homebuilding Sub-Industry."@en ;
 	skos:notation	"40403030" ;
@@ -8344,6 +8571,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Services"@en ;
 	skos:definition	"Real estate service providers such as real estate agents, brokers & real estate appraisers."@en ;
 	skos:notation	"40403040" ;
@@ -8369,6 +8597,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Management & Development"@en ;
 	skos:notation	"404030" ;
 	tempo:validFrom	"2006-04-29"^^xsd:date ;
@@ -8393,6 +8622,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate"@en ;
 	skos:notation	"4040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -8414,6 +8644,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Financials"@en ;
 	skos:notation	"40" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -8459,6 +8690,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Internet Software & Services"@en ;
 	skos:definition	"Companies developing and marketing internet software and/or providing internet services including online databases and interactive services, as well as companies deriving a majority of their revenues from online advertising. Excludes companies classified in the Internet Retail Sub-Industry."@en ;
 	skos:notation	"45101010" ;
@@ -8483,6 +8715,7 @@ This Sub-Industry excludes managed care companies classified in the Managed Heal
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Internet Software & Services"@en ;
 	skos:notation	"451010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -8543,6 +8776,7 @@ This Sub-Industry excludes companies that offer management & technology consulti
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"IT Consulting & Other Services"@en ;
 	skos:definition	"""Providers of information technology and systems integration services.
 
@@ -8572,6 +8806,7 @@ This Sub-Industry excludes companies that offer management & technology consulti
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Data Processing & Outsourced Services"@en ;
 	skos:definition	"Providers of commercial electronic data processing and/or business process outsourcing services.  Includes companies that provide services for back-office automation."@en ;
 	skos:notation	"45102020" ;
@@ -8611,6 +8846,7 @@ This Sub-Industry excludes companies classified in the Software Industry."""@en 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Internet Services & Infrastructure"@en ;
 	skos:definition	"""Companies providing services and infrastructure for the internet industry including data centers and cloud networking & storage infrastructure.
 
@@ -8647,6 +8883,7 @@ This Sub-Industry excludes companies classified in the Software Industry."""@en 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"IT Services"@en ;
 	skos:notation	"451020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -8717,6 +8954,7 @@ This Sub-Industry excludes companies classified in the Interactive Home Entertai
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Application Software"@en ;
 	skos:definition	"""Companies engaged in developing and producing software designed for specialized applications for the business or consumer market.
 
@@ -8755,6 +8993,7 @@ This Sub-Industry excludes companies classified in the Interactive Home Entertai
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Systems Software"@en ;
 	skos:definition	"Companies engaged in developing and producing software for operating systems & platforms, database management software and firewalls."@en ;
 	skos:notation	"45103020" ;
@@ -8779,6 +9018,7 @@ This Sub-Industry excludes companies classified in the Interactive Home Entertai
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Home Entertainment Software"@en ;
 	skos:definition	"Manufacturers of home entertainment software and educational software used primarily in the home."@en ;
 	skos:notation	"45103030" ;
@@ -8802,6 +9042,7 @@ This Sub-Industry excludes companies classified in the Interactive Home Entertai
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Software"@en ;
 	skos:notation	"451030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -8823,6 +9064,7 @@ This Sub-Industry excludes companies classified in the Interactive Home Entertai
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Software & Services"@en ;
 	skos:notation	"4510" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -8847,6 +9089,7 @@ This Sub-Industry excludes companies classified in the Interactive Home Entertai
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Networking Equipment"@en ;
 	skos:definition	"Manufacturers of computer networking equipment and products, including LANs, WANs and routers."@en ;
 	skos:notation	"45201010" ;
@@ -8920,6 +9163,7 @@ This Sub-Industry excludes smartphone manufacturers classified in the Technology
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Communications Equipment"@en ;
 	skos:definition	"""Manufacturers of communication equipment and products, including LANs (Local Area Networks), WANs (Wide Area Networks), routers, telephone apparatus & modems, switchboards & exchanges and fiber optic cables & coaxial cables used by the telecommunications industry.
 
@@ -8946,6 +9190,7 @@ This Sub-Industry excludes smartphone manufacturers classified in the Technology
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Communications Equipment"@en ;
 	skos:notation	"452010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -8981,6 +9226,7 @@ This Sub-Industry excludes smartphone manufacturers classified in the Technology
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Computer Hardware"@en ;
 	skos:definition	"Manufacturers of personal computers, servers, mainframes and workstations. Includes manufacturers of Automatic Teller Machines (ATMs). Excludes manufacturers of copiers, faxes and related products classified in the Office Electronics Sub-Industry."@en ;
 	skos:notation	"45202010" ;
@@ -9018,6 +9264,7 @@ This Sub-Industry excludes smartphone manufacturers classified in the Technology
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Computer Storage & Peripherals"@en ;
 	skos:definition	"Manufacturers of electronic computer components and peripherals. Includes data storage components, motherboards, audio and video cards, monitors, keyboards, printers and other peripherals. Excludes semiconductors classified in the Semiconductors Sub-Industry."@en ;
 	skos:notation	"45202020" ;
@@ -9101,6 +9348,7 @@ This Sub-Industry excludes semiconductors classified in the Semiconductors Sub-I
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Technology Hardware, Storage & Peripherals"@en ;
 	skos:definition	"""Manufacturers of smartphones, personal computers, laptops,notebooks, servers, electronic computer printers,and related components and peripherals.
 
@@ -9136,6 +9384,7 @@ This Sub-Industry excludes semiconductors classified in the Semiconductors Sub-I
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Technology Hardware, Storage & Peripherals"@en ;
 	skos:notation	"452020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -9191,6 +9440,7 @@ This Sub-Industry excludes semiconductors classified in the Semiconductors Sub-I
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Electronic Equipment & Instruments"@en ;
 	skos:definition	"Manufacturers of electronic equipment and instruments, including analytical, electronic test & measurement instruments, scanner/barcode products, lasers, display screens, point-of-sales machines, and security system equipment."@en ;
 	skos:notation	"45203010" ;
@@ -9238,6 +9488,7 @@ This Sub-Industry includes electronic components, connection devices, electron t
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Electronic Components"@en ;
 	skos:definition	"""Manufacturers of electronic components generally used to create end products.
 
@@ -9285,6 +9536,7 @@ This Sub-Industry includes electronic components, connection devices, electron t
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Electronic Manufacturing Services"@en ;
 	skos:definition	"Producers of electronic equipment mainly for the OEM (Original Equipment Manufacturers) markets. These companies manufacture products that are largely customized as per the specifications outlined by their clients."@en ;
 	skos:notation	"45203020" ;
@@ -9321,6 +9573,7 @@ This Sub-Industry includes companies distributing or wholesaling technology prod
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Technology Distributors"@en ;
 	skos:definition	"""Distributors of software, technology hardware and equipment, communications equipment, computers & peripherals, semiconductors, and electronic equipment & components.
 
@@ -9355,6 +9608,7 @@ This Sub-Industry includes companies distributing or wholesaling technology prod
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Electronic Equipment, Instruments & Components"@en ;
 	skos:notation	"452030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -9378,6 +9632,7 @@ This Sub-Industry includes companies distributing or wholesaling technology prod
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Office Electronics"@en ;
 	skos:definition	"Manufacturers of office electronic equipment including copiers and faxes."@en ;
 	skos:notation	"45204010" ;
@@ -9402,6 +9657,7 @@ This Sub-Industry includes companies distributing or wholesaling technology prod
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Office Electronics"@en ;
 	skos:notation	"452040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -9427,6 +9683,7 @@ This Sub-Industry includes companies distributing or wholesaling technology prod
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Semiconductor Equipment"@en ;
 	skos:definition	"Manufacturers of semiconductor equipment."@en ;
 	skos:notation	"45205010" ;
@@ -9453,6 +9710,7 @@ This Sub-Industry includes companies distributing or wholesaling technology prod
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Semiconductors"@en ;
 	skos:definition	"Manufacturers of semiconductors and related products."@en ;
 	skos:notation	"45205020" ;
@@ -9477,6 +9735,7 @@ This Sub-Industry includes companies distributing or wholesaling technology prod
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Semiconductor Equipment & Products"@en ;
 	skos:notation	"452050" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date ;
@@ -9499,6 +9758,7 @@ This Sub-Industry includes companies distributing or wholesaling technology prod
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Technology Hardware & Equipment"@en ;
 	skos:notation	"4520" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -9559,6 +9819,7 @@ This Sub-Industry excludes printed circuit board manufacturers classified in the
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Semiconductor Materials & Equipment"@en ;
 	skos:definition	"""Manufacturers of semiconductor equipment, including manufacturers of the raw material and equipment used in the solar power industry such as raw wafers, gases, liquids and related packaging & material delivery systems.
 
@@ -9622,6 +9883,7 @@ This Sub-Industry also includes providers of semiconductor packaging and test se
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Semiconductors"@en ;
 	skos:definition	"""Manufacturers of semiconductors and related products, including solar modules, solar cells, integrated circuit devices, diodes and light-emitting diodes (LEDs), microprocessors and chips.
 
@@ -9646,6 +9908,7 @@ This Sub-Industry also includes providers of semiconductor packaging and test se
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Semiconductors & Semiconductor Equipment"@en ;
 	skos:notation	"453010" ;
 	tempo:validFrom	"2003-05-01"^^xsd:date .
@@ -9667,6 +9930,7 @@ This Sub-Industry also includes providers of semiconductor packaging and test se
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Semiconductors & Semiconductor Equipment"@en ;
 	skos:notation	"4530" ;
 	tempo:validFrom	"2003-05-01"^^xsd:date .
@@ -9687,6 +9951,7 @@ This Sub-Industry also includes providers of semiconductor packaging and test se
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Information Technology"@en ;
 	skos:notation	"45" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -9722,6 +9987,7 @@ This Sub-Industry includes satellite companies that mainly offer services to the
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Alternative Carriers"@en ;
 	skos:definition	"""Providers of communications and high-density data transmission services primarily through a high bandwidth/fiber-optic cable network.
 
@@ -9773,6 +10039,7 @@ This Sub-Industry excludes companies that mainly construct telecom towers and do
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Integrated Telecommunication Services"@en ;
 	skos:definition	"""Operators of primarily fixed-line telecommunications networks and companies providing both wireless and fixed-line telecommunications services, not classified elsewhere.
 
@@ -9799,6 +10066,7 @@ This Sub-Industry excludes companies that mainly construct telecom towers and do
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Telecommunication Services"@en ;
 	skos:notation	"501010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -9843,6 +10111,7 @@ This Sub-Industry excludes companies that mainly construct telecom towers and do
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Wireless Telecommunication Services"@en ;
 	skos:definition	"Providers of primarily cellular or wireless telecommunication services including in-flight internet providers."@en ;
 	skos:notation	"50102010" ;
@@ -9865,6 +10134,7 @@ This Sub-Industry excludes companies that mainly construct telecom towers and do
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Wireless Telecommunication Services"@en ;
 	skos:notation	"501020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -9886,6 +10156,7 @@ This Sub-Industry excludes companies that mainly construct telecom towers and do
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Telecommunication Services"@en ;
 	skos:notation	"5010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -9933,6 +10204,7 @@ This Sub-Industry includes companies offering digital advertising services, mark
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Advertising"@en ;
 	skos:definition	"""Companies providing advertising, marketing or public relations services.
 
@@ -10005,6 +10277,7 @@ This Sub-Industry includes radio and television broadcasting, radio networks, an
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Broadcasting"@en ;
 	skos:definition	"""Owners and operators of television or radio broadcasting systems, including programming.
 
@@ -10055,6 +10328,7 @@ This Sub-Industry includes cable networks and program distribution."""@en ;
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Cable & Satellite"@en ;
 	skos:definition	"""Providers of cable or satellite television services.
 
@@ -10116,6 +10390,7 @@ This Sub-Industry includes publishers of financial journals, magazines, and webs
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Publishing"@en ;
 	skos:definition	"""Publishers of newspapers, magazines and books in print or electronic formats.
 
@@ -10151,6 +10426,7 @@ This Sub-Industry includes publishers of financial journals, magazines, and webs
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Media"@en ;
 	skos:notation	"502010" ;
 	tempo:validFrom	"2018-09-29"^^xsd:date .
@@ -10198,6 +10474,7 @@ This Sub-Industry also includes companies offering and/or producing entertainmen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Movies & Entertainment"@en ;
 	skos:definition	"""Companies that engage in producing and selling entertainment products and services, including companies engaged in the production, distribution and screening of movies and television shows, producers and distributors of music, entertainment theaters and sports teams.
 
@@ -10238,6 +10515,7 @@ This Sub-Industry excludes online gambling companies classified in the Casinos &
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Interactive Home Entertainment"@en ;
 	skos:definition	"""Producers of interactive gaming products, including mobile gaming applications.
 
@@ -10264,6 +10542,7 @@ This Sub-Industry excludes online gambling companies classified in the Casinos &
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Entertainment"@en ;
 	skos:notation	"502020" ;
 	tempo:validFrom	"2018-09-29"^^xsd:date .
@@ -10301,6 +10580,7 @@ This Sub-Industry excludes companies that derive a commission upon a consumer’
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Interactive Media & Services"@en ;
 	skos:definition	"""Companies engaging in content and information creation or distribution through proprietary platforms, where revenues are derived primarily through pay-per-click advertisements.
 
@@ -10327,6 +10607,7 @@ This Sub-Industry excludes companies that derive a commission upon a consumer’
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Interactive Media & Services"@en ;
 	skos:notation	"502030" ;
 	tempo:validFrom	"2018-09-29"^^xsd:date .
@@ -10359,6 +10640,7 @@ This Sub-Industry excludes companies that derive a commission upon a consumer’
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Media & Entertainment"@en ;
 	skos:notation	"5020" ;
 	tempo:validFrom	"2018-09-29"^^xsd:date .
@@ -10389,6 +10671,7 @@ This Sub-Industry excludes companies that derive a commission upon a consumer’
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Communication Services"@en ;
 	skos:notation	"50" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -10435,6 +10718,7 @@ This Sub-Industry includes companies that are vertically integrated across elect
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Electric Utilities"@en ;
 	skos:definition	"""Companies that produce or distribute electricity, including both nuclear and non-nuclear facilities.
 
@@ -10459,6 +10743,7 @@ This Sub-Industry includes companies that are vertically integrated across elect
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Electric Utilities"@en ;
 	skos:notation	"551010" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -10527,6 +10812,7 @@ This Sub-Industry excludes companies primarily involved in gas exploration or pr
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Gas Utilities"@en ;
 	skos:definition	"""Companies whose main charter is to distribute and transmit natural & manufactured gas, including propane distributors.
 
@@ -10551,6 +10837,7 @@ This Sub-Industry excludes companies primarily involved in gas exploration or pr
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Gas Utilities"@en ;
 	skos:notation	"551020" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -10606,6 +10893,7 @@ This Sub-Industry excludes companies primarily involved in gas exploration or pr
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Multi-Utilities"@en ;
 	skos:definition	"Utility companies with significantly diversified activities in addition to core electric utility, gas utility and/or water utility operations."@en ;
 	skos:notation	"55103010" ;
@@ -10639,6 +10927,7 @@ This Sub-Industry excludes companies primarily involved in gas exploration or pr
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Multi-Utilities"@en ;
 	skos:notation	"551030" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -10674,6 +10963,7 @@ This Sub-Industry includes large-scale water treatment systems, water supply & i
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Water Utilities"@en ;
 	skos:definition	"""Companies that purchase and redistribute water to end consumers.
 
@@ -10698,6 +10988,7 @@ This Sub-Industry includes large-scale water treatment systems, water supply & i
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Water Utilities"@en ;
 	skos:notation	"551040" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -10755,6 +11046,7 @@ This Sub-Industry excludes producers of electricity using renewable sources, suc
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Independent Power Producers & Energy Traders"@en ;
 	skos:definition	"""Companies that operate as Independent Power Producers (IPPs), Gas & Power Marketing & Trading Specialists and/or Integrated Energy Merchants.
 
@@ -10793,6 +11085,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Renewable Electricity"@en ;
 	skos:definition	"""Companies that engage in the generation and distribution of electricity using renewable sources, including, but not limited to, companies that produce electricity using biomass, geothermal energy, solar energy, hydropower, and wind power.
 
@@ -10827,6 +11120,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Independent Power and Renewable Electricity Producers"@en ;
 	skos:notation	"551050" ;
 	tempo:validFrom	"2005-04-30"^^xsd:date .
@@ -10848,6 +11142,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Utilities"@en ;
 	skos:notation	"5510" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -10868,6 +11163,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Utilities"@en ;
 	skos:notation	"55" ;
 	tempo:validFrom	"1999-01-01"^^xsd:date .
@@ -10913,6 +11209,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified REITs"@en ;
 	skos:definition	"A company or Trust with significantly diversified operations across two or more property types."@en ;
 	skos:notation	"60101010" ;
@@ -10960,6 +11257,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Industrial REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of industrial properties. Includes companies operating industrial warehouses and distribution properties."@en ;
 	skos:notation	"60101020" ;
@@ -10997,6 +11295,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Hotel & Resort REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of hotel and resort properties."@en ;
 	skos:notation	"60101030" ;
@@ -11045,6 +11344,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Office REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of office properties."@en ;
 	skos:notation	"60101040" ;
@@ -11082,6 +11382,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of properties serving the health care industry, including hospitals, nursing homes, and assisted living properties."@en ;
 	skos:notation	"60101050" ;
@@ -11130,6 +11431,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Residential REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of residential properties including multifamily homes, apartments, manufactured homes and student housing properties"@en ;
 	skos:notation	"60101060" ;
@@ -11178,6 +11480,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Retail REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of shopping malls, outlet malls, neighborhood and community shopping centers."@en ;
 	skos:notation	"60101070" ;
@@ -11226,6 +11529,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Specialized REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of properties not classified elsewhere. Includes trusts that operate and invest in storage properties. It also includes REITs that do not generate a majority of their revenues and income from real estate rental and leasing operations."@en ;
 	skos:notation	"60101080" ;
@@ -11270,6 +11574,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified REITs"@en ;
 	skos:notation	"601010" ;
 	tempo:validFrom	"2016-09-01"^^xsd:date .
@@ -11316,6 +11621,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Real Estate Activities"@en ;
 	skos:definition	"Companies engaged in a diverse spectrum of real estate activities including real estate development & sales, real estate management, or real estate services, but with no dominant business line."@en ;
 	skos:notation	"60102010" ;
@@ -11353,6 +11659,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Operating Companies"@en ;
 	skos:definition	"Companies engaged in operating real estate properties for the purpose of leasing & management."@en ;
 	skos:notation	"60102020" ;
@@ -11390,6 +11697,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Development"@en ;
 	skos:definition	"Companies that develop real estate and sell the properties after development. Excludes companies classified in the Homebuilding Sub-Industry."@en ;
 	skos:notation	"60102030" ;
@@ -11427,6 +11735,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Services"@en ;
 	skos:definition	"Real estate service providers such as real estate agents, brokers & real estate appraisers."@en ;
 	skos:notation	"60102040" ;
@@ -11462,6 +11771,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Management & Development"@en ;
 	skos:notation	"601020" ;
 	tempo:validFrom	"2016-09-01"^^xsd:date ;
@@ -11485,6 +11795,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Industrial REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of industrial properties, such as industrial warehouses and distribution properties."@en ;
 	skos:notation	"60102510" ;
@@ -11507,6 +11818,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Industrial REITs"@en ;
 	skos:notation	"601025" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
@@ -11529,6 +11841,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Hotel & Resort REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of hotel and resort properties."@en ;
 	skos:notation	"60103010" ;
@@ -11551,6 +11864,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Hotel & Resort REITs"@en ;
 	skos:notation	"601030" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
@@ -11573,6 +11887,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Office REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of office properties."@en ;
 	skos:notation	"60104010" ;
@@ -11595,6 +11910,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Office REITs"@en ;
 	skos:notation	"601040" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
@@ -11617,6 +11933,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of properties serving the health care industry, including hospitals, nursing homes, and assisted living properties."@en ;
 	skos:notation	"60105010" ;
@@ -11639,6 +11956,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Health Care REITs"@en ;
 	skos:notation	"601050" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
@@ -11661,6 +11979,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Multi-Family Residential REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of apartments and other multi-family housing, including student housing."@en ;
 	skos:notation	"60106010" ;
@@ -11684,6 +12003,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Single-Family Residential REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of single-family residential housing, including manufactured homes."@en ;
 	skos:notation	"60106020" ;
@@ -11706,6 +12026,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Residential REITs"@en ;
 	skos:notation	"601060" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
@@ -11728,6 +12049,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Retail REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of shopping malls, outlet malls, neighborhood and community shopping centers."@en ;
 	skos:notation	"60107010" ;
@@ -11750,6 +12072,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Retail REITs"@en ;
 	skos:notation	"601070" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
@@ -11774,6 +12097,7 @@ This Sub-Industry includes REITs that manage and own properties such as natural 
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Other Specialized REITs"@en ;
 	skos:definition	"""Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of properties not classified elsewhere.
 
@@ -11799,6 +12123,7 @@ This Sub-Industry includes REITs that manage and own properties such as natural 
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Self-Storage REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of self storage properties."@en ;
 	skos:notation	"60108020" ;
@@ -11822,6 +12147,7 @@ This Sub-Industry includes REITs that manage and own properties such as natural 
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Telecom Tower REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of telecom towers and related structures that support wireless telecommunications."@en ;
 	skos:notation	"60108030" ;
@@ -11845,6 +12171,7 @@ This Sub-Industry includes REITs that manage and own properties such as natural 
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Timber REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of timberland and timber-related properties."@en ;
 	skos:notation	"60108040" ;
@@ -11868,6 +12195,7 @@ This Sub-Industry includes REITs that manage and own properties such as natural 
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Data Center REITs"@en ;
 	skos:definition	"Companies or Trusts engaged in the acquisition, development, ownership, leasing, management and operation of data center properties."@en ;
 	skos:notation	"60108050" ;
@@ -11890,6 +12218,7 @@ This Sub-Industry includes REITs that manage and own properties such as natural 
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Specialized REITs"@en ;
 	skos:notation	"601080" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
@@ -11932,6 +12261,7 @@ This Sub-Industry includes REITs that manage and own properties such as natural 
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Equity Real Estate Investment Trusts (REITs)"@en ;
 	skos:notation	"6010" ;
 	tempo:validFrom	"2016-09-01"^^xsd:date .
@@ -11954,6 +12284,7 @@ This Sub-Industry includes REITs that manage and own properties such as natural 
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Diversified Real Estate Activities"@en ;
 	skos:definition	"Companies engaged in a diverse spectrum of real estate activities including real estate development & sales, real estate management, or real estate services, but with no dominant business line."@en ;
 	skos:notation	"60201010" ;
@@ -11977,6 +12308,7 @@ This Sub-Industry includes REITs that manage and own properties such as natural 
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Operating Companies"@en ;
 	skos:definition	"Companies engaged in operating real estate properties for the purpose of leasing & management, including real estate property managers."@en ;
 	skos:notation	"60201020" ;
@@ -12002,6 +12334,7 @@ This Sub-Industry excludes companies classified in the Homebuilding Sub-Industry
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Development"@en ;
 	skos:definition	"""Companies that develop real estate and sell the properties after development, including developers of active senior communities.
 
@@ -12031,6 +12364,7 @@ This Sub-Industry excludes online real estate platforms that offer mainly inform
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:03Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Services"@en ;
 	skos:definition	"""Real estate service providers such as real estate agents, brokers, real estate appraisers and other real estate related services.
 
@@ -12057,6 +12391,7 @@ This Sub-Industry excludes online real estate platforms that offer mainly inform
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Management & Development"@en ;
 	skos:notation	"602010" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
@@ -12078,6 +12413,7 @@ This Sub-Industry excludes online real estate platforms that offer mainly inform
 	] ;
 	pav:sourceAccessedOn	"2026-05-26T10:38:07Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:06Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate Management & Development"@en ;
 	skos:notation	"6020" ;
 	tempo:validFrom	"2023-03-18"^^xsd:date .
@@ -12098,6 +12434,7 @@ This Sub-Industry excludes online real estate platforms that offer mainly inform
 	] ;
 	pav:sourceAccessedOn	"2019-06-07T09:41:30Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2026-05-29T15:08:11Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	gics: ;
 	rdfs:label	"Real Estate"@en ;
 	skos:notation	"60" ;
 	tempo:validFrom	"2016-09-01"^^xsd:date .
