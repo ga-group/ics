@@ -84,14 +84,17 @@ WHERE {
 		?u dct:isContemporaryVersionOf ?w .
 		FILTER(?v != ?w)
 		}
+
 		OPTIONAL {
-		VALUES ?hasparent {
-		gics:isIndustryGroupOf
-		gics:isIndustryOf
-		gics:isSubindustryOf
-		}
-		?z ?hasparent ?parz .
-		?parz dct:isContemporaryVersionOf ?parx .
+			?y a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+			dct:isContemporaryVersionOf ?x .
+			VALUES ?hasparent {
+				gics:isIndustryGroupOf
+				gics:isIndustryOf
+				gics:isSubindustryOf
+			}
+			?y ?hasparent ?pary .
+			?pary dct:isContemporaryVersionOf ?parx .
 		}
 	}
 	ORDER BY ?x ?from ?z

@@ -2373,7 +2373,7 @@ This Sub-Industry excludes companies providing security software classified in t
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/20201040> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/202010> , <http://data.ga-group.nl/ics/gics/202020> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/202020> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -2480,7 +2480,7 @@ This Sub-Industry excludes companies providing information technology consulting
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/45102020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/202020> , <http://data.ga-group.nl/ics/gics/451020> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/202020> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -7195,7 +7195,7 @@ This Sub-Industry includes non-deposit funded mortgage lending institutions, bui
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40201010> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/402010> , <http://data.ga-group.nl/ics/gics/402020> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/402020> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -7502,7 +7502,7 @@ This Sub-Industry excludes providers of financial magazines, journals, and websi
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40402030> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/402040> , <http://data.ga-group.nl/ics/gics/404020> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/402040> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -9507,7 +9507,7 @@ This Sub-Industry includes companies distributing or wholesaling technology prod
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/45205010> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/452050> , <http://data.ga-group.nl/ics/gics/453010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/453010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -9572,7 +9572,7 @@ This Sub-Industry excludes printed circuit board manufacturers classified in the
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/45205020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/452050> , <http://data.ga-group.nl/ics/gics/453010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/453010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -9894,7 +9894,7 @@ This Sub-Industry excludes companies that mainly construct telecom towers and do
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/25401010> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/254010> , <http://data.ga-group.nl/ics/gics/502010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/502010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -9944,7 +9944,7 @@ This Sub-Industry includes companies offering digital advertising services, mark
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/25401020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/254010> , <http://data.ga-group.nl/ics/gics/502010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/502010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -10016,7 +10016,7 @@ This Sub-Industry includes radio and television broadcasting, radio networks, an
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/25401025> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/254010> , <http://data.ga-group.nl/ics/gics/502010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/502010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -10066,7 +10066,7 @@ This Sub-Industry includes cable networks and program distribution."""@en ;
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/25401040> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/254010> , <http://data.ga-group.nl/ics/gics/502010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/502010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -10127,7 +10127,7 @@ This Sub-Industry includes publishers of financial journals, magazines, and webs
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:IndustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/254010> ;
-	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/2540> , <http://data.ga-group.nl/ics/gics/5020> ;
+	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/5020> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -10159,7 +10159,7 @@ This Sub-Industry includes publishers of financial journals, magazines, and webs
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/25401030> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/254010> , <http://data.ga-group.nl/ics/gics/502020> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/502020> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -10335,7 +10335,7 @@ This Sub-Industry excludes companies that derive a commission upon a consumer’
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:IndustryGroupClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/2540> ;
-	gics:isIndustryGroupOf	<http://data.ga-group.nl/ics/gics/25> , <http://data.ga-group.nl/ics/gics/50> ;
+	gics:isIndustryGroupOf	<http://data.ga-group.nl/ics/gics/50> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -10876,7 +10876,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40402010> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404020> , <http://data.ga-group.nl/ics/gics/601010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -10922,7 +10922,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40402020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404020> , <http://data.ga-group.nl/ics/gics/601010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -10970,7 +10970,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40402035> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404020> , <http://data.ga-group.nl/ics/gics/601010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11007,7 +11007,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40402040> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404020> , <http://data.ga-group.nl/ics/gics/601010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11055,7 +11055,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40402045> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404020> , <http://data.ga-group.nl/ics/gics/601010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11092,7 +11092,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40402050> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404020> , <http://data.ga-group.nl/ics/gics/601010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11140,7 +11140,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40402060> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404020> , <http://data.ga-group.nl/ics/gics/601010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11188,7 +11188,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40402070> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404020> , <http://data.ga-group.nl/ics/gics/601010> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11236,7 +11236,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:IndustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/404020> ;
-	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/4040> , <http://data.ga-group.nl/ics/gics/6010> ;
+	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/6010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11278,7 +11278,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40403010> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404030> , <http://data.ga-group.nl/ics/gics/601020> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601020> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11326,7 +11326,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40403020> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404030> , <http://data.ga-group.nl/ics/gics/601020> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601020> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11363,7 +11363,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40403030> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404030> , <http://data.ga-group.nl/ics/gics/601020> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601020> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11400,7 +11400,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/40403040> ;
-	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/404030> , <http://data.ga-group.nl/ics/gics/601020> ;
+	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/601020> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11437,7 +11437,7 @@ This Sub-Industry excludes companies manufacturing capital equipment used to gen
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:IndustryClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/404030> ;
-	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/4040> , <http://data.ga-group.nl/ics/gics/6010> ;
+	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/6010> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
@@ -11898,7 +11898,7 @@ This Sub-Industry includes REITs that manage and own properties such as natural 
 	a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
 	a	gics:IndustryGroupClassifier , owl:NamedIndividual ;
 	dct:replaces	<http://data.ga-group.nl/ics/gics/4040> ;
-	gics:isIndustryGroupOf	<http://data.ga-group.nl/ics/gics/40> , <http://data.ga-group.nl/ics/gics/60> ;
+	gics:isIndustryGroupOf	<http://data.ga-group.nl/ics/gics/60> ;
 	pav:createdWith	<file:infer-gics.sql> ;
 	pav:derivedFrom	[
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
