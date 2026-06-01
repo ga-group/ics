@@ -22,7 +22,7 @@
 	a	owl:Ontology ;
 	dcat:downloadURL	<http://data.ga-group.nl/ics/icb2005.ttl> ;
 	dct:abstract	"""This ontology includes individuals representing the set of classification codes based on the principal business activity of the company.
-This set of classification codes is valid from 2005-01-01 till 2006-12-31."""@en ;
+This set of classification codes is valid from 2005-01-01 till 2007-03-01."""@en ;
 	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
 	dct:description	"""The Industry Classification Benchmark (ICB) is an industry classification taxonomy launched by Dow Jones and FTSE in 2005 and now used by FTSE International and STOXX.
 Codes are four-tiered, numeric, and not prefix-free.  The first tier is called industry, the second tier is the supersector, the third tier is the sector, and the fourth tier is the subsector.
@@ -45,10 +45,2839 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	sm:copyright	"Copyright (c) 2004 FTSE International Limited" , "Copyright (c) 2004 Dow Jones & Co, Inc." , "Copyright (c) 2022-2026 PAMIYA Strategic Advisors GmbH" ;
 	sm:filename	"icb2005.ttl" ;
 	tempo:validFrom	"2005-01-01"^^xsd:date ;
-	tempo:validTill	"2007-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date ;
 	vann:preferredNamespacePrefix	"icb2005"^^xsd:string ;
 	vann:preferredNamespaceUri	"http://data.ga-group.nl/ics/icb/2005/" .
 
 
 
 
+<http://data.ga-group.nl/ics/icb/2005/0001>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:IndustryClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0001> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0001> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"OIL & GAS"@en ;
+	skos:notation	"0001" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/0500>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0500> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0500> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/0500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Oil & Gas"@en ;
+	skos:notation	"0500" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/0530>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0530> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0530> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/0500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Oil & Gas Producers"@en ;
+	skos:notation	"0530" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/0533>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0533> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0533> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/0530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Exploration & Production"@en ;
+	skos:definition	"Companies engaged in the exploration for and drilling, production, refining and supply of oil and gas products."@en ;
+	skos:notation	"0533" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/0537>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0537> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0537> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/0530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Integrated Oil & Gas"@en ;
+	skos:definition	"Integrated oil and gas companies engaged in the exploration for and drilling, production, refining and distribution of oil and gas products."@en ;
+	skos:notation	"0537" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/0570>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0570> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0570> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/0500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Oil Equipment, Services & Distribution"@en ;
+	skos:notation	"0570" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/0573>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0573> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0573> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/0570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Oil Equipment & Services"@en ;
+	skos:definition	"Suppliers of equipment and services to oil fields and offshore platforms, such as drilling, exploration, seismic-information services and platform construction."@en ;
+	skos:notation	"0573" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/0577>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0577> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0577> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/0570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Pipelines"@en ;
+	skos:definition	"Operators of pipelines carrying oil, gas or other forms of fuel. Excludes pipeline operators that derive the majority of their revenues from direct sales to end users, which are classified under Gas Distribution."@en ;
+	skos:notation	"0577" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1000>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:IndustryClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1000> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1000> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"BASIC MATERIALS"@en ;
+	skos:notation	"1000" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1300>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1300> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1300> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/1300> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Chemicals"@en ;
+	skos:notation	"1300" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1350>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1350> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1350> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/1300> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Chemicals"@en ;
+	skos:notation	"1350" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1353>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1353> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1353> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1350> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Commodity Chemicals"@en ;
+	skos:definition	"Producers and distributors of simple chemical products that are primarily used to formulate more complex chemicals or products, including plastics and rubber in their raw form, fiberglass and synthetic fibers."@en ;
+	skos:notation	"1353" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1357>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1357> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1357> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1350> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Specialty Chemicals"@en ;
+	skos:definition	"Producers and distributors of finished chemicals for industries or end users, including dyes, cellular polymers, coatings, special plastics and other chemicals for specialized applications. Includes makers of colorings, flavors and fragrances, fertilizers, pesticides, chemicals used to make drugs, paint in its pigment form and glass in its unfinished form. Excludes producers of paint and glass products used for construction, which are classified under Building Materials & Fixtures."@en ;
+	skos:notation	"1357" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1700>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1700> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1700> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/1700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Basic Resources"@en ;
+	skos:notation	"1700" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1730>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1730> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1730> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/1700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Forestry & Paper"@en ;
+	skos:notation	"1730" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1733>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1733> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1733> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1730> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Forestry"@en ;
+	skos:definition	"Owners and operators of timber tracts, forest tree nurseries and sawmills. Excludes providers of finished wood products such as wooden beams, which are classified under Building Materials & Fixtures."@en ;
+	skos:notation	"1733" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1737>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1737> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1737> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1730> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Paper"@en ;
+	skos:definition	"Producers, converters, merchants and distributors of all grades of paper. Excludes makers of printed forms, which are classified under Business Support Services, and manufacturers of paper items such as cups and napkins, which are classified under Nondurable Household Products."@en ;
+	skos:notation	"1737" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1750>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1750> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1750> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/1700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Industrial Metals"@en ;
+	skos:notation	"1750" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1753>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1753> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1753> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1750> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Aluminum"@en ;
+	skos:definition	"Companies that mine or process bauxite or manufacture and distribute aluminum bars, rods and other products for use by other industries. Excludes manufacturers of finished aluminum products, such as siding, which are categorized according to the type of end product."@en ;
+	skos:notation	"1753" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1755>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1755> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1755> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1750> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Nonferrous Metals"@en ;
+	skos:definition	"Producers and traders of metals and primary metal products other than iron, aluminum and steel. Excludes companies that make finished products, which are categorized according to the type of end product."@en ;
+	skos:notation	"1755" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1757>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1757> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1757> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1750> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Steel"@en ;
+	skos:definition	"Manufacturers and stockholders of primary iron and steel products such as pipes, wires, sheets and bars, encompassing all processes from smelting in blast furnaces to rolling mills and foundries."@en ;
+	skos:notation	"1757" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1770>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1770> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1770> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/1700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Mining"@en ;
+	skos:notation	"1770" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1771>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1771> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1771> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Coal"@en ;
+	skos:definition	"Companies engaged in the exploration for or mining of coal."@en ;
+	skos:notation	"1771" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1773>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1773> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1773> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Diamonds & Gemstones"@en ;
+	skos:definition	"Companies engaged in the exploration for and production of diamonds and other gemstones."@en ;
+	skos:notation	"1773" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1775>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1775> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1775> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"General Mining"@en ;
+	skos:definition	"Companies engaged in the exploration, extraction or refining of minerals not defined elsewhere within the Mining sector."@en ;
+	skos:notation	"1775" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1777>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1777> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1777> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Gold Mining"@en ;
+	skos:definition	"Prospectors for and extractors or refiners of gold-bearing ores."@en ;
+	skos:notation	"1777" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/1779>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1779> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1779> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Platinum & Precious Metals"@en ;
+	skos:definition	"Companies engaged in the exploration for and production of platinum, silver and other precious metals not defined elsewhere."@en ;
+	skos:notation	"1779" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2000>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:IndustryClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2000> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2000> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"INDUSTRIALS"@en ;
+	skos:notation	"2000" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2300>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2300> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2300> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/2300> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Construction & Materials"@en ;
+	skos:notation	"2300" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2350>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2350> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2350> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/2300> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Construction & Materials"@en ;
+	skos:notation	"2350" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2353>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2353> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2353> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2350> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Building Materials & Fixtures"@en ;
+	skos:definition	"Producers of materials used in the construction and refurbishment of buildings and structures, including cement and other aggregates, wooden beams and frames, paint, glass, roofing and flooring materials other than carpets. Includes producers of bathroom and kitchen fixtures, plumbing supplies and central air-conditioning and heating equipment. Excludes producers of raw lumber, which are classified under Forestry."@en ;
+	skos:notation	"2353" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2357>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2357> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2357> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2350> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Heavy Construction"@en ;
+	skos:definition	"Companies engaged in the construction of commercial buildings, infrastructure such as roads and bridges, residential apartment buildings, and providers of services to construction companies, such as architects, masons, plumbers and electrical contractors."@en ;
+	skos:notation	"2357" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2700>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2700> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2700> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/2700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Industrial Goods & Services"@en ;
+	skos:notation	"2700" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2710>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2710> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2710> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/2700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Aerospace & Defense"@en ;
+	skos:notation	"2710" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2713>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2713> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2713> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2710> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Aerospace"@en ;
+	skos:definition	"Manufacturers, assemblers and distributors of aircraft and aircraft parts primarily used in commercial or private air transport. Excludes manufacturers of communications satellites, which are classified under Telecommunications Equipment."@en ;
+	skos:notation	"2713" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2717>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2717> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2717> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2710> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Defense"@en ;
+	skos:definition	"Producers of components and equipment for the defense industry, including military aircraft, radar equipment and weapons."@en ;
+	skos:notation	"2717" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2720>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2720> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2720> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/2700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"General Industrials"@en ;
+	skos:notation	"2720" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2723>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2723> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2723> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2720> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Containers & Packaging"@en ;
+	skos:definition	"Makers and distributors of cardboard, bags, boxes, cans, drums, bottles and jars and glass used for packaging."@en ;
+	skos:notation	"2723" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2727>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2727> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2727> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2720> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Diversified Industrials"@en ;
+	skos:definition	"Industrial companies engaged in three or more classes of business within the Industrial industry that differ substantially from each other."@en ;
+	skos:notation	"2727" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2730>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2730> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2730> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/2700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Electronic & Electrical Equipment"@en ;
+	skos:notation	"2730" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2733>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2733> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2733> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2730> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Electrical Components & Equipment"@en ;
+	skos:definition	"Makers and distributors of electrical parts for finished products, such as printed circuit boards for radios, televisions and other consumer electronics. Includes makers of cables, wires, ceramics, transistors, electric adapters, fuel cells and security cameras."@en ;
+	skos:notation	"2733" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2737>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2737> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2737> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2730> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Electronic Equipment"@en ;
+	skos:definition	"Manufacturers and distributors of electronic products used in different industries. Includes makers of lasers, smart cards, bar scanners, fingerprinting equipment and other electronic factory equipment."@en ;
+	skos:notation	"2737" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2750>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2750> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2750> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/2700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Industrial Engineering"@en ;
+	skos:notation	"2750" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2753>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2753> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2753> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2750> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Commercial Vehicles & Trucks"@en ;
+	skos:definition	"Manufacturers and distributors of commercial vehicles and heavy agricultural and construction machinery, including rail cars, tractors, bulldozers, buses and industrial lawn mowers. Includes nonmilitary shipbuilders, such as builders of cruise ships and ferries."@en ;
+	skos:notation	"2753" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2757>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2757> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2757> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2750> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Industrial Machinery"@en ;
+	skos:definition	"Designers, manufacturers, distributors and installers of industrial machinery and factory equipment, such as machine tools, lathes, presses and assembly line equipment. Includes makers of pollution control equipment, castings, pressings, welded shapes, structural steelwork, compressors, pumps, bearings, elevators and escalators."@en ;
+	skos:notation	"2757" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2770>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2770> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2770> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/2700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Industrial Transportation"@en ;
+	skos:notation	"2770" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2771>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2771> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2771> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Delivery Services"@en ;
+	skos:definition	"Operators of mail and package delivery services for commercial and consumer use. Includes courier and logistic services primarily involving air transportation."@en ;
+	skos:notation	"2771" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2773>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2773> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2773> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Marine Transportation"@en ;
+	skos:definition	"Providers of on-water transportation for commercial markets, such as container shipping. Excludes ports, which are classified under Transportation Services, and shipbuilders, which are classified under Commercial Vehicles & Trucks."@en ;
+	skos:notation	"2773" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2775>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2775> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2775> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Railroads"@en ;
+	skos:definition	"Providers of industrial railway transportation and railway lines. Excludes passenger railway companies, which are classified under Travel & Tourism, and manufacturers of rail cars, which are classified under Commercial Vehicles & Trucks."@en ;
+	skos:notation	"2775" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2777>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2777> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2777> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Transportation Services"@en ;
+	skos:definition	"Companies providing services to the Industrial Transportation sector, including companies that manage airports, train depots, roads, bridges, tunnels, ports, and providers of logistic services to shippers of goods. Includes companies that provide aircraft and vehicle maintenance services."@en ;
+	skos:notation	"2777" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2779>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2779> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2779> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Trucking"@en ;
+	skos:definition	"Companies that provide commercial trucking services. Excludes road and tunnel operators, which are classified under Transportation Services, and vehicle rental and taxi companies, which are classified under Travel & Tourism."@en ;
+	skos:notation	"2779" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2790>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2790> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2790> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/2700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Support Services"@en ;
+	skos:notation	"2790" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2791>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2791> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2791> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2790> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Business Support Services"@en ;
+	skos:definition	"Providers of nonfinancial services to a wide range of industrial enterprises and governments. Includes providers of printing services, management consultants, office cleaning services, and companies that install, service and monitor alarm and security systems."@en ;
+	skos:notation	"2791" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2793>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2793> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2793> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2790> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Business Training & Employment Agencies"@en ;
+	skos:definition	"Providers of business or management training courses and employment services."@en ;
+	skos:notation	"2793" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2795>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2795> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2795> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2790> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Financial Administration"@en ;
+	skos:definition	"Providers of computerized transaction processing, data communication and information services, including payroll, bill payment and employee benefit services."@en ;
+	skos:notation	"2795" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2797>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2797> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2797> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2790> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Industrial Suppliers"@en ;
+	skos:definition	"Distributors and wholesalers of diversified products and equipment primarily used in the commercial and industrial sectors. Includes builders merchants."@en ;
+	skos:notation	"2797" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/2799>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2799> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2799> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2790> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Waste & Disposal Services"@en ;
+	skos:definition	"Providers of pollution control and environmental services for the management, recovery and disposal of solid and hazardous waste materials, such as landfills and recycling centers. Excludes manufacturers of industrial air and water filtration equipment, which are classified under Industrial Machinery."@en ;
+	skos:notation	"2799" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3000>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:IndustryClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3000> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3000> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"CONSUMER GOODS"@en ;
+	skos:notation	"3000" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3300>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3300> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3300> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/3300> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Automobiles & Parts"@en ;
+	skos:notation	"3300" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3350>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3350> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3350> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/3300> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Automobiles & Parts"@en ;
+	skos:notation	"3350" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3353>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3353> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3353> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3350> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Automobiles"@en ;
+	skos:definition	"Makers of motorcycles and passenger vehicles, including cars, sport utility vehicles (SUVs) and light trucks. Excludes makers of heavy trucks, which are classified under Commercial Vehicles & Trucks, and makers of recreational vehicles (RVs and ATVs), which are classified under Recreational Products."@en ;
+	skos:notation	"3353" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3355>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3355> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3355> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3350> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Auto Parts"@en ;
+	skos:definition	"Manufacturers and distributors of new and replacement parts for motorcycles and automobiles, such as engines, carburetors and batteries. Excludes producers of tires, which are classified under Tires."@en ;
+	skos:notation	"3355" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3357>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3357> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3357> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3350> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Tires"@en ;
+	skos:definition	"Manufacturers, distributors and retreaders of automobile, truck and motorcycle tires."@en ;
+	skos:notation	"3357" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3500>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3500> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3500> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/3500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Food & Beverage"@en ;
+	skos:notation	"3500" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3530>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3530> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3530> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/3500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Beverages"@en ;
+	skos:notation	"3530" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3533>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3533> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3533> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Brewers"@en ;
+	skos:definition	"Manufacturers and shippers of cider or malt products such as beer, ale and stout."@en ;
+	skos:notation	"3533" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3535>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3535> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3535> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Distillers & Vintners"@en ;
+	skos:definition	"Producers, distillers, vintners, blenders and shippers of wine and spirits such as whisky, brandy, rum, gin or liqueurs."@en ;
+	skos:notation	"3535" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3537>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3537> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3537> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Soft Drinks"@en ;
+	skos:definition	"Manufacturers, bottlers and distributors of nonalcoholic beverages, such as soda, fruit juices, tea, coffee and bottled water."@en ;
+	skos:notation	"3537" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3570>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3570> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3570> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/3500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Food Producers"@en ;
+	skos:notation	"3570" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3573>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3573> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3573> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Farming & Fishing"@en ;
+	skos:definition	"Companies that grow crops or raise livestock, operate fisheries or own nontobacco plantations. Includes manufacturers of livestock feeds and seeds and other agricultural products but excludes manufacturers of fertilizers or pesticides, which are classified under Specialty Chemicals."@en ;
+	skos:notation	"3573" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3577>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3577> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3577> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Food Products"@en ;
+	skos:definition	"Food producers, including meatpacking, snacks, fruits, vegetables, dairy products and frozen seafood. Includes producers of pet food and manufacturers of dietary supplements, vitamins and related items. Excludes producers of fruit juices, tea, coffee, bottled water and other nonalcoholic beverages, which are classified under Soft Drinks."@en ;
+	skos:notation	"3577" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3700>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3700> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3700> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/3700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Personal & Household Goods"@en ;
+	skos:notation	"3700" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3720>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3720> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3720> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/3700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Household Goods"@en ;
+	skos:notation	"3720" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3722>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3722> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3722> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3720> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Durable Household Products"@en ;
+	skos:definition	"Manufacturers and distributors of domestic appliances, lighting, hand tools and power tools, hardware, cutlery, tableware, garden equipment, luggage, towels and linens."@en ;
+	skos:notation	"3722" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3724>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3724> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3724> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3720> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Nondurable Household Products"@en ;
+	skos:definition	"Producers and distributors of pens, paper goods, batteries, light bulbs, tissues, toilet paper and cleaning products such as soaps and polishes."@en ;
+	skos:notation	"3724" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3726>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3726> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3726> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3720> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Furnishings"@en ;
+	skos:definition	"Manufacturers and distributors of furniture, including chairs, tables, desks, carpeting, wallpaper and office furniture."@en ;
+	skos:notation	"3726" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3728>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3728> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3728> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3720> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Home Construction"@en ;
+	skos:definition	"Constructors of residential homes, including manufacturers of mobile and prefabricated homes intended for use in one place."@en ;
+	skos:notation	"3728" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3740>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3740> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3740> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/3700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Leisure Goods"@en ;
+	skos:notation	"3740" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3743>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3743> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3743> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3740> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Consumer Electronics"@en ;
+	skos:definition	"Manufacturers and distributors of consumer electronics, such as TVs, VCRs, DVD players, audio equipment, cable boxes, calculators and camcorders."@en ;
+	skos:notation	"3743" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3745>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3745> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3745> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3740> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Recreational Products"@en ;
+	skos:definition	"Manufacturers and distributors of recreational equipment. Includes musical instruments, photographic equipment and supplies, RVs, ATVs and marine recreational vehicles such as yachts, dinghies and speedboats."@en ;
+	skos:notation	"3745" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3747>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3747> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3747> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3740> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Toys"@en ;
+	skos:definition	"Manufacturers and distributors of toys and video/computer games, including such toys and games as playing cards, board games, stuffed animals and dolls."@en ;
+	skos:notation	"3747" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3760>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3760> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3760> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/3700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Personal Goods"@en ;
+	skos:notation	"3760" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3763>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3763> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3763> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3760> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Clothing & Accessories"@en ;
+	skos:definition	"Manufacturers and distributors of all types of clothing, jewelry, watches or textiles. Includes sportswear, sunglasses, eyeglass frames, leather clothing and goods, and processors of hides and skins."@en ;
+	skos:notation	"3763" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3765>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3765> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3765> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3760> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Footwear"@en ;
+	skos:definition	"Manufacturers and distributors of shoes, boots, sandals, sneakers and other types of footwear."@en ;
+	skos:notation	"3765" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3767>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3767> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3767> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3760> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Personal Products"@en ;
+	skos:definition	"Makers and distributors of cosmetics, toiletries and personal-care and hygiene products, including deodorants, soaps, toothpaste, perfumes, diapers, shampoos, razors and feminine-hygiene products. Includes makers of contraceptives other than oral contraceptives, which are classified under Pharmaceuticals."@en ;
+	skos:notation	"3767" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3780>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3780> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3780> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/3700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Tobacco"@en ;
+	skos:notation	"3780" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/3785>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3785> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3785> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3780> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Tobacco"@en ;
+	skos:definition	"Manufacturers and distributors of cigarettes, cigars and other tobacco products. Includes tobacco plantations."@en ;
+	skos:notation	"3785" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/4000>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:IndustryClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4000> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4000> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"HEALTH CARE"@en ;
+	skos:notation	"4000" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/4500>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4500> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4500> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/4500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Health Care"@en ;
+	skos:notation	"4500" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/4530>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4530> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4530> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/4500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Health Care Equipment & Services"@en ;
+	skos:notation	"4530" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/4533>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4533> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4533> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/4530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Health Care Providers"@en ;
+	skos:definition	"Owners and operators of health maintenance organizations, hospitals, clinics, dentists, opticians, nursing homes, rehabilitation and retirement centers. Excludes veterinary services, which are classified under Specialized Consumer Services."@en ;
+	skos:notation	"4533" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/4535>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4535> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4535> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/4530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Medical Equipment"@en ;
+	skos:definition	"Manufacturers and distributors of medical devices such as MRI scanners, prosthetics, pacemakers, X-ray machines and other nondisposable medical devices."@en ;
+	skos:notation	"4535" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/4537>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4537> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4537> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/4530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Medical Supplies"@en ;
+	skos:definition	"Manufacturers and distributors of medical supplies used by health care providers and the general public. Includes makers of contact lenses, eyeglass lenses, bandages and other disposable medical supplies."@en ;
+	skos:notation	"4537" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/4570>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4570> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4570> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/4500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Pharmaceuticals & Biotechnology"@en ;
+	skos:notation	"4570" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/4573>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4573> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4573> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/4570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Biotechnology"@en ;
+	skos:definition	"Companies engaged in research into and development of biological substances for the purposes of drug discovery and diagnostic development, and which derive the majority of their revenue from either the sale or licensing of these drugs and diagnostic tools."@en ;
+	skos:notation	"4573" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/4577>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4577> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4577> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/4570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Pharmaceuticals"@en ;
+	skos:definition	"Manufacturers of prescription or over-the-counter drugs, such as aspirin, cold remedies and birth control pills. Includes vaccine producers but excludes vitamin producers, which are classified under Food Products."@en ;
+	skos:notation	"4577" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5000>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:IndustryClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5000> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5000> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"CONSUMER SERVICES"@en ;
+	skos:notation	"5000" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5300>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5300> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5300> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/5300> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Retail"@en ;
+	skos:notation	"5300" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5330>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5330> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5330> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/5300> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Food & Drug Retailers"@en ;
+	skos:notation	"5330" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5333>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5333> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5333> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5330> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Drug Retailers"@en ;
+	skos:definition	"Operators of pharmacies, including wholesalers and distributors catering to these businesses."@en ;
+	skos:notation	"5333" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5337>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5337> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5337> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5330> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Food Retailers & Wholesalers"@en ;
+	skos:definition	"Supermarkets, food-oriented convenience stores and other food retailers and distributors. Includes retailers of dietary supplements and vitamins."@en ;
+	skos:notation	"5337" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5370>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5370> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5370> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/5300> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"General Retailers"@en ;
+	skos:notation	"5370" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5371>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5371> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5371> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5370> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Apparel Retailers"@en ;
+	skos:definition	"Retailers and wholesalers specializing mainly in clothing, shoes, jewelry, sunglasses and other accessories."@en ;
+	skos:notation	"5371" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5373>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5373> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5373> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5370> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Broadline Retailers"@en ;
+	skos:definition	"Retail outlets and wholesalers offering a wide variety of products including both hard goods and soft goods."@en ;
+	skos:notation	"5373" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5375>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5375> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5375> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5370> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Home Improvement Retailers"@en ;
+	skos:definition	"Retailers and wholesalers concentrating on the sale of home improvement products, including garden equipment, carpets, wallpaper, paint, home furniture, blinds and curtains, and building materials."@en ;
+	skos:notation	"5375" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5377>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5377> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5377> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5370> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Specialized Consumer Services"@en ;
+	skos:definition	"Providers of consumer services such as auction houses, day-care centers, dry cleaners, schools, consumer rental companies, veterinary clinics, hair salons and providers of funeral, lawn-maintenance, consumer-storage, heating and cooling installation and plumbing services."@en ;
+	skos:notation	"5377" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5379>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5379> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5379> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5370> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Specialty Retailers"@en ;
+	skos:definition	"Retailers and wholesalers concentrating on a single class of goods, such as electronics, books, automotive parts or closeouts. Includes automobile dealerships, video rental stores, dollar stores, duty-free shops and automotive fuel stations not owned by oil companies."@en ;
+	skos:notation	"5379" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5500>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5500> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5500> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/5500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Media"@en ;
+	skos:notation	"5500" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5550>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5550> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5550> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/5500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Media"@en ;
+	skos:notation	"5550" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5553>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5553> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5553> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5550> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Broadcasting & Entertainment"@en ;
+	skos:definition	"Producers, operators and broadcasters of radio, television, music and filmed entertainment. Excludes movie theaters, which are classified under Recreational Services."@en ;
+	skos:notation	"5553" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5555>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5555> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5555> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5550> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Media Agencies"@en ;
+	skos:definition	"Companies providing advertising, public relations and marketing services. Includes billboard providers and telemarketers."@en ;
+	skos:notation	"5555" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5557>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5557> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5557> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5550> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Publishing"@en ;
+	skos:definition	"Publishers of information via printed or electronic media."@en ;
+	skos:notation	"5557" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5700>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5700> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5700> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/5700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Travel & Leisure"@en ;
+	skos:notation	"5700" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5750>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5750> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5750> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/5700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Travel & Leisure"@en ;
+	skos:notation	"5750" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5751>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5751> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5751> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Airlines"@en ;
+	skos:definition	"Companies providing primarily passenger air transport. Excludes airports, which are classified under Transportation Services."@en ;
+	skos:notation	"5751" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5752>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5752> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5752> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Gambling"@en ;
+	skos:definition	"Providers of gambling and casino facilities. Includes online casinos, racetracks and the manufacturers of pachinko machines and casino and lottery equipment."@en ;
+	skos:notation	"5752" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5753>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5753> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5753> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Hotels"@en ;
+	skos:definition	"Operators and managers of hotels, motels, lodges, resorts, spas and campgrounds."@en ;
+	skos:notation	"5753" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5755>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5755> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5755> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Recreational Services"@en ;
+	skos:definition	"Providers of leisure facilities and services, including fitness centers, cruise lines, movie theaters and sports teams."@en ;
+	skos:notation	"5755" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5757>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5757> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5757> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Restaurants & Bars"@en ;
+	skos:definition	"Operators of restaurants, fast-food facilities, coffee shops and bars. Includes integrated brewery companies and catering companies."@en ;
+	skos:notation	"5757" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/5759>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5759> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5759> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Travel & Tourism"@en ;
+	skos:definition	"Companies providing travel and tourism related services, including travel agents, online travel reservation services, automobile rental firms and companies that primarily provide passenger transportation, such as buses, taxis, passenger rail and ferry companies."@en ;
+	skos:notation	"5759" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/6000>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:IndustryClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/6000> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/6000> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"TELECOMMUNICATIONS"@en ;
+	skos:notation	"6000" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/6500>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/6500> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/6500> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/6500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Telecommunications"@en ;
+	skos:notation	"6500" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/6530>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/6530> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/6530> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/6500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Fixed Line Telecommunications"@en ;
+	skos:notation	"6530" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/6535>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/6535> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/6535> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/6530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Fixed Line Telecommunications"@en ;
+	skos:definition	"Providers of fixed-line telephone services, including regional and long-distance. Excludes companies whose primary business is Internet access, which are classified under Internet."@en ;
+	skos:notation	"6535" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/6570>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/6570> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/6570> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/6500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Mobile Telecommunications"@en ;
+	skos:notation	"6570" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/6575>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/6575> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/6575> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/6570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Mobile Telecommunications"@en ;
+	skos:definition	"Providers of mobile telephone services, including cellular, satellite and paging services."@en ;
+	skos:notation	"6575" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/7000>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:IndustryClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7000> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7000> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"UTILITIES"@en ;
+	skos:notation	"7000" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/7500>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7500> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7500> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/7500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Utilities"@en ;
+	skos:notation	"7500" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/7530>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7530> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7530> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/7500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Electricity"@en ;
+	skos:notation	"7530" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/7535>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7535> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7535> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/7530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Electricity"@en ;
+	skos:definition	"Companies generating and distributing electricity, including generation using geothermal, nuclear and solar energy."@en ;
+	skos:notation	"7535" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/7570>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7570> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7570> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/7500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Gas, Water & Multiutilities"@en ;
+	skos:notation	"7570" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/7573>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7573> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7573> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/7570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Gas Distribution"@en ;
+	skos:definition	"Distributors of gas to end users. Excludes providers of natural gas as a commodity, which are classified under the Oil & Gas industry."@en ;
+	skos:notation	"7573" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/7575>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7575> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7575> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/7570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Multiutilities"@en ;
+	skos:definition	"Utility companies with significant presence in more than one utility."@en ;
+	skos:notation	"7575" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/7577>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7577> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7577> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/7570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Water"@en ;
+	skos:definition	"Companies providing water to end users, including water treatment plants."@en ;
+	skos:notation	"7577" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8000>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:IndustryClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8000> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8000> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"FINANCIALS"@en ;
+	skos:notation	"8000" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8300>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8300> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8300> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/8300> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Banks"@en ;
+	skos:notation	"8300" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8350>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8350> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8350> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/8300> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Banks"@en ;
+	skos:notation	"8350" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8355>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8355> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8355> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8350> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Banks"@en ;
+	skos:definition	"Banks providing a broad range of financial services, including retail banking, loans and money transmissions."@en ;
+	skos:notation	"8355" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8500>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8500> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8500> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/8500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Insurance"@en ;
+	skos:notation	"8500" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8530>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8530> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8530> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/8500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Nonlife Insurance"@en ;
+	skos:notation	"8530" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8532>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8532> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8532> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Full Line Insurance"@en ;
+	skos:definition	"Insurance companies with life, health, property & casualty and reinsurance interests, no one of which predominates."@en ;
+	skos:notation	"8532" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8534>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8534> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8534> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Insurance Brokers"@en ;
+	skos:definition	"Insurance brokers and agencies."@en ;
+	skos:notation	"8534" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8536>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8536> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8536> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Property & Casualty Insurance"@en ;
+	skos:definition	"Companies engaged principally in accident, fire, automotive, marine, malpractice and other classes of nonlife insurance."@en ;
+	skos:notation	"8536" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8538>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8538> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8538> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Reinsurance"@en ;
+	skos:definition	"Companies engaged principally in reinsurance."@en ;
+	skos:notation	"8538" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8570>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8570> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8570> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/8500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Life Insurance"@en ;
+	skos:notation	"8570" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8575>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8575> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8575> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Life Insurance"@en ;
+	skos:definition	"Companies engaged principally in life and health insurance."@en ;
+	skos:notation	"8575" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8700>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8700> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8700> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/8700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Financial Services"@en ;
+	skos:notation	"8700" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8730>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8730> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8730> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/8700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Real Estate"@en ;
+	skos:notation	"8730" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8733>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8733> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8733> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8730> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Real Estate Holding & Development"@en ;
+	skos:definition	"Companies that invest directly or indirectly in real estate through development, management or ownership, including property agencies. Excludes real estate investment trusts and similar entities, which are classified as Real Estate Investment Trusts."@en ;
+	skos:notation	"8733" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8737>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8737> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8737> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8730> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Real Estate Investment Trusts"@en ;
+	skos:definition	"Real estate investment trusts or corporations (REITs) and listed property trusts (LPTs)."@en ;
+	skos:notation	"8737" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8770>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8770> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8770> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/8700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"General Financial"@en ;
+	skos:notation	"8770" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8771>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8771> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8771> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Asset Managers"@en ;
+	skos:definition	"Companies that provide custodial, trustee and other related fiduciary services. Includes mutual fund management companies."@en ;
+	skos:notation	"8771" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8773>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8773> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8773> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Consumer Finance"@en ;
+	skos:definition	"Credit card companies and providers of personal finance services such as personal loans and check cashing companies."@en ;
+	skos:notation	"8773" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8775>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8775> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8775> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Specialty Finance"@en ;
+	skos:definition	"Companies engaged in financial activities not specified elsewhere. Includes companies not classified under Equity Investment Instruments or Nonequity Investment Instruments engaged primarily in owning stakes in a diversified range of companies."@en ;
+	skos:notation	"8775" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8777>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8777> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8777> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Investment Services"@en ;
+	skos:definition	"Companies providing a range of specialized financial services, including securities brokers and dealers, online brokers and security or commodity exchanges."@en ;
+	skos:notation	"8777" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8779>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8779> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8779> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8770> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Mortgage Finance"@en ;
+	skos:definition	"Companies that provide mortgages, mortgage insurance and other related services."@en ;
+	skos:notation	"8779" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8980>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8980> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8980> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/8700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Equity Investment Instruments"@en ;
+	skos:notation	"8980" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8985>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8985> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8985> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8980> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Equity Investment Instruments"@en ;
+	skos:definition	"Corporate closed-ended investment entities identified under distinguishing legislation, such as investment trusts and venture capital trusts."@en ;
+	skos:notation	"8985" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8990>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8990> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8990> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/8700> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Nonequity Investment Instruments"@en ;
+	skos:notation	"8990" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/8995>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8995> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8995> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8990> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Nonequity Investment Instruments"@en ;
+	skos:definition	"Noncorporate, open-ended investment instruments such as open-ended investment companies and funds, unit trusts, ETFs, currency funds and split capital trusts."@en ;
+	skos:notation	"8995" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/9000>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:IndustryClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9000> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9000> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"TECHNOLOGY"@en ;
+	skos:notation	"9000" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/9500>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SupersectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9500> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9500> ;
+	icb:isSupersectorOf	<http://data.ga-group.nl/ics/icb/2005/9500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Technology"@en ;
+	skos:notation	"9500" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/9530>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9530> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9530> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/9500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Software & Computer Services"@en ;
+	skos:notation	"9530" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/9533>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9533> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9533> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Computer Services"@en ;
+	skos:definition	"Companies that provide consulting services to other businesses relating to information technology. Includes providers of computer-system design, systems integration, network and systems operations, data management and storage, repair services and technical support."@en ;
+	skos:notation	"9533" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/9535>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9535> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9535> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Internet"@en ;
+	skos:definition	"Companies providing Internet-related services, such as Internet access providers and search engines and providers of Web site design, Web hosting, domain-name registration and e-mail services."@en ;
+	skos:notation	"9535" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/9537>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9537> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9537> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9530> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Software"@en ;
+	skos:definition	"Publishers and distributors of computer software for home or corporate use. Excludes computer game producers, which are classified under Toys."@en ;
+	skos:notation	"9537" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/9570>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9570> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9570> ;
+	icb:isSectorOf	<http://data.ga-group.nl/ics/icb/2005/9500> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Technology Hardware & Equipment"@en ;
+	skos:notation	"9570" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/9572>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9572> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9572> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Computer Hardware"@en ;
+	skos:definition	"Manufacturers and distributors of computers, servers, mainframes, workstations and other computer hardware and subsystems, such as mass-storage drives, mice, keyboards and printers."@en ;
+	skos:notation	"9572" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/9574>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9574> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9574> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Electronic Office Equipment"@en ;
+	skos:definition	"Manufacturers and distributors of electronic office equipment, including photocopiers and fax machines."@en ;
+	skos:notation	"9574" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/9576>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9576> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9576> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Semiconductors"@en ;
+	skos:definition	"Producers and distributors of semiconductors and other integrated chips, including other products related to the semiconductor industry, such as semiconductor capital equipment and motherboards. Excludes makers of printed circuit boards, which are classified under Electrical Components & Equipment."@en ;
+	skos:notation	"9576" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
+
+<http://data.ga-group.nl/ics/icb/2005/9578>
+	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9578> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9578> ;
+	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9570> ;
+	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-01T03:17:02.576Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2015-03-30T23:37:37Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2005/> ;
+	rdfs:label	"Telecommunications Equipment"@en ;
+	skos:definition	"Makers and distributors of high-technology communication products, including satellites, mobile telephones, fiber optics, switching devices, local and wide-area networks, teleconferencing equipment and connectivity devices for computers, including hubs and routers."@en ;
+	skos:notation	"9578" ;
+	tempo:validFrom	"2005-01-01"^^xsd:date ;
+	tempo:validTill	"2007-03-01"^^xsd:date .
