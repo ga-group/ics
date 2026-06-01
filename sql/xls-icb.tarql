@@ -36,7 +36,7 @@ CONSTRUCT {
 		rdfs:label ?_lbl2 ;
 		rdfs:isDefinedBy ?_vicb ;
 		skos:notation ?SupersectorCode ;
-		icb:isSupersectorOf ?_icb2 ;
+		icb:isSupersectorOf ?_icb1 ;
 		tempo:validFrom	?_from ;
 		tempo:validTill	?_till ;
 		## provenance

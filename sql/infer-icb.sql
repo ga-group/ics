@@ -29,9 +29,9 @@ INSERT {
 	]
 }
 USING <http://data.ga-group.nl/ics/icb/2005/>
-#USING <http://data.ga-group.nl/ics/icb/2007/>
-#USING <http://data.ga-group.nl/ics/icb/2019/>
-#USING <http://data.ga-group.nl/ics/icb/2019_1/>
+USING <http://data.ga-group.nl/ics/icb/2007/>
+USING <http://data.ga-group.nl/ics/icb/2019/>
+USING <http://data.ga-group.nl/ics/icb/2019_1/>
 WHERE {
 	{
 	SELECT *
