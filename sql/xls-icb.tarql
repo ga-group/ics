@@ -1,0 +1,98 @@
+PREFIX lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
+PREFIX dbo: <https://dbpedia.org/ontology/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/>
+PREFIX fibo-fbc-fct-mkt: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/>
+PREFIX fibo-fbc-fct-mkti: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/>
+PREFIX fibo-fbc-pas-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/>
+PREFIX fibo-fnd-plc-vrt: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/>
+PREFIX fibo-fnd-arr-arr: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tempo: <http://purl.org/tempo/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX icb: <http://data.ga-group.nl/ics/icb/>
+
+CONSTRUCT {
+	?_icb1
+		a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , owl:NamedIndividual , icb:IndustryClassifier ;
+		rdfs:label ?_lbl1 ;
+		rdfs:isDefinedBy ?_vicb ;
+		skos:notation ?IndustryCode ;
+		tempo:validFrom	?_from ;
+		tempo:validTill	?_till ;
+		## provenance
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		pav:sourceAccessedOn ?_accd ;
+		pav:sourceLastAccessedOn ?_accd .
+
+	?_icb2
+		a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , owl:NamedIndividual , icb:SupersectorClassifier ;
+		rdfs:label ?_lbl2 ;
+		rdfs:isDefinedBy ?_vicb ;
+		skos:notation ?SupersectorCode ;
+		icb:isSupersectorOf ?_icb1 ;
+		tempo:validFrom	?_from ;
+		tempo:validTill	?_till ;
+		## provenance
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		pav:sourceAccessedOn ?_accd ;
+		pav:sourceLastAccessedOn ?_accd .
+
+	?_icb3
+		a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , owl:NamedIndividual , icb:SectorClassifier ;
+		rdfs:label ?_lbl3 ;
+		rdfs:isDefinedBy ?_vicb ;
+		skos:notation ?SectorCode ;
+		icb:isSectorOf ?_icb2 ;
+		tempo:validFrom	?_from ;
+		tempo:validTill	?_till ;
+		## provenance
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		pav:sourceAccessedOn ?_accd ;
+		pav:sourceLastAccessedOn ?_accd .
+
+	?_icb4
+		a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , owl:NamedIndividual , icb:SubsectorClassifier ;
+		skos:definition ?_desc ;
+		rdfs:label ?_lbl4 ;
+		rdfs:isDefinedBy ?_vicb ;
+		skos:notation ?SubsectorCode ;
+		icb:isSubsectorOf ?_icb3 ;
+		tempo:validFrom	?_from ;
+		tempo:validTill	?_till ;
+		## provenance
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		pav:sourceAccessedOn ?_accd ;
+		pav:sourceLastAccessedOn ?_accd .
+}
+WHERE {
+	BIND(NOW() AS ?now)
+	BIND(xsd:dateTime(?accd) AS ?_accd)
+	BIND(COALESCE(?vers, SUBSTR(?from,1,4)) AS ?_vers)
+	BIND(IRI(CONCAT(STR(icb:),?_vers,'/')) AS ?_vicb)
+
+	BIND(xsd:date(?from) AS ?_from)
+	BIND(xsd:date(?till) AS ?_till)
+
+	BIND(IRI(CONCAT(STR(icb:),?_vers,'/',?IndustryCode)) AS ?_icb1)
+	BIND(STRLANG(?IndustryName, ?lang) AS ?_lbl1)
+
+	BIND(IRI(CONCAT(STR(icb:),?_vers,'/',?SupersectorCode)) AS ?_icb2)
+	BIND(STRLANG(?SupersectorName, ?lang) AS ?_lbl2)
+
+	BIND(IRI(CONCAT(STR(icb:),?_vers,'/',?SectorCode)) AS ?_icb3)
+	BIND(STRLANG(?SectorName, ?lang) AS ?_lbl3)
+
+	BIND(IRI(CONCAT(STR(icb:),?_vers,'/',?SubsectorCode)) AS ?_icb4)
+	BIND(STRLANG(?SubsectorName, ?lang) AS ?_lbl4)
+	BIND(STRLANG(?Definition, ?lang) AS ?_desc)
+}

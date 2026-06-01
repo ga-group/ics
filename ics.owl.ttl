@@ -4,6 +4,7 @@
 @prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
 @prefix fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/> .
 @prefix gics: <http://data.ga-group.nl/ics/gics/> .
+@prefix icb: <http://data.ga-group.nl/ics/icb/> .
 @prefix ics: <http://data.ga-group.nl/ics/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
@@ -134,6 +135,69 @@ gics:SubindustryClassifier
 	rdfs:subClassOf	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , ics:TieredClassifier ;
 	skos:definition	"The fourth-level tier in the Global Industry Classification Standard system."@en .
 
+icb:IndustryClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	icb:hasSupersector ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"industry classifier"@en ;
+	rdfs:subClassOf	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , ics:TieredClassifier ;
+	skos:definition	"The top-level tier in the Industry Classification Benchmark system."@en .
+
+icb:SupersectorClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	icb:isSupersectorOf ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
+	] , [
+		a	owl:Restriction ;
+		owl:onProperty	gics:hasSector ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"supersector classifier"@en ;
+	rdfs:subClassOf	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , ics:TieredClassifier ;
+	skos:definition	"The second-level tier in the Industry Classification Benchmark system."@en .
+
+icb:SectorClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	icb:isSectorOf ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
+	] , [
+		a	owl:Restriction ;
+		owl:onProperty	gics:hasSubsector ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"sector classifier"@en ;
+	rdfs:subClassOf	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , ics:TieredClassifier ;
+	skos:definition	"The third-level tier in the Industry Classification Benchmark system."@en .
+
+icb:SubsectorClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	icb:isSubsectorOf ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"subsector classifier"@en ;
+	rdfs:subClassOf	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , ics:TieredClassifier ;
+	skos:definition	"The second-level tier in the Industry Classification Benchmark system."@en .
+
 #################################################################
 # Object Properties
 #################################################################
@@ -225,3 +289,63 @@ gics:isSubindustryOf
 	rdfs:label	"is sub-industry of"@en ;
 	rdfs:subPropertyOf	ics:hasParent ;
 	skos:definition	"Links a sub-industry to its industry."@en .
+
+icb:hasSupersector
+	a	owl:ObjectProperty ;
+	owl:inverseOf	icb:isSupersectorOf ;
+	rdfs:domain	icb:IndustryClassifier ;
+	rdfs:range	icb:SupersectorClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has supersector"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links an industry to its supersectors."@en .
+
+icb:isSupersectorOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	icb:hasSupersector ;
+	rdfs:domain	icb:SupersectorClassifier ;
+	rdfs:range	icb:IndustryClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is supersector of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a supersector to its industry."@en .
+
+icb:hasSector
+	a	owl:ObjectProperty ;
+	owl:inverseOf	icb:isSectorOf ;
+	rdfs:domain	icb:SupersectorClassifier ;
+	rdfs:range	icb:SectorClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has sector"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links a supersector to its sectors."@en .
+
+icb:isSectorOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	icb:hasSector ;
+	rdfs:domain	icb:SectorClassifier ;
+	rdfs:range	icb:SupersectorClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is sector of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a sector to its supersector."@en .
+
+icb:hasSubsector
+	a	owl:ObjectProperty ;
+	owl:inverseOf	icb:isSubsectorOf ;
+	rdfs:domain	icb:SectorClassifier ;
+	rdfs:range	icb:SubsectorClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has subsector"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links a sector to its subsectors."@en .
+
+icb:isSubsectorOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	icb:hasSubsector ;
+	rdfs:domain	icb:SubsectorClassifier ;
+	rdfs:range	icb:SectorClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is subsector of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a subsector to its sector."@en .
