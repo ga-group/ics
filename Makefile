@@ -6,16 +6,16 @@ GICS := gics1999 gics2002 gics2003 gics2004 gics2005 gics2006 gics2008 gics2010 
 ICB := icb2005 icb2007 ##icb2019 icb2019_1
 
 all: .imported.ics.owl $(GICS:%=.imported.%) $(ICB:%=.imported.%) tmp/gics.out
-exgics: .inferred.replacements $(GICS:%=export.%)
+exgics: .inferred.gics-rplc $(GICS:%=export.%)
 exicb: .inferred.icb-rplc $(ICB:%=export.%)
 export: exgics exicb
 check: check.gics
 
 TODAY := $(shell dateconv today)
 
-.inferred.replacements: $(GICS:%=.imported.%)
+.inferred.gics-rplc: $(GICS:%=.imported.%)
 .inferred.icb-rplc: $(ICB:%=.imported.%)
-.inferred.gics: .inferred.replacements
+.inferred.gics: .inferred.gics-rplc
 .inferred.icb: .inferred.icb-rplc
 
 tmp/gics.out: $(GICS:%=.imported.%)
