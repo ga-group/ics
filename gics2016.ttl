@@ -3558,6 +3558,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/40204010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/40204010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/40204010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/40402030> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2016/402040> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:29.350Z"^^xsd:dateTime ;
@@ -4625,6 +4626,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/60101030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/40402035> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2016/601010> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:08.967Z"^^xsd:dateTime ;
@@ -4643,6 +4645,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/60101040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/40402040> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2016/601010> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:29.350Z"^^xsd:dateTime ;
@@ -4661,6 +4664,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/60101050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/40402045> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2016/601010> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:54:52.820Z"^^xsd:dateTime ;
@@ -4679,6 +4683,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101060> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/60101060> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101060> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/40402050> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2016/601010> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:29.350Z"^^xsd:dateTime ;
@@ -4697,6 +4702,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101070> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/60101070> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101070> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/40402060> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2016/601010> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:08.967Z"^^xsd:dateTime ;
@@ -4715,6 +4721,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60101080> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/60101080> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60101080> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/40402070> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2016/601010> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:29.350Z"^^xsd:dateTime ;
@@ -4733,6 +4740,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/601010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/601010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/601010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/404020> ;
 	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/2016/6010> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:29.350Z"^^xsd:dateTime ;
@@ -4750,6 +4758,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/60102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/40403010> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2016/601020> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:17.589Z"^^xsd:dateTime ;
@@ -4768,6 +4777,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60102020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/60102020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/40403020> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2016/601020> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:29.350Z"^^xsd:dateTime ;
@@ -4786,6 +4796,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60102030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/60102030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/40403030> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2016/601020> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:55:52.568Z"^^xsd:dateTime ;
@@ -4804,6 +4815,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/60102040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/60102040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/60102040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/40403040> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2016/601020> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:29.350Z"^^xsd:dateTime ;
@@ -4822,6 +4834,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/601020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/601020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/601020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/404030> ;
 	gics:isIndustryOf	<http://data.ga-group.nl/ics/gics/2016/6010> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:29.350Z"^^xsd:dateTime ;
@@ -4839,6 +4852,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/6010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2018/6010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/6010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2014/4040> ;
 	gics:isIndustryGroupOf	<http://data.ga-group.nl/ics/gics/2016/60> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-31T09:56:29.350Z"^^xsd:dateTime ;

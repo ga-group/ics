@@ -5,37 +5,42 @@ INSERT {
 	GRAPH ?gx {
 	?x dct:isReplacedBy ?y
 	}
-	GRAPH ?gy {
-	?y dct:replaces ?x
-	}
 }
-USING <http://data.ga-group.nl/ics/icb/2005/>
-USING <http://data.ga-group.nl/ics/icb/2007/>
-USING <http://data.ga-group.nl/ics/icb/2019/>
-USING <http://data.ga-group.nl/ics/icb/2019_1/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2005/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2007/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019_1/>
 WHERE {
-	{
 	GRAPH ?gx {
-	?x dct:isReplaced ?y
+	?x rdfs:isDefinedBy ?gx
 	}
-	FILTER(?gx != <http://data.ga-group.nl/ics/icb/>)
-	GRAPH ?gy {
-	?y a ?typ
-	}
-	FILTER(?gy != <http://data.ga-group.nl/ics/icb/>)
-	} UNION {
-	GRAPH ?gx {
-	?x a ?typ
-	}
-	FILTER(?gx != <http://data.ga-group.nl/ics/icb/>)
 	GRAPH ?gy {
 	?y dct:replaces ?x
-	}
-	FILTER(?gy != <http://data.ga-group.nl/ics/icb/>)
 	}
 }
 ;
-ECHO $ROWCNT"\n";
+ECHO "+"$ROWCNT" ";
+SPARQL
+DEFINE sql:log-enable 3
+INSERT {
+	GRAPH ?gy {
+	?y dct:replaces ?x
+	}
+}
+USING NAMED <http://data.ga-group.nl/ics/icb/2005/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2007/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019_1/>
+WHERE {
+	GRAPH ?gy {
+	?y rdfs:isDefinedBy ?gy
+	}
+	GRAPH ?gx {
+	?x dct:isReplacedBy ?y
+	}
+}
+;
+ECHO "+"$ROWCNT"\n";
 CHECKPOINT;
 
 ECHO "constructing a revision-agnostic individual ... ";
@@ -47,10 +52,10 @@ DELETE {
 	?x dct:isVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/icb/2005/>
-USING <http://data.ga-group.nl/ics/icb/2007/>
-USING <http://data.ga-group.nl/ics/icb/2019/>
-USING <http://data.ga-group.nl/ics/icb/2019_1/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2005/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2007/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019_1/>
 WHERE {
 	GRAPH ?g {
 	?x dct:isVersionOf ?z
@@ -66,17 +71,25 @@ INSERT {
 	?x dct:isVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/icb/2005/>
-USING <http://data.ga-group.nl/ics/icb/2007/>
-USING <http://data.ga-group.nl/ics/icb/2019/>
-USING <http://data.ga-group.nl/ics/icb/2019_1/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2005/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2007/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019_1/>
 WHERE {
 	GRAPH ?g {
-	?x a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier
+	?x a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier .
 	}
-	?x dct:isReplacedBy* ?y .
-	FILTER(!ISBLANK(?y))
-	BIND(IRI(CONCAT("http://data.ga-group.nl/ics/icb/",REPLACE(STR(?y),".*/",""))) AS ?z)
+	{
+	SELECT ?x ?z
+	FROM <http://data.ga-group.nl/ics/icb/2005/>
+	FROM <http://data.ga-group.nl/ics/icb/2007/>
+	FROM <http://data.ga-group.nl/ics/icb/2019/>
+	FROM <http://data.ga-group.nl/ics/icb/2019_1/>
+	WHERE {
+		?x dct:isReplacedBy* ?y .
+		BIND(IRI(CONCAT("http://data.ga-group.nl/ics/icb/",REPLACE(STR(?y),".*/",""))) AS ?z)
+	}
+	}
 }
 ;
 ECHO "+"$ROWCNT"\n";
@@ -88,13 +101,13 @@ DEFINE sql:log-enable 3
 PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
 DELETE {
 	GRAPH ?g {
-	?x dct:isAnachronousVersionOf ?z
+	?x dct:isContemporaryVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/icb/2005/>
-USING <http://data.ga-group.nl/ics/icb/2007/>
-USING <http://data.ga-group.nl/ics/icb/2019/>
-USING <http://data.ga-group.nl/ics/icb/2019_1/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2005/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2007/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019_1/>
 WHERE {
 	GRAPH ?g {
 	?x dct:isAnachronousVersionOf ?z
@@ -110,18 +123,19 @@ INSERT {
 	?x dct:isAnachronousVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/icb/2005/>
-USING <http://data.ga-group.nl/ics/icb/2007/>
-USING <http://data.ga-group.nl/ics/icb/2019/>
-USING <http://data.ga-group.nl/ics/icb/2019_1/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2005/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2007/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019_1/>
 WHERE {
 	GRAPH ?g {
 	?x a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier
 	}
+	GRAPH ?gy {
 	?x dct:isReplacedBy* ?y .
-	FILTER(!ISBLANK(?y))
 	FILTER NOT EXISTS {
 	?y dct:isReplacedBy ?othr
+	}
 	}
 	BIND(IRI(CONCAT("http://data.ga-group.nl/ics/icb/",REPLACE(STR(?x),".*/",""))) AS ?u)
 	BIND(IRI(CONCAT("http://data.ga-group.nl/ics/icb/",REPLACE(STR(?y),".*/",""))) AS ?z)
@@ -140,10 +154,10 @@ DELETE {
 	?x dct:isContemporaryVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/icb/2005/>
-USING <http://data.ga-group.nl/ics/icb/2007/>
-USING <http://data.ga-group.nl/ics/icb/2019/>
-USING <http://data.ga-group.nl/ics/icb/2019_1/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2005/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2007/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019_1/>
 WHERE {
 	GRAPH ?g {
 	?x dct:isContemporaryVersionOf ?z
@@ -159,10 +173,10 @@ INSERT {
 	?x dct:isContemporaryVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/icb/2005/>
-USING <http://data.ga-group.nl/ics/icb/2007/>
-USING <http://data.ga-group.nl/ics/icb/2019/>
-USING <http://data.ga-group.nl/ics/icb/2019_1/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2005/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2007/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019/>
+USING NAMED <http://data.ga-group.nl/ics/icb/2019_1/>
 WHERE {
 	GRAPH ?g {
 	?x a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier

@@ -4243,6 +4243,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/45202030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2016/45202030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/45202030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2010/45202010> , <http://data.ga-group.nl/ics/gics/2010/45202020> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2014/452020> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;

@@ -2464,7 +2464,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/30202030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2003/30202030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/30202030> ;
-	dct:replaces	<http://data.ga-group.nl/ics/gics/1999/30202030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/1999/30202020> , <http://data.ga-group.nl/ics/gics/1999/30202030> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2002/302020> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;

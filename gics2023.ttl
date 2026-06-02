@@ -1170,6 +1170,7 @@ This Sub-Industry excludes companies providing information technology consulting
 	a	gics:SubindustryClassifier , owl:NamedIndividual ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/20202030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/20202030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2018/45102020> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2023/202020> ;
 	pav:importedOn	"2026-05-28T15:18:26.485Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-29T16:12:16.427Z"^^xsd:dateTime ;

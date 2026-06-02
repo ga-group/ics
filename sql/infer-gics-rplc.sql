@@ -5,45 +5,58 @@ INSERT {
 	GRAPH ?gx {
 	?x dct:isReplacedBy ?y
 	}
-	GRAPH ?gy {
-	?y dct:replaces ?x
-	}
 }
-USING <http://data.ga-group.nl/ics/gics/1999/>
-USING <http://data.ga-group.nl/ics/gics/2002/>
-USING <http://data.ga-group.nl/ics/gics/2003/>
-USING <http://data.ga-group.nl/ics/gics/2004/>
-USING <http://data.ga-group.nl/ics/gics/2005/>
-USING <http://data.ga-group.nl/ics/gics/2006/>
-USING <http://data.ga-group.nl/ics/gics/2008/>
-USING <http://data.ga-group.nl/ics/gics/2010/>
-USING <http://data.ga-group.nl/ics/gics/2014/>
-USING <http://data.ga-group.nl/ics/gics/2016/>
-USING <http://data.ga-group.nl/ics/gics/2018/>
-USING <http://data.ga-group.nl/ics/gics/2023/>
+USING NAMED <http://data.ga-group.nl/ics/gics/1999/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2002/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2003/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2004/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2005/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2006/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2008/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2010/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2014/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2016/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2018/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2023/>
 WHERE {
-	{
 	GRAPH ?gx {
-	?x dct:isReplaced ?y
+	?x rdfs:isDefinedBy ?gx
 	}
-	FILTER(?gx != <http://data.ga-group.nl/ics/gics/>)
-	GRAPH ?gy {
-	?y a ?typ
-	}
-	FILTER(?gy != <http://data.ga-group.nl/ics/gics/>)
-	} UNION {
-	GRAPH ?gx {
-	?x a ?typ
-	}
-	FILTER(?gx != <http://data.ga-group.nl/ics/gics/>)
 	GRAPH ?gy {
 	?y dct:replaces ?x
-	}
-	FILTER(?gy != <http://data.ga-group.nl/ics/gics/>)
 	}
 }
 ;
-ECHO $ROWCNT"\n";
+ECHO "+"$ROWCNT" ";
+SPARQL
+DEFINE sql:log-enable 3
+INSERT {
+	GRAPH ?gy {
+	?y dct:replaces ?x
+	}
+}
+USING NAMED <http://data.ga-group.nl/ics/gics/1999/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2002/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2003/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2004/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2005/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2006/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2008/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2010/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2014/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2016/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2018/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2023/>
+WHERE {
+	GRAPH ?gy {
+	?y rdfs:isDefinedBy ?gy
+	}
+	GRAPH ?gx {
+	?x dct:isReplacedBy ?y
+	}
+}
+;
+ECHO "+"$ROWCNT"\n";
 CHECKPOINT;
 
 ECHO "constructing a revision-agnostic individual ... ";
@@ -55,18 +68,18 @@ DELETE {
 	?x dct:isVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/gics/1999/>
-USING <http://data.ga-group.nl/ics/gics/2002/>
-USING <http://data.ga-group.nl/ics/gics/2003/>
-USING <http://data.ga-group.nl/ics/gics/2004/>
-USING <http://data.ga-group.nl/ics/gics/2005/>
-USING <http://data.ga-group.nl/ics/gics/2006/>
-USING <http://data.ga-group.nl/ics/gics/2008/>
-USING <http://data.ga-group.nl/ics/gics/2010/>
-USING <http://data.ga-group.nl/ics/gics/2014/>
-USING <http://data.ga-group.nl/ics/gics/2016/>
-USING <http://data.ga-group.nl/ics/gics/2018/>
-USING <http://data.ga-group.nl/ics/gics/2023/>
+USING NAMED <http://data.ga-group.nl/ics/gics/1999/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2002/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2003/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2004/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2005/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2006/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2008/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2010/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2014/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2016/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2018/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2023/>
 WHERE {
 	GRAPH ?g {
 	?x dct:isVersionOf ?z
@@ -82,25 +95,41 @@ INSERT {
 	?x dct:isVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/gics/1999/>
-USING <http://data.ga-group.nl/ics/gics/2002/>
-USING <http://data.ga-group.nl/ics/gics/2003/>
-USING <http://data.ga-group.nl/ics/gics/2004/>
-USING <http://data.ga-group.nl/ics/gics/2005/>
-USING <http://data.ga-group.nl/ics/gics/2006/>
-USING <http://data.ga-group.nl/ics/gics/2008/>
-USING <http://data.ga-group.nl/ics/gics/2010/>
-USING <http://data.ga-group.nl/ics/gics/2014/>
-USING <http://data.ga-group.nl/ics/gics/2016/>
-USING <http://data.ga-group.nl/ics/gics/2018/>
-USING <http://data.ga-group.nl/ics/gics/2023/>
+USING NAMED <http://data.ga-group.nl/ics/gics/1999/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2002/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2003/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2004/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2005/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2006/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2008/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2010/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2014/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2016/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2018/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2023/>
 WHERE {
 	GRAPH ?g {
-	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier
+	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier .
 	}
-	?x dct:isReplacedBy* ?y .
-	FILTER(!ISBLANK(?y))
-	BIND(IRI(CONCAT("http://data.ga-group.nl/ics/gics/",REPLACE(STR(?y),".*/",""))) AS ?z)
+	{
+	SELECT ?x ?z
+	FROM <http://data.ga-group.nl/ics/gics/1999/>
+	FROM <http://data.ga-group.nl/ics/gics/2002/>
+	FROM <http://data.ga-group.nl/ics/gics/2003/>
+	FROM <http://data.ga-group.nl/ics/gics/2004/>
+	FROM <http://data.ga-group.nl/ics/gics/2005/>
+	FROM <http://data.ga-group.nl/ics/gics/2006/>
+	FROM <http://data.ga-group.nl/ics/gics/2008/>
+	FROM <http://data.ga-group.nl/ics/gics/2010/>
+	FROM <http://data.ga-group.nl/ics/gics/2014/>
+	FROM <http://data.ga-group.nl/ics/gics/2016/>
+	FROM <http://data.ga-group.nl/ics/gics/2018/>
+	FROM <http://data.ga-group.nl/ics/gics/2023/>
+	WHERE {
+		?x dct:isReplacedBy* ?y .
+		BIND(IRI(CONCAT("http://data.ga-group.nl/ics/gics/",REPLACE(STR(?y),".*/",""))) AS ?z)
+	}
+	}
 }
 ;
 ECHO "+"$ROWCNT"\n";
@@ -112,21 +141,21 @@ DEFINE sql:log-enable 3
 PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
 DELETE {
 	GRAPH ?g {
-	?x dct:isAnachronousVersionOf ?z
+	?x dct:isContemporaryVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/gics/1999/>
-USING <http://data.ga-group.nl/ics/gics/2002/>
-USING <http://data.ga-group.nl/ics/gics/2003/>
-USING <http://data.ga-group.nl/ics/gics/2004/>
-USING <http://data.ga-group.nl/ics/gics/2005/>
-USING <http://data.ga-group.nl/ics/gics/2006/>
-USING <http://data.ga-group.nl/ics/gics/2008/>
-USING <http://data.ga-group.nl/ics/gics/2010/>
-USING <http://data.ga-group.nl/ics/gics/2014/>
-USING <http://data.ga-group.nl/ics/gics/2016/>
-USING <http://data.ga-group.nl/ics/gics/2018/>
-USING <http://data.ga-group.nl/ics/gics/2023/>
+USING NAMED <http://data.ga-group.nl/ics/gics/1999/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2002/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2003/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2004/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2005/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2006/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2008/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2010/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2014/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2016/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2018/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2023/>
 WHERE {
 	GRAPH ?g {
 	?x dct:isAnachronousVersionOf ?z
@@ -142,26 +171,27 @@ INSERT {
 	?x dct:isAnachronousVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/gics/1999/>
-USING <http://data.ga-group.nl/ics/gics/2002/>
-USING <http://data.ga-group.nl/ics/gics/2003/>
-USING <http://data.ga-group.nl/ics/gics/2004/>
-USING <http://data.ga-group.nl/ics/gics/2005/>
-USING <http://data.ga-group.nl/ics/gics/2006/>
-USING <http://data.ga-group.nl/ics/gics/2008/>
-USING <http://data.ga-group.nl/ics/gics/2010/>
-USING <http://data.ga-group.nl/ics/gics/2014/>
-USING <http://data.ga-group.nl/ics/gics/2016/>
-USING <http://data.ga-group.nl/ics/gics/2018/>
-USING <http://data.ga-group.nl/ics/gics/2023/>
+USING NAMED <http://data.ga-group.nl/ics/gics/1999/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2002/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2003/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2004/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2005/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2006/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2008/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2010/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2014/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2016/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2018/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2023/>
 WHERE {
 	GRAPH ?g {
 	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier
 	}
+	GRAPH ?gy {
 	?x dct:isReplacedBy* ?y .
-	FILTER(!ISBLANK(?y))
 	FILTER NOT EXISTS {
 	?y dct:isReplacedBy ?othr
+	}
 	}
 	BIND(IRI(CONCAT("http://data.ga-group.nl/ics/gics/",REPLACE(STR(?x),".*/",""))) AS ?u)
 	BIND(IRI(CONCAT("http://data.ga-group.nl/ics/gics/",REPLACE(STR(?y),".*/",""))) AS ?z)
@@ -180,18 +210,18 @@ DELETE {
 	?x dct:isContemporaryVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/gics/1999/>
-USING <http://data.ga-group.nl/ics/gics/2002/>
-USING <http://data.ga-group.nl/ics/gics/2003/>
-USING <http://data.ga-group.nl/ics/gics/2004/>
-USING <http://data.ga-group.nl/ics/gics/2005/>
-USING <http://data.ga-group.nl/ics/gics/2006/>
-USING <http://data.ga-group.nl/ics/gics/2008/>
-USING <http://data.ga-group.nl/ics/gics/2010/>
-USING <http://data.ga-group.nl/ics/gics/2014/>
-USING <http://data.ga-group.nl/ics/gics/2016/>
-USING <http://data.ga-group.nl/ics/gics/2018/>
-USING <http://data.ga-group.nl/ics/gics/2023/>
+USING NAMED <http://data.ga-group.nl/ics/gics/1999/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2002/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2003/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2004/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2005/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2006/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2008/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2010/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2014/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2016/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2018/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2023/>
 WHERE {
 	GRAPH ?g {
 	?x dct:isContemporaryVersionOf ?z
@@ -207,18 +237,18 @@ INSERT {
 	?x dct:isContemporaryVersionOf ?z
 	}
 }
-USING <http://data.ga-group.nl/ics/gics/1999/>
-USING <http://data.ga-group.nl/ics/gics/2002/>
-USING <http://data.ga-group.nl/ics/gics/2003/>
-USING <http://data.ga-group.nl/ics/gics/2004/>
-USING <http://data.ga-group.nl/ics/gics/2005/>
-USING <http://data.ga-group.nl/ics/gics/2006/>
-USING <http://data.ga-group.nl/ics/gics/2008/>
-USING <http://data.ga-group.nl/ics/gics/2010/>
-USING <http://data.ga-group.nl/ics/gics/2014/>
-USING <http://data.ga-group.nl/ics/gics/2016/>
-USING <http://data.ga-group.nl/ics/gics/2018/>
-USING <http://data.ga-group.nl/ics/gics/2023/>
+USING NAMED <http://data.ga-group.nl/ics/gics/1999/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2002/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2003/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2004/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2005/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2006/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2008/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2010/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2014/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2016/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2018/>
+USING NAMED <http://data.ga-group.nl/ics/gics/2023/>
 WHERE {
 	GRAPH ?g {
 	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier

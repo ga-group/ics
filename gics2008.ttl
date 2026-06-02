@@ -1099,6 +1099,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/gics/20202010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/gics/2010/20202010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/gics/20202010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/gics/2006/20201040> ;
 	gics:isSubindustryOf	<http://data.ga-group.nl/ics/gics/2008/202020> ;
 	pav:importedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-05-27T08:45:00.430Z"^^xsd:dateTime ;
