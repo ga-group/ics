@@ -40,3 +40,7 @@ For ease of access the latest versions can be downloaded here:
 - [gics2016.ttl](gics2016.ttl)
 - [gics2018.ttl](gics2018.ttl)
 - [gics2023.ttl](gics2023.ttl)
+
+- [icb.ttl](icb.ttl)
+- [icb2005.ttl](icb2005.ttl)
+- [icb2007.ttl](icb2007.ttl)
