@@ -14,8 +14,6 @@ WITH <$u{TGTGR}>
 INSERT {
 	?x a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , owl:NamedIndividual , ?tier ;
 	rdfs:isDefinedBy icb: ;
-	dct:isReplacedBy ?w ;
-	?hasparent ?parx ;
 	pav:derivedFrom [
 		a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , ?typ ;
 		rdfs:label ?lbl ;
@@ -71,24 +69,6 @@ WHERE {
 		OPTIONAL {
 		?z pav:sourceLastAccessedOn ?accl
 		}
-		OPTIONAL {
-		?z dct:isReplacedBy ?u .
-		?z dct:isContemporaryVersionOf ?v .
-		?u dct:isContemporaryVersionOf ?w .
-		FILTER(?v != ?w)
-		}
-
-		OPTIONAL {
-			?y a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
-			dct:isContemporaryVersionOf ?x .
-			VALUES ?hasparent {
-				icb:isSupersectorOf
-				icb:isSectorOf
-				icb:isSubsectorOf
-			}
-			?y ?hasparent ?pary .
-			?pary dct:isContemporaryVersionOf ?parx .
-		}
 	}
 	ORDER BY ?x ?from ?z
 	}
@@ -96,6 +76,47 @@ WHERE {
 ;
 ECHO $ROWCNT"\n";
 CHECKPOINT;
+
+ECHO "determining parents ... ";
+SPARQL
+DEFINE sql:log-enable 3
+PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX icb: <http://data.ga-group.nl/ics/icb/>
+PREFIX delta: <http://www.w3.org/2004/delta#>
+
+WITH <$u{TGTGR}>
+INSERT {
+	?x
+	dct:isReplacedBy ?w ;
+	?hasparent ?parx
+}
+USING <http://data.ga-group.nl/ics/icb/2005/>
+USING <http://data.ga-group.nl/ics/icb/2007/>
+USING <http://data.ga-group.nl/ics/icb/2019/>
+USING <http://data.ga-group.nl/ics/icb/2019_1/>
+WHERE {
+	?z a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+		dct:isContemporaryVersionOf ?x .
+
+	## replay replacements
+	OPTIONAL {
+		?z dct:isReplacedBy ?u .
+		?z dct:isContemporaryVersionOf ?v .
+		?u dct:isContemporaryVersionOf ?w .
+		FILTER(?v != ?w)
+	}
+	VALUES ?hasparent {
+		icb:isSupersectorOf
+		icb:isSectorOf
+		icb:isSubsectorOf
+	}
+	?z ?hasparent ?parz .
+	?parz dct:isContemporaryVersionOf ?parx .
+}
+;
+ECHO $ROWCNT"\n";
+CHECKPOINT;
+
 
 ECHO "condensing chains of validity 1 ... ";
 SPARQL
