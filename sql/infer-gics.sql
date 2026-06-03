@@ -14,8 +14,6 @@ WITH <$u{TGTGR}>
 INSERT {
 	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , owl:NamedIndividual , ?tier ;
 	rdfs:isDefinedBy gics: ;
-	dct:isReplacedBy ?w ;
-	?hasparent ?parx ;
 	pav:derivedFrom [
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , ?typ ;
 		rdfs:label ?lbl ;
@@ -79,24 +77,6 @@ WHERE {
 		OPTIONAL {
 		?z pav:sourceLastAccessedOn ?accl
 		}
-		OPTIONAL {
-		?z dct:isReplacedBy ?u .
-		?z dct:isContemporaryVersionOf ?v .
-		?u dct:isContemporaryVersionOf ?w .
-		FILTER(?v != ?w)
-		}
-
-		OPTIONAL {
-			?y a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-			dct:isContemporaryVersionOf ?x .
-			VALUES ?hasparent {
-				gics:isIndustryGroupOf
-				gics:isIndustryOf
-				gics:isSubindustryOf
-			}
-			?y ?hasparent ?pary .
-			?pary dct:isContemporaryVersionOf ?parx .
-		}
 	}
 	ORDER BY ?x ?from ?z
 	}
@@ -104,6 +84,54 @@ WHERE {
 ;
 ECHO $ROWCNT"\n";
 CHECKPOINT;
+
+ECHO "determining parents and replacements ... ";
+SPARQL
+DEFINE sql:log-enable 3
+PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX gics: <http://data.ga-group.nl/ics/gics/>
+PREFIX delta: <http://www.w3.org/2004/delta#>
+
+WITH <$u{TGTGR}>
+INSERT {
+	?x
+	dct:isReplacedBy ?w ;
+	?hasparent ?parx
+}
+USING <http://data.ga-group.nl/ics/gics/1999/>
+USING <http://data.ga-group.nl/ics/gics/2002/>
+USING <http://data.ga-group.nl/ics/gics/2003/>
+USING <http://data.ga-group.nl/ics/gics/2004/>
+USING <http://data.ga-group.nl/ics/gics/2005/>
+USING <http://data.ga-group.nl/ics/gics/2006/>
+USING <http://data.ga-group.nl/ics/gics/2008/>
+USING <http://data.ga-group.nl/ics/gics/2010/>
+USING <http://data.ga-group.nl/ics/gics/2014/>
+USING <http://data.ga-group.nl/ics/gics/2016/>
+USING <http://data.ga-group.nl/ics/gics/2018/>
+USING <http://data.ga-group.nl/ics/gics/2023/>
+WHERE {
+	?z a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+		dct:isContemporaryVersionOf ?x .
+
+	OPTIONAL {
+		?z dct:isReplacedBy ?u .
+		?z dct:isContemporaryVersionOf ?v .
+		?u dct:isContemporaryVersionOf ?w .
+		FILTER(?v != ?w)
+	}
+	VALUES ?hasparent {
+		gics:isIndustryGroupOf
+		gics:isIndustryOf
+		gics:isSubindustryOf
+	}
+	?z ?hasparent ?parz .
+	?parz dct:isContemporaryVersionOf ?parx .
+}
+;
+ECHO $ROWCNT"\n";
+CHECKPOINT;
+
 
 ECHO "condensing chains of validity 1 ... ";
 SPARQL
