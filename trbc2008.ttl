@@ -1,0 +1,54 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix delta: <http://www.w3.org/2004/delta#> .
+@prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/> .
+@prefix ics: <http://data.ga-group.nl/ics/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix trbc: <http://data.ga-group.nl/ics/trbc/> .
+@prefix trbc2008: <http://data.ga-group.nl/ics/trbc/2008/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.ga-group.nl/ics/trbc/2008/>
+	a	owl:Ontology ;
+	dcat:downloadURL	<http://data.ga-group.nl/ics/trbc2008.ttl> ;
+	dct:abstract	"""This ontology includes individuals representing the set of classification codes based on the principal business activity of the company.
+This set of classification codes is valid from 2008 till 2012."""@en ;
+	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
+	dct:description	"""The Thomson Reuters Business Classification (TRBC) is an industry classification taxonomy launched by Reuters in 2004 as RBSS, and is now used by LSEG after the merger with Refinitiv.
+Codes are five-tiered, numeric, and not prefix-free.  The first tier is called economic sector, the second tier is the business sector, the third tier is the industry group, the fourth tier is the industry, and the fifth tier is the activity group.
+LSEG is responsible for assigning a TRBC classification to all major public as well as many private companies.  Each company is allocated to the activity group that most closely represents the nature of its business according to the TRBC classification methodology."""@en ;
+	dct:format	"text/turtle"^^xsd:string ;
+	dct:issued	"2026-06-03T02:25:19Z"^^xsd:dateTime ;
+	dct:language	"en"^^xsd:language ;
+	dct:license	<https://creativecommons.org/licenses/by-sa/4.0/> ;
+	dct:modified	"2026-06-03T02:25:19Z"^^xsd:dateTime ;
+	dct:publisher	<https://orcid.org/0000-0002-7352-2825> ;
+	dct:title	"trbc individuals" ;
+	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
+	owl:imports	fibo-sec-sec-cls: , ics: ;
+	owl:versionInfo	"2008"^^xsd:string ;
+	owl:versionIRI	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
+	rdfs:label	"TRBC 2008"@en ;
+	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
+	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
+	sm:copyright	"Copyright (c) 2008 Thomson Reuters Corp" , "Copyright (c) 2022-2026 PAMIYA Strategic Advisors GmbH" ;
+	sm:filename	"trbc2008.ttl" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	vann:preferredNamespacePrefix	"trbc2008"^^xsd:string ;
+	vann:preferredNamespaceUri	"http://data.ga-group.nl/ics/trbc/2008/" .
+
+
+
+
