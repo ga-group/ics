@@ -105,9 +105,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/0533>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/60101010> , <http://data.ga-group.nl/ics/icb/60101015> , <http://data.ga-group.nl/ics/icb/60101020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0533> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/0533> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0533> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0533> , <http://data.ga-group.nl/ics/icb/60101010> , <http://data.ga-group.nl/ics/icb/60101015> , <http://data.ga-group.nl/ics/icb/60101020> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/0530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -123,9 +124,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/0537>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/60101000> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0537> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/0537> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0537> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0537> , <http://data.ga-group.nl/ics/icb/60101000> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/0530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -158,9 +160,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/0573>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/60101030> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0573> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/0573> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0573> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0573> , <http://data.ga-group.nl/ics/icb/60101030> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/0570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -176,9 +179,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/0577>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/60101035> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/0577> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/0577> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0577> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/0577> , <http://data.ga-group.nl/ics/icb/60101035> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/0570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -244,9 +248,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1353>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/55201000> , <http://data.ga-group.nl/ics/icb/55201010> , <http://data.ga-group.nl/ics/icb/55201015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1353> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1353> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1353> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1353> , <http://data.ga-group.nl/ics/icb/55201000> , <http://data.ga-group.nl/ics/icb/55201010> , <http://data.ga-group.nl/ics/icb/55201015> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1350> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -262,9 +267,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1357>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50203010> , <http://data.ga-group.nl/ics/icb/50203015> , <http://data.ga-group.nl/ics/icb/55101000> , <http://data.ga-group.nl/ics/icb/55201020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1357> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1357> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1357> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1357> , <http://data.ga-group.nl/ics/icb/50203010> , <http://data.ga-group.nl/ics/icb/50203015> , <http://data.ga-group.nl/ics/icb/55101000> , <http://data.ga-group.nl/ics/icb/55201020> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1350> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -314,9 +320,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1733>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/55101010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1733> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1733> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1733> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1733> , <http://data.ga-group.nl/ics/icb/55101010> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1730> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -332,9 +339,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1737>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/55101015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1737> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1737> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1737> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1737> , <http://data.ga-group.nl/ics/icb/55101015> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1730> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -367,9 +375,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1753>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/55102035> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1753> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1753> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1753> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1753> , <http://data.ga-group.nl/ics/icb/55102035> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1750> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -385,9 +394,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1755>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/55102040> , <http://data.ga-group.nl/ics/icb/55102050> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1755> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1755> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1755> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1755> , <http://data.ga-group.nl/ics/icb/55102040> , <http://data.ga-group.nl/ics/icb/55102050> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1750> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -403,9 +413,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1757>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/55102010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1757> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1757> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1757> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1757> , <http://data.ga-group.nl/ics/icb/55102010> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1750> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -438,9 +449,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1771>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/60101040> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1771> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1771> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1771> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1771> , <http://data.ga-group.nl/ics/icb/60101040> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -456,9 +468,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1773>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/55103020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1773> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1773> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1773> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1773> , <http://data.ga-group.nl/ics/icb/55103020> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -474,9 +487,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1775>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/55102000> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1775> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1775> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1775> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1775> , <http://data.ga-group.nl/ics/icb/55102000> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -492,9 +506,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1777>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/55103025> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1777> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1777> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1777> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1777> , <http://data.ga-group.nl/ics/icb/55103025> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -510,9 +525,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/1779>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/55103030> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/1779> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/1779> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1779> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/1779> , <http://data.ga-group.nl/ics/icb/55103030> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/1770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -578,9 +594,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2353>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50101020> , <http://data.ga-group.nl/ics/icb/50101025> , <http://data.ga-group.nl/ics/icb/50101030> , <http://data.ga-group.nl/ics/icb/50101035> , <http://data.ga-group.nl/ics/icb/50203020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2353> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2353> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2353> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2353> , <http://data.ga-group.nl/ics/icb/50101020> , <http://data.ga-group.nl/ics/icb/50101025> , <http://data.ga-group.nl/ics/icb/50101030> , <http://data.ga-group.nl/ics/icb/50101035> , <http://data.ga-group.nl/ics/icb/50203020> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2350> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -596,9 +613,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2357>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50101010> , <http://data.ga-group.nl/ics/icb/50101015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2357> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2357> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2357> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2357> , <http://data.ga-group.nl/ics/icb/50101010> , <http://data.ga-group.nl/ics/icb/50101015> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2350> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -648,9 +666,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2713>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50201010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2713> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2713> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2713> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2713> , <http://data.ga-group.nl/ics/icb/50201010> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2710> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -666,9 +685,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2717>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50201020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2717> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2717> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2717> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2717> , <http://data.ga-group.nl/ics/icb/50201020> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2710> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -701,9 +721,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2723>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50203030> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2723> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2723> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2723> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2723> , <http://data.ga-group.nl/ics/icb/50203030> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2720> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -719,9 +740,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2727>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50203000> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2727> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2727> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2727> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2727> , <http://data.ga-group.nl/ics/icb/50203000> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2720> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -754,9 +776,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2733>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/10102015> , <http://data.ga-group.nl/ics/icb/10102020> , <http://data.ga-group.nl/ics/icb/50202010> , <http://data.ga-group.nl/ics/icb/50202040> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2733> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2733> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2733> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/10102015> , <http://data.ga-group.nl/ics/icb/10102020> , <http://data.ga-group.nl/ics/icb/2733> , <http://data.ga-group.nl/ics/icb/50202010> , <http://data.ga-group.nl/ics/icb/50202040> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2730> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -772,9 +795,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2737>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50202020> , <http://data.ga-group.nl/ics/icb/50202025> , <http://data.ga-group.nl/ics/icb/50202030> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2737> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2737> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2737> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2737> , <http://data.ga-group.nl/ics/icb/50202020> , <http://data.ga-group.nl/ics/icb/50202025> , <http://data.ga-group.nl/ics/icb/50202030> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2730> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -807,9 +831,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2753>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50204000> , <http://data.ga-group.nl/ics/icb/50204010> , <http://data.ga-group.nl/ics/icb/50204020> , <http://data.ga-group.nl/ics/icb/50204030> , <http://data.ga-group.nl/ics/icb/50204040> , <http://data.ga-group.nl/ics/icb/50204050> , <http://data.ga-group.nl/ics/icb/50206015> , <http://data.ga-group.nl/ics/icb/50206025> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2753> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2753> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2753> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2753> , <http://data.ga-group.nl/ics/icb/50204000> , <http://data.ga-group.nl/ics/icb/50204010> , <http://data.ga-group.nl/ics/icb/50204020> , <http://data.ga-group.nl/ics/icb/50204030> , <http://data.ga-group.nl/ics/icb/50204040> , <http://data.ga-group.nl/ics/icb/50204050> , <http://data.ga-group.nl/ics/icb/50206015> , <http://data.ga-group.nl/ics/icb/50206025> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2750> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -825,9 +850,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2757>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/55102015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2757> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2757> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2757> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2757> , <http://data.ga-group.nl/ics/icb/55102015> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2750> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -860,9 +886,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2771>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50206040> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2771> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2771> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2771> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2771> , <http://data.ga-group.nl/ics/icb/50206040> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -878,9 +905,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2773>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50206030> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2773> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2773> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2773> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2773> , <http://data.ga-group.nl/ics/icb/50206030> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -896,9 +924,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2775>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50206020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2775> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2775> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2775> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2775> , <http://data.ga-group.nl/ics/icb/50206020> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -914,9 +943,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2777>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50206050> , <http://data.ga-group.nl/ics/icb/50206060> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2777> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2777> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2777> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2777> , <http://data.ga-group.nl/ics/icb/50206050> , <http://data.ga-group.nl/ics/icb/50206060> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -932,9 +962,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2779>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50206010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2779> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2779> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2779> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2779> , <http://data.ga-group.nl/ics/icb/50206010> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -967,9 +998,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2791>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50205030> , <http://data.ga-group.nl/ics/icb/50205040> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2791> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2791> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2791> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2791> , <http://data.ga-group.nl/ics/icb/50205030> , <http://data.ga-group.nl/ics/icb/50205040> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2790> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -985,9 +1017,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2793>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50205025> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2793> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2793> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2793> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2793> , <http://data.ga-group.nl/ics/icb/50205025> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2790> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1003,9 +1036,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2795>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30201030> , <http://data.ga-group.nl/ics/icb/50205020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2795> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2795> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2795> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2795> , <http://data.ga-group.nl/ics/icb/30201030> , <http://data.ga-group.nl/ics/icb/50205020> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2790> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1021,9 +1055,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2797>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/50205010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2797> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2797> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2797> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2797> , <http://data.ga-group.nl/ics/icb/50205010> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2790> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1039,9 +1074,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/2799>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/65103035> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/2799> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/2799> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2799> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/2799> , <http://data.ga-group.nl/ics/icb/65103035> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/2790> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1107,9 +1143,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3353>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40101020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3353> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3353> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3353> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3353> , <http://data.ga-group.nl/ics/icb/40101020> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3350> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1125,9 +1162,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3355>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40101025> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3355> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3355> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3355> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3355> , <http://data.ga-group.nl/ics/icb/40101025> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3350> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1143,9 +1181,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3357>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40101010> , <http://data.ga-group.nl/ics/icb/40101015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3357> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3357> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3357> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3357> , <http://data.ga-group.nl/ics/icb/40101010> , <http://data.ga-group.nl/ics/icb/40101015> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3350> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1195,9 +1234,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3533>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/45101010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3533> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3533> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3533> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3533> , <http://data.ga-group.nl/ics/icb/45101010> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1213,9 +1253,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3535>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/45101015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3535> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3535> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3535> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3535> , <http://data.ga-group.nl/ics/icb/45101015> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1231,9 +1272,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3537>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/45101020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3537> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3537> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3537> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3537> , <http://data.ga-group.nl/ics/icb/45101020> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1266,9 +1308,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3573>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/45102010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3573> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3573> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3573> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3573> , <http://data.ga-group.nl/ics/icb/45102010> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1284,9 +1327,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3577>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/45102020> , <http://data.ga-group.nl/ics/icb/45102030> , <http://data.ga-group.nl/ics/icb/45102035> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3577> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3577> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3577> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3577> , <http://data.ga-group.nl/ics/icb/45102020> , <http://data.ga-group.nl/ics/icb/45102030> , <http://data.ga-group.nl/ics/icb/45102035> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1336,9 +1380,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3722>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40202020> , <http://data.ga-group.nl/ics/icb/40202025> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3722> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3722> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3722> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3722> , <http://data.ga-group.nl/ics/icb/40202020> , <http://data.ga-group.nl/ics/icb/40202025> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3720> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1354,9 +1399,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3724>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/45201030> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3724> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3724> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3724> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3724> , <http://data.ga-group.nl/ics/icb/45201030> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3720> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1372,9 +1418,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3726>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40202015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3726> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3726> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3726> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3726> , <http://data.ga-group.nl/ics/icb/40202015> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3720> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1390,9 +1437,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3728>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40202010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3728> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3728> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3728> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3728> , <http://data.ga-group.nl/ics/icb/40202010> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3720> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1425,9 +1473,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3743>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40203010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3743> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3743> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3743> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3743> , <http://data.ga-group.nl/ics/icb/40203010> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3740> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1443,9 +1492,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3745>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40203050> , <http://data.ga-group.nl/ics/icb/40203055> , <http://data.ga-group.nl/ics/icb/40203060> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3745> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3745> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3745> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3745> , <http://data.ga-group.nl/ics/icb/40203050> , <http://data.ga-group.nl/ics/icb/40203055> , <http://data.ga-group.nl/ics/icb/40203060> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3740> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1461,9 +1511,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3747>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40203040> , <http://data.ga-group.nl/ics/icb/40203045> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3747> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3747> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3747> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3747> , <http://data.ga-group.nl/ics/icb/40203040> , <http://data.ga-group.nl/ics/icb/40203045> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3740> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1496,9 +1547,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3763>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40204020> , <http://data.ga-group.nl/ics/icb/40204030> , <http://data.ga-group.nl/ics/icb/55101020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3763> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3763> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3763> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3763> , <http://data.ga-group.nl/ics/icb/40204020> , <http://data.ga-group.nl/ics/icb/40204030> , <http://data.ga-group.nl/ics/icb/55101020> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3760> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1514,9 +1566,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3765>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40204025> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3765> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3765> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3765> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3765> , <http://data.ga-group.nl/ics/icb/40204025> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3760> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1532,9 +1585,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3767>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40204035> , <http://data.ga-group.nl/ics/icb/45201020> , <http://data.ga-group.nl/ics/icb/45201040> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3767> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3767> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3767> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3767> , <http://data.ga-group.nl/ics/icb/40204035> , <http://data.ga-group.nl/ics/icb/45201020> , <http://data.ga-group.nl/ics/icb/45201040> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3760> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1567,9 +1621,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/3785>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/45103010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/3785> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/3785> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3785> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/3785> , <http://data.ga-group.nl/ics/icb/45103010> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/3780> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1635,9 +1690,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/4533>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/20101010> , <http://data.ga-group.nl/ics/icb/20101020> , <http://data.ga-group.nl/ics/icb/20101025> , <http://data.ga-group.nl/ics/icb/20101030> , <http://data.ga-group.nl/ics/icb/20102020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4533> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/4533> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4533> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/20101010> , <http://data.ga-group.nl/ics/icb/20101020> , <http://data.ga-group.nl/ics/icb/20101025> , <http://data.ga-group.nl/ics/icb/20101030> , <http://data.ga-group.nl/ics/icb/20102020> , <http://data.ga-group.nl/ics/icb/4533> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/4530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1653,9 +1709,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/4535>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/20102010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4535> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/4535> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4535> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/20102010> , <http://data.ga-group.nl/ics/icb/4535> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/4530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1671,9 +1728,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/4537>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/20102015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4537> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/4537> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4537> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/20102015> , <http://data.ga-group.nl/ics/icb/4537> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/4530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1706,9 +1764,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/4573>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/20103010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4573> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/4573> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4573> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/20103010> , <http://data.ga-group.nl/ics/icb/4573> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/4570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1724,9 +1783,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/4577>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/20103015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/4577> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/4577> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/4577> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/20103015> , <http://data.ga-group.nl/ics/icb/4577> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/4570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1792,9 +1852,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5333>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/45201015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5333> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5333> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5333> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/45201015> , <http://data.ga-group.nl/ics/icb/5333> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5330> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1810,9 +1871,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5337>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/45201010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5337> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5337> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5337> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/45201010> , <http://data.ga-group.nl/ics/icb/5337> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5330> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1845,9 +1907,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5371>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40401020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5371> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5371> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5371> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40401020> , <http://data.ga-group.nl/ics/icb/5371> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5370> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1863,9 +1926,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5373>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40401010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5373> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5373> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5373> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40401010> , <http://data.ga-group.nl/ics/icb/5373> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5370> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1881,9 +1945,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5375>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40401025> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5375> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5375> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5375> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40401025> , <http://data.ga-group.nl/ics/icb/5375> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5370> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1899,9 +1964,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5377>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40201010> , <http://data.ga-group.nl/ics/icb/40201020> , <http://data.ga-group.nl/ics/icb/40201030> , <http://data.ga-group.nl/ics/icb/40201040> , <http://data.ga-group.nl/ics/icb/40201050> , <http://data.ga-group.nl/ics/icb/40201060> , <http://data.ga-group.nl/ics/icb/40201070> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5377> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5377> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5377> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40201010> , <http://data.ga-group.nl/ics/icb/40201020> , <http://data.ga-group.nl/ics/icb/40201030> , <http://data.ga-group.nl/ics/icb/40201040> , <http://data.ga-group.nl/ics/icb/40201050> , <http://data.ga-group.nl/ics/icb/40201060> , <http://data.ga-group.nl/ics/icb/40201070> , <http://data.ga-group.nl/ics/icb/5377> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5370> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1917,9 +1983,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5379>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40401030> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5379> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5379> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5379> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40401030> , <http://data.ga-group.nl/ics/icb/5379> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5370> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1969,9 +2036,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5553>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/15102010> , <http://data.ga-group.nl/ics/icb/40301010> , <http://data.ga-group.nl/ics/icb/40301035> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5553> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5553> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5553> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/15102010> , <http://data.ga-group.nl/ics/icb/40301010> , <http://data.ga-group.nl/ics/icb/40301035> , <http://data.ga-group.nl/ics/icb/5553> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5550> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -1987,9 +2055,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5555>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40301020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5555> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5555> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5555> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40301020> , <http://data.ga-group.nl/ics/icb/5555> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5550> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2005,9 +2074,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5557>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40301030> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5557> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5557> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5557> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40301030> , <http://data.ga-group.nl/ics/icb/5557> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5550> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2057,9 +2127,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5751>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40501010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5751> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5751> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5751> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40501010> , <http://data.ga-group.nl/ics/icb/5751> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2075,9 +2146,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5752>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40501020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5752> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5752> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5752> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40501020> , <http://data.ga-group.nl/ics/icb/5752> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2093,9 +2165,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5753>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40501025> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5753> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5753> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5753> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40501025> , <http://data.ga-group.nl/ics/icb/5753> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2111,9 +2184,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5755>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40501030> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5755> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5755> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5755> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40501030> , <http://data.ga-group.nl/ics/icb/5755> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2129,9 +2203,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5757>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40501040> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5757> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5757> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5757> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40501040> , <http://data.ga-group.nl/ics/icb/5757> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2147,9 +2222,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/5759>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/40501015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/5759> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/5759> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/5759> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/40501015> , <http://data.ga-group.nl/ics/icb/5759> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/5750> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2215,9 +2291,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/6535>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/15102015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/6535> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/6535> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/6535> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/15102015> , <http://data.ga-group.nl/ics/icb/6535> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/6530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2318,9 +2395,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/7535>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/65101015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7535> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/7535> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7535> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/65101015> , <http://data.ga-group.nl/ics/icb/7535> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/7530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2353,9 +2431,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/7573>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/65102020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7573> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/7573> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7573> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/65102020> , <http://data.ga-group.nl/ics/icb/7573> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/7570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2371,9 +2450,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/7575>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/65102000> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7575> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/7575> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7575> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/65102000> , <http://data.ga-group.nl/ics/icb/7575> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/7570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2389,9 +2469,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/7577>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/65102030> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/7577> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/7577> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/7577> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/65102030> , <http://data.ga-group.nl/ics/icb/7577> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/7570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2457,9 +2538,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8355>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30101010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8355> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8355> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8355> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30101010> , <http://data.ga-group.nl/ics/icb/8355> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8350> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2509,9 +2591,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8532>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30302010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8532> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8532> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8532> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30302010> , <http://data.ga-group.nl/ics/icb/8532> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2527,9 +2610,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8534>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30302015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8534> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8534> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8534> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30302015> , <http://data.ga-group.nl/ics/icb/8534> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2545,9 +2629,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8536>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30302025> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8536> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8536> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8536> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30302025> , <http://data.ga-group.nl/ics/icb/8536> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2563,9 +2648,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8538>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30302020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8538> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8538> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8538> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30302020> , <http://data.ga-group.nl/ics/icb/8538> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2598,9 +2684,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8575>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30301010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8575> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8575> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8575> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30301010> , <http://data.ga-group.nl/ics/icb/8575> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2700,9 +2787,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8771>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30202010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8771> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8771> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8771> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30202010> , <http://data.ga-group.nl/ics/icb/8771> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2718,9 +2806,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8773>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30201020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8773> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8773> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8773> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30201020> , <http://data.ga-group.nl/ics/icb/8773> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2736,9 +2825,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8775>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30202000> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8775> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8775> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8775> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30202000> , <http://data.ga-group.nl/ics/icb/8775> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2754,9 +2844,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8777>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30202015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8777> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8777> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8777> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30202015> , <http://data.ga-group.nl/ics/icb/8777> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2772,9 +2863,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8779>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30201025> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8779> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8779> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8779> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30201025> , <http://data.ga-group.nl/ics/icb/8779> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8770> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2807,9 +2899,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8985>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30204000> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8985> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8985> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8985> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30204000> , <http://data.ga-group.nl/ics/icb/8985> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8980> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2842,9 +2935,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/8995>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/30205000> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/8995> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/8995> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/8995> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/30205000> , <http://data.ga-group.nl/ics/icb/8995> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/8990> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2910,9 +3004,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/9533>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/10101010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9533> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/9533> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9533> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/10101010> , <http://data.ga-group.nl/ics/icb/9533> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2928,9 +3023,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/9535>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/10101020> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9535> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/9535> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9535> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/10101020> , <http://data.ga-group.nl/ics/icb/9535> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2946,9 +3042,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/9537>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/10101015> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9537> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/9537> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9537> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/10101015> , <http://data.ga-group.nl/ics/icb/9537> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9530> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2981,9 +3078,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/9572>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/10102030> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9572> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/9572> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9572> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/10102030> , <http://data.ga-group.nl/ics/icb/9572> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -2999,9 +3097,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/9574>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/10102035> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9574> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/9574> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9574> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/10102035> , <http://data.ga-group.nl/ics/icb/9574> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -3017,9 +3116,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/9576>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/10102010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9576> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/9576> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9576> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/10102010> , <http://data.ga-group.nl/ics/icb/9576> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
@@ -3035,9 +3135,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 <http://data.ga-group.nl/ics/icb/2005/9578>
 	a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
 	a	icb:SubsectorClassifier , owl:NamedIndividual ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/icb/15101010> ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/icb/9578> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/icb/2007/9578> ;
-	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/9578> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/icb/15101010> , <http://data.ga-group.nl/ics/icb/9578> ;
 	icb:isSubsectorOf	<http://data.ga-group.nl/ics/icb/2005/9570> ;
 	pav:importedOn	"2026-06-01T03:03:54.132Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-01T10:28:56.931Z"^^xsd:dateTime ;
