@@ -6,6 +6,7 @@ INSERT {
 	?x dct:isReplacedBy ?y
 	}
 }
+USING NAMED <http://data.ga-group.nl/ics/trbc/2008/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2012/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2020/>
 WHERE {
@@ -25,6 +26,7 @@ INSERT {
 	?y dct:replaces ?x
 	}
 }
+USING NAMED <http://data.ga-group.nl/ics/trbc/2008/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2012/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2020/>
 WHERE {
@@ -48,6 +50,7 @@ DELETE {
 	?x dct:isVersionOf ?z
 	}
 }
+USING NAMED <http://data.ga-group.nl/ics/trbc/2008/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2012/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2020/>
 WHERE {
@@ -65,6 +68,7 @@ INSERT {
 	?x dct:isVersionOf ?z
 	}
 }
+USING NAMED <http://data.ga-group.nl/ics/trbc/2008/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2012/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2020/>
 WHERE {
@@ -73,6 +77,7 @@ WHERE {
 	}
 	{
 	SELECT ?x ?z
+	FROM <http://data.ga-group.nl/ics/trbc/2008/>
 	FROM <http://data.ga-group.nl/ics/trbc/2012/>
 	FROM <http://data.ga-group.nl/ics/trbc/2020/>
 	WHERE {
@@ -94,6 +99,7 @@ DELETE {
 	?x dct:isContemporaryVersionOf ?z
 	}
 }
+USING NAMED <http://data.ga-group.nl/ics/trbc/2008/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2012/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2020/>
 WHERE {
@@ -111,6 +117,7 @@ INSERT {
 	?x dct:isAnachronousVersionOf ?z
 	}
 }
+USING NAMED <http://data.ga-group.nl/ics/trbc/2008/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2012/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2020/>
 WHERE {
@@ -140,6 +147,7 @@ DELETE {
 	?x dct:isContemporaryVersionOf ?z
 	}
 }
+USING NAMED <http://data.ga-group.nl/ics/trbc/2008/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2012/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2020/>
 WHERE {
@@ -157,6 +165,7 @@ INSERT {
 	?x dct:isContemporaryVersionOf ?z
 	}
 }
+USING NAMED <http://data.ga-group.nl/ics/trbc/2008/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2012/>
 USING NAMED <http://data.ga-group.nl/ics/trbc/2020/>
 WHERE {

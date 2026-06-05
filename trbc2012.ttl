@@ -115,6 +115,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/50101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/50101010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -134,6 +135,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/501010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/501010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/501010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/501010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -172,6 +174,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/50102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/50102010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -305,6 +308,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50102020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/50102020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/50102020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -400,6 +404,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50102030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/50102030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/50102030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -419,6 +424,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/501020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/501020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/501020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/501020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -552,6 +558,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50103010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/50103010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50103010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/50103010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -647,6 +654,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50103020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/50103020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50103020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/50103020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -780,6 +788,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50103030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/50103030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50103030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/50103030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -799,6 +808,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/501030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/501030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/501030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/501030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -818,6 +828,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -1046,6 +1057,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50201010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/50201010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/50104010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -1179,6 +1191,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50201020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/50201020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/50104020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -1198,6 +1211,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/502010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/502010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/502010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/501040> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -1350,6 +1364,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/50> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/50> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -1501,6 +1516,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51101010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -1615,6 +1631,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51101020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -1786,6 +1803,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51101030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51101030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -1824,6 +1842,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101090> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51101090> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101090> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51101090> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -1843,6 +1862,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/511010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/511010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/511010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/511010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -1862,6 +1882,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5110> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5110> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5110> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5110> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -2014,6 +2035,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51201010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51201010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -2166,6 +2188,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51201020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51201020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -2318,6 +2341,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51201030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51201030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -2489,6 +2513,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51201050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51201050> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -2717,6 +2742,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/512010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/512010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/512010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/512010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -2850,6 +2876,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51202010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51202010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51202010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51202010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -2869,6 +2896,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/512020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/512020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/512020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/512020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -2888,6 +2916,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5120> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5120> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5120> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5120> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -3040,6 +3069,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51301010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51301010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51301010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -3154,6 +3184,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51301020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51301020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51301020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -3173,6 +3204,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/513010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/513010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/513010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/513010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -3325,6 +3357,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51302010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51302010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51302010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51302010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -3382,6 +3415,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51302020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51302020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51302020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51302020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -3401,6 +3435,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/513020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/513020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/513020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/513020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -3420,6 +3455,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5130> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5130> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5130> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5130> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -3439,6 +3475,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/51> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/51> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -3647,6 +3684,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52101010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -3666,6 +3704,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/521010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/521010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/521010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/521010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -3970,6 +4009,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52102010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -4141,6 +4181,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52102020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52102020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -4369,6 +4410,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52102030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52102030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -4521,6 +4563,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52102040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52102040> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -4616,6 +4659,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/521020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/521020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/521020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/521020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -4635,6 +4679,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5210> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5210> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5210> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5210> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -4920,6 +4965,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52201020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52201020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52201020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -4939,6 +4985,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/522010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/522010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/522010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/522010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -4977,6 +5024,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52202010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52202010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52202010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52202010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -4996,6 +5044,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/522020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/522020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/522020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/522020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -5129,6 +5178,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52203010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52203010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -5224,6 +5274,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52203020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52203020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -5338,6 +5389,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52203030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52203030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -5698,6 +5750,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52203040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52203040> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -5812,6 +5865,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203060> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52203060> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203060> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52203060> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6021,6 +6075,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/522030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/522030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/522030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/522030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6040,6 +6095,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5220> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5220> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5220> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5220> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6076,6 +6132,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52301010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52301010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6094,6 +6151,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:IndustryGroup ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/523010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/523010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/523010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6112,6 +6170,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:BusinessSector ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5230> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5230> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5230> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6226,6 +6285,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52405010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52405010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52405010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52401010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6321,6 +6381,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52405020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52405020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52405020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52403010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6435,6 +6496,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52405030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52405030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52405030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52404020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6568,6 +6630,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52406010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52406010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52406010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52402010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6739,6 +6802,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52406020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52406020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52406020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52404010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6872,6 +6936,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52407010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52407010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52407010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52402020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -6967,6 +7032,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52407020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52407020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52407020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52403020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -7062,6 +7128,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52407030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52407030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52407030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52404030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -7100,6 +7167,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5240> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5240> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5240> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5240> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -7119,6 +7187,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/52> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/52> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -7270,6 +7339,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53101010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -7441,6 +7511,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53101020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53101020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -7574,6 +7645,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53101030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53101030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53101030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -7593,6 +7665,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/531010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/531010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/531010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/531010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -7612,6 +7685,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5310> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5310> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5310> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5310> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -7821,6 +7895,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53202010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53202010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53202010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53202010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -8239,6 +8314,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53202020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53202020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53202020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53202020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -8410,6 +8486,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53202030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53202030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53202030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53202030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -8429,6 +8506,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/532020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/532020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -8581,6 +8659,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53203010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53203010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53203010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53203010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -8809,6 +8888,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53203020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53203020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53203020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53203020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -8828,6 +8908,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/532030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/532030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -8980,6 +9061,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53204030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53204030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53204030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53204030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -9132,6 +9214,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53204040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53204040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53204040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53204040> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -9151,6 +9234,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/532040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/532040> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -9303,6 +9387,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53205010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53205010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53205010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53205010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -9455,6 +9540,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53205020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53205020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53205020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53205020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -9474,6 +9560,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/532050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/532050> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -9493,6 +9580,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5320> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5320> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5320> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5320> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -9664,6 +9752,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53301010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53301010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -9816,6 +9905,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53301020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53301020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -9949,6 +10039,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53301030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53301030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -10234,6 +10325,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53301040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53301040> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -10253,6 +10345,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/533010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/533010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/533010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/533010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -10519,6 +10612,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53302010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53302010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -10614,6 +10708,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53302020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53302020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -10766,6 +10861,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53302030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53302030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -10918,6 +11014,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53302040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53302040> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -10937,6 +11034,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/533020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/533020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/533020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/533020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -10956,6 +11054,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5330> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5330> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5330> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5330> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -11051,6 +11150,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53402010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53402010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53402010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53402010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -11184,6 +11284,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53402020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53402020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53402020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53402020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -11203,6 +11304,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/534020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/534020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/534020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/534020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -11355,6 +11457,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53403010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53403010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -11526,6 +11629,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53403020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53403020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -11659,6 +11763,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53403030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53403030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -11868,6 +11973,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53403040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53403040> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -11963,6 +12069,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53403050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53403050> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -12286,6 +12393,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403090> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53403090> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403090> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53403090> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -12305,6 +12413,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/534030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/534030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/534030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/534030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -12324,6 +12433,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5340> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5340> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5340> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5340> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -12343,6 +12453,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/53> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/53> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -12399,6 +12510,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54101010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -12494,6 +12606,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54101020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54101020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -12608,6 +12721,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54101030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54101030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54101030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -12627,6 +12741,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/541010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/541010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/541010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/541010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -13026,6 +13141,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54102010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -13463,6 +13579,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54102020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54102020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54102020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -13577,6 +13694,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54102030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54102030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54102030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -13596,6 +13714,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/541020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/541020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/541020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/541020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -13615,6 +13734,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5410> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5410> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5410> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5410> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -13767,6 +13887,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54201010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54201010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54201010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -13900,6 +14021,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54201020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54201020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54201020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14089,6 +14211,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54201030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54201030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54201030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54201030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14108,6 +14231,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/542010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/542010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/542010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/542010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14127,6 +14251,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5420> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5420> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5420> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5420> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14203,6 +14328,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54301010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54301010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54301010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14355,6 +14481,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54301020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54301020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54301020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14374,6 +14501,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/543010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/543010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/543010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/543010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14393,6 +14521,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5430> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5430> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5430> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5430> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14412,6 +14541,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/54> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/54> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14544,6 +14674,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55101010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14677,6 +14808,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55101030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55101030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55101030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14810,6 +14942,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55101050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55101050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55101050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55101050> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14829,6 +14962,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/551010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/551010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/551010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/551010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -14962,6 +15096,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55102010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15133,6 +15268,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55102020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55102020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15171,6 +15307,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55102030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55102030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15265,6 +15402,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55102050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55102050> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15284,6 +15422,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/551020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/551020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/551020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/551020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15303,6 +15442,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5510> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5510> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5510> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5510> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15379,6 +15519,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55301010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55301010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15493,6 +15634,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55301020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55301020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15569,6 +15711,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55301030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55301030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15645,6 +15788,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55301050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55301050> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15664,6 +15808,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/553010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/553010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/553010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/553010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15683,6 +15828,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5530> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5530> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5530> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5530> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15791,6 +15937,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55402010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55402010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55402010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15899,6 +16046,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55402020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55402020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55402020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15917,6 +16065,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:IndustryGroup ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/554020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/554020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/554020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -15953,6 +16102,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55403010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55403010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55403010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -16043,6 +16193,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55403020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55403020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55403020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -16079,6 +16230,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55403030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55403030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55403030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -16241,6 +16393,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:IndustryGroup ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/554030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/554030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/554030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -16259,6 +16412,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:BusinessSector ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5540> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5540> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5540> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -16297,6 +16451,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55501010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55501010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55501010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55501010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -16563,6 +16718,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/555010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/555010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/555010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/555010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -16582,6 +16738,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5550> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5550> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5550> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5550> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -16696,6 +16853,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/55> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/55> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -16847,6 +17005,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/56101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/56101010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17056,6 +17215,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56101020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/56101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/56101020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17075,6 +17235,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/561010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/561010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/561010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/561010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17284,6 +17445,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/56102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/56102010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17341,6 +17503,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56102020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/56102020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/56102020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17360,6 +17523,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/561020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/561020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/561020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/561020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17379,6 +17543,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5610> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5610> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5610> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5610> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17531,6 +17696,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56201040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/56201040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56201040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/56201010> , <http://data.ga-group.nl/ics/trbc/2008/56202010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17550,6 +17716,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/562010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/562010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/562010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/562010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17645,6 +17812,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56202010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/56202010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56202010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/56202010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17664,6 +17832,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/562020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/562020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/562020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/562020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17683,6 +17852,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5620> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5620> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5620> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5620> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17702,6 +17872,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/56> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/56> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17834,6 +18005,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/57101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/57101010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17929,6 +18101,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57101020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/57101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/57101020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -17948,6 +18121,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/571010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/571010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/571010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/571010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -18119,6 +18293,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/57102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/57102010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -18138,6 +18313,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/571020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/571020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/571020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/571020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -18404,6 +18580,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57105010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/57105010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57105010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/57103020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -18632,6 +18809,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57106010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/57106010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57106010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/57103010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -18917,6 +19095,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5710> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5710> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5710> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5710> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19050,6 +19229,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57201010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/57201010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/57201010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19221,6 +19401,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57201020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/57201020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/57201020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19392,6 +19573,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/572010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/572010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/572010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/572010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19411,6 +19593,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5720> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5720> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5720> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5720> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19430,6 +19613,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/57> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/57> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19555,6 +19739,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/58101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/58101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/58101010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19663,6 +19848,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/58101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/58101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/58101020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19681,6 +19867,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:IndustryGroup ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/581010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/581010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/581010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19699,6 +19886,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	a	trbc:BusinessClassification , trbc:BusinessSector ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5810> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5810> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5810> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19718,6 +19906,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/58> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/58> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/58> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/58> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19812,6 +20001,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/59101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/59101010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19926,6 +20116,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/591010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/591010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/591010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/591010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -19983,6 +20174,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/59102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/59102010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -20002,6 +20194,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/591020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/591020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/591020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/591020> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -20097,6 +20290,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59103010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/59103010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59103010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/59103010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -20116,6 +20310,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/591030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/591030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/591030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/591030> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -20154,6 +20349,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59104010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/59104010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59104010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/59104010> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -20173,6 +20369,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/591040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/591040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/591040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/591040> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -20192,6 +20389,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5910> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/5910> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5910> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/5910> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
@@ -20211,6 +20409,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2020/59> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59> ;
+	dct:replaces	<http://data.ga-group.nl/ics/trbc/2008/59> ;
 	pav:importedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-04T08:32:42.103Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2016-07-11T16:31:25Z"^^xsd:dateTime ;
