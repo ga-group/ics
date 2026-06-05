@@ -3,12 +3,12 @@ SHELL := /bin/zsh
 include .make.env
 
 GICS := gics1999 gics2002 gics2003 gics2004 gics2005 gics2006 gics2008 gics2010 gics2014 gics2016 gics2018 gics2023
-TRBC := trbc2012 ##trbc2020 trbc2008
+TRBC := trbc2012 trbc2020 ##trbc2008
 ICB := icb2005 icb2007 icb2019 icb2019_1
 
 all: .imported.ics.owl $(GICS:%=.imported.%) $(TRBC:%=.imported.%) $(ICB:%=.imported.%) tmp/gics.out
 exgics: .inferred.gics-rplc $(GICS:%=export.%)
-extrbc: $(TRBC:%=export.%)
+extrbc: .inferred.trbc-rplc $(TRBC:%=export.%)
 exicb: .inferred.icb-rplc $(ICB:%=export.%)
 export: exgics exicb extrbc
 check: check.gics
@@ -16,6 +16,7 @@ check: check.gics
 TODAY := $(shell dateconv today)
 
 .inferred.gics-rplc: $(GICS:%=.imported.%)
+.inferred.trbc-rplc: $(TRBC:%=.imported.%)
 .inferred.icb-rplc: $(ICB:%=.imported.%)
 .inferred.gics: .inferred.gics-rplc
 .inferred.icb: .inferred.icb-rplc
