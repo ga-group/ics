@@ -42,7 +42,7 @@ CHECKPOINT;
 ECHO "constructing a revision-agnostic individual ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX trbc: <http://data.ga-group.nl/ics/trbc/>
+PREFIX trbc: <http://permid.org/ontology/trbc/>
 DELETE {
 	GRAPH ?g {
 	?x dct:isVersionOf ?z
@@ -59,7 +59,7 @@ WHERE {
 ECHO "-"$ROWCNT" ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX trbc: <http://data.ga-group.nl/ics/trbc/>
+PREFIX trbc: <http://permid.org/ontology/trbc/>
 INSERT {
 	GRAPH ?g {
 	?x dct:isVersionOf ?z
@@ -88,7 +88,7 @@ CHECKPOINT;
 ECHO "constructing a revision-agnostic anachronous individual ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX trbc: <http://data.ga-group.nl/ics/trbc/>
+PREFIX trbc: <http://permid.org/ontology/trbc/>
 DELETE {
 	GRAPH ?g {
 	?x dct:isContemporaryVersionOf ?z
@@ -105,7 +105,7 @@ WHERE {
 ECHO "-"$ROWCNT" ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX trbc: <http://data.ga-group.nl/ics/trbc/>
+PREFIX trbc: <http://permid.org/ontology/trbc/>
 INSERT {
 	GRAPH ?g {
 	?x dct:isAnachronousVersionOf ?z
@@ -134,7 +134,7 @@ CHECKPOINT;
 ECHO "constructing a revision-agnostic contemporary individual ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX trbc: <http://data.ga-group.nl/ics/trbc/>
+PREFIX trbc: <http://permid.org/ontology/trbc/>
 DELETE {
 	GRAPH ?g {
 	?x dct:isContemporaryVersionOf ?z
@@ -151,7 +151,7 @@ WHERE {
 ECHO "-"$ROWCNT" ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX trbc: <http://data.ga-group.nl/ics/trbc/>
+PREFIX trbc: <http://permid.org/ontology/trbc/>
 INSERT {
 	GRAPH ?g {
 	?x dct:isContemporaryVersionOf ?z

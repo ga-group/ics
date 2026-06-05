@@ -19,6 +19,7 @@ TODAY := $(shell dateconv today)
 .inferred.trbc-rplc: $(TRBC:%=.imported.%)
 .inferred.icb-rplc: $(ICB:%=.imported.%)
 .inferred.gics: .inferred.gics-rplc
+.inferred.trbc: .inferred.trbc-rplc
 .inferred.icb: .inferred.icb-rplc
 
 tmp/gics.out: $(GICS:%=.imported.%)
