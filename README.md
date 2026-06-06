@@ -25,7 +25,16 @@ Where?
 The [official github repository](https://github.com/ga-group/ics/) contains the
 published ontologies.
 
+
+What?
+-----
+
 For ease of access the latest versions can be downloaded here:
+
+
+### GICS
+
+MSCI and S&P's Global Industry Classification Standard.
 
 - [gics.ttl](gics.ttl)
 - [gics1999.ttl](gics1999.ttl)
@@ -41,9 +50,19 @@ For ease of access the latest versions can be downloaded here:
 - [gics2018.ttl](gics2018.ttl)
 - [gics2023.ttl](gics2023.ttl)
 
+
+### ICB
+
+Dow Jones and FTSE's Industry Classification Benchmark.
+
 - [icb.ttl](icb.ttl)
 - [icb2005.ttl](icb2005.ttl)
 - [icb2007.ttl](icb2007.ttl)
+
+
+### RBSS/TRBC
+
+LSEG's The Refinitiv Business Classification aka Thomson-Reuters Business Classification aka Reuters Business Sector Scheme.
 
 - [trbc.ttl](trbc.ttl)
 - [rbss2004.ttl](rbss2004.ttl)
