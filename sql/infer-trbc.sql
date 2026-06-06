@@ -26,6 +26,7 @@ INSERT {
 		pav:derivedFrom ?z ;
 	]
 }
+USING <http://data.ga-group.nl/ics/rbss/2004/>
 USING <http://data.ga-group.nl/ics/trbc/2008/>
 USING <http://data.ga-group.nl/ics/trbc/2012/>
 USING <http://data.ga-group.nl/ics/trbc/2020/>
@@ -90,6 +91,7 @@ INSERT {
 	dct:isReplacedBy ?w ;
 	?hasparent ?parx
 }
+USING <http://data.ga-group.nl/ics/rbss/2004/>
 USING <http://data.ga-group.nl/ics/trbc/2008/>
 USING <http://data.ga-group.nl/ics/trbc/2012/>
 USING <http://data.ga-group.nl/ics/trbc/2020/>

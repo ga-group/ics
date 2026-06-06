@@ -58,6 +58,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50110> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -92,6 +93,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50121> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -109,6 +111,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50102020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50102020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50122> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -126,6 +129,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50102030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50102030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50123> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -143,6 +147,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/501020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/501020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/501020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50120> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -160,6 +165,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50103010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50103010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50103010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50131> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -177,6 +183,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50103020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50103020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50103020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50132> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -194,6 +201,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50103030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50103030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50103030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50133> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -211,6 +219,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/501030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/501030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/501030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50130> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -229,6 +238,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50104010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50201010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50104010> , <http://data.ga-group.nl/ics/trbc/50201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50141> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -247,6 +257,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50104020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50201020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50104020> , <http://data.ga-group.nl/ics/trbc/50201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50142> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -265,6 +276,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/501040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/502010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/501040> , <http://data.ga-group.nl/ics/trbc/502010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50140> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -299,6 +311,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50000> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -315,6 +328,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51111> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -332,6 +346,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51112> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -349,6 +364,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51101030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51113> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -366,6 +382,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101090> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51101090> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101090> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51119> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -383,6 +400,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/511010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/511010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/511010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51100> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -417,6 +435,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51201010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51211> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -434,6 +453,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51201020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51212> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -451,6 +471,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51201030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51213> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -468,6 +489,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51201050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51215> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -485,6 +507,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/512010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/512010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/512010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51210> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -519,6 +542,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/512020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/512020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/512020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51220> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -536,6 +560,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5120> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5120> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5120> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51200> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -553,6 +578,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51301010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51301010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51311> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -570,6 +596,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51301020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51301020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51312> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -587,6 +614,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/513010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/513010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/513010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51310> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -604,6 +632,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51302010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51302010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51302010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51321> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -621,6 +650,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51302020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51302020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51302020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51322> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -638,6 +668,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/513020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/513020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/513020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51320> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -655,6 +686,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5130> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5130> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5130> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51300> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -672,6 +704,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51000> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -705,6 +738,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/521010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/521010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/521010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52110> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -722,6 +756,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52121> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -739,6 +774,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52102020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52122> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -756,6 +792,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52102030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52123> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -773,6 +810,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52102040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52124> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -790,6 +828,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/521020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/521020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/521020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52120> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -807,6 +846,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5210> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5210> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5210> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52100> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -875,6 +915,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/522020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/522020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/522020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52220> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -892,6 +933,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52203010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52231> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -909,6 +951,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52203020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52232> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -926,6 +969,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52203030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52233> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -943,6 +987,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52203040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52234> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -960,6 +1005,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203060> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52203060> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203060> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52236> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -994,6 +1040,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5220> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5220> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5220> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52200> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1011,6 +1058,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52301010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52301010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52300> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1063,6 +1111,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52401010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52405010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52401010> , <http://data.ga-group.nl/ics/trbc/52405010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52410> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1097,6 +1146,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52402010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52406010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52402010> , <http://data.ga-group.nl/ics/trbc/52406010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52421> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1115,6 +1165,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52402020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52407010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52402020> , <http://data.ga-group.nl/ics/trbc/52407010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52422> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1131,6 +1182,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	a	trbc:BusinessClassification , trbc:IndustryGroup ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/524020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/524020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52420> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1149,6 +1201,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52403010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52405020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52403010> , <http://data.ga-group.nl/ics/trbc/52405020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52431> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1167,6 +1220,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52403020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52407020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52403020> , <http://data.ga-group.nl/ics/trbc/52407020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52432> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1183,6 +1237,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	a	trbc:BusinessClassification , trbc:IndustryGroup ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/524030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/524030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52430> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1201,6 +1256,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52404010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52406020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52404010> , <http://data.ga-group.nl/ics/trbc/52406020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52441> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1219,6 +1275,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52404020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52405030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52404020> , <http://data.ga-group.nl/ics/trbc/52405030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52442> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1237,6 +1294,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52404030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52407030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52404030> , <http://data.ga-group.nl/ics/trbc/52407030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52443> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1253,6 +1311,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	a	trbc:BusinessClassification , trbc:IndustryGroup ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/524040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/524040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52440> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1270,6 +1329,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5240> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5240> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5240> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52400> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1287,6 +1347,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52000> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1303,6 +1364,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53111> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1320,6 +1382,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53101020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53112> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1337,6 +1400,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53101030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53101030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53113> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1371,6 +1435,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5310> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5310> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5310> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53110> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1388,6 +1453,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53202010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53202010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53202010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53221> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1405,6 +1471,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53202020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53202020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53202020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53222> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1422,6 +1489,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53202030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53202030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53202030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53223> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1439,6 +1507,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/532020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53220> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1456,6 +1525,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53203010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53203010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53203010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53211> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1491,6 +1561,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/532030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53230> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1507,6 +1578,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53204020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53204020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53242> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1524,6 +1596,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53204030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53204030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53204030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53213> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1541,6 +1614,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53204040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53204040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53204040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53214> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1558,6 +1632,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/532040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53240> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1575,6 +1650,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53205010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53205010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53205010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53215> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1592,6 +1668,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53205020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53205020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53205020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53215> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1609,6 +1686,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/532050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53250> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1626,6 +1704,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5320> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5320> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5320> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53200> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1643,6 +1722,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53301010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53311> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1660,6 +1740,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53301020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53312> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1677,6 +1758,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53301030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53313> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1694,6 +1776,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53301040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53314> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1711,6 +1794,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/533010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/533010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/533010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53310> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1728,6 +1812,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53302010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53321> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1745,6 +1830,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53302020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53322> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1762,6 +1848,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53302030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53323> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1779,6 +1866,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53302040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53324> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1795,6 +1883,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302090> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302090> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53329> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1812,6 +1901,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/533020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/533020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/533020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53320> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1829,6 +1919,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5330> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5330> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5330> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53300> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1846,6 +1937,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53402010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53402010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53402010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53411> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1863,6 +1955,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53402020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53402020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53402020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53412> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1880,6 +1973,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/534020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/534020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/534020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53420> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1897,6 +1991,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53431> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1914,6 +2009,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53432> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1931,6 +2027,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53433> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1948,6 +2045,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403040> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53414> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1965,6 +2063,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53415> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1982,6 +2081,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403090> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403090> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403090> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53416> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -1999,6 +2099,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/534030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/534030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/534030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53430> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2016,6 +2117,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5340> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5340> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5340> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53400> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2033,6 +2135,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53000> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2049,6 +2152,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54111> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2066,6 +2170,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54101020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54112> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2083,6 +2188,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54101030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54101030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54113> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2100,6 +2206,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/541010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/541010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/541010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54110> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2117,6 +2224,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54121> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2134,6 +2242,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54102020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54102020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54122> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2151,6 +2260,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54102030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54102030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54123> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2168,6 +2278,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/541020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/541020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/541020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54120> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2185,6 +2296,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5410> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5410> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5410> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54100> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2202,6 +2314,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54201010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54201010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54211> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2219,6 +2332,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54201020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54201020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54212> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2236,6 +2350,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54201030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54201030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54201030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54213> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2253,6 +2368,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/542010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/542010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/542010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54210> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2287,6 +2403,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54301010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54301010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54311> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2304,6 +2421,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54301020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54301020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54312> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2321,6 +2439,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/543010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/543010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/543010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54310> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2355,6 +2474,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54000> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2371,6 +2491,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55111> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2388,6 +2509,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55101030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55101030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55113> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2405,6 +2527,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55101050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55101050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55101050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55115> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2422,6 +2545,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/551010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/551010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/551010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55110> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2439,6 +2563,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55121> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2456,6 +2581,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55102020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55122> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2473,6 +2599,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55102030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55123> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2489,6 +2616,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55124> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2506,6 +2634,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55102050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55125> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2523,6 +2652,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/551020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/551020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/551020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55114> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2539,6 +2669,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55103010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55103010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55131> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2572,6 +2703,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5510> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5510> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5510> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55100> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2589,6 +2721,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55301010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55311> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2606,6 +2739,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55301020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55312> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2623,6 +2757,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55301030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55313> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2640,6 +2775,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301050> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55301050> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55315> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2656,6 +2792,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301060> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301060> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55316> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2673,6 +2810,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/553010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/553010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/553010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55310> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2707,6 +2845,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55402010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55402010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55402010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55421> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2724,6 +2863,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55402020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55402020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55402020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55422> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2741,6 +2881,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/554020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/554020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/554020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55411> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2758,6 +2899,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55403010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55403010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55403010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55431> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2775,6 +2917,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55403020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55403020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55403020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55432> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2792,6 +2935,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55403030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55403030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55403030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55433> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2809,6 +2953,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/554030> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/554030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/554030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55412> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2826,6 +2971,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5540> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5540> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5540> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55400> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2843,6 +2989,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55501010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55501010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55501010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55500> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2894,6 +3041,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55000> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2910,6 +3058,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56111> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2927,6 +3076,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56101020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56112> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2944,6 +3094,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/561010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/561010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/561010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56110> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2961,6 +3112,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56121> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2978,6 +3130,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56102020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56102020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56122> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -2995,6 +3148,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/561020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/561020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/561020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56120> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3012,6 +3166,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5610> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5610> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5610> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56100> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3030,6 +3185,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56201010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56201040> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56201010> , <http://data.ga-group.nl/ics/trbc/56201040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56211> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3046,6 +3202,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	a	trbc:BusinessClassification , trbc:Industry ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56201030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56201030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56213> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3063,6 +3220,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/562010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/562010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/562010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56210> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3081,6 +3239,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56202010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56201040> , <http://data.ga-group.nl/ics/trbc/2012/56202010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56201040> , <http://data.ga-group.nl/ics/trbc/56202010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56212> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3115,6 +3274,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5620> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5620> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5620> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56200> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3132,6 +3292,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56000> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3148,6 +3309,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57111> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3165,6 +3327,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57101020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57112> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3182,6 +3345,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/571010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/571010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/571010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57110> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3216,6 +3380,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/571020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/571020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/571020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57120> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3234,6 +3399,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57103010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57106010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57103010> , <http://data.ga-group.nl/ics/trbc/57106010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57131> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3252,6 +3418,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57103020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57105010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57103020> , <http://data.ga-group.nl/ics/trbc/57105010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57132> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3268,6 +3435,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	a	trbc:BusinessClassification , trbc:IndustryGroup ;
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/571030> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/571030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57130> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3285,6 +3453,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5710> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5710> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5710> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57100> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3302,6 +3471,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57201010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57201010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57211> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3319,6 +3489,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57201020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57201020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57212> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3370,6 +3541,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57000> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3386,6 +3558,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/58101010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/58101010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/58101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/58111> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3403,6 +3576,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/58101020> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/58101020> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/58101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/58112> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3420,6 +3594,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/581010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/581010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/581010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/58110> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3504,6 +3679,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59102010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/59102010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/59120> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3538,6 +3714,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59103010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/59103010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59103010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/59130> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3572,6 +3749,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59104010> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/59104010> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59104010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/59140> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
@@ -3606,6 +3784,7 @@ Thomson-Reuters is responsible for assigning a TRBC classification to all major 
 	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5910> ;
 	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5910> ;
 	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5910> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/59100> ;
 	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;

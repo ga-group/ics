@@ -1,0 +1,48 @@
+PREFIX lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
+PREFIX dbo: <https://dbpedia.org/ontology/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/>
+PREFIX fibo-fbc-fct-mkt: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/>
+PREFIX fibo-fbc-fct-mkti: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/>
+PREFIX fibo-fbc-pas-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/>
+PREFIX fibo-fnd-plc-vrt: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/>
+PREFIX fibo-fnd-arr-arr: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tempo: <http://purl.org/tempo/>
+PREFIX trbc: <http://permid.org/ontology/trbc/>
+PREFIX gatrbc: <http://data.ga-group.nl/ics/trbc/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?_rbss
+		a trbc:BusinessClassification , owl:NamedIndividual , ?tier ;
+		dct:isReplacedBy ?_trbc ;
+		skos:definition ?_desc ;
+		rdfs:label ?_lbl ;
+		rdfs:isDefinedBy <http://data.ga-group.nl/ics/rbss/2004/> ;
+		skos:notation ?RBSS ;
+		tempo:validFrom	?_from ;
+		tempo:validTill	?_till ;
+		rdfs:seeAlso ?_perm ;
+		## provenance
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		pav:sourceAccessedOn ?_accd ;
+		pav:sourceLastAccessedOn ?_accd ;
+}
+WHERE {
+	BIND(NOW() AS ?now)
+	BIND(xsd:dateTime(?accd) AS ?_accd)
+	BIND(IRI(CONCAT("http://data.ga-group.nl/ics/rbss/2004/",?RBSS)) AS ?_rbss)
+	BIND(IRI(CONCAT("http://data.ga-group.nl/ics/trbc/2008/",?TRBC)) AS ?_trbc)
+	BIND(xsd:gYear(?from) AS ?_from)
+	BIND(xsd:gYear(?till) AS ?_till)
+	BIND(STRLANG(?desc, ?lang) AS ?_desc)
+	BIND(STRLANG(?label, ?lang) AS ?_lbl)
+
+	BIND(IRI(CONCAT("https://permid.org/1-",?PermID)) AS ?_perm)
+}
