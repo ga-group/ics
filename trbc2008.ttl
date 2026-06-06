@@ -12,7 +12,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
 @prefix tempo: <http://purl.org/tempo/> .
-@prefix trbc: <http://data.ga-group.nl/ics/trbc/> .
+@prefix trbc: <http://permid.org/ontology/trbc/> .
 @prefix trbc2008: <http://data.ga-group.nl/ics/trbc/2008/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
@@ -25,8 +25,8 @@
 This set of classification codes is valid from 2008 till 2012."""@en ;
 	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
 	dct:description	"""The Thomson Reuters Business Classification (TRBC) is an industry classification taxonomy launched by Reuters in 2004 as RBSS, and is now used by LSEG after the merger with Refinitiv.
-Codes are five-tiered, numeric, and not prefix-free.  The first tier is called economic sector, the second tier is the business sector, the third tier is the industry group, the fourth tier is the industry, and the fifth tier is the activity group.
-LSEG is responsible for assigning a TRBC classification to all major public as well as many private companies.  Each company is allocated to the activity group that most closely represents the nature of its business according to the TRBC classification methodology."""@en ;
+Codes are four-tiered, numeric, and not prefix-free.  The first tier is called economic sector, the second tier is the business sector, the third tier is the industry group, and the fourth tier is the industry.
+Thomson-Reuters is responsible for assigning a TRBC classification to all major public as well as many private companies.  Each company is allocated to the industry that most closely represents the nature of its business according to the TRBC classification methodology."""@en ;
 	dct:format	"text/turtle"^^xsd:string ;
 	dct:issued	"2026-06-03T02:25:19Z"^^xsd:dateTime ;
 	dct:language	"en"^^xsd:language ;
@@ -52,3 +52,3762 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 
 
 
+<http://data.ga-group.nl/ics/trbc/2008/50101010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50101010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50101010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50110> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Coal"@en ;
+	skos:notation	"50101010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/501010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/501010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/501010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/501010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/501010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Coal"@en ;
+	skos:notation	"501010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/50102010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50102010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50102010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50121> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Integrated Oil & Gas"@en ;
+	skos:notation	"50102010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/501020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/50102020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50102020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50102020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50122> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Oil & Gas Exploration and Production"@en ;
+	skos:notation	"50102020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/501020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/50102030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50102030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50102030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50123> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Oil & Gas Refining and Marketing"@en ;
+	skos:notation	"50102030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/501020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/501020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/501020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/501020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/501020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50120> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Oil & Gas"@en ;
+	skos:notation	"501020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/50103010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50103010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50103010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50103010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50131> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Oil & Gas Drilling"@en ;
+	skos:notation	"50103010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/501030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/50103020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50103020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50103020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50103020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50132> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Oil Related Services and Equipment"@en ;
+	skos:notation	"50103020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/501030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/50103030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50103030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50103030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50103030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50133> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Oil & Gas Transportation Services"@en ;
+	skos:notation	"50103030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/501030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/501030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/501030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/501030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/501030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50130> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Oil & Gas Related Equipment and Services"@en ;
+	skos:notation	"501030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/50104010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/50201010> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50104010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50201010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50104010> , <http://data.ga-group.nl/ics/trbc/50201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50141> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Renewable Energy Equipment & Services"@en ;
+	skos:notation	"50104010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/501040> .
+
+<http://data.ga-group.nl/ics/trbc/2008/50104020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/50201020> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50104020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50201020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50104020> , <http://data.ga-group.nl/ics/trbc/50201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50142> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Renewable Fuels"@en ;
+	skos:notation	"50104020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/501040> .
+
+<http://data.ga-group.nl/ics/trbc/2008/501040>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/502010> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/501040> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/502010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/501040> , <http://data.ga-group.nl/ics/trbc/502010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50140> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Renewable Energy"@en ;
+	skos:notation	"501040" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Energy - Fossil Fuels"@en ;
+	skos:notation	"5010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/50> .
+
+<http://data.ga-group.nl/ics/trbc/2008/50>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:EconomicSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/50> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/50> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/50> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/50000> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Energy"@en ;
+	skos:notation	"50" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear .
+
+<http://data.ga-group.nl/ics/trbc/2008/51101010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51101010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51111> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Commodity Chemicals"@en ;
+	skos:notation	"51101010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/511010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51101020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51101020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51112> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Agricultural Chemicals"@en ;
+	skos:notation	"51101020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/511010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51101030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51101030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51113> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Specialty Chemicals"@en ;
+	skos:notation	"51101030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/511010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51101090>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51101090> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51101090> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51101090> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51119> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Diversified Chemicals"@en ;
+	skos:notation	"51101090" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/511010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/511010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/511010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/511010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/511010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51100> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Chemicals"@en ;
+	skos:notation	"511010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5110> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5110>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5110> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5110> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5110> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Chemicals"@en ;
+	skos:notation	"5110" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/51> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51201010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51201010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51211> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Precious Metals & Minerals"@en ;
+	skos:notation	"51201010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/512010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51201020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51201020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51212> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Steel"@en ;
+	skos:notation	"51201020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/512010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51201030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51201030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51213> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Aluminum"@en ;
+	skos:notation	"51201030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/512010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51201050>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51201050> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51201050> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51201050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51215> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Specialty Mining & Metals"@en ;
+	skos:notation	"51201050" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/512010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/512010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/512010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/512010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/512010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51210> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Metals & Mining"@en ;
+	skos:notation	"512010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5120> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51202010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51202010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51202010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51202010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Construction Materials"@en ;
+	skos:notation	"51202010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/512020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/512020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/512020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/512020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/512020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51220> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Construction Materials"@en ;
+	skos:notation	"512020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5120> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5120>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5120> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5120> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5120> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51200> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Mineral Resources"@en ;
+	skos:notation	"5120" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/51> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51301010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51301010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51301010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51311> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Forest & Wood Products"@en ;
+	skos:notation	"51301010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/513010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51301020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51301020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51301020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51312> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Paper Products"@en ;
+	skos:notation	"51301020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/513010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/513010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/513010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/513010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/513010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51310> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Paper & Forest Products"@en ;
+	skos:notation	"513010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5130> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51302010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51302010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51302010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51302010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51321> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Non-Paper Containers & Packaging"@en ;
+	skos:notation	"51302010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/513020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51302020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51302020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51302020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51302020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51322> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Paper Packaging"@en ;
+	skos:notation	"51302020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/513020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/513020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/513020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/513020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/513020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51320> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Containers & Packaging"@en ;
+	skos:notation	"513020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5130> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5130>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5130> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5130> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5130> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51300> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Applied Resources"@en ;
+	skos:notation	"5130" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/51> .
+
+<http://data.ga-group.nl/ics/trbc/2008/51>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:EconomicSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/51> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/51> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/51> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/51000> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Basic Materials"@en ;
+	skos:notation	"51" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear .
+
+<http://data.ga-group.nl/ics/trbc/2008/52101010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52101010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52101010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52101010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Aerospace & Defense"@en ;
+	skos:notation	"52101010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/521010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/521010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/521010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/521010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/521010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52110> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Aerospace & Defense"@en ;
+	skos:notation	"521010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5210> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52102010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52102010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52121> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Industrial Machinery & Equipment"@en ;
+	skos:notation	"52102010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/521020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52102020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52102020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52122> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Heavy Machinery & Vehicles"@en ;
+	skos:notation	"52102020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/521020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52102030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52102030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52123> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Electrical Components & Equipment"@en ;
+	skos:notation	"52102030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/521020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52102040>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52102040> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52102040> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52102040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52124> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Heavy Electrical Equipment"@en ;
+	skos:notation	"52102040" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/521020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/521020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/521020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/521020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/521020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52120> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Machinery, Equipment & Components"@en ;
+	skos:notation	"521020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5210> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5210>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5210> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5210> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5210> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52100> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Industrial Goods"@en ;
+	skos:notation	"5210" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/52> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52201020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52201020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52201020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52201020> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Construction & Engineering"@en ;
+	skos:notation	"52201020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/522010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/522010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/522010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/522010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/522010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Construction & Engineering"@en ;
+	skos:notation	"522010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5220> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52202010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52202010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52202010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52202010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Diversified Trading & Distributing"@en ;
+	skos:notation	"52202010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/522020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/522020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/522020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/522020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/522020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52220> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Diversified Trading & Distributing"@en ;
+	skos:notation	"522020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5220> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52203010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52203010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52231> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Environmental Services"@en ;
+	skos:notation	"52203010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/522030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52203020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52203020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52232> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Commercial Printing Services"@en ;
+	skos:notation	"52203020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/522030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52203030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52203030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52233> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Employment Services"@en ;
+	skos:notation	"52203030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/522030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52203040>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203040> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52203040> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52234> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Business Support Services"@en ;
+	skos:notation	"52203040" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/522030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52203060>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52203060> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52203060> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52203060> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52236> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Business Support Supplies"@en ;
+	skos:notation	"52203060" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/522030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/522030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/522030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/522030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/522030> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Commercial Services & Supplies"@en ;
+	skos:notation	"522030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5220> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5220>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5220> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5220> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5220> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52200> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Industrial Services"@en ;
+	skos:notation	"5220" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/52> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52301010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52301010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52301010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52300> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Industrial Conglomerates"@en ;
+	skos:notation	"52301010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/523010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/523010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/523010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/523010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/523010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Industrial Conglomerates"@en ;
+	skos:notation	"523010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5230> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5230>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5230> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5230> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5230> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Industrial Conglomerates"@en ;
+	skos:notation	"5230" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/52> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52401010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/52405010> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52401010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52405010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52401010> , <http://data.ga-group.nl/ics/trbc/52405010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52410> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Air Freight & Courier Services"@en ;
+	skos:notation	"52401010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/524010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/524010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/524010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/524010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Air Freight & Courier Services"@en ;
+	skos:notation	"524010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5240> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52402010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/52406010> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52402010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52406010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52402010> , <http://data.ga-group.nl/ics/trbc/52406010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52421> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Airlines"@en ;
+	skos:notation	"52402010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/524020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52402020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/52407010> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52402020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52407010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52402020> , <http://data.ga-group.nl/ics/trbc/52407010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52422> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Airport Services"@en ;
+	skos:notation	"52402020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/524020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/524020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/524020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/524020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52420> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Airline Services"@en ;
+	skos:notation	"524020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5240> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52403010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/52405020> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52403010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52405020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52403010> , <http://data.ga-group.nl/ics/trbc/52405020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52431> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Freight Transportation, Marine"@en ;
+	skos:notation	"52403010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/524030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52403020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/52407020> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52403020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52407020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52403020> , <http://data.ga-group.nl/ics/trbc/52407020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52432> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Marine Port Services"@en ;
+	skos:notation	"52403020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/524030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/524030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/524030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/524030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52430> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Marine Services"@en ;
+	skos:notation	"524030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5240> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52404010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/52406020> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52404010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52406020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52404010> , <http://data.ga-group.nl/ics/trbc/52406020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52441> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Passenger Transportation, Ground & Sea"@en ;
+	skos:notation	"52404010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/524040> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52404020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/52405030> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52404020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52405030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52404020> , <http://data.ga-group.nl/ics/trbc/52405030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52442> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Freight Transportation, Ground"@en ;
+	skos:notation	"52404020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/524040> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52404030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/52407030> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52404030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52407030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52404030> , <http://data.ga-group.nl/ics/trbc/52407030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52443> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Highways & Rail Tracks"@en ;
+	skos:notation	"52404030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/524040> .
+
+<http://data.ga-group.nl/ics/trbc/2008/524040>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/524040> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/524040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52440> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Transportation, Ground"@en ;
+	skos:notation	"524040" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5240> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5240>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5240> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5240> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5240> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52400> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Transportation"@en ;
+	skos:notation	"5240" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/52> .
+
+<http://data.ga-group.nl/ics/trbc/2008/52>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:EconomicSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/52> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/52> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/52> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52000> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Industrials"@en ;
+	skos:notation	"52" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear .
+
+<http://data.ga-group.nl/ics/trbc/2008/53101010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53101010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53101010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53111> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Auto & Truck Manufacturers"@en ;
+	skos:notation	"53101010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/531010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53101020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53101020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53101020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53112> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Auto, Truck & Motorcycle Parts"@en ;
+	skos:notation	"53101020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/531010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53101030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53101030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53101030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53113> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Tires & Rubber Products"@en ;
+	skos:notation	"53101030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/531010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/531010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/531010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/531010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/531010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Automobiles & Auto Parts"@en ;
+	skos:notation	"531010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5310> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5310>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5310> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5310> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5310> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53110> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Automobiles & Auto Parts"@en ;
+	skos:notation	"5310" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/53> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53202010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53202010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53202010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53202010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53221> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Textiles & Leather Goods"@en ;
+	skos:notation	"53202010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/532020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53202020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53202020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53202020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53202020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53222> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Apparel & Accessories"@en ;
+	skos:notation	"53202020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/532020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53202030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53202030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53202030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53202030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53223> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Footwear"@en ;
+	skos:notation	"53202030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/532020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/532020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/532020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53220> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Textiles & Apparel"@en ;
+	skos:notation	"532020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5320> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53203010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53203010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53203010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53203010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53211> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Homebuilding"@en ;
+	skos:notation	"53203010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/532030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53203020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53203020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53203020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53203020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/52211> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Construction Supplies & Fittings"@en ;
+	skos:notation	"53203020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/532030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/532030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/532030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53230> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Homebuilding & Construction Supplies"@en ;
+	skos:notation	"532030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5320> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53204020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53204020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53204020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53242> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Consumer Electronics"@en ;
+	skos:notation	"53204020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/532040> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53204030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53204030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53204030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53204030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53213> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Appliances, Tools & Housewares"@en ;
+	skos:notation	"53204030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/532040> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53204040>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53204040> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53204040> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53204040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53214> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Home Furnishing"@en ;
+	skos:notation	"53204040" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/532040> .
+
+<http://data.ga-group.nl/ics/trbc/2008/532040>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532040> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/532040> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53240> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Household Goods"@en ;
+	skos:notation	"532040" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5320> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53205010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53205010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53205010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53205010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53215> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Toys & Games"@en ;
+	skos:notation	"53205010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/532050> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53205020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53205020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53205020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53205020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53215> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Recreational Products"@en ;
+	skos:notation	"53205020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/532050> .
+
+<http://data.ga-group.nl/ics/trbc/2008/532050>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/532050> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/532050> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/532050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53250> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Leisure Products"@en ;
+	skos:notation	"532050" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5320> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5320>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5320> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5320> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5320> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53200> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Cyclical Consumer Products"@en ;
+	skos:notation	"5320" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/53> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53301010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53301010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53311> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Hotels, Motels & Cruise Lines"@en ;
+	skos:notation	"53301010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/533010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53301020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53301020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53312> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Restaurants"@en ;
+	skos:notation	"53301020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/533010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53301030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53301030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53313> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Casinos & Gaming"@en ;
+	skos:notation	"53301030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/533010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53301040>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53301040> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53301040> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53301040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53314> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Leisure & Recreation"@en ;
+	skos:notation	"53301040" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/533010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/533010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/533010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/533010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/533010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53310> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Hotels & Entertainment Services"@en ;
+	skos:notation	"533010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5330> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53302010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53302010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53321> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Advertising & Marketing"@en ;
+	skos:notation	"53302010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/533020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53302020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53302020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53322> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Broadcasting"@en ;
+	skos:notation	"53302020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/533020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53302030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53302030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53323> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Entertainment Production"@en ;
+	skos:notation	"53302030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/533020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53302040>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302040> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53302040> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53324> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Publishing"@en ;
+	skos:notation	"53302040" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/533020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53302090>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53302090> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53302090> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53329> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Diversified Media"@en ;
+	skos:notation	"53302090" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/533020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/533020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/533020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/533020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/533020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53320> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Media & Publishing"@en ;
+	skos:notation	"533020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5330> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5330>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5330> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5330> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5330> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53300> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Cyclical Consumer Services"@en ;
+	skos:notation	"5330" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/53> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53402010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53402010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53402010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53402010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53411> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Department Stores"@en ;
+	skos:notation	"53402010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/534020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53402020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53402020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53402020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53402020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53412> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Discount Stores"@en ;
+	skos:notation	"53402020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/534020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/534020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/534020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/534020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/534020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53420> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Diversified Retail"@en ;
+	skos:notation	"534020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5340> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53403010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53431> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Auto Vehicles, Parts & Service Retailers"@en ;
+	skos:notation	"53403010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/534030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53403020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53432> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Home Improvement Products & Services Retailers"@en ;
+	skos:notation	"53403020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/534030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53403030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53433> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Home Furnishings Retailers"@en ;
+	skos:notation	"53403030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/534030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53403040>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403040> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403040> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53414> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Apparel & Accessories Retailers"@en ;
+	skos:notation	"53403040" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/534030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53403050>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403050> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403050> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53415> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Computer & Electronics Retailers"@en ;
+	skos:notation	"53403050" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/534030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53403090>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53403090> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53403090> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53403090> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53416> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Other Specialty Retailers"@en ;
+	skos:notation	"53403090" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/534030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/534030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/534030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/534030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/534030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53430> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Specialty Retailers"@en ;
+	skos:notation	"534030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5340> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5340>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5340> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5340> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5340> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53400> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Retailers"@en ;
+	skos:notation	"5340" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/53> .
+
+<http://data.ga-group.nl/ics/trbc/2008/53>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:EconomicSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/53> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/53> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/53> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/53000> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Cyclical Consumer Goods & Services"@en ;
+	skos:notation	"53" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear .
+
+<http://data.ga-group.nl/ics/trbc/2008/54101010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54101010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54101010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54111> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Brewers"@en ;
+	skos:notation	"54101010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/541010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/54101020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54101020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54101020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54112> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Distillers & Wineries"@en ;
+	skos:notation	"54101020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/541010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/54101030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54101030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54101030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54113> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Non-Alcoholic Beverages"@en ;
+	skos:notation	"54101030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/541010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/541010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/541010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/541010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/541010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54110> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Beverages"@en ;
+	skos:notation	"541010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5410> .
+
+<http://data.ga-group.nl/ics/trbc/2008/54102010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54102010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54102010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54121> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Fishing & Farming"@en ;
+	skos:notation	"54102010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/541020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/54102020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54102020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54102020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54122> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Food Processing"@en ;
+	skos:notation	"54102020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/541020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/54102030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54102030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54102030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54123> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Tobacco"@en ;
+	skos:notation	"54102030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/541020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/541020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/541020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/541020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/541020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54120> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Food & Tobacco"@en ;
+	skos:notation	"541020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5410> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5410>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5410> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5410> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5410> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54100> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Food & Beverages"@en ;
+	skos:notation	"5410" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/54> .
+
+<http://data.ga-group.nl/ics/trbc/2008/54201010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54201010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54201010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54211> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Household Products"@en ;
+	skos:notation	"54201010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/542010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/54201020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54201020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54201020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54212> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Personal Products"@en ;
+	skos:notation	"54201020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/542010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/54201030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54201030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54201030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54201030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54213> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Personal Services"@en ;
+	skos:notation	"54201030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/542010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/542010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/542010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/542010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/542010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54210> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Personal & Household Products & Services"@en ;
+	skos:notation	"542010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5420> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5420>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5420> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5420> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5420> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Personal & Household Products & Services"@en ;
+	skos:notation	"5420" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/54> .
+
+<http://data.ga-group.nl/ics/trbc/2008/54301010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54301010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54301010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54311> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Drug Retailers"@en ;
+	skos:notation	"54301010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/543010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/54301020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54301020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54301020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54312> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Food Distribution & Convenience Stores"@en ;
+	skos:notation	"54301020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/543010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/543010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/543010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/543010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/543010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54310> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Food & Drug Retailing"@en ;
+	skos:notation	"543010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5430> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5430>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5430> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5430> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5430> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Food & Drug Retailing"@en ;
+	skos:notation	"5430" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/54> .
+
+<http://data.ga-group.nl/ics/trbc/2008/54>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:EconomicSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/54> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/54> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/54> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/54000> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Non-Cyclical Consumer Goods & Services"@en ;
+	skos:notation	"54" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear .
+
+<http://data.ga-group.nl/ics/trbc/2008/55101010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55101010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55101010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55111> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Banks"@en ;
+	skos:notation	"55101010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/551010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55101030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55101030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55101030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55101030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55113> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Consumer Financial Services"@en ;
+	skos:notation	"55101030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/551010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55101050>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55101050> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55101050> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55101050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55115> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Specialty Financials"@en ;
+	skos:notation	"55101050" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/551010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/551010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/551010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/551010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/551010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55110> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Banking Services"@en ;
+	skos:notation	"551010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5510> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55102010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55102010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55121> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Investment Banking & Brokerage Services"@en ;
+	skos:notation	"55102010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/551020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55102020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55102020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55122> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Investment Management & Fund Operators"@en ;
+	skos:notation	"55102020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/551020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55102030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55102030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55123> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Diversified Investment Services"@en ;
+	skos:notation	"55102030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/551020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55102040>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102040> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55124> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Specialty Investment Services"@en ;
+	skos:notation	"55102040" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/551020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55102050>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55102050> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55102050> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55102050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55125> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Financial & Commodity Market Operators"@en ;
+	skos:notation	"55102050" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/551020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/551020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/551020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/551020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/551020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55114> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Investment Banking & Investment Services"@en ;
+	skos:notation	"551020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5510> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55103010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55103010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55103010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55131> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Diversified Financial Services"@en ;
+	skos:notation	"55103010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/551030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/551030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/551030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/551030> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Diversified Financial Services"@en ;
+	skos:notation	"551030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5510> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5510>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5510> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5510> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5510> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55100> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Banking & Investment Services"@en ;
+	skos:notation	"5510" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/55> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55301010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55301010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55311> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Multiline Insurance"@en ;
+	skos:notation	"55301010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/553010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55301020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55301020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55312> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Property & Casualty Insurance"@en ;
+	skos:notation	"55301020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/553010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55301030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55301030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55313> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Life & Health Insurance"@en ;
+	skos:notation	"55301030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/553010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55301050>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301050> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55301050> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301050> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55315> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Reinsurance"@en ;
+	skos:notation	"55301050" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/553010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55301060>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55301060> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55301060> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55316> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Insurance Brokers"@en ;
+	skos:notation	"55301060" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/553010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/553010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/553010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/553010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/553010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55310> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Insurance"@en ;
+	skos:notation	"553010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5530> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5530>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5530> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5530> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5530> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Insurance"@en ;
+	skos:notation	"5530" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/55> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55402010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55402010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55402010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55402010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55421> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Real Estate Development & Operations"@en ;
+	skos:notation	"55402010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/554020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55402020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55402020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55402020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55402020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55422> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Real Estate Services"@en ;
+	skos:notation	"55402020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/554020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/554020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/554020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/554020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/554020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55411> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Real Estate Operations"@en ;
+	skos:notation	"554020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5540> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55403010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55403010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55403010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55403010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55431> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Diversified REITs"@en ;
+	skos:notation	"55403010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/554030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55403020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55403020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55403020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55403020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55432> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Commercial REITs"@en ;
+	skos:notation	"55403020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/554030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55403030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55403030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55403030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55403030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55433> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Residential REITs"@en ;
+	skos:notation	"55403030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/554030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/554030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/554030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/554030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/554030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55412> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Residential & Commercial REITs"@en ;
+	skos:notation	"554030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5540> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5540>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5540> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5540> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5540> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55400> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Real Estate"@en ;
+	skos:notation	"5540" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/55> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55501010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55501010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55501010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55501010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55500> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Investment Trusts"@en ;
+	skos:notation	"55501010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/555010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/555010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/555010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/555010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/555010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Investment Trusts"@en ;
+	skos:notation	"555010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5550> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5550>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5550> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5550> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5550> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Investment Trusts"@en ;
+	skos:notation	"5550" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/55> .
+
+<http://data.ga-group.nl/ics/trbc/2008/55>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:EconomicSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/55> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/55> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/55> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/55000> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Financials"@en ;
+	skos:notation	"55" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear .
+
+<http://data.ga-group.nl/ics/trbc/2008/56101010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56101010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56101010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56111> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Advanced Medical Equipment"@en ;
+	skos:notation	"56101010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/561010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/56101020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56101020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56101020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56112> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Medical Equipment, Supplies & Distribution"@en ;
+	skos:notation	"56101020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/561010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/561010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/561010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/561010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/561010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56110> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Healthcare Equipment & Supplies"@en ;
+	skos:notation	"561010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5610> .
+
+<http://data.ga-group.nl/ics/trbc/2008/56102010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56102010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56102010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56121> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Healthcare Facilities & Services"@en ;
+	skos:notation	"56102010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/561020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/56102020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56102020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56102020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56102020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56122> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Managed Healthcare"@en ;
+	skos:notation	"56102020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/561020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/561020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/561020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/561020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/561020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56120> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Healthcare Providers & Services"@en ;
+	skos:notation	"561020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5610> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5610>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5610> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5610> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5610> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56100> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Healthcare Services"@en ;
+	skos:notation	"5610" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/56> .
+
+<http://data.ga-group.nl/ics/trbc/2008/56201010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/56201040> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56201010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56201040> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56201010> , <http://data.ga-group.nl/ics/trbc/56201040> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56211> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Diversified Pharmaceuticals"@en ;
+	skos:notation	"56201010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/562010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/56201030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56201030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56201030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56213> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Generic & Specialty Pharmaceuticals"@en ;
+	skos:notation	"56201030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/562010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/562010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/562010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/562010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/562010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56210> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Pharmaceuticals"@en ;
+	skos:notation	"562010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5620> .
+
+<http://data.ga-group.nl/ics/trbc/2008/56202010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/56201040> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56202010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56201040> , <http://data.ga-group.nl/ics/trbc/2012/56202010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56201040> , <http://data.ga-group.nl/ics/trbc/56202010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56212> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Biotechnology & Medical Research"@en ;
+	skos:notation	"56202010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/562020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/562020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/562020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/562020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/562020> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Biotechnology & Medical Research"@en ;
+	skos:notation	"562020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5620> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5620>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5620> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5620> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5620> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56200> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Pharmaceuticals & Medical Research"@en ;
+	skos:notation	"5620" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/56> .
+
+<http://data.ga-group.nl/ics/trbc/2008/56>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:EconomicSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/56> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/56> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/56> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/56000> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Healthcare"@en ;
+	skos:notation	"56" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear .
+
+<http://data.ga-group.nl/ics/trbc/2008/57101010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57101010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57101010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57111> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Semiconductors"@en ;
+	skos:notation	"57101010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/571010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/57101020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57101020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57101020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57112> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Semiconductor Equipment & Testing"@en ;
+	skos:notation	"57101020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/571010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/571010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/571010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/571010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/571010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57110> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Semiconductors & Semiconductor Equipment"@en ;
+	skos:notation	"571010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5710> .
+
+<http://data.ga-group.nl/ics/trbc/2008/57102010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57102010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57102010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57102010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Communications Equipment"@en ;
+	skos:notation	"57102010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/571020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/571020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/571020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/571020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/571020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57120> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Communications Equipment"@en ;
+	skos:notation	"571020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5710> .
+
+<http://data.ga-group.nl/ics/trbc/2008/57103010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/57106010> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57103010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57106010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57103010> , <http://data.ga-group.nl/ics/trbc/57106010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57131> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Computer Hardware"@en ;
+	skos:notation	"57103010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/571030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/57103020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isAnachronousVersionOf	<http://data.ga-group.nl/ics/trbc/57105010> ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57103020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57105010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57103020> , <http://data.ga-group.nl/ics/trbc/57105010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57132> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Office Equipment"@en ;
+	skos:notation	"57103020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/571030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/571030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/571030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/571030> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57130> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Communications & Office Equipment"@en ;
+	skos:notation	"571030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5710> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5710>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5710> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5710> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5710> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57100> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Technology Equipment"@en ;
+	skos:notation	"5710" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/57> .
+
+<http://data.ga-group.nl/ics/trbc/2008/57201010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57201010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57201010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57201010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57211> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"IT Services & Consulting"@en ;
+	skos:notation	"57201010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/572010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/57201020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57201020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57201020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57201020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57212> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Software"@en ;
+	skos:notation	"57201020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/572010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/572010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/572010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/572010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/572010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Software & IT Services"@en ;
+	skos:notation	"572010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5720> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5720>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5720> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5720> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5720> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Software & IT Services"@en ;
+	skos:notation	"5720" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/57> .
+
+<http://data.ga-group.nl/ics/trbc/2008/57>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:EconomicSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/57> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/57> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/57> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/57000> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Technology"@en ;
+	skos:notation	"57" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear .
+
+<http://data.ga-group.nl/ics/trbc/2008/58101010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/58101010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/58101010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/58101010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/58111> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Integrated Telecommunications Services"@en ;
+	skos:notation	"58101010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/581010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/58101020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/58101020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/58101020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/58101020> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/58112> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Wireless Telecommunications Services"@en ;
+	skos:notation	"58101020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/581010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/581010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/581010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/581010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/581010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/58110> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Telecommunications Services"@en ;
+	skos:notation	"581010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5810> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5810>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5810> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5810> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5810> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Telecommunications Services"@en ;
+	skos:notation	"5810" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/58> .
+
+<http://data.ga-group.nl/ics/trbc/2008/58>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:EconomicSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/58> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/58> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/58> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Telecommunications Services"@en ;
+	skos:notation	"58" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear .
+
+<http://data.ga-group.nl/ics/trbc/2008/59101010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59101010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/59101010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59101010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Electric Utilities"@en ;
+	skos:notation	"59101010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/591010> .
+
+<http://data.ga-group.nl/ics/trbc/2008/591010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/591010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/591010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/591010> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Electric Utilities"@en ;
+	skos:notation	"591010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5910> .
+
+<http://data.ga-group.nl/ics/trbc/2008/59102010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59102010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/59102010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59102010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/59120> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Natural Gas Utilities"@en ;
+	skos:notation	"59102010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/591020> .
+
+<http://data.ga-group.nl/ics/trbc/2008/591020>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/591020> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/591020> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/591020> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Natural Gas Utilities"@en ;
+	skos:notation	"591020" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5910> .
+
+<http://data.ga-group.nl/ics/trbc/2008/59103010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59103010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/59103010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59103010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/59130> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Water & Other Utilities"@en ;
+	skos:notation	"59103010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/591030> .
+
+<http://data.ga-group.nl/ics/trbc/2008/591030>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/591030> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/591030> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/591030> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Water & Other Utilities"@en ;
+	skos:notation	"591030" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5910> .
+
+<http://data.ga-group.nl/ics/trbc/2008/59104010>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:Industry ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59104010> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/59104010> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59104010> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/59140> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Multiline Utilities"@en ;
+	skos:notation	"59104010" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryOf	<http://data.ga-group.nl/ics/trbc/2008/591040> .
+
+<http://data.ga-group.nl/ics/trbc/2008/591040>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:IndustryGroup ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/591040> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/591040> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/591040> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Multiline Utilities"@en ;
+	skos:notation	"591040" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isIndustryGroupOf	<http://data.ga-group.nl/ics/trbc/2008/5910> .
+
+<http://data.ga-group.nl/ics/trbc/2008/5910>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:BusinessSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/5910> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/5910> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/5910> ;
+	dct:replaces	<http://data.ga-group.nl/ics/rbss/2004/59100> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Utilities"@en ;
+	skos:notation	"5910" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear ;
+	trbc:isBusinessSectorOf	<http://data.ga-group.nl/ics/trbc/2008/59> .
+
+<http://data.ga-group.nl/ics/trbc/2008/59>
+	a	owl:NamedIndividual ;
+	a	trbc:BusinessClassification , trbc:EconomicSector ;
+	dct:isContemporaryVersionOf	<http://data.ga-group.nl/ics/trbc/59> ;
+	dct:isReplacedBy	<http://data.ga-group.nl/ics/trbc/2012/59> ;
+	dct:isVersionOf	<http://data.ga-group.nl/ics/trbc/59> ;
+	pav:importedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:lastRefreshedOn	"2026-06-05T12:38:55.843Z"^^xsd:dateTime ;
+	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
+	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/trbc/2008/> ;
+	rdfs:label	"Utilities"@en ;
+	skos:notation	"59" ;
+	tempo:validFrom	"2008"^^xsd:gYear ;
+	tempo:validTill	"2012"^^xsd:gYear .

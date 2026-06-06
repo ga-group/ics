@@ -46,5 +46,7 @@ For ease of access the latest versions can be downloaded here:
 - [icb2007.ttl](icb2007.ttl)
 
 - [trbc.ttl](trbc.ttl)
+- [rbss2004.ttl](rbss2004.ttl)
+- [trbc2008.ttl](trbc2008.ttl)
 - [trbc2012.ttl](trbc2012.ttl)
 - [trbc2020.ttl](trbc2020.ttl)

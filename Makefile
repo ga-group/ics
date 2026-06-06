@@ -3,10 +3,10 @@ SHELL := /bin/zsh
 include .make.env
 
 GICS := gics1999 gics2002 gics2003 gics2004 gics2005 gics2006 gics2008 gics2010 gics2014 gics2016 gics2018 gics2023
-TRBC := trbc2012 trbc2020 ##trbc2008
+TRBC := rbss2004 trbc2008 trbc2012 trbc2020
 ICB := icb2005 icb2007 icb2019 icb2019_1
 
-all: .imported.ics.owl $(GICS:%=.imported.%) $(TRBC:%=.imported.%) $(ICB:%=.imported.%) tmp/gics.out
+all: .imported.ics.owl $(GICS:%=.imported.%) $(TRBC:%=.imported.%) $(ICB:%=.imported.%) tmp/gics.out tmp/trbc.out
 exgics: .inferred.gics-rplc $(GICS:%=export.%)
 extrbc: .inferred.trbc-rplc $(TRBC:%=export.%)
 exicb: .inferred.icb-rplc $(ICB:%=export.%)
