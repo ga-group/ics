@@ -35,7 +35,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	dct:publisher	<https://orcid.org/0000-0002-7352-2825> ;
 	dct:title	"trbc individuals" ;
 	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
-	owl:imports	fibo-sec-sec-cls: , ics: ;
+	owl:imports	trbc: , ics: ;
 	owl:versionInfo	"2012"^^xsd:string ;
 	owl:versionIRI	<http://data.ga-group.nl/ics/trbc/2012/> ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
