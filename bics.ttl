@@ -1,0 +1,55 @@
+@prefix bddc: <https://api.bloomberg.com/eap/catalogs/bbg/classes/> .
+@prefix bics: <http://data.ga-group.nl/ics/bics/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix delta: <http://www.w3.org/2004/delta#> .
+@prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
+@prefix fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/> .
+@prefix ics: <http://data.ga-group.nl/ics/> .
+@prefix ics-trbc: <http://data.ga-group.nl/ics/trbc/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix tempo: <http://purl.org/tempo/> .
+@prefix bics: <http://permid.org/ontology/bics/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.ga-group.nl/ics/bics/>
+	a	owl:Ontology ;
+	dcat:downloadURL	<http://data.ga-group.nl/ics/bics.ttl> ;
+	dct:abstract	"""This ontology includes individuals representing the set of classification codes based on the principal business activity of the company.
+This graph contains all BICS classification codes that have ever been valid along with validity information."""@en ;
+	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
+	dct:description	"""The Bloomberg Industry Classification Standard (BICS) is an industry classification taxonomy launched by Bloomberg in 2014.
+Codes are at least four-tiered, but up to eight tiers are possible.  Codes are numeric but not prefix-free.  The first tier is called sector, the second tier is the industry group, the third tier is the industry, and the fourth tier is the subindustry.  Tiers five to eight are simply called segments.
+Bloomberg is responsible for assigning a BICS classification to all major public companies.  Each company is allocated to the subindustry that most closely represents the nature of its business according to the BICS classification methodology."""@en ;
+	dct:format	"text/turtle"^^xsd:string ;
+	dct:issued	"2026-06-03T02:25:19Z"^^xsd:dateTime ;
+	dct:language	"en"^^xsd:language ;
+	dct:license	<https://creativecommons.org/licenses/by-sa/4.0/> ;
+	dct:modified	"2026-06-03T02:25:19Z"^^xsd:dateTime ;
+	dct:publisher	<https://orcid.org/0000-0002-7352-2825> ;
+	dct:title	"BICS individuals" ;
+	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
+	owl:imports	bddc: , ics: ;
+	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
+	rdfs:label	"BICS"@en ;
+	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
+	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
+	sm:copyright	"Copyright (c) 2014 Bloomberg LLC" , "Copyright (c) 2022-2026 PAMIYA Strategic Advisors GmbH" ;
+	sm:filename	"bics.ttl" ;
+	tempo:validFrom	"2014"^^xsd:gYear ;
+	vann:preferredNamespacePrefix	"bics"^^xsd:string ;
+	vann:preferredNamespaceUri	"http://data.ga-group.nl/ics/bics/" .
+
+## the ABox is auto-generated, do not edit
+
+
+
+

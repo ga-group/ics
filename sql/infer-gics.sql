@@ -220,7 +220,7 @@ WHERE {
 		?sub skos:definition ?defn
 		}
 	}
-	GROUP BY ?x ?code ?lbl ?defn
+	GROUP BY ?x ?code ?lbl
 	}
 
 	?x pav:derivedFrom ?sub .

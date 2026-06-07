@@ -1,0 +1,59 @@
+PREFIX lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
+PREFIX bddc: <https://api.bloomberg.com/eap/catalogs/bbg/classes/>
+PREFIX dbo: <https://dbpedia.org/ontology/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX fibo-fbc-fct-bci: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/BusinessCentersIndividuals/>
+PREFIX fibo-fbc-fct-mkt: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/Markets/>
+PREFIX fibo-fbc-fct-mkti: <https://spec.edmcouncil.org/fibo/ontology/FBC/FunctionalEntities/MarketsIndividuals/>
+PREFIX fibo-fbc-pas-fpas: <https://spec.edmcouncil.org/fibo/ontology/FBC/ProductsAndServices/FinancialProductsAndServices/>
+PREFIX fibo-fnd-plc-vrt: <https://spec.edmcouncil.org/fibo/ontology/FND/Places/VirtualPlaces/>
+PREFIX fibo-fnd-arr-arr: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/Arrangements/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX tempo: <http://purl.org/tempo/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+CONSTRUCT {
+	?_bics
+		a bics:Classifier , owl:NamedIndividual , ?tier ;
+		skos:definition ?_desc ;
+		rdfs:label ?_lbl ;
+		rdfs:isDefinedBy ?_vbics ;
+		skos:notation ?bics ;
+		?hasparent ?_pbics ;
+		tempo:validFrom	?_from ;
+		tempo:validTill	?_till ;
+		## provenance
+		pav:importedOn ?now ;
+		pav:lastRefreshedOn ?now ;
+		pav:sourceAccessedOn ?_accd ;
+		pav:sourceLastAccessedOn ?_accd ;
+}
+WHERE {
+	BIND(NOW() AS ?now)
+	BIND(xsd:dateTime(?accd) AS ?_accd)
+	BIND(COALESCE(?vers, SUBSTR(?from,1,4)) AS ?_vers)
+	BIND(IRI(CONCAT(STR(bics:),?_vers,'/')) AS ?_vbics)
+	BIND(IRI(CONCAT(STR(bics:),?_vers,'/',?bics)) AS ?_bics)
+	BIND(IRI(CONCAT(STR(bics:),?_vers,'/',SUBSTR(?bics,1,STRLEN(?bics)-2))) AS ?_pbics)
+	BIND(xsd:gYear(?from) AS ?_from)
+	BIND(xsd:gYear(?till) AS ?_till)
+	BIND(STRLANG(?desc, ?lang) AS ?_desc)
+	BIND(STRLANG(?name, ?lang) AS ?_lbl)
+
+	BIND(STRLEN(?bics) AS ?clen)
+	VALUES (?clen ?tier ?hasparent) {
+	(2 bddc:BicsLevel1Sector UNDEF)
+	(4 bddc:BicsLevel2IndustryGroup bics:isIndustryGroupOf)
+	(6 bddc:BicsLevel3Industry bics:isIndustryOf)
+	(8 bddc:BicsLevel4SubIndustry bics:isSubIndustryOf)
+	(10 bddc:BicsLevel5Segment bics:isLevel5SegmentOf)
+	(12 bddc:BicsLevel6Segment bics:isLevel6SegmentOf)
+	(14 bddc:BicsLevel7Segment bics:isLevel7SegmentOf)
+	(16 bddc:BicsLevel8Segment bics:isLevel8SegmentOf)
+	}
+}

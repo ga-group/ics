@@ -1,4 +1,4 @@
-SET u{TGTGR} http://data.ga-group.nl/ics/icb/;
+SET u{TGTGR} http://data.ga-group.nl/ics/bics/;
 SPARQL CREATE SILENT GRAPH <$u{TGTGR}>;
 SPARQL CLEAR GRAPH <$u{TGTGR}>;
 CHECKPOINT;
@@ -6,16 +6,16 @@ CHECKPOINT;
 ECHO "determining validity within code/label/definition ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
-PREFIX icb: <http://data.ga-group.nl/ics/icb/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
+PREFIX bddc: <https://api.bloomberg.com/eap/catalogs/bbg/classes/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
 INSERT {
-	?x a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , owl:NamedIndividual , ?tier ;
-	rdfs:isDefinedBy icb: ;
+	?x a bics:Classifier , owl:NamedIndividual ;
+	rdfs:isDefinedBy bics: ;
 	pav:derivedFrom [
-		a	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , ?typ ;
+		a	bics:Classifier , ?typ , ?tier;
 		rdfs:label ?lbl ;
 		skos:definition ?defn ;
 		skos:notation ?code ;
@@ -26,15 +26,14 @@ INSERT {
 		pav:derivedFrom ?z ;
 	]
 }
-USING <http://data.ga-group.nl/ics/icb/2005/>
-USING <http://data.ga-group.nl/ics/icb/2007/>
-USING <http://data.ga-group.nl/ics/icb/2019/>
-USING <http://data.ga-group.nl/ics/icb/2019_1/>
+USING <http://data.ga-group.nl/ics/bics/2014/>
+USING <http://data.ga-group.nl/ics/bics/2020/>
+USING <http://data.ga-group.nl/ics/bics/2024/>
 WHERE {
 	{
 	SELECT *
 	WHERE {
-		?z a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+		?z a bics:Classifier ;
 			rdfs:label ?lbl ;
 			skos:notation ?code ;
 			dct:isVersionOf ?x .
@@ -50,7 +49,7 @@ WHERE {
 
 		OPTIONAL {
 		?z a ?tier
-		FILTER(STRSTARTS(STR(?tier),STR(icb:)))
+		FILTER(STRSTARTS(STR(?tier),STR(bddc:)))
 		}
 
 		OPTIONAL {
@@ -77,11 +76,10 @@ WHERE {
 ECHO $ROWCNT"\n";
 CHECKPOINT;
 
-ECHO "determining parents ... ";
+ECHO "determining parents and replacements ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
-PREFIX icb: <http://data.ga-group.nl/ics/icb/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
@@ -90,15 +88,13 @@ INSERT {
 	dct:isReplacedBy ?w ;
 	?hasparent ?parx
 }
-USING <http://data.ga-group.nl/ics/icb/2005/>
-USING <http://data.ga-group.nl/ics/icb/2007/>
-USING <http://data.ga-group.nl/ics/icb/2019/>
-USING <http://data.ga-group.nl/ics/icb/2019_1/>
+USING <http://data.ga-group.nl/ics/bics/2014/>
+USING <http://data.ga-group.nl/ics/bics/2020/>
+USING <http://data.ga-group.nl/ics/bics/2024/>
 WHERE {
-	?z a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	?z a bics:Classifier ;
 		dct:isContemporaryVersionOf ?x .
 
-	## replay replacements
 	OPTIONAL {
 		?z dct:isReplacedBy ?u .
 		?z dct:isContemporaryVersionOf ?v .
@@ -106,9 +102,9 @@ WHERE {
 		FILTER(?v != ?w)
 	}
 	VALUES ?hasparent {
-		icb:isSupersectorOf
-		icb:isSectorOf
-		icb:isSubsectorOf
+		bics:isIndustryGroupOf
+		bics:isIndustryOf
+		bics:isSubindustryOf
 	}
 	?z ?hasparent ?parz .
 	?parz dct:isContemporaryVersionOf ?parx .
@@ -121,7 +117,7 @@ CHECKPOINT;
 ECHO "condensing chains of validity 1 ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
@@ -138,7 +134,7 @@ WHERE {
 	SELECT ?x ?code ?lbl ?defn MIN(?sub) AS ?minsub
 	WHERE {
 		?x pav:derivedFrom ?sub .
-		?sub a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+		?sub a bics:Classifier ;
 			rdfs:label ?lbl ;
 			skos:notation ?code ;
 			skos:definition ?defn .
@@ -149,7 +145,7 @@ WHERE {
 
 	?x pav:derivedFrom ?sub .
 	FILTER(ISBLANK(?sub))
-	?sub a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	?sub a bics:Classifier ;
 		rdfs:label ?lbl ;
 		skos:notation ?code ;
 		skos:definition ?defn .
@@ -180,7 +176,7 @@ CHECKPOINT;
 ECHO "condensing chains of validity 2 ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
@@ -198,7 +194,7 @@ WHERE {
 	WHERE {
 		?x pav:derivedFrom ?sub .
 		FILTER(ISBLANK(?sub))
-		?sub a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+		?sub a bics:Classifier ;
 			rdfs:label ?lbl ;
 			skos:notation ?code .
 		FILTER NOT EXISTS {
@@ -210,7 +206,7 @@ WHERE {
 
 	?x pav:derivedFrom ?sub .
 	FILTER(ISBLANK(?sub))
-	?sub a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	?sub a bics:Classifier ;
 		rdfs:label ?lbl ;
 		skos:notation ?code .
 
@@ -237,7 +233,7 @@ CHECKPOINT;
 ECHO "pruning ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
@@ -260,7 +256,7 @@ CHECKPOINT;
 ECHO "condensing validity ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
@@ -280,7 +276,7 @@ ECHO $ROWCNT"\n";
 ECHO "condensing source access ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
@@ -296,7 +292,7 @@ WHERE {
 ECHO $ROWCNT" + ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
@@ -314,7 +310,7 @@ ECHO $ROWCNT"\n";
 ECHO "condensing replacements ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
@@ -328,7 +324,7 @@ WHERE {
 ECHO "+"$ROWCNT" ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
@@ -345,13 +341,14 @@ ECHO "adding beef ... ";
 SPARQL
 DEFINE sql:log-enable 3
 DEFINE input:same-as "yes"
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
+PREFIX bddc: <https://api.bloomberg.com/eap/catalogs/bbg/classes/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
 INSERT {
-	?x
-		pav:createdWith <file:infer-icb.sql> ;
+	?x a ?tier ;
+		pav:createdWith <file:infer-bics.sql> ;
 		pav:sourceAccessedOn ?acc1 ;
 		pav:sourceLastAccessedOn ?accl ;
 		tempo:validFrom ?minfrom ;
@@ -361,13 +358,13 @@ INSERT {
 		skos:notation ?code .
 }
 WHERE {
-	?x a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier .
+	?x a bics:Classifier .
 	FILTER(!ISBLANK(?x))
 
 	{
 	SELECT ?x MIN(?from) AS ?minfrom MAX(?from) AS ?maxfrom
 	WHERE {
-	?x a fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier ;
+	?x a bics:Classifier ;
 		pav:derivedFrom ?z .
 	?z a prov:ContemporaryDerivation ;
 		tempo:validFrom ?from
@@ -389,9 +386,11 @@ WHERE {
 	FILTER(STR(?fromx) = STR(?maxfrom))
 
 	## and maxz''s beef
-	?maxz
+	?maxz a ?tier ;
 		rdfs:label ?lbl ;
 		skos:notation ?code .
+	FILTER(STRSTARTS(STR(?tier),STR(bddc:)))
+
 	OPTIONAL {
 	?maxz skos:definition ?defn
 	}
@@ -410,7 +409,7 @@ CHECKPOINT;
 ECHO "cleaning up ... ";
 SPARQL
 DEFINE sql:log-enable 3
-PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX bics: <http://data.ga-group.nl/ics/bics/>
 PREFIX delta: <http://www.w3.org/2004/delta#>
 
 WITH <$u{TGTGR}>
