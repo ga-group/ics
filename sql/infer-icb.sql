@@ -351,7 +351,7 @@ PREFIX delta: <http://www.w3.org/2004/delta#>
 WITH <$u{TGTGR}>
 INSERT {
 	?x
-		pav:createdWith <file:infer-gics.sql> ;
+		pav:createdWith <file:infer-icb.sql> ;
 		pav:sourceAccessedOn ?acc1 ;
 		pav:sourceLastAccessedOn ?accl ;
 		tempo:validFrom ?minfrom ;
