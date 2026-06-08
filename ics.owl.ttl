@@ -1,6 +1,9 @@
+@prefix bddc: <https://api.bloomberg.com/eap/catalogs/bbg/classes/> .
+@prefix bics: <http://data.ga-group.nl/ics/bics/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix delta: <http://www.w3.org/2004/delta#> .
+@prefix fibo-fnd-arr-cls: <https://spec.edmcouncil.org/fibo/ontology/FND/Arrangements/ClassificationSchemes/> .
 @prefix fibo-fnd-utl-av: <https://spec.edmcouncil.org/fibo/ontology/FND/Utilities/AnnotationVocabulary/> .
 @prefix fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/> .
 @prefix gics: <http://data.ga-group.nl/ics/gics/> .
@@ -198,6 +201,13 @@ icb:SubsectorClassifier
 	rdfs:subClassOf	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , ics:TieredClassifier ;
 	skos:definition	"The second-level tier in the Industry Classification Benchmark system."@en .
 
+bics:Classifier
+	a	owl:Class ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"bics classifier"@en ;
+	rdfs:subClassOf	fibo-fnd-arr-cls:IndustrySectorClassifier ;
+	skos:definition	"An instance of the four-or-more tiered classification scheme initiated by Bloomberg."@en .
+
 #################################################################
 # Object Properties
 #################################################################
@@ -349,3 +359,143 @@ icb:isSubsectorOf
 	rdfs:label	"is subsector of"@en ;
 	rdfs:subPropertyOf	ics:hasParent ;
 	skos:definition	"Links a subsector to its sector."@en .
+
+bics:hasIndustryGroup
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:isIndustryGroupOf ;
+	rdfs:domain	bddc:BicsLevel1Sector ;
+	rdfs:range	bddc:BicsLevel2IndustryGroup ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has industry group"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links a sector to its industry groups."@en .
+
+bics:isIndustryGroupOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:hasIndustryGroup ;
+	rdfs:domain	bddc:BicsLevel2IndustryGroup ;
+	rdfs:range	bddc:BicsLevel1Sector ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is industry group of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links an industry group to its sector."@en .
+
+bics:hasIndustry
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:isIndustryOf ;
+	rdfs:domain	bddc:BicsLevel2IndustryGroup ;
+	rdfs:range	bddc:BicsLevel3Industry ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has industry"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links an industry group to its industries."@en .
+
+bics:isIndustryOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:hasIndustryGroup ;
+	rdfs:domain	bddc:BicsLevel3Industry ;
+	rdfs:range	bddc:BicsLevel2IndustryGroup ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is industry of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links an industry to its industry group."@en .
+
+bics:hasSubIndustry
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:isSubIndustryOf ;
+	rdfs:domain	bddc:BicsLevel3Industry ;
+	rdfs:range	bddc:BicsLevel4SubIndustry ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has subindustry"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links an industry to its subindustries."@en .
+
+bics:isSubIndustryOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:hasSubIndustry ;
+	rdfs:domain	bddc:BicsLevel4SubIndustry ;
+	rdfs:range	bddc:BicsLevel3Industry ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is subindustry of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a subindustry to its industry."@en .
+
+bics:hasLevel5Segment
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:isLevel5SegmentOf ;
+	rdfs:domain	bddc:BicsLevel4SubIndustry ;
+	rdfs:range	bddc:BicsLevel5Segment ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has level 5 segment"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links a subindustry to its level 5 segments."@en .
+
+bics:isLevel5SegmentOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:hasLevel5Segment ;
+	rdfs:domain	bddc:BicsLevel5Segment ;
+	rdfs:range	bddc:BicsLevel4SubIndustry ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is level 5 segment of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a level 5 segment to its subindustry."@en .
+
+bics:hasLevel6Segment
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:isLevel6SegmentOf ;
+	rdfs:domain	bddc:BicsLevel5Segment ;
+	rdfs:range	bddc:BicsLevel6Segment ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has level 6 segment"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links a level 5 segment to its level 6 segments."@en .
+
+bics:isLevel6SegmentOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:hasLevel6Segment ;
+	rdfs:domain	bddc:BicsLevel6Segment ;
+	rdfs:range	bddc:BicsLevel5Segment ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is level 6 segment of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a level 6 segment to its level 5 segment."@en .
+
+bics:hasLevel7Segment
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:isLevel7SegmentOf ;
+	rdfs:domain	bddc:BicsLevel6Segment ;
+	rdfs:range	bddc:BicsLevel7Segment ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has level 7 segment"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links a level 6 segment to its level 7 segments."@en .
+
+bics:isLevel7SegmentOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:hasLevel7Segment ;
+	rdfs:domain	bddc:BicsLevel7Segment ;
+	rdfs:range	bddc:BicsLevel6Segment ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is level 7 segment of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a level 7 segment to its level 6 segment."@en .
+
+bics:hasLevel8Segment
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:isLevel8SegmentOf ;
+	rdfs:domain	bddc:BicsLevel7Segment ;
+	rdfs:range	bddc:BicsLevel8Segment ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has level 8 segment"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links a level 7 segment to its level 8 segments."@en .
+
+bics:isLevel8SegmentOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	bics:hasLevel8Segment ;
+	rdfs:domain	bddc:BicsLevel8Segment ;
+	rdfs:range	bddc:BicsLevel7Segment ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is level 8 segment of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a level 8 segment to its level 7 segment."@en .
