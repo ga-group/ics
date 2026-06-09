@@ -3,16 +3,20 @@
 ics -- industry classification standards
 ========================================
 
-ics is an ABox for various industry classification standards.
+ABox for various industry classification standards.
+
+Builds upon established business ontologies, like FIBO.
+
+Expressed in RDF, the lingua franca of machine-readable information.
 
 
 Why?
 ----
 
-Throughout datasets and software packages of the financial industry,
-various classification standards are widely used.  While formally
-standardised and maintained the official materials, however, are not
-provided with the FAIR principles in mind.
+Datasets and software packages of the financial industry make use of
+various classification standards.  While formally standardised and
+maintained, the official materials are not provided with the FAIR
+principles in mind.
 
 The FIBO ontology provides the TBox (the terminological foundation)
 for securities classification but the ABox (i.e. the individuals) is
@@ -22,15 +26,25 @@ missing.  This resource was created to close this gap.
 Where?
 ------
 
-The [official github repository](https://github.com/ga-group/ics/) contains the
-published ontologies.
+The [official github repository](https://github.com/ga-group/ics/)
+contains the published ontologies.  In the encore section below direct
+links to the most prominent classification schemes can be found.
 
 
 What?
 -----
 
-For ease of access the latest versions can be downloaded here:
+- a lightweight supporting ontology [ics.owl.ttl](ics.owl.ttl).
+- all publicly accessible revisions of GICS, the Global Industry Classification Standard
+- all publicly accessible revisions of ICB, the Industry Classification Benchmark
+- all publicly accessible revisions of TRBC, The Refinitiv Business Classification
+- all publicly accessible revisions of BICS, Bloomberg Industry Classification Standard
 
+
+Encore?
+-------
+
+For ease of access the latest versions can be downloaded here:
 
 ### GICS
 
