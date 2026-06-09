@@ -17,6 +17,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
 @prefix tempo: <http://purl.org/tempo/> .
+@prefix trbc: <http://permid.org/ontology/trbc/> .
 @prefix vann: <http://purl.org/vocab/vann/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -39,7 +40,7 @@ This ontology introduces tiers of classification schemes as classes when officia
 	dct:publisher	<https://orcid.org/0000-0002-7352-2825> ;
 	dct:title	"ics base ontology" ;
 	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
-	owl:imports	fibo-sec-sec-cls: ;
+	owl:imports	fibo-sec-sec-cls: , trbc: ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
 	rdfs:label	"ics"@en ;
 	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
@@ -503,3 +504,83 @@ bics:isLevel8SegmentOf
 	rdfs:label	"is level 8 segment of"@en ;
 	rdfs:subPropertyOf	ics:hasParent ;
 	skos:definition	"Links a level 8 segment to its level 7 segment."@en .
+
+trbc:hasBusinessSector
+	a	owl:ObjectProperty ;
+	owl:inverseOf	trbc:isBusinessSectorOf ;
+	rdfs:domain	trbc:EconomicSector ;
+	rdfs:range	trbc:BusinessSector ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has business sector"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links an economic sector to its business sectors."@en .
+
+trbc:isBusinessSectorOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	trbc:hasBusinessSector ;
+	rdfs:domain	trbc:BusinessSector ;
+	rdfs:range	trbc:EconomicSector ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is business sector of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a business sector to its economic sector."@en .
+
+trbc:hasIndustryGroup
+	a	owl:ObjectProperty ;
+	owl:inverseOf	trbc:isIndustryGroupOf ;
+	rdfs:domain	trbc:BusinessSector ;
+	rdfs:range	trbc:IndustryGroup ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has industry group"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links a business sector to its industry groups."@en .
+
+trbc:isIndustryGroupOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	trbc:hasIndustryGroup ;
+	rdfs:domain	trbc:IndustryGroup ;
+	rdfs:range	trbc:BusinessSector ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is industry group of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links an industry group to its business sector."@en .
+
+trbc:hasIndustry
+	a	owl:ObjectProperty ;
+	owl:inverseOf	trbc:isIndustryOf ;
+	rdfs:domain	trbc:IndustryGroup ;
+	rdfs:range	trbc:Industry ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has industry"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links an industry group to its industries."@en .
+
+trbc:isIndustryOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	trbc:hasIndustry ;
+	rdfs:domain	trbc:Industry ;
+	rdfs:range	trbc:IndustryGroup ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is industry of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links an industry to its industry group."@en .
+
+trbc:hasActivity
+	a	owl:ObjectProperty ;
+	owl:inverseOf	trbc:isActivityOf ;
+	rdfs:domain	trbc:Industry ;
+	rdfs:range	trbc:Activity ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has activity"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links an industry to its activities."@en .
+
+trbc:isActivityOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	trbc:hasActivity ;
+	rdfs:domain	trbc:Activity ;
+	rdfs:range	trbc:Industry ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is activity of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links an activity to its industry."@en .
