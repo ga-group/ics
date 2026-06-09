@@ -96,6 +96,7 @@ gics:SectorClassifier
 gics:IndustryGroupClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
+	ics:hasParent	gics:SectorClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	gics:isIndustryGroupOf ;
@@ -114,6 +115,7 @@ gics:IndustryGroupClassifier
 gics:IndustryClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
+	ics:hasParent	gics:IndustryGroupClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	gics:isIndustryOf ;
@@ -132,6 +134,7 @@ gics:IndustryClassifier
 gics:SubindustryClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
+	ics:hasParent	gics:IndustryClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	gics:isSubindustryOf ;
@@ -159,6 +162,7 @@ icb:IndustryClassifier
 icb:SupersectorClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
+	ics:hasParent	icb:IndustryClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	icb:isSupersectorOf ;
@@ -177,6 +181,7 @@ icb:SupersectorClassifier
 icb:SectorClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
+	ics:hasParent	icb:SupersectorClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	icb:isSectorOf ;
@@ -195,6 +200,7 @@ icb:SectorClassifier
 icb:SubsectorClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
+	ics:hasParent	icb:SectorClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	icb:isSubsectorOf ;
