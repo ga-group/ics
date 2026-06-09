@@ -83,3 +83,13 @@ LSEG's The Refinitiv Business Classification aka Thomson-Reuters Business Classi
 - [trbc2008.ttl](trbc2008.ttl)
 - [trbc2012.ttl](trbc2012.ttl)
 - [trbc2020.ttl](trbc2020.ttl)
+
+
+### BICS
+
+Bloomberg's Bloomberg Industrial Classification Standard.
+
+- [bics.ttl](bics.ttl)
+- [bics2014.ttl](bics2014.ttl)
+- [bics2020.ttl](bics2020.ttl)
+- [bics2024.ttl](bics2024.ttl)
