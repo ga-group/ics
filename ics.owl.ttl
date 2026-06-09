@@ -212,12 +212,90 @@ icb:SubsectorClassifier
 	rdfs:subClassOf	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , ics:TieredClassifier ;
 	skos:definition	"The second-level tier in the Industry Classification Benchmark system."@en .
 
+## useful additions to the TRBC ontology
+trbc:EconomicSector
+	a	ics:Tier ;
+	a	owl:Class ;
+	rdfs:subClassOf	trbc:BusinessClassification , ics:TieredClassifier .
+
+trbc:BusinessSector
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:hasParent	trbc:EconomicSector ;
+	rdfs:subClassOf	trbc:BusinessClassification , ics:TieredClassifier .
+
+trbc:IndustryGroup
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:hasParent	trbc:BusinessSector ;
+	rdfs:subClassOf	trbc:BusinessClassification , ics:TieredClassifier .
+
+trbc:Industry
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:hasParent	trbc:IndustryGroup ;
+	rdfs:subClassOf	trbc:BusinessClassification , ics:TieredClassifier .
+
+trbc:Activity
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:hasParent	trbc:Industry ;
+	rdfs:subClassOf	trbc:BusinessClassification , ics:TieredClassifier .
+
+## useful additions to the Bloomberg ontology
 bics:Classifier
 	a	owl:Class ;
 	rdfs:isDefinedBy	ics: ;
 	rdfs:label	"bics classifier"@en ;
 	rdfs:subClassOf	fibo-fnd-arr-cls:IndustrySectorClassifier ;
 	skos:definition	"An instance of the four-or-more tiered classification scheme initiated by Bloomberg."@en .
+
+bddc:BicsLevel1Sector
+	a	ics:Tier ;
+	a	owl:Class ;
+	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
+
+bddc:BicsLevel2IndustryGroup
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:hasParent	bddc:BicsLevel1Sector ;
+	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
+
+bddc:BicsLevel3Industry
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:hasParent	bddc:BicsLevel2IndustryGroup ;
+	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
+
+bddc:BicsLevel4SubIndustry
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:hasParent	bddc:BicsLevel3Industry ;
+	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
+
+bddc:BicsLevel5Segment
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:hasParent	bddc:BicsLevel4SubIndustry ;
+	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
+
+bddc:BicsLevel6Segment
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:hasParent	bddc:BicsLevel5Segment ;
+	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
+
+bddc:BicsLevel7Segment
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:hasParent	bddc:BicsLevel6Segment ;
+	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
+
+bddc:BicsLevel8Segment
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:hasParent	bddc:BicsLevel7Segment ;
+	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
 
 #################################################################
 # Object Properties
