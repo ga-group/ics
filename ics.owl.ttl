@@ -166,7 +166,7 @@ icb:SupersectorClassifier
 		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
 	] , [
 		a	owl:Restriction ;
-		owl:onProperty	gics:hasSector ;
+		owl:onProperty	icb:hasSector ;
 		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
 	] ;
 	rdfs:isDefinedBy	ics: ;
@@ -184,7 +184,7 @@ icb:SectorClassifier
 		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
 	] , [
 		a	owl:Restriction ;
-		owl:onProperty	gics:hasSubsector ;
+		owl:onProperty	icb:hasSubsector ;
 		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
 	] ;
 	rdfs:isDefinedBy	ics: ;
@@ -397,7 +397,7 @@ bics:hasIndustry
 
 bics:isIndustryOf
 	a	owl:ObjectProperty ;
-	owl:inverseOf	bics:hasIndustryGroup ;
+	owl:inverseOf	bics:hasIndustry ;
 	rdfs:domain	bddc:BicsLevel3Industry ;
 	rdfs:range	bddc:BicsLevel2IndustryGroup ;
 	rdfs:isDefinedBy	ics: ;
