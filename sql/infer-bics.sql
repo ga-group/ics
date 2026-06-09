@@ -105,6 +105,10 @@ WHERE {
 		bics:isIndustryGroupOf
 		bics:isIndustryOf
 		bics:isSubindustryOf
+		bics:isLevel5SegmentOf
+		bics:isLevel6SegmentOf
+		bics:isLevel7SegmentOf
+		bics:isLevel8SegmentOf
 	}
 	?z ?hasparent ?parz .
 	?parz dct:isContemporaryVersionOf ?parx .
