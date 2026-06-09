@@ -24,9 +24,13 @@
 <http://data.ga-group.nl/ics/>
 	a	owl:Ontology ;
 	dcat:downloadURL	<https://github.com/ga-group/ics/ics.owl.ttl> ;
-	dct:abstract	"""This is the base ontology to support ..."""@en ;
+	dct:abstract	"""Base ontology to capture missing classes and properties."""@en ;
 	dct:creator	<https://orcid.org/0000-0002-7352-2825> ;
-	dct:description	"""Any industry classification standard ..."""@en ;
+	dct:description	"""Industry classification standards are most often hierarchies, often visualised as trees, where tiers ramify into concepts of roughly the same genericity.
+
+The vertices are usually enumerated, or more generally assigned a code, so that vertex labels don't have to be unique.  A *classifier* then is the concatenation of those vertex codes from the root to the concept in question.  Being a tree makes the *classification* unique, and hence classifiers are used to abbreviate and unambiguously refer to a concept in the hierarchy.  Enumerations of tiers are usually fixed-width so that same tier classifiers are also of fixed width.
+
+This ontology introduces tiers of classification schemes as classes when official sources do not provide supporting ontologies themselves.  Similarly, to link classifiers, and hence establish the hierarchy, object properties are defined herein, albeit in a non-transitive way (i.e. unlike skos:broader)."""@en ;
 	dct:format	"text/turtle"^^xsd:string ;
 	dct:issued	"2026-05-24T02:25:19Z"^^xsd:dateTime ;
 	dct:language	"en"^^xsd:language ;
