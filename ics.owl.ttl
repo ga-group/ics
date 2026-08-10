@@ -40,7 +40,7 @@ This ontology introduces tiers of classification schemes as classes when officia
 	dct:publisher	<https://orcid.org/0000-0002-7352-2825> ;
 	dct:title	"ics base ontology" ;
 	fibo-fnd-utl-av:hasMaturityLevel	fibo-fnd-utl-av:Release ;
-	owl:imports	fibo-sec-sec-cls: , trbc: ;
+	owl:imports	skos: ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
 	rdfs:label	"ics"@en ;
 	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
@@ -72,7 +72,7 @@ ics:Tier
 	a	owl:Class ;
 	rdfs:isDefinedBy	ics: ;
 	rdfs:label	"tier"@en ;
-	skos:definition	"A tier is a level or layer in a structured arrangement."@en .
+	skos:definition	"A tier is a level or layer in a structured arrangement.  When viewed as taxonomy, a tier is also known as taxonomic rank."@en .
 
 ics:TieredClassifier
 	a	owl:Class ;
@@ -96,7 +96,7 @@ gics:SectorClassifier
 gics:IndustryGroupClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	gics:SectorClassifier ;
+	ics:ranksBelow	gics:SectorClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	gics:isIndustryGroupOf ;
@@ -115,7 +115,7 @@ gics:IndustryGroupClassifier
 gics:IndustryClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	gics:IndustryGroupClassifier ;
+	ics:ranksBelow	gics:IndustryGroupClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	gics:isIndustryOf ;
@@ -134,7 +134,7 @@ gics:IndustryClassifier
 gics:SubindustryClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	gics:IndustryClassifier ;
+	ics:ranksBelow	gics:IndustryClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	gics:isSubindustryOf ;
@@ -162,7 +162,7 @@ icb:IndustryClassifier
 icb:SupersectorClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	icb:IndustryClassifier ;
+	ics:ranksBelow	icb:IndustryClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	icb:isSupersectorOf ;
@@ -181,7 +181,7 @@ icb:SupersectorClassifier
 icb:SectorClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	icb:SupersectorClassifier ;
+	ics:ranksBelow	icb:SupersectorClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	icb:isSectorOf ;
@@ -200,7 +200,7 @@ icb:SectorClassifier
 icb:SubsectorClassifier
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	icb:SectorClassifier ;
+	ics:ranksBelow	icb:SectorClassifier ;
 	owl:equivalentClass	[
 		a	owl:Restriction ;
 		owl:onProperty	icb:isSubsectorOf ;
@@ -221,25 +221,25 @@ trbc:EconomicSector
 trbc:BusinessSector
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	trbc:EconomicSector ;
+	ics:ranksBelow	trbc:EconomicSector ;
 	rdfs:subClassOf	trbc:BusinessClassification , ics:TieredClassifier .
 
 trbc:IndustryGroup
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	trbc:BusinessSector ;
+	ics:ranksBelow	trbc:BusinessSector ;
 	rdfs:subClassOf	trbc:BusinessClassification , ics:TieredClassifier .
 
 trbc:Industry
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	trbc:IndustryGroup ;
+	ics:ranksBelow	trbc:IndustryGroup ;
 	rdfs:subClassOf	trbc:BusinessClassification , ics:TieredClassifier .
 
 trbc:Activity
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	trbc:Industry ;
+	ics:ranksBelow	trbc:Industry ;
 	rdfs:subClassOf	trbc:BusinessClassification , ics:TieredClassifier .
 
 ## useful additions to the Bloomberg ontology
@@ -258,43 +258,43 @@ bddc:BicsLevel1Sector
 bddc:BicsLevel2IndustryGroup
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	bddc:BicsLevel1Sector ;
+	ics:ranksBelow	bddc:BicsLevel1Sector ;
 	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
 
 bddc:BicsLevel3Industry
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	bddc:BicsLevel2IndustryGroup ;
+	ics:ranksBelow	bddc:BicsLevel2IndustryGroup ;
 	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
 
 bddc:BicsLevel4SubIndustry
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	bddc:BicsLevel3Industry ;
+	ics:ranksBelow	bddc:BicsLevel3Industry ;
 	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
 
 bddc:BicsLevel5Segment
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	bddc:BicsLevel4SubIndustry ;
+	ics:ranksBelow	bddc:BicsLevel4SubIndustry ;
 	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
 
 bddc:BicsLevel6Segment
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	bddc:BicsLevel5Segment ;
+	ics:ranksBelow	bddc:BicsLevel5Segment ;
 	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
 
 bddc:BicsLevel7Segment
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	bddc:BicsLevel6Segment ;
+	ics:ranksBelow	bddc:BicsLevel6Segment ;
 	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
 
 bddc:BicsLevel8Segment
 	a	ics:Tier ;
 	a	owl:Class ;
-	ics:hasParent	bddc:BicsLevel7Segment ;
+	ics:ranksBelow	bddc:BicsLevel7Segment ;
 	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
 
 #################################################################
@@ -320,6 +320,7 @@ ics:hasParent
 	owl:inverseOf	ics:hasChild ;
 	rdfs:isDefinedBy	ics: ;
 	rdfs:label	"has parent"@en ;
+	rdfs:subPropertyOf	skos:broader ;
 	skos:definition	"Links a (tiered) classifier to the classifier in the tier immediately above it."@en .
 
 ics:hasChild
@@ -327,7 +328,26 @@ ics:hasChild
 	owl:inverseOf	ics:hasParent ;
 	rdfs:isDefinedBy	ics: ;
 	rdfs:label	"has child"@en ;
+	rdfs:subPropertyOf	skos:narrower ;
 	skos:definition	"Links a (tiered) classifier to the classifier(s) in the tier immediately below it."@en .
+
+ics:ranksAbove
+	a	owl:ObjectProperty ;
+	owl:inverseOf	ics:ranksBelow ;
+	rdfs:domain	ics:Tier ;
+	rdfs:range	ics:Tier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"ranks above"@en ;
+	skos:definition	"Links a tier to the narrower tier immediately below it.  Applies to tiers, not their individuals."@en .
+
+ics:ranksBelow
+	a	owl:ObjectProperty ;
+	owl:inverseOf	ics:ranksAbove ;
+	rdfs:domain	ics:Tier ;
+	rdfs:range	ics:Tier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"ranks below"@en ;
+	skos:definition	"Links a tier to the broader tier immediately above it.  Applies to tiers, not their individuals."@en .
 
 gics:hasIndustryGroup
 	a	owl:ObjectProperty ;
