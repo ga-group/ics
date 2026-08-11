@@ -14,9 +14,10 @@ WITH <$u{TGTGR}>
 INSERT {
 	?x a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , owl:NamedIndividual , ?tier ;
 	rdfs:isDefinedBy gics: ;
+	skos:inScheme gics: ;
 	pav:derivedFrom [
 		a	fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier , ?typ ;
-		rdfs:label ?lbl ;
+		skos:prefLabel ?lbl ;
 		skos:definition ?defn ;
 		skos:notation ?code ;
 		pav:sourceAccessedOn ?acc1 ;
@@ -43,7 +44,7 @@ WHERE {
 	SELECT *
 	WHERE {
 		?z a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-			rdfs:label ?lbl ;
+			skos:prefLabel ?lbl ;
 			skos:notation ?code ;
 			dct:isVersionOf ?x .
 		FILTER(LANG(?lbl) = "en")
@@ -132,6 +133,54 @@ WHERE {
 ECHO $ROWCNT"\n";
 CHECKPOINT;
 
+ECHO "determining top concepts and replacements ... ";
+SPARQL
+DEFINE sql:log-enable 3
+PREFIX fibo-sec-sec-cls: <https://spec.edmcouncil.org/fibo/ontology/SEC/Securities/SecuritiesClassification/>
+PREFIX gics: <http://data.ga-group.nl/ics/gics/>
+PREFIX delta: <http://www.w3.org/2004/delta#>
+
+WITH <$u{TGTGR}>
+INSERT {
+	?x
+	dct:isReplacedBy ?w ;
+	skos:topConceptOf ?topx
+}
+USING <http://data.ga-group.nl/ics/gics/1999/>
+USING <http://data.ga-group.nl/ics/gics/2002/>
+USING <http://data.ga-group.nl/ics/gics/2003/>
+USING <http://data.ga-group.nl/ics/gics/2004/>
+USING <http://data.ga-group.nl/ics/gics/2005/>
+USING <http://data.ga-group.nl/ics/gics/2006/>
+USING <http://data.ga-group.nl/ics/gics/2008/>
+USING <http://data.ga-group.nl/ics/gics/2010/>
+USING <http://data.ga-group.nl/ics/gics/2014/>
+USING <http://data.ga-group.nl/ics/gics/2016/>
+USING <http://data.ga-group.nl/ics/gics/2018/>
+USING <http://data.ga-group.nl/ics/gics/2023/>
+WHERE {
+	?z a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
+		dct:isContemporaryVersionOf ?x .
+
+	OPTIONAL {
+		?z dct:isReplacedBy ?u .
+		?z dct:isContemporaryVersionOf ?v .
+		?u dct:isContemporaryVersionOf ?w .
+		FILTER(?v != ?w)
+	}
+	?z skos:topConceptOf ?topz .
+
+	## some string foo because the concept schemes arent
+	## contemp versions of one another
+	## blabla/20xx/123456 contempof blabla/123456
+	## blabla/20xx/123456 topconcof blabla/20xx/
+	BIND(STRAFTER(STR(?z),STR(?topz)) AS ?sufx)
+	BIND(IRI(STRBEFORE(STR(?x),STR(?sufx))) AS ?topx)
+}
+;
+ECHO $ROWCNT"\n";
+CHECKPOINT;
+
 
 ECHO "condensing chains of validity 1 ... ";
 SPARQL
@@ -154,7 +203,7 @@ WHERE {
 	WHERE {
 		?x pav:derivedFrom ?sub .
 		?sub a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-			rdfs:label ?lbl ;
+			skos:prefLabel ?lbl ;
 			skos:notation ?code ;
 			skos:definition ?defn .
 		FILTER(ISBLANK(?sub))
@@ -165,7 +214,7 @@ WHERE {
 	?x pav:derivedFrom ?sub .
 	FILTER(ISBLANK(?sub))
 	?sub a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-		rdfs:label ?lbl ;
+		skos:prefLabel ?lbl ;
 		skos:notation ?code ;
 		skos:definition ?defn .
 
@@ -214,7 +263,7 @@ WHERE {
 		?x pav:derivedFrom ?sub .
 		FILTER(ISBLANK(?sub))
 		?sub a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-			rdfs:label ?lbl ;
+			skos:prefLabel ?lbl ;
 			skos:notation ?code .
 		FILTER NOT EXISTS {
 		?sub skos:definition ?defn
@@ -226,7 +275,7 @@ WHERE {
 	?x pav:derivedFrom ?sub .
 	FILTER(ISBLANK(?sub))
 	?sub a fibo-sec-sec-cls:GlobalIndustryClassificationStandardsClassifier ;
-		rdfs:label ?lbl ;
+		skos:prefLabel ?lbl ;
 		skos:notation ?code .
 
 	OPTIONAL {
@@ -371,7 +420,9 @@ INSERT {
 		pav:sourceLastAccessedOn ?accl ;
 		tempo:validFrom ?minfrom ;
 		tempo:validTill ?maxtill ;
-		rdfs:label ?lbl ;
+		skos:prefLabel ?lbl ;
+		skos:altLabel ?albl ;
+		skos:hiddenLabel ?hlbl ;
 		skos:definition ?defn ;
 		skos:notation ?code .
 }
@@ -405,8 +456,14 @@ WHERE {
 
 	## and maxz''s beef
 	?maxz
-		rdfs:label ?lbl ;
+		skos:prefLabel ?lbl ;
 		skos:notation ?code .
+	OPTIONAL {
+	?maxz skos:altLabel ?albl
+	}
+	OPTIONAL {
+	?maxz skos:hiddenLabel ?hlbl
+	}
 	OPTIONAL {
 	?maxz skos:definition ?defn
 	}

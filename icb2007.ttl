@@ -39,7 +39,7 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	owl:versionInfo	"2007"^^xsd:string ;
 	owl:versionIRI	<http://data.ga-group.nl/ics/icb/2007/> ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
-	rdfs:label	"icb 2007"@en ;
+	skos:prefLabel	"icb 2007"@en ;
 	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
 	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
 	sm:copyright	"Copyright (c) 2004 FTSE International Limited" , "Copyright (c) 2004 Dow Jones & Co, Inc." , "Copyright (c) 2022-2026 PAMIYA Strategic Advisors GmbH" ;
@@ -63,8 +63,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Oil & Gas"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"0001" ;
+	skos:prefLabel	"Oil & Gas"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2007/> ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -80,8 +82,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Oil & Gas"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"0500" ;
+	skos:prefLabel	"Oil & Gas"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -97,8 +100,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Oil & Gas Producers"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"0530" ;
+	skos:prefLabel	"Oil & Gas Producers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -116,9 +120,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Exploration & Production"@en ;
 	skos:definition	"Companies engaged in the exploration for and drilling, production, refining and supply of oil and gas products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"0533" ;
+	skos:prefLabel	"Exploration & Production"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -136,9 +141,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Integrated Oil & Gas"@en ;
 	skos:definition	"Integrated oil and gas companies engaged in the exploration for and drilling, production, refining, distribution and retail sales of oil and gas products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"0537" ;
+	skos:prefLabel	"Integrated Oil & Gas"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -154,8 +160,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Oil Equipment, Services & Distribution"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"0570" ;
+	skos:prefLabel	"Oil Equipment, Services & Distribution"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -173,9 +180,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Oil Equipment & Services"@en ;
 	skos:definition	"Suppliers of equipment and services to oil fields and offshore platforms, such as drilling, exploration, seismic-information services and platform construction."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"0573" ;
+	skos:prefLabel	"Oil Equipment & Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -193,9 +201,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Pipelines"@en ;
 	skos:definition	"Operators of pipelines carrying oil, gas or other forms of fuel. Excludes pipeline operators that derive the majority of their revenues from direct sales to end users, which are classified under Gas Distribution."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"0577" ;
+	skos:prefLabel	"Pipelines"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -210,8 +219,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Alternative Energy"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"0580" ;
+	skos:prefLabel	"Alternative Energy"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -228,9 +238,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Renewable Energy Equipment"@en ;
 	skos:definition	"Companies that develop or manufacture renewable energy equipment utilizing sources such as solar, wind, tidal, geothermal, hydro and waves."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"0583" ;
+	skos:prefLabel	"Renewable Energy Equipment"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -247,9 +258,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Alternative Fuels"@en ;
 	skos:definition	"Companies that produce alternative fuels such as ethanol, methanol, hydrogen and bio-fuels that are mainly used to power vehicles, and companies that are involved in the production of vehicle fuel cells and/or the development of alternative fuelling infrastructure."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"0587" ;
+	skos:prefLabel	"Alternative Fuels"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -264,8 +276,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Basic Materials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1000" ;
+	skos:prefLabel	"Basic Materials"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2007/> ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -281,8 +295,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Chemicals"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1300" ;
+	skos:prefLabel	"Chemicals"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -298,8 +313,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Chemicals"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1350" ;
+	skos:prefLabel	"Chemicals"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -317,9 +333,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Commodity Chemicals"@en ;
 	skos:definition	"Producers and distributors of simple chemical products that are primarily used to formulate more complex chemicals or products, including plastics and rubber in their raw form, fiberglass and synthetic fibers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1353" ;
+	skos:prefLabel	"Commodity Chemicals"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -337,9 +354,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Specialty Chemicals"@en ;
 	skos:definition	"Producers and distributors of finished chemicals for industries or end users, including dyes, cellular polymers, coatings, special plastics and other chemicals for specialized applications. Includes makers of colorings, flavors and fragrances, fertilizers, pesticides, chemicals used to make drugs, paint in its pigment form and glass in its unfinished form. Excludes producers of paint and glass products used for construction, which are classified under Building Materials & Fixtures."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1357" ;
+	skos:prefLabel	"Specialty Chemicals"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -355,8 +373,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Basic Resources"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1700" ;
+	skos:prefLabel	"Basic Resources"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -372,8 +391,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Forestry & Paper"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1730" ;
+	skos:prefLabel	"Forestry & Paper"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -391,9 +411,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Forestry"@en ;
 	skos:definition	"Owners and operators of timber tracts, forest tree nurseries and sawmills. Excludes providers of finished wood products such as wooden beams, which are classified under Building Materials & Fixtures."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1733" ;
+	skos:prefLabel	"Forestry"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -411,9 +432,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Paper"@en ;
 	skos:definition	"Producers, converters, merchants and distributors of all grades of paper. Excludes makers of printed forms, which are classified under Business Support Services, and manufacturers of paper items such as cups and napkins, which are classified under Nondurable Household Products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1737" ;
+	skos:prefLabel	"Paper"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -429,8 +451,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Industrial Metals & Mining"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1750" ;
+	skos:prefLabel	"Industrial Metals & Mining"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -448,9 +471,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Aluminum"@en ;
 	skos:definition	"Companies that mine or process bauxite or manufacture and distribute aluminum bars, rods and other products for use by other industries. Excludes manufacturers of finished aluminum products, such as siding, which are categorized according to the type of end product."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1753" ;
+	skos:prefLabel	"Aluminum"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -468,9 +492,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Nonferrous Metals"@en ;
 	skos:definition	"Producers and traders of metals and primary metal products other than iron, aluminum and steel. Excludes companies that make finished products, which are categorized according to the type of end product."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1755" ;
+	skos:prefLabel	"Nonferrous Metals"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -488,9 +513,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Iron & Steel"@en ;
 	skos:definition	"Manufacturers and stockholders of primary iron and steel products such as pipes, wires, sheets and bars, encompassing all processes from smelting in blast furnaces to rolling mills and foundries. Includes companies that primarily mine iron ores."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1757" ;
+	skos:prefLabel	"Iron & Steel"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -506,8 +532,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Mining"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1770" ;
+	skos:prefLabel	"Mining"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -525,9 +552,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Coal"@en ;
 	skos:definition	"Companies engaged in the exploration for or mining of coal."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1771" ;
+	skos:prefLabel	"Coal"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -545,9 +573,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Diamonds & Gemstones"@en ;
 	skos:definition	"Companies engaged in the exploration for and production of diamonds and other gemstones."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1773" ;
+	skos:prefLabel	"Diamonds & Gemstones"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -565,9 +594,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"General Mining"@en ;
 	skos:definition	"Companies engaged in the exploration, extraction or refining of minerals not defined elsewhere within the Mining sector."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1775" ;
+	skos:prefLabel	"General Mining"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -585,9 +615,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Gold Mining"@en ;
 	skos:definition	"Prospectors for and extractors or refiners of gold-bearing ores."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1777" ;
+	skos:prefLabel	"Gold Mining"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -605,9 +636,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Platinum & Precious Metals"@en ;
 	skos:definition	"Companies engaged in the exploration for and production of platinum, silver and other precious metals not defined elsewhere."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"1779" ;
+	skos:prefLabel	"Platinum & Precious Metals"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -622,8 +654,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Industrials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2000" ;
+	skos:prefLabel	"Industrials"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2007/> ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -639,8 +673,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Construction & Materials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2300" ;
+	skos:prefLabel	"Construction & Materials"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -656,8 +691,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Construction & Materials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2350" ;
+	skos:prefLabel	"Construction & Materials"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -675,9 +711,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Building Materials & Fixtures"@en ;
 	skos:definition	"Producers of materials used in the construction and refurbishment of buildings and structures, including cement and other aggregates, wooden beams and frames, paint, glass, roofing and flooring materials other than carpets. Includes producers of bathroom and kitchen fixtures, plumbing supplies and central air-conditioning and heating equipment. Excludes producers of raw lumber, which are classified under Forestry."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2353" ;
+	skos:prefLabel	"Building Materials & Fixtures"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -695,9 +732,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Heavy Construction"@en ;
 	skos:definition	"Companies engaged in the construction of commercial buildings, infrastructure such as roads and bridges, residential apartment buildings, and providers of services to construction companies, such as architects, masons, plumbers and electrical contractors."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2357" ;
+	skos:prefLabel	"Heavy Construction"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -713,8 +751,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Industrial Goods & Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2700" ;
+	skos:prefLabel	"Industrial Goods & Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -730,8 +769,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Aerospace & Defense"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2710" ;
+	skos:prefLabel	"Aerospace & Defense"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -749,9 +789,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Aerospace"@en ;
 	skos:definition	"Manufacturers, assemblers and distributors of aircraft and aircraft parts primarily used in commercial or private air transport. Excludes manufacturers of communications satellites, which are classified under Telecommunications Equipment."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2713" ;
+	skos:prefLabel	"Aerospace"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -769,9 +810,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Defense"@en ;
 	skos:definition	"Producers of components and equipment for the defense industry, including military aircraft, radar equipment and weapons."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2717" ;
+	skos:prefLabel	"Defense"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -787,8 +829,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"General Industrials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2720" ;
+	skos:prefLabel	"General Industrials"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -806,9 +849,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Containers & Packaging"@en ;
 	skos:definition	"Makers and distributors of cardboard, bags, boxes, cans, drums, bottles and jars and glass used for packaging."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2723" ;
+	skos:prefLabel	"Containers & Packaging"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -826,9 +870,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Diversified Industrials"@en ;
 	skos:definition	"Industrial companies engaged in three or more classes of business within the Industrial industry that differ substantially from each other."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2727" ;
+	skos:prefLabel	"Diversified Industrials"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -844,8 +889,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Electronic & Electrical Equipment"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2730" ;
+	skos:prefLabel	"Electronic & Electrical Equipment"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -863,9 +909,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Electrical Components & Equipment"@en ;
 	skos:definition	"Makers and distributors of electrical parts for finished products, such as printed circuit boards for radios, televisions and other consumer electronics. Includes makers of cables, wires, ceramics, transistors, electric adapters and security cameras."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2733" ;
+	skos:prefLabel	"Electrical Components & Equipment"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -883,9 +930,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Electronic Equipment"@en ;
 	skos:definition	"Manufacturers and distributors of electronic products used in different industries. Includes makers of lasers, smart cards, bar scanners, fingerprinting equipment and other electronic factory equipment."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2737" ;
+	skos:prefLabel	"Electronic Equipment"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -901,8 +949,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Industrial Engineering"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2750" ;
+	skos:prefLabel	"Industrial Engineering"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -920,9 +969,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Commercial Vehicles & Trucks"@en ;
 	skos:definition	"Manufacturers and distributors of commercial vehicles and heavy agricultural and construction machinery, including rail cars, tractors, bulldozers, cranes, buses and industrial lawn mowers. Includes non-military shipbuilders, such as builders of cruise ships and ferries."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2753" ;
+	skos:prefLabel	"Commercial Vehicles & Trucks"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -940,9 +990,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Industrial Machinery"@en ;
 	skos:definition	"Designers, manufacturers, distributors and installers of industrial machinery and factory equipment, such as machine tools, lathes, presses and assembly line equipment. Includes makers of pollution control equipment, castings, pressings, welded shapes, structural steelwork, compressors, pumps, bearings, elevators and escalators."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2757" ;
+	skos:prefLabel	"Industrial Machinery"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -958,8 +1009,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Industrial Transportation"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2770" ;
+	skos:prefLabel	"Industrial Transportation"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -977,9 +1029,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Delivery Services"@en ;
 	skos:definition	"Operators of mail and package delivery services for commercial and consumer use. Includes courier and logistic services primarily involving air transportation."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2771" ;
+	skos:prefLabel	"Delivery Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -997,9 +1050,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Marine Transportation"@en ;
 	skos:definition	"Providers of on-water transportation for commercial markets, such as container shipping. Excludes ports, which are classified under Transportation Services, and shipbuilders, which are classified under Commercial Vehicles & Trucks."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2773" ;
+	skos:prefLabel	"Marine Transportation"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1017,9 +1071,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Railroads"@en ;
 	skos:definition	"Providers of industrial railway transportation and railway lines. Excludes passenger railway companies, which are classified under Travel & Tourism, and manufacturers of rail cars, which are classified under Commercial Vehicles & Trucks."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2775" ;
+	skos:prefLabel	"Railroads"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1037,9 +1092,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Transportation Services"@en ;
 	skos:definition	"Companies providing services to the Industrial Transportation sector, including companies that manage airports, train depots, roads, bridges, tunnels, ports, and providers of logistic services to shippers of goods. Includes companies that provide aircraft and vehicle maintenance services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2777" ;
+	skos:prefLabel	"Transportation Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1057,9 +1113,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Trucking"@en ;
 	skos:definition	"Companies that provide commercial trucking services. Excludes road and tunnel operators, which are classified under Transportation Services, and vehicle rental and taxi companies, which are classified under Travel & Tourism."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2779" ;
+	skos:prefLabel	"Trucking"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1075,8 +1132,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Support Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2790" ;
+	skos:prefLabel	"Support Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1094,9 +1152,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Business Support Services"@en ;
 	skos:definition	"Providers of nonfinancial services to a wide range of industrial enterprises and governments. Includes providers of printing services, management consultants, office cleaning services, and companies that install, service and monitor alarm and security systems."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2791" ;
+	skos:prefLabel	"Business Support Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1114,9 +1173,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Business Training & Employment Agencies"@en ;
 	skos:definition	"Providers of business or management training courses and employment services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2793" ;
+	skos:prefLabel	"Business Training & Employment Agencies"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1134,9 +1194,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Financial Administration"@en ;
 	skos:definition	"Providers of computerized transaction processing, data communication and information services, including payroll, bill payment and employee benefit services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2795" ;
+	skos:prefLabel	"Financial Administration"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1154,9 +1215,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Industrial Suppliers"@en ;
 	skos:definition	"Distributors and wholesalers of diversified products and equipment primarily used in the commercial and industrial sectors. Includes builders merchants."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2797" ;
+	skos:prefLabel	"Industrial Suppliers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1174,9 +1236,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Waste & Disposal Services"@en ;
 	skos:definition	"Providers of pollution control and environmental services for the management, recovery and disposal of solid and hazardous waste materials, such as landfills and recycling centers. Excludes manufacturers of industrial air and water filtration equipment, which are classified under Industrial Machinery."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"2799" ;
+	skos:prefLabel	"Waste & Disposal Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1191,8 +1254,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Consumer Goods"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3000" ;
+	skos:prefLabel	"Consumer Goods"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2007/> ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1208,8 +1273,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Automobiles & Parts"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3300" ;
+	skos:prefLabel	"Automobiles & Parts"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1225,8 +1291,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Automobiles & Parts"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3350" ;
+	skos:prefLabel	"Automobiles & Parts"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1244,9 +1311,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Automobiles"@en ;
 	skos:definition	"Makers of motorcycles and passenger vehicles, including cars, sport utility vehicles (SUVs) and light trucks. Excludes makers of heavy trucks, which are classified under Commercial Vehicles & Trucks, and makers of recreational vehicles (RVs and ATVs), which are classified under Recreational Products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3353" ;
+	skos:prefLabel	"Automobiles"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1264,9 +1332,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Auto Parts"@en ;
 	skos:definition	"Manufacturers and distributors of new and replacement parts for motorcycles and automobiles, such as engines, carburetors and batteries. Excludes producers of tires, which are classified under Tires."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3355" ;
+	skos:prefLabel	"Auto Parts"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1284,9 +1353,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Tires"@en ;
 	skos:definition	"Manufacturers, distributors and retreaders of automobile, truck and motorcycle tires."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3357" ;
+	skos:prefLabel	"Tires"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1302,8 +1372,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Food & Beverage"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3500" ;
+	skos:prefLabel	"Food & Beverage"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1319,8 +1390,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Beverages"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3530" ;
+	skos:prefLabel	"Beverages"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1338,9 +1410,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Brewers"@en ;
 	skos:definition	"Manufacturers and shippers of cider or malt products such as beer, ale and stout."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3533" ;
+	skos:prefLabel	"Brewers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1358,9 +1431,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Distillers & Vintners"@en ;
 	skos:definition	"Producers, distillers, vintners, blenders and shippers of wine and spirits such as whisky, brandy, rum, gin or liqueurs."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3535" ;
+	skos:prefLabel	"Distillers & Vintners"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1378,9 +1452,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Soft Drinks"@en ;
 	skos:definition	"Manufacturers, bottlers and distributors of non-alcoholic beverages, such as soda, fruit juices, tea, coffee and bottled water."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3537" ;
+	skos:prefLabel	"Soft Drinks"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1396,8 +1471,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Food Producers"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3570" ;
+	skos:prefLabel	"Food Producers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1415,9 +1491,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Farming, Fishing & Plantations"@en ;
 	skos:definition	"Companies that grow crops or raise livestock, operate fisheries or own nontobacco plantations. Includes manufacturers of livestock feeds and seeds and other agricultural products but excludes manufacturers of fertilizers or pesticides, which are classified under Specialty Chemicals."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3573" ;
+	skos:prefLabel	"Farming, Fishing & Plantations"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1435,9 +1512,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Food Products"@en ;
 	skos:definition	"Food producers, including meatpacking, snacks, fruits, vegetables, dairy products and frozen seafood. Includes producers of pet food and manufacturers of dietary supplements, vitamins and related items. Excludes producers of fruit juices, tea, coffee, bottled water and other non-alcoholic beverages, which are classified under Soft Drinks."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3577" ;
+	skos:prefLabel	"Food Products"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1453,8 +1531,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Personal & Household Goods"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3700" ;
+	skos:prefLabel	"Personal & Household Goods"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1470,8 +1549,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Household Goods & Home Construction"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3720" ;
+	skos:prefLabel	"Household Goods & Home Construction"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1489,9 +1569,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Durable Household Products"@en ;
 	skos:definition	"Manufacturers and distributors of domestic appliances, lighting, hand tools and power tools, hardware, cutlery, tableware, garden equipment, luggage, towels and linens."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3722" ;
+	skos:prefLabel	"Durable Household Products"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1509,9 +1590,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Nondurable Household Products"@en ;
 	skos:definition	"Producers and distributors of pens, paper goods, batteries, light bulbs, tissues, toilet paper and cleaning products such as soaps and polishes."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3724" ;
+	skos:prefLabel	"Nondurable Household Products"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1529,9 +1611,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Furnishings"@en ;
 	skos:definition	"Manufacturers and distributors of furniture, including chairs, tables, desks, carpeting, wallpaper and office furniture."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3726" ;
+	skos:prefLabel	"Furnishings"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1549,9 +1632,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Home Construction"@en ;
 	skos:definition	"Constructors of residential homes, including manufacturers of mobile and prefabricated homes intended for use in one place."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3728" ;
+	skos:prefLabel	"Home Construction"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1567,8 +1651,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Leisure Goods"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3740" ;
+	skos:prefLabel	"Leisure Goods"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1586,9 +1671,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Consumer Electronics"@en ;
 	skos:definition	"Manufacturers and distributors of consumer electronics, such as TVs, VCRs, DVD players, audio equipment, cable boxes, calculators and camcorders."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3743" ;
+	skos:prefLabel	"Consumer Electronics"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1606,9 +1692,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Recreational Products"@en ;
 	skos:definition	"Manufacturers and distributors of recreational equipment. Includes musical instruments, photographic equipment and supplies, RVs, ATVs and marine recreational vehicles such as yachts, dinghies and speedboats."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3745" ;
+	skos:prefLabel	"Recreational Products"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1626,9 +1713,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Toys"@en ;
 	skos:definition	"Manufacturers and distributors of toys and video/computer games, including such toys and games as playing cards, board games, stuffed animals and dolls."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3747" ;
+	skos:prefLabel	"Toys"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1644,8 +1732,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Personal Goods"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3760" ;
+	skos:prefLabel	"Personal Goods"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1663,9 +1752,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Clothing & Accessories"@en ;
 	skos:definition	"Manufacturers and distributors of all types of clothing, jewelry, watches or textiles. Includes sportswear, sunglasses, eyeglass frames, leather clothing and goods, and processors of hides and skins."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3763" ;
+	skos:prefLabel	"Clothing & Accessories"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1683,9 +1773,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Footwear"@en ;
 	skos:definition	"Manufacturers and distributors of shoes, boots, sandals, sneakers and other types of footwear."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3765" ;
+	skos:prefLabel	"Footwear"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1703,9 +1794,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Personal Products"@en ;
 	skos:definition	"Makers and distributors of cosmetics, toiletries and personal-care and hygiene products, including deodorants, soaps, toothpaste, perfumes, diapers, shampoos, razors and feminine-hygiene products. Includes makers of contraceptives other than oral contraceptives, which are classified under Pharmaceuticals."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3767" ;
+	skos:prefLabel	"Personal Products"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1721,8 +1813,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Tobacco"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3780" ;
+	skos:prefLabel	"Tobacco"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1740,9 +1833,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Tobacco"@en ;
 	skos:definition	"Manufacturers and distributors of cigarettes, cigars and other tobacco products. Includes tobacco plantations."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"3785" ;
+	skos:prefLabel	"Tobacco"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1757,8 +1851,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Health Care"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"4000" ;
+	skos:prefLabel	"Health Care"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2007/> ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1774,8 +1870,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Health Care"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"4500" ;
+	skos:prefLabel	"Health Care"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1791,8 +1888,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Health Care Equipment & Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"4530" ;
+	skos:prefLabel	"Health Care Equipment & Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1810,9 +1908,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Health Care Providers"@en ;
 	skos:definition	"Owners and operators of health maintenance organizations, hospitals, clinics, dentists, opticians, nursing homes, rehabilitation and retirement centers. Excludes veterinary services, which are classified under Specialized Consumer Services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"4533" ;
+	skos:prefLabel	"Health Care Providers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1830,9 +1929,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Medical Equipment"@en ;
 	skos:definition	"Manufacturers and distributors of medical devices such as MRI scanners, prosthetics, pacemakers, X-ray machines and other non-disposable medical devices."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"4535" ;
+	skos:prefLabel	"Medical Equipment"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1850,9 +1950,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Medical Supplies"@en ;
 	skos:definition	"Manufacturers and distributors of medical supplies used by health care providers and the general public. Includes makers of contact lenses, eyeglass lenses, bandages and other disposable medical supplies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"4537" ;
+	skos:prefLabel	"Medical Supplies"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1868,8 +1969,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Pharmaceuticals & Biotechnology"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"4570" ;
+	skos:prefLabel	"Pharmaceuticals & Biotechnology"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1887,9 +1989,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Biotechnology"@en ;
 	skos:definition	"Companies engaged in research into and development of biological substances for the purposes of drug discovery and diagnostic development, and which derive the majority of their revenue from either the sale or licensing of these drugs and diagnostic tools."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"4573" ;
+	skos:prefLabel	"Biotechnology"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1907,9 +2010,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Pharmaceuticals"@en ;
 	skos:definition	"Manufacturers of prescription or over-the-counter drugs, such as aspirin, cold remedies and birth control pills. Includes vaccine producers but excludes vitamin producers, which are classified under Food Products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"4577" ;
+	skos:prefLabel	"Pharmaceuticals"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1924,8 +2028,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Consumer Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5000" ;
+	skos:prefLabel	"Consumer Services"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2007/> ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1941,8 +2047,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Retail"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5300" ;
+	skos:prefLabel	"Retail"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1958,8 +2065,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Food & Drug Retailers"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5330" ;
+	skos:prefLabel	"Food & Drug Retailers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1977,9 +2085,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Drug Retailers"@en ;
 	skos:definition	"Operators of pharmacies, including wholesalers and distributors catering to these businesses."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5333" ;
+	skos:prefLabel	"Drug Retailers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -1997,9 +2106,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Food Retailers & Wholesalers"@en ;
 	skos:definition	"Supermarkets, food-oriented convenience stores and other food retailers and distributors. Includes retailers of dietary supplements and vitamins."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5337" ;
+	skos:prefLabel	"Food Retailers & Wholesalers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2015,8 +2125,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"General Retailers"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5370" ;
+	skos:prefLabel	"General Retailers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2034,9 +2145,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Apparel Retailers"@en ;
 	skos:definition	"Retailers and wholesalers specializing mainly in clothing, shoes, jewelry, sunglasses and other accessories."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5371" ;
+	skos:prefLabel	"Apparel Retailers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2054,9 +2166,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Broadline Retailers"@en ;
 	skos:definition	"Retail outlets and wholesalers offering a wide variety of products including both hard goods and soft goods."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5373" ;
+	skos:prefLabel	"Broadline Retailers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2074,9 +2187,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Home Improvement Retailers"@en ;
 	skos:definition	"Retailers and wholesalers concentrating on the sale of home improvement products, including garden equipment, carpets, wallpaper, paint, home furniture, blinds and curtains, and building materials."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5375" ;
+	skos:prefLabel	"Home Improvement Retailers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2094,9 +2208,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Specialized Consumer Services"@en ;
 	skos:definition	"Providers of consumer services such as auction houses, day-care centers, dry cleaners, schools, consumer rental companies, veterinary clinics, hair salons and providers of funeral, lawn-maintenance, consumer-storage, heating and cooling installation and plumbing services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5377" ;
+	skos:prefLabel	"Specialized Consumer Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2114,9 +2229,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Specialty Retailers"@en ;
 	skos:definition	"Retailers and wholesalers concentrating on a single class of goods, such as electronics, books, automotive parts or closeouts. Includes automobile dealerships, video rental stores, dollar stores, duty-free shops and automotive fuel stations not owned by oil companies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5379" ;
+	skos:prefLabel	"Specialty Retailers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2132,8 +2248,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Media"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5500" ;
+	skos:prefLabel	"Media"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2149,8 +2266,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Media"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5550" ;
+	skos:prefLabel	"Media"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2168,9 +2286,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Broadcasting & Entertainment"@en ;
 	skos:definition	"Producers, operators and broadcasters of radio, television, music and filmed entertainment. Excludes movie theatres, which are classified under Recreational Services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5553" ;
+	skos:prefLabel	"Broadcasting & Entertainment"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2188,9 +2307,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Media Agencies"@en ;
 	skos:definition	"Companies providing advertising, public relations and marketing services. Includes billboard providers and telemarketers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5555" ;
+	skos:prefLabel	"Media Agencies"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2208,9 +2328,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Publishing"@en ;
 	skos:definition	"Publishers of information via printed or electronic media."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5557" ;
+	skos:prefLabel	"Publishing"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2226,8 +2347,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Travel & Leisure"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5700" ;
+	skos:prefLabel	"Travel & Leisure"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2243,8 +2365,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Travel & Leisure"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5750" ;
+	skos:prefLabel	"Travel & Leisure"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2262,9 +2385,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Airlines"@en ;
 	skos:definition	"Companies providing primarily passenger air transport. Excludes airports, which are classified under Transportation Services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5751" ;
+	skos:prefLabel	"Airlines"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2282,9 +2406,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Gambling"@en ;
 	skos:definition	"Providers of gambling and casino facilities. Includes online casinos, racetracks and the manufacturers of pachinko machines and casino and lottery equipment."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5752" ;
+	skos:prefLabel	"Gambling"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2302,9 +2427,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Hotels"@en ;
 	skos:definition	"Operators and managers of hotels, motels, lodges, resorts, spas and campgrounds."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5753" ;
+	skos:prefLabel	"Hotels"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2322,9 +2448,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Recreational Services"@en ;
 	skos:definition	"Providers of leisure facilities and services, including fitness centers, cruise lines, movie theatres and sports teams."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5755" ;
+	skos:prefLabel	"Recreational Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2342,9 +2469,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Restaurants & Bars"@en ;
 	skos:definition	"Operators of restaurants, fast-food facilities, coffee shops and bars. Includes integrated brewery companies and catering companies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5757" ;
+	skos:prefLabel	"Restaurants & Bars"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2362,9 +2490,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Travel & Tourism"@en ;
 	skos:definition	"Companies providing travel and tourism related services, including travel agents, online travel reservation services, automobile rental firms and companies that primarily provide passenger transportation, such as buses, taxis, passenger rail and ferry companies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"5759" ;
+	skos:prefLabel	"Travel & Tourism"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2379,8 +2508,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Telecommunications"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"6000" ;
+	skos:prefLabel	"Telecommunications"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2007/> ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2396,8 +2527,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Telecommunications"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"6500" ;
+	skos:prefLabel	"Telecommunications"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2413,8 +2545,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Fixed Line Telecommunications"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"6530" ;
+	skos:prefLabel	"Fixed Line Telecommunications"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2432,9 +2565,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Fixed Line Telecommunications"@en ;
 	skos:definition	"Providers of fixed-line telephone services, including regional and long-distance. Includes companies that primarily provides telephone services through the internet. Excludes companies whose primary business is Internet access, which are classified under Internet."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"6535" ;
+	skos:prefLabel	"Fixed Line Telecommunications"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2450,8 +2584,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Mobile Telecommunications"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"6570" ;
+	skos:prefLabel	"Mobile Telecommunications"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2467,9 +2602,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Mobile Telecommunications"@en ;
 	skos:definition	"Providers of mobile telephone services, including cellular, satellite and paging services. Includes wireless tower companies that own, operate and lease mobile site towers to multiple wireless service providers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"6575" ;
+	skos:prefLabel	"Mobile Telecommunications"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2484,8 +2620,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Utilities"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"7000" ;
+	skos:prefLabel	"Utilities"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2007/> ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2501,8 +2639,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Utilities"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"7500" ;
+	skos:prefLabel	"Utilities"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2518,8 +2657,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Electricity"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"7530" ;
+	skos:prefLabel	"Electricity"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2537,9 +2677,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Conventional Electricity"@en ;
 	skos:definition	"Companies generating and distributing electricity through the burning of fossil fuels such as coal, petroleum and natural gas, and through nuclear energy."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"7535" ;
+	skos:prefLabel	"Conventional Electricity"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2556,9 +2697,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Alternative Electricity"@en ;
 	skos:definition	"Companies generating and distributing electricity from a renewable source. Includes companies that produce solar, water, wind and geothermal electricity."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"7537" ;
+	skos:prefLabel	"Alternative Electricity"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2574,8 +2716,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Gas, Water & Multi-utilities"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"7570" ;
+	skos:prefLabel	"Gas, Water & Multi-utilities"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2593,9 +2736,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Gas Distribution"@en ;
 	skos:definition	"Distributors of gas to end users. Excludes providers of natural gas as a commodity, which are classified under the Oil & Gas industry."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"7573" ;
+	skos:prefLabel	"Gas Distribution"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2613,9 +2757,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Multi-utilities"@en ;
 	skos:definition	"Utility companies with significant presence in more than one utility."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"7575" ;
+	skos:prefLabel	"Multi-utilities"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2633,9 +2778,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Water"@en ;
 	skos:definition	"Companies providing water to end users, including water treatment plants."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"7577" ;
+	skos:prefLabel	"Water"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2650,8 +2796,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Financials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8000" ;
+	skos:prefLabel	"Financials"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2007/> ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2667,8 +2815,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Banks"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8300" ;
+	skos:prefLabel	"Banks"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2684,8 +2833,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Banks"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8350" ;
+	skos:prefLabel	"Banks"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2703,9 +2853,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Banks"@en ;
 	skos:definition	"Banks providing a broad range of financial services, including retail banking, loans and money transmissions."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8355" ;
+	skos:prefLabel	"Banks"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2721,8 +2872,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Insurance"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8500" ;
+	skos:prefLabel	"Insurance"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2738,8 +2890,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Nonlife Insurance"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8530" ;
+	skos:prefLabel	"Nonlife Insurance"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2757,9 +2910,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Full Line Insurance"@en ;
 	skos:definition	"Insurance companies with life, health, property & casualty and reinsurance interests, no one of which predominates."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8532" ;
+	skos:prefLabel	"Full Line Insurance"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2777,9 +2931,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Insurance Brokers"@en ;
 	skos:definition	"Insurance brokers and agencies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8534" ;
+	skos:prefLabel	"Insurance Brokers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2797,9 +2952,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Property & Casualty Insurance"@en ;
 	skos:definition	"Companies engaged principally in accident, fire, automotive, marine, malpractice and other classes of nonlife insurance."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8536" ;
+	skos:prefLabel	"Property & Casualty Insurance"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2817,9 +2973,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Reinsurance"@en ;
 	skos:definition	"Companies engaged principally in reinsurance."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8538" ;
+	skos:prefLabel	"Reinsurance"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2835,8 +2992,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Life Insurance"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8570" ;
+	skos:prefLabel	"Life Insurance"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2854,9 +3012,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Life Insurance"@en ;
 	skos:definition	"Companies engaged principally in life and health insurance."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8575" ;
+	skos:prefLabel	"Life Insurance"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2871,8 +3030,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Real Estate"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8600" ;
+	skos:prefLabel	"Real Estate"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2887,8 +3047,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Real Estate Investment & Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8630" ;
+	skos:prefLabel	"Real Estate Investment & Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2905,9 +3066,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Real Estate Holding & Development"@en ;
 	skos:definition	"Companies that invest directly or indirectly in real estate through development, investment or ownership. Excludes real estate investment trusts and similar entities, which are classified as Real Estate Investment Trusts."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8633" ;
+	skos:prefLabel	"Real Estate Holding & Development"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2924,9 +3086,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Real Estate Services"@en ;
 	skos:definition	"Companies that provide services to real estate companies but do not own the properties themselves. Includes agencies, brokers, leasing companies, management companies and advisory services. Excludes real estate investment trusts and similar entities, which are classified as Real Estate Investment Trusts."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8637" ;
+	skos:prefLabel	"Real Estate Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2941,8 +3104,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Real Estate Investment Trusts"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8670" ;
+	skos:prefLabel	"Real Estate Investment Trusts"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2959,9 +3123,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Industrial & Office REITs"@en ;
 	skos:definition	"Real estate investment trusts or corporations (REITs) or listed property trusts (LPTs) that primarily invest in office, industrial and flex properties."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8671" ;
+	skos:prefLabel	"Industrial & Office REITs"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2978,9 +3143,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Retail REITs"@en ;
 	skos:definition	"Real estate investment trusts or corporations (REITs) or listed property trusts (LPTs) that primarily invest in retail properties. Includes malls, shopping centers, strip centers and factory outlets."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8672" ;
+	skos:prefLabel	"Retail REITs"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -2997,9 +3163,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Residential REITs"@en ;
 	skos:definition	"Real estate investment trusts or corporations (REITs) or listed property trusts (LPTs) that primarily invest in residential home properties. Includes apartment buildings and residential communities."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8673" ;
+	skos:prefLabel	"Residential REITs"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3016,9 +3183,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Diversified REITs"@en ;
 	skos:definition	"Real estate investment trusts or corporations (REITs) or listed property trusts (LPTs) that invest in a variety of property types without a concentration on any single type."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8674" ;
+	skos:prefLabel	"Diversified REITs"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3035,9 +3203,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Specialty REITs"@en ;
 	skos:definition	"Real estate investment trusts or corporations (REITs) or listed property trusts (LPTs) that invest in self storage properties, properties in the health care industry such as hospitals, assisted living facilities and health care laboratories, and other specialized properties such as auto dealership facilities, timber properties and net lease properties."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8675" ;
+	skos:prefLabel	"Specialty REITs"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3054,9 +3223,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Mortgage REITs"@en ;
 	skos:definition	"Real estate investment trusts or corporations (REITs) or listed property trusts (LPTs) that are directly involved in lending money to real estate owners and operators or indirectly through the purchase of mortgages or mortgage backed securities."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8676" ;
+	skos:prefLabel	"Mortgage REITs"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3073,9 +3243,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Hotel & Lodging REITs"@en ;
 	skos:definition	"Real estate investment trusts or corporations (REITs) or listed property trusts (LPTs) that primarily invest in hotels or lodging properties."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8677" ;
+	skos:prefLabel	"Hotel & Lodging REITs"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3091,8 +3262,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Financial Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8700" ;
+	skos:prefLabel	"Financial Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3108,8 +3280,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Financial Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8770" ;
+	skos:prefLabel	"Financial Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3127,9 +3300,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Asset Managers"@en ;
 	skos:definition	"Companies that provide custodial, trustee and other related fiduciary services. Includes mutual fund management companies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8771" ;
+	skos:prefLabel	"Asset Managers"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3147,9 +3321,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Consumer Finance"@en ;
 	skos:definition	"Credit card companies and providers of personal finance services such as personal loans and check cashing companies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8773" ;
+	skos:prefLabel	"Consumer Finance"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3167,9 +3342,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Specialty Finance"@en ;
 	skos:definition	"Companies engaged in financial activities not specified elsewhere. Includes companies not classified under Equity Investment Instruments or Nonequity Investment Instruments engaged primarily in owning stakes in a diversified range of companies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8775" ;
+	skos:prefLabel	"Specialty Finance"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3187,9 +3363,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Investment Services"@en ;
 	skos:definition	"Companies providing a range of specialized financial services, including securities brokers and dealers, online brokers and security or commodity exchanges."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8777" ;
+	skos:prefLabel	"Investment Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3207,9 +3384,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Mortgage Finance"@en ;
 	skos:definition	"Companies that provide mortgages, mortgage insurance and other related services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8779" ;
+	skos:prefLabel	"Mortgage Finance"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3225,8 +3403,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Equity Investment Instruments"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8980" ;
+	skos:prefLabel	"Equity Investment Instruments"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3244,9 +3423,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Equity Investment Instruments"@en ;
 	skos:definition	"Corporate closed-ended investment entities identified under distinguishing legislation, such as investment trusts and venture capital trusts."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8985" ;
+	skos:prefLabel	"Equity Investment Instruments"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3262,8 +3442,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Nonequity Investment Instruments"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8990" ;
+	skos:prefLabel	"Nonequity Investment Instruments"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3281,9 +3462,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Nonequity Investment Instruments"@en ;
 	skos:definition	"Cash shells, Special Purpose Acquisition Company (SPACs), Noncorporate, open-ended investment instruments such as open-ended investment companies and funds, unit trusts, ETFs and currency funds and split capital trusts."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"8995" ;
+	skos:prefLabel	"Nonequity Investment Instruments"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3298,8 +3480,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Technology"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"9000" ;
+	skos:prefLabel	"Technology"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2007/> ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3315,8 +3499,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Technology"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"9500" ;
+	skos:prefLabel	"Technology"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3332,8 +3517,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Software & Computer Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"9530" ;
+	skos:prefLabel	"Software & Computer Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3351,9 +3537,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Computer Services"@en ;
 	skos:definition	"Companies that provide consulting services to other businesses relating to information technology. Includes providers of computer-system design, systems integration, network and systems operations, data management and storage, repair services and technical support."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"9533" ;
+	skos:prefLabel	"Computer Services"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3371,9 +3558,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Internet"@en ;
 	skos:definition	"Companies providing Internet-related services, such as Internet access providers and search engines and providers of Web site design, Web hosting, domain-name registration and e-mail services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"9535" ;
+	skos:prefLabel	"Internet"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3391,9 +3579,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Software"@en ;
 	skos:definition	"Publishers and distributors of computer software for home or corporate use. Excludes computer game producers, which are classified under Toys."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"9537" ;
+	skos:prefLabel	"Software"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3409,8 +3598,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Technology Hardware & Equipment"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"9570" ;
+	skos:prefLabel	"Technology Hardware & Equipment"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3428,9 +3618,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Computer Hardware"@en ;
 	skos:definition	"Manufacturers and distributors of computers, servers, mainframes, workstations and other computer hardware and subsystems, such as mass-storage drives, mice, keyboards and printers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"9572" ;
+	skos:prefLabel	"Computer Hardware"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3448,9 +3639,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Electronic Office Equipment"@en ;
 	skos:definition	"Manufacturers and distributors of electronic office equipment, including photocopiers and fax machines."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"9574" ;
+	skos:prefLabel	"Electronic Office Equipment"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3468,9 +3660,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Semiconductors"@en ;
 	skos:definition	"Producers and distributors of semiconductors and other integrated chips, including other products related to the semiconductor industry, such as semiconductor capital equipment and motherboards. Excludes makers of printed circuit boards, which are classified under Electrical Components & Equipment."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"9576" ;
+	skos:prefLabel	"Semiconductors"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .
 
@@ -3488,8 +3681,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2012-09-20T23:23:48Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2007/> ;
-	rdfs:label	"Telecommunications Equipment"@en ;
 	skos:definition	"Makers and distributors of high-technology communication products, including satellites, mobile telephones, fiber optics, switching devices, local and wide-area networks, teleconferencing equipment and connectivity devices for computers, including hubs and routers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2007/> ;
 	skos:notation	"9578" ;
+	skos:prefLabel	"Telecommunications Equipment"@en ;
 	tempo:validFrom	"2007-03-01"^^xsd:date ;
 	tempo:validTill	"2019-01-01"^^xsd:date .

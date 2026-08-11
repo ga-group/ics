@@ -39,7 +39,7 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	owl:versionInfo	"2019"^^xsd:string ;
 	owl:versionIRI	<http://data.ga-group.nl/ics/icb/2019/> ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
-	rdfs:label	"icb 2019"@en ;
+	skos:prefLabel	"icb 2019"@en ;
 	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
 	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
 	sm:copyright	"Copyright (c) 2004 FTSE International Limited" , "Copyright (c) 2004 Dow Jones & Co, Inc." , "Copyright (c) 2022-2026 PAMIYA Strategic Advisors GmbH" ;
@@ -65,9 +65,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Computer Services"@en ;
 	skos:definition	"Companies that provide consulting services to other businesses relating to information technology. Includes providers of computer-system design, systems integration, network and systems operations, data management and storage, repair services and technical support."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"10101010" ;
+	skos:prefLabel	"Computer Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -84,9 +85,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Software"@en ;
 	skos:definition	"Publishers and distributors of computer software for home or corporate use. Excludes computer game producers, which are classified under Toys."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"10101015" ;
+	skos:prefLabel	"Software"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -103,9 +105,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Consumer Digital Services"@en ;
 	skos:definition	"Companies involved in digital platforms that generate revenues from advertising, content delivery and other virtual products related to consumers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"10101020" ;
+	skos:prefLabel	"Consumer Digital Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -120,8 +123,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Software & Computer Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"101010" ;
+	skos:prefLabel	"Software & Computer Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -138,9 +142,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Semiconductors"@en ;
 	skos:definition	"Producers and distributors of semiconductors and other integrated chips, including other products related to the semiconductor industry, such as semiconductor capital equipment and motherboards. Excludes makers of printed circuit boards, which are classified under Electronic Components."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"10102010" ;
+	skos:prefLabel	"Semiconductors"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -157,9 +162,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Electronic Components"@en ;
 	skos:definition	"Companies involved in the application of high-technology parts to finished products, including printed circuit boards. Excludes communications-related equipment."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"10102015" ;
+	skos:prefLabel	"Electronic Components"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -176,9 +182,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Production Technology Equipment"@en ;
 	skos:definition	"Manufacturers of tools and/or devices that are used in the creation of semiconductors, lasers, photonics, wafers, and other high-technology components."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"10102020" ;
+	skos:prefLabel	"Production Technology Equipment"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -195,9 +202,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Computer Hardware"@en ;
 	skos:definition	"Manufacturers and distributors of computers, servers, mainframes, workstations and other computer hardware and subsystems, such as mass-storage drives, mice, keyboards and printers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"10102030" ;
+	skos:prefLabel	"Computer Hardware"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -214,9 +222,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Electronic Office Equipment"@en ;
 	skos:definition	"Manufacturers and distributors of electronic office equipment, including photocopiers and fax machines."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"10102035" ;
+	skos:prefLabel	"Electronic Office Equipment"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -231,8 +240,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Technology Hardware & Equipment"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"101020" ;
+	skos:prefLabel	"Technology Hardware & Equipment"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -247,8 +257,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Technology"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"1010" ;
+	skos:prefLabel	"Technology"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -262,8 +273,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Technology"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"10" ;
+	skos:prefLabel	"Technology"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2019/> ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -280,9 +293,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Telecommunications Equipment"@en ;
 	skos:definition	"Makers and distributors of high-technology communication products, including satellites, mobile telephones, fibers optics, switching devices, local and wide-area networks, teleconferencing equipment and connectivity devices for computers, including hubs and routers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"15101010" ;
+	skos:prefLabel	"Telecommunications Equipment"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -297,8 +311,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Telecommunications Equipment"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"151010" ;
+	skos:prefLabel	"Telecommunications Equipment"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -315,9 +330,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Cable Television Services"@en ;
 	skos:definition	"Companies that distribute media content through cable and wireless networks, accessed through computers or televisions."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"15102010" ;
+	skos:prefLabel	"Cable Television Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -334,9 +350,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Telecommunications Services"@en ;
 	skos:definition	"Providers of mobile and fixed-line telephone services, including cellular, satellite and paging services. Includes wireless tower companies that own, operate and lease mobile site towers to multiple wireless service providers. Includes companies that primarily provides telephone services through the internet. Excludes companies whose primary business is internet access."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"15102015" ;
+	skos:prefLabel	"Telecommunications Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -351,8 +368,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Telecommunications Service Providers"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"151020" ;
+	skos:prefLabel	"Telecommunications Service Providers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -367,8 +385,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Telecommunications"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"1510" ;
+	skos:prefLabel	"Telecommunications"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -382,8 +401,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Telecommunications"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"15" ;
+	skos:prefLabel	"Telecommunications"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2019/> ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -400,9 +421,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Health Care Facilities"@en ;
 	skos:definition	"Owners and operators of primary healthcare property, community hospitals, retirement homes, nursing homes, and related medical businesses."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"20101010" ;
+	skos:prefLabel	"Health Care Facilities"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -419,9 +441,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Health Care Management Services"@en ;
 	skos:definition	"Companies that offers managed health care benefits and services (e.g., Health Management Organizations (HMO) including state sponsored programs."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"20101020" ;
+	skos:prefLabel	"Health Care Management Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -438,9 +461,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Health Care Services"@en ;
 	skos:definition	"Companies that provide various specialized disease management services to physicians, health plans, and hospitals. Primary business lines in this category can also include general consultation services, paramedical services, operation of health portals and distribution of health food products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"20101025" ;
+	skos:prefLabel	"Health Care Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -457,9 +481,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Health Care: Misc."@en ;
 	skos:definition	"Includes Healthcare companies that are not classified in the Healthcare Facilities, Healthcare Management Services or Healthcare Services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"20101030" ;
+	skos:prefLabel	"Health Care: Misc."@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -474,8 +499,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Health Care Providers"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"201010" ;
+	skos:prefLabel	"Health Care Providers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -492,9 +518,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Medical Equipment"@en ;
 	skos:definition	"Manufacturers and distributors of medical devices such as MRI scanners, prosthetics, pacemakers, X-ray machines and other non-disposable medical devices."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"20102010" ;
+	skos:prefLabel	"Medical Equipment"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -511,9 +538,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Medical Supplies"@en ;
 	skos:definition	"Manufacturers and distributors of medical supplies used by health care providers and the general public. Includes makers of contact lenses, eyeglass lenses, bandages and other disposable medical supplies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"20102015" ;
+	skos:prefLabel	"Medical Supplies"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -530,9 +558,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Medical Services"@en ;
 	skos:definition	"Companies that operate and manage medical labs and testing services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"20102020" ;
+	skos:prefLabel	"Medical Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -547,8 +576,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Medical Equipment & Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"201020" ;
+	skos:prefLabel	"Medical Equipment & Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -565,9 +595,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Biotechnology"@en ;
 	skos:definition	"Companies engaged in research into and development of biological substances for the purposes of drug discovery and diagnostic development, and which derive the majority of their revenue from either the sale or licensing of these drugs and diagnostic tools."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"20103010" ;
+	skos:prefLabel	"Biotechnology"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -584,9 +615,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Pharmaceuticals"@en ;
 	skos:definition	"Manufacturers of prescription or over-the-counter drugs, such as aspirin, cold remedies and birth control pills. Includes vaccine producers but excludes vitamin producers, which are classified under Food Products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"20103015" ;
+	skos:prefLabel	"Pharmaceuticals"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -601,8 +633,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Pharmaceuticals & Biotechnology"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"201030" ;
+	skos:prefLabel	"Pharmaceuticals & Biotechnology"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -617,8 +650,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Health Care"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"2010" ;
+	skos:prefLabel	"Health Care"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -632,8 +666,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Health Care"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"20" ;
+	skos:prefLabel	"Health Care"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2019/> ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -650,9 +686,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Banks"@en ;
 	skos:definition	"Banks providing a broad range of financial services, including retail banking, loans and money transmissions."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30101010" ;
+	skos:prefLabel	"Banks"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -667,8 +704,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Banks"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"301010" ;
+	skos:prefLabel	"Banks"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -683,8 +721,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Banks"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"3010" ;
+	skos:prefLabel	"Banks"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -701,9 +740,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Consumer Lending"@en ;
 	skos:definition	"Companies that provide financial services to consumers including payday loans, student loans, automobile loans, etc."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30201020" ;
+	skos:prefLabel	"Consumer Lending"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -720,9 +760,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Mortgage Finance"@en ;
 	skos:definition	"Companies that provide mortgages, mortgage insurance and other related services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30201025" ;
+	skos:prefLabel	"Mortgage Finance"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -738,9 +779,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Financial Data & Systems"@en ;
 	skos:definition	"Companies that provide decision support tools for investment institutions and process credit, debit, commercial and private label cards. Also includes companies that publish credit and security ratings and those that operate databases designed to enable credit granting and monitoring."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30201030" ;
+	skos:prefLabel	"Financial Data & Systems"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -755,8 +797,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Finance & Credit Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"302010" ;
+	skos:prefLabel	"Finance & Credit Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -773,9 +816,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Diversified Financial Services"@en ;
 	skos:definition	"Companies providing a diversified range of services such as investment banking, trading, and asset management. Diversified Investment Holding companies engaged in acquiring equity stake of listed securities are also classified in this group."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30202000" ;
+	skos:prefLabel	"Diversified Financial Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -792,9 +836,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Asset Managers & Custodians"@en ;
 	skos:definition	"Companies that provide custodial, trustee and other related fiduciary services. i.e. mutual fund and private investment management. Also includes companies engaged in private equity and venture capital."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30202010" ;
+	skos:prefLabel	"Asset Managers & Custodians"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -811,9 +856,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Investment Services"@en ;
 	skos:definition	"Companies providing a range of specialized financial services, including securities brokers and dealers, online brokers and security or commodity exchanges."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30202015" ;
+	skos:prefLabel	"Investment Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -828,8 +874,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Investment Banking & Brokerage Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"302020" ;
+	skos:prefLabel	"Investment Banking & Brokerage Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -846,9 +893,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Mortgage REITs: Diversified"@en ;
 	skos:definition	"Mortgage REITs that invest in a combination of segments with no specific dominance over one or the other."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30203000" ;
+	skos:prefLabel	"Mortgage REITs: Diversified"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -865,9 +913,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Mortgage REITs: Commercial"@en ;
 	skos:definition	"REITs primarily involved in lending money to commercial real estate owners and operators directly or indirectly through the purchase of mortgages, mortgage backed securities and other mortgage related assets."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30203010" ;
+	skos:prefLabel	"Mortgage REITs: Commercial"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -884,9 +933,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Mortgage REITs: Residential"@en ;
 	skos:definition	"REITs primarily involved in lending money to residential real estate owners and operators directly or indirectly through the purchase of mortgages, mortgage backed securities and other mortgage related assets."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30203020" ;
+	skos:prefLabel	"Mortgage REITs: Residential"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -901,8 +951,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Mortgage Real Estate Investment Trusts"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"302030" ;
+	skos:prefLabel	"Mortgage Real Estate Investment Trusts"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -918,9 +969,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Equity Investment Instruments"@en ;
 	skos:definition	"Corporate closed-ended investment entities identified under distinguishing legislation, such as investment trusts and venture capital trusts."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30204000" ;
+	skos:prefLabel	"Equity Investment Instruments"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -935,8 +987,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Equity Investment Instruments"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"302040" ;
+	skos:prefLabel	"Equity Investment Instruments"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -952,9 +1005,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Nonequity Investment Instruments"@en ;
 	skos:definition	"Cash shells, Special Purpose Acquisition Company (SPACs), Non-corporate, open-ended investment instruments such as open-ended investment companies and funds, unit trusts, ETFs and currency funds and split capital trusts."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30205000" ;
+	skos:prefLabel	"Nonequity Investment Instruments"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -969,8 +1023,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Nonequity Investment Instruments"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"302050" ;
+	skos:prefLabel	"Nonequity Investment Instruments"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -985,8 +1040,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Financial Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"3020" ;
+	skos:prefLabel	"Financial Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1003,9 +1059,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Life Insurance"@en ;
 	skos:definition	"Companies engaged principally in life and health insurance."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30301010" ;
+	skos:prefLabel	"Life Insurance"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1020,8 +1077,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Life Insurance"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"303010" ;
+	skos:prefLabel	"Life Insurance"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1038,9 +1096,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Full Line Insurance"@en ;
 	skos:definition	"Companies that provide a wide range of insurance products such as a combination of life, property/casualty, and specialty insurance."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30302010" ;
+	skos:prefLabel	"Full Line Insurance"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1057,9 +1116,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Insurance Brokers"@en ;
 	skos:definition	"Insurance brokers and agents."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30302015" ;
+	skos:prefLabel	"Insurance Brokers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1076,9 +1136,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Reinsurance"@en ;
 	skos:definition	"Companies engaged principally in reinsurance."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30302020" ;
+	skos:prefLabel	"Reinsurance"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1095,9 +1156,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Property & Casualty Insurance"@en ;
 	skos:definition	"Companies engaged principally in accident, fire, automotive, marine, malpractice and other classes of nonlife insurance."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30302025" ;
+	skos:prefLabel	"Property & Casualty Insurance"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1112,8 +1174,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Nonlife Insurance"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"303020" ;
+	skos:prefLabel	"Nonlife Insurance"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1128,8 +1191,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Insurance"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"3030" ;
+	skos:prefLabel	"Insurance"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1143,8 +1207,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Financials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"30" ;
+	skos:prefLabel	"Financials"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2019/> ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1161,9 +1227,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Real Estate Holding and Development"@en ;
 	skos:definition	"Companies that invest directly or indirectly in a variety of types of properties without a concentration on any single type."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35101010" ;
+	skos:prefLabel	"Real Estate Holding and Development"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1180,9 +1247,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Real Estate Services"@en ;
 	skos:definition	"Companies that provide services to real estate companies but do not own the properties themselves. Includes agencies, brokers, leasing companies, management companies and advisory services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35101015" ;
+	skos:prefLabel	"Real Estate Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1197,8 +1265,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Real Estate Investment & Services Development"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"351010" ;
+	skos:prefLabel	"Real Estate Investment & Services Development"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1215,9 +1284,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Diversified REITs"@en ;
 	skos:definition	"REITs that invest in a combination of other defined REIT categories."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35102000" ;
+	skos:prefLabel	"Diversified REITs"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1234,9 +1304,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Health Care REITs"@en ;
 	skos:definition	"REITs that primarily invest in health care facilities including hospitals, nursing homes and assisted living properties."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35102010" ;
+	skos:prefLabel	"Health Care REITs"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1253,9 +1324,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Hotel & Lodging REITs"@en ;
 	skos:definition	"REITs that primarily invest in hotels, motels, resorts or other lodging properties."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35102015" ;
+	skos:prefLabel	"Hotel & Lodging REITs"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1272,9 +1344,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Industrial REITs"@en ;
 	skos:definition	"REITs that primarily invest in industrial properties including industrial warehouses and distribution properties."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35102020" ;
+	skos:prefLabel	"Industrial REITs"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1291,9 +1364,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Infrastructure REITs"@en ;
 	skos:definition	"REITs that primarily invest in infrastructure assets including roads, bridges, tunnels, airports, power generation, fuels, pipelines, water and waste management, and communication assets."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35102025" ;
+	skos:prefLabel	"Infrastructure REITs"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1310,9 +1384,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Office REITs"@en ;
 	skos:definition	"REITs that primarily invest in office properties."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35102030" ;
+	skos:prefLabel	"Office REITs"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1329,9 +1404,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Residential REITs"@en ;
 	skos:definition	"REITs that primarily invest in residential properties including manufactured homes, multifamily homes, apartments, and student housing properties."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35102040" ;
+	skos:prefLabel	"Residential REITs"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1348,9 +1424,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Retail REITs"@en ;
 	skos:definition	"REITs that primarily invest in retail properties including malls, shopping centers, neighborhood and community shopping centers, strip malls, free standing stores, and factory outlets."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35102045" ;
+	skos:prefLabel	"Retail REITs"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1367,9 +1444,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Storage REITs"@en ;
 	skos:definition	"REITs that primarily invest in public self-storage properties."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35102050" ;
+	skos:prefLabel	"Storage REITs"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1386,9 +1464,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Timber REITs"@en ;
 	skos:definition	"REITs that primarily invest in timberland and timber-related products and activities."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35102060" ;
+	skos:prefLabel	"Timber REITs"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1405,9 +1484,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Other Specialty REITs"@en ;
 	skos:definition	"REITs that primarily invest in any single type of facility or property not specifically defined within another RGS REITs industry."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35102070" ;
+	skos:prefLabel	"Other Specialty REITs"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1422,8 +1502,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Real Estate Investment Trusts"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"351020" ;
+	skos:prefLabel	"Real Estate Investment Trusts"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1438,8 +1519,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Real Estate"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"3510" ;
+	skos:prefLabel	"Real Estate"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1453,8 +1535,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Real Estate"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"35" ;
+	skos:prefLabel	"Real Estate"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2019/> ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1471,9 +1555,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Auto Services"@en ;
 	skos:definition	"Companies that provide assistance to individual vehicle owners."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40101010" ;
+	skos:prefLabel	"Auto Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1490,9 +1575,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Tires"@en ;
 	skos:definition	"Manufacturers, distributors and retreaders of automobile, truck and motorcycle tires."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40101015" ;
+	skos:prefLabel	"Tires"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1509,9 +1595,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Automobiles"@en ;
 	skos:definition	"Makers of passenger vehicles, including cars, sport utility vehicles (SUVs) and light trucks. Excludes makers of heavy trucks and makers of recreational vehicles (RVs and ATVs)."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40101020" ;
+	skos:prefLabel	"Automobiles"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1528,9 +1615,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Auto Parts"@en ;
 	skos:definition	"Manufacturers and distributors of new and replacement parts for motorcycles and automobiles, such as engines, carburetors and batteries. Excludes producers of tires, which are classified under Tires."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40101025" ;
+	skos:prefLabel	"Auto Parts"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1545,8 +1633,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Automobiles & Parts"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"401010" ;
+	skos:prefLabel	"Automobiles & Parts"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1561,8 +1650,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Automobiles & Parts"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"4010" ;
+	skos:prefLabel	"Automobiles & Parts"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1579,9 +1669,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Education Services"@en ;
 	skos:definition	"Companies that own and manage higher education systems, post-secondary degree programs or other educational services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40201010" ;
+	skos:prefLabel	"Education Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1598,9 +1689,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Funeral Parlors & Cemetery"@en ;
 	skos:definition	"Companies that own and operate funeral homes, cemeteries, crematoriums and/or provide other funeral services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40201020" ;
+	skos:prefLabel	"Funeral Parlors & Cemetery"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1617,9 +1709,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Printing and Copying Services"@en ;
 	skos:definition	"Companies specializing in printing, copying and/or similar solutions for individuals and small businesses."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40201030" ;
+	skos:prefLabel	"Printing and Copying Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1636,9 +1729,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Rental & Leasing Services: Consumer"@en ;
 	skos:definition	"Companies that lease automobiles, appliances, electronics or furniture to consumers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40201040" ;
+	skos:prefLabel	"Rental & Leasing Services: Consumer"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1655,9 +1749,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Storage Facilities"@en ;
 	skos:definition	"Companies that own and operate storage facilities (does not include companies structured as REITs)."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40201050" ;
+	skos:prefLabel	"Storage Facilities"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1674,9 +1769,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Vending & Catering Service"@en ;
 	skos:definition	"Companies that provide catering and food service and/or food ingredients to individuals or institutions."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40201060" ;
+	skos:prefLabel	"Vending & Catering Service"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1693,9 +1789,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Consumer Services: Misc."@en ;
 	skos:definition	"Consumer Services companies that are not categorized in the Education Services, Funeral Parlors and Cemeteries, Printing and Copying Services, Rental and Leasing Services, Storage Facilities or Vending and Catering Services categories."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40201070" ;
+	skos:prefLabel	"Consumer Services: Misc."@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1710,8 +1807,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Consumer Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"402010" ;
+	skos:prefLabel	"Consumer Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1728,9 +1826,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Home Construction"@en ;
 	skos:definition	"Constructors of residential homes, including manufacturers of mobile and prefabricated homes intended for use in one place."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40202010" ;
+	skos:prefLabel	"Home Construction"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1747,9 +1846,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Household Furnishings"@en ;
 	skos:definition	"Manufacturers and distributors of furniture, including chairs, tables, desks, carpeting, wallpaper and office furniture."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40202015" ;
+	skos:prefLabel	"Household Furnishings"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1766,9 +1866,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Household Appliance"@en ;
 	skos:definition	"Companies that manufacture and market household electrical appliances."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40202020" ;
+	skos:prefLabel	"Household Appliance"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1785,9 +1886,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Household Equipment & Products"@en ;
 	skos:definition	"Companies that manufacture and supply various household products. Includes manufacturers of gardening tools, kitchen utensils, dishes and other home related products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40202025" ;
+	skos:prefLabel	"Household Equipment & Products"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1802,8 +1904,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Household Goods & Home Construction"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"402020" ;
+	skos:prefLabel	"Household Goods & Home Construction"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1820,9 +1923,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Consumer Electronics"@en ;
 	skos:definition	"Companies involved in the application of technology and electronics to the consumer discretionary sector."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40203010" ;
+	skos:prefLabel	"Consumer Electronics"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1839,9 +1943,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Electronic Entertainment"@en ;
 	skos:definition	"Companies that design, manufacture and market video game software and related elements. Also includes non-consumer entertainment technology, e.g. Dolby."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40203040" ;
+	skos:prefLabel	"Electronic Entertainment"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1858,9 +1963,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Toys"@en ;
 	skos:definition	"Manufacturers and distributors of toys, including such toys and games as playing cards, board games, stuffed animals and dolls."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40203045" ;
+	skos:prefLabel	"Toys"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1877,9 +1983,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Recreational Products"@en ;
 	skos:definition	"Manufacturers and distributors of recreational equipment not classified in other Leisure Goods categories, including Musical Instruments."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40203050" ;
+	skos:prefLabel	"Recreational Products"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1896,9 +2003,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Recreational Vehicles & Boats"@en ;
 	skos:definition	"Companies that design, manufacture and market recreation vehicles (RVs), motorcycles or passenger boats."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40203055" ;
+	skos:prefLabel	"Recreational Vehicles & Boats"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1915,9 +2023,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Photography"@en ;
 	skos:definition	"Companies that produce and/or market professional and/or personal imaging products including digital cameras and film cameras."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40203060" ;
+	skos:prefLabel	"Photography"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1932,8 +2041,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Leisure Goods"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"402030" ;
+	skos:prefLabel	"Leisure Goods"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1950,9 +2060,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Clothing & Accessories"@en ;
 	skos:definition	"Manufacturers and distributors of all types of clothing and accessories. Includes sportswear, sunglasses, eyeglass frames, leather clothing and goods, and processors of hides and skins. Excludes jewelry, which is categorized under Luxury Items."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40204020" ;
+	skos:prefLabel	"Clothing & Accessories"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1969,9 +2080,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Footwear"@en ;
 	skos:definition	"Manufacturers and distributors of shoes, boots, sandals, sneakers and other types of footwear."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40204025" ;
+	skos:prefLabel	"Footwear"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -1988,9 +2100,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Luxury Items"@en ;
 	skos:definition	"Companies that manufacture and market jewelry, watches and gemstones."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40204030" ;
+	skos:prefLabel	"Luxury Items"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2007,9 +2120,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Cosmetics"@en ;
 	skos:definition	"Companies that produce and market make-up and fragrance products (perfume). Excludes personal care products, which are classified under Consumer Staples."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40204035" ;
+	skos:prefLabel	"Cosmetics"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2024,8 +2138,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Personal Goods"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"402040" ;
+	skos:prefLabel	"Personal Goods"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2040,8 +2155,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Consumer Products & Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"4020" ;
+	skos:prefLabel	"Consumer Products & Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2058,9 +2174,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Entertainment"@en ;
 	skos:definition	"Companies that provide various media services including feature films, music and television shows and stations."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40301010" ;
+	skos:prefLabel	"Entertainment"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2077,9 +2194,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Media Agencies"@en ;
 	skos:definition	"Companies that provide a wide range of marketing and public relations services such as promoting advertising space in telephone and professional directories, analyzing market research and other various marketing activities."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40301020" ;
+	skos:prefLabel	"Media Agencies"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2096,9 +2214,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Publishing"@en ;
 	skos:definition	"Companies that provide advertising and publishing services to customers in industrial, commercial, and design markets. This includes companies that publish books, magazines, comics, encyclopedias, financial reports, journals and/or newspapers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40301030" ;
+	skos:prefLabel	"Publishing"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2115,9 +2234,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Radio & TV Broadcasters"@en ;
 	skos:definition	"Companies with principal activities that include operating commercial TV stations and/or radio broadcasting."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40301035" ;
+	skos:prefLabel	"Radio & TV Broadcasters"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2132,8 +2252,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Media"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"403010" ;
+	skos:prefLabel	"Media"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2148,8 +2269,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Media"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"4030" ;
+	skos:prefLabel	"Media"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2166,9 +2288,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Diversified Retailers"@en ;
 	skos:definition	"Retail outlets and wholesalers offering a wide variety of products including both hard goods and soft goods."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40401010" ;
+	skos:prefLabel	"Diversified Retailers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2185,9 +2308,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Apparel Retailers"@en ;
 	skos:definition	"Retailers and wholesalers specializing mainly in clothing, shoes, jewelry, sunglasses and other accessories."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40401020" ;
+	skos:prefLabel	"Apparel Retailers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2204,9 +2328,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Home Improvement Retailers"@en ;
 	skos:definition	"Retailers and wholesalers concentrating on the sale of home improvement products, including garden equipment, carpets, wallpaper, paint, home furniture, blinds and curtains, and building materials."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40401025" ;
+	skos:prefLabel	"Home Improvement Retailers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2223,9 +2348,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Specialty Retailers"@en ;
 	skos:definition	"Retailers and wholesalers concentrating on a single class of goods, such as electronics, books, automotive parts or closeouts. Includes automobile dealerships, video rental stores, dollar stores, duty-free shops and automotive fuel stations not owned by oil companies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40401030" ;
+	skos:prefLabel	"Specialty Retailers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2240,8 +2366,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Retailers"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"404010" ;
+	skos:prefLabel	"Retailers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2256,8 +2383,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Retailers"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"4040" ;
+	skos:prefLabel	"Retailers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2274,9 +2402,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Airlines"@en ;
 	skos:definition	"Companies providing primarily passenger air transport. Excludes airports, which are classified under Transportation Services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40501010" ;
+	skos:prefLabel	"Airlines"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2293,9 +2422,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Travel & Tourism"@en ;
 	skos:definition	"Companies providing travel and tourism related services, including travel agents, online travel reservation services, and companies that primarily provide passenger transportation, such as buses, taxis, passenger rail and ferry companies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40501015" ;
+	skos:prefLabel	"Travel & Tourism"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2312,9 +2442,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Casino & Gambling"@en ;
 	skos:definition	"Providers of gambling and casino facilities. Includes online casinos, racetracks and the manufacturers of pachinko machines and casino and lottery equipment."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40501020" ;
+	skos:prefLabel	"Casino & Gambling"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2331,9 +2462,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Hotels & Motels"@en ;
 	skos:definition	"Operators and managers of hotels, motels, lodges, resorts, spas and campgrounds."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40501025" ;
+	skos:prefLabel	"Hotels & Motels"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2350,9 +2482,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Recreational Services"@en ;
 	skos:definition	"Providers of leisure facilities and services, including fitness centers, cruise lines, movie theatres and sports teams."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40501030" ;
+	skos:prefLabel	"Recreational Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2369,9 +2502,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Restaurants & Bars"@en ;
 	skos:definition	"Operators of restaurants, fast-food facilities, coffee shops and bars. Includes integrated brewery companies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40501040" ;
+	skos:prefLabel	"Restaurants & Bars"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2386,8 +2520,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Travel & Leisure"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"405010" ;
+	skos:prefLabel	"Travel & Leisure"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2402,8 +2537,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Travel & Leisure"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"4050" ;
+	skos:prefLabel	"Travel & Leisure"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2417,8 +2553,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Consumer Discretionary"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"40" ;
+	skos:prefLabel	"Consumer Discretionary"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2019/> ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2435,9 +2573,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Brewers"@en ;
 	skos:definition	"Manufacturers and shippers of cider or malt products such as beer, ale and stout."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45101010" ;
+	skos:prefLabel	"Brewers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2454,9 +2593,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Distillers & Vintners"@en ;
 	skos:definition	"Producers, distillers, vintners, blenders and shippers of wine and spirits such as whisky, brandy, rum, gin or liqueurs."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45101015" ;
+	skos:prefLabel	"Distillers & Vintners"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2473,9 +2613,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Soft Drinks"@en ;
 	skos:definition	"Manufacturers, bottlers and distributors of non-alcoholic beverages, such as soda, fruit juices, tea, coffee and bottled water."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45101020" ;
+	skos:prefLabel	"Soft Drinks"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2490,8 +2631,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Beverages"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"451010" ;
+	skos:prefLabel	"Beverages"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2508,9 +2650,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Farming, Fishing, Ranching & Plantations"@en ;
 	skos:definition	"Companies that grow crops or raise livestock, operate fisheries or own nontobacco plantations. Includes manufacturers of livestock feeds and seeds and other agricultural products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45102010" ;
+	skos:prefLabel	"Farming, Fishing, Ranching & Plantations"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2527,9 +2670,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Food Products"@en ;
 	skos:definition	"Food producers, including meatpacking, snacks, fruits, vegetables, dairy products and frozen seafood. Includes producers of pet food and manufacturers of dietary supplements, vitamins and related items."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45102020" ;
+	skos:prefLabel	"Food Products"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2546,9 +2690,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Fruit & Grain Processing"@en ;
 	skos:definition	"Companies involved in the value-adding process of various raw or unprocessed agricultural products. May also produce and market such products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45102030" ;
+	skos:prefLabel	"Fruit & Grain Processing"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2565,9 +2710,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Sugar"@en ;
 	skos:definition	"Companies that grow, refine, process and distribute sugar."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45102035" ;
+	skos:prefLabel	"Sugar"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2582,8 +2728,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Food Producers"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"451020" ;
+	skos:prefLabel	"Food Producers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2600,9 +2747,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Tobacco"@en ;
 	skos:definition	"Manufacturers and distributors of cigarettes, cigars and other tobacco products. Includes tobacco plantations."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45103010" ;
+	skos:prefLabel	"Tobacco"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2617,8 +2765,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Tobacco"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"451030" ;
+	skos:prefLabel	"Tobacco"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2633,8 +2782,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Food, Beverage & Tobacco"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"4510" ;
+	skos:prefLabel	"Food, Beverage & Tobacco"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2651,9 +2801,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Food Retailers & Wholesalers"@en ;
 	skos:definition	"Supermarkets, food-oriented convenience stores and other food retailers and distributors. Includes retailers of dietary supplements and vitamins."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45201010" ;
+	skos:prefLabel	"Food Retailers & Wholesalers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2670,9 +2821,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Drug Retailers"@en ;
 	skos:definition	"Operators of pharmacies, including wholesalers and distributors catering to these businesses."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45201015" ;
+	skos:prefLabel	"Drug Retailers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2689,9 +2841,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Personal Products"@en ;
 	skos:definition	"Makers and distributors of toiletries and personal-care and hygiene products, including deodorants, soaps, toothpaste, perfumes, diapers, shampoos, razors and feminine-hygiene products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45201020" ;
+	skos:prefLabel	"Personal Products"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2708,9 +2861,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Nondurable Household Products"@en ;
 	skos:definition	"Producers and distributors of pens, paper goods, batteries, light bulbs, tissues, toilet paper and cleaning products such as soaps and polishes."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45201030" ;
+	skos:prefLabel	"Nondurable Household Products"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2727,9 +2881,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Miscellaneous Consumer Staple Goods"@en ;
 	skos:definition	"Includes Consumer Staples companies that are not classified in any other Consumer Staples industry."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45201040" ;
+	skos:prefLabel	"Miscellaneous Consumer Staple Goods"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2744,8 +2899,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Personal Care, Drug & Grocery Stores"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"452010" ;
+	skos:prefLabel	"Personal Care, Drug & Grocery Stores"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2760,8 +2916,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Personal Care, Drug & Grocery Stores"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"4520" ;
+	skos:prefLabel	"Personal Care, Drug & Grocery Stores"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2775,8 +2932,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Consumer Staples"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"45" ;
+	skos:prefLabel	"Consumer Staples"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2019/> ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2793,9 +2952,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Construction"@en ;
 	skos:definition	"Companies that provide construction and infrastructure development services to private and/or public sector clients."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50101010" ;
+	skos:prefLabel	"Construction"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2812,9 +2972,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Engineering & Contracting Services"@en ;
 	skos:definition	"Companies that provide capital project planning and solutions. Includes engineering contracts, infrastructure development, bid preparation, interior enhancement designs and architects."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50101015" ;
+	skos:prefLabel	"Engineering & Contracting Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2831,9 +2992,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Building, Roofing/Wallboard & Plumbing"@en ;
 	skos:definition	"Companies that design, manufacture, market and/or install non-climate control systems and related products such as siding, windows and water pipes."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50101020" ;
+	skos:prefLabel	"Building, Roofing/Wallboard & Plumbing"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2850,9 +3012,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Building: Climate Control"@en ;
 	skos:definition	"Companies that design, manufacture, market and/or install air conditioning, heating and/or refrigeration systems."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50101025" ;
+	skos:prefLabel	"Building: Climate Control"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2869,9 +3032,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Cement"@en ;
 	skos:definition	"Companies primarily engaged in manufacturing and distributing cement and cement-derived products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50101030" ;
+	skos:prefLabel	"Cement"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2888,9 +3052,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Building Materials: Other"@en ;
 	skos:definition	"Companies that provide materials to the building and construction industry, excluding air-conditioning, cement, heating, plumbing, roofing, and wall boards."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50101035" ;
+	skos:prefLabel	"Building Materials: Other"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2905,8 +3070,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Construction & Materials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"501010" ;
+	skos:prefLabel	"Construction & Materials"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2921,8 +3087,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Construction & Materials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"5010" ;
+	skos:prefLabel	"Construction & Materials"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2939,9 +3106,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Aerospace"@en ;
 	skos:definition	"Manufacturers, assemblers and distributors of aircraft and aircraft parts primarily used in commercial or private air transport."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50201010" ;
+	skos:prefLabel	"Aerospace"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2958,9 +3126,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Defense"@en ;
 	skos:definition	"Producers of components and equipment for the defense industry, including military aircraft, radar equipment and weapons."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50201020" ;
+	skos:prefLabel	"Defense"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2975,8 +3144,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Aerospace & Defense"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"502010" ;
+	skos:prefLabel	"Aerospace & Defense"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -2993,9 +3163,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Electrical Components"@en ;
 	skos:definition	"Makers and distributors of electrical parts for finished products such as radios, televisions and other consumer electronics. Includes makers of cables, wires, ceramics, transistors, and electric adapters."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50202010" ;
+	skos:prefLabel	"Electrical Components"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3012,9 +3183,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Electronic Equipment: Control & Filter"@en ;
 	skos:definition	"Companies primarily involved in providing mechanical and electronic security and/or filtration systems."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50202020" ;
+	skos:prefLabel	"Electronic Equipment: Control & Filter"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3031,9 +3203,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Electronic Equipment: Gauges & Meters"@en ;
 	skos:definition	"Companies that design, manufacture and market products used to measure electric, gas, water and other data for use in a variety of industries."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50202025" ;
+	skos:prefLabel	"Electronic Equipment: Gauges & Meters"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3050,9 +3223,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Electronic Equipment: Pollution Control"@en ;
 	skos:definition	"Companies primarily engaged in the production of pollution control equipment for purification of air and liquids."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50202030" ;
+	skos:prefLabel	"Electronic Equipment: Pollution Control"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3069,9 +3243,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Electronic Equipment: Other"@en ;
 	skos:definition	"Companies that specialize in the development and production of electrical devices/components marketed to business clients."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50202040" ;
+	skos:prefLabel	"Electronic Equipment: Other"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3086,8 +3261,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Electronic & Electrical Equipment"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"502020" ;
+	skos:prefLabel	"Electronic & Electrical Equipment"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3104,9 +3280,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Diversified Industrials"@en ;
 	skos:definition	"Companies engaged in three or more industrial business activities, none of which is the dominant business line."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50203000" ;
+	skos:prefLabel	"Diversified Industrials"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3123,9 +3300,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Paints & Coatings"@en ;
 	skos:definition	"Companies that manufacture and distribute paint, material coatings, and resins."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50203010" ;
+	skos:prefLabel	"Paints & Coatings"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3142,9 +3320,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Plastics"@en ;
 	skos:definition	"Companies that manufacture and market plastic products or chemicals used to make plastic."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50203015" ;
+	skos:prefLabel	"Plastics"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3161,9 +3340,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Glass"@en ;
 	skos:definition	"Companies that manufacture various structural glasses such as float glass, architectural glass, delicacy glass, automotive glass, and other glass products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50203020" ;
+	skos:prefLabel	"Glass"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3180,9 +3360,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Containers & Packaging"@en ;
 	skos:definition	"Companies that may produce a wide range of packaging products and packaging related materials, including cartons, plastic bottles, jars, glass bottles, aluminum cans, dispensing pumps, aerosol valves, etc."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50203030" ;
+	skos:prefLabel	"Containers & Packaging"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3197,8 +3378,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"General Industrials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"502030" ;
+	skos:prefLabel	"General Industrials"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3215,9 +3397,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Machinery: Industrial"@en ;
 	skos:definition	"Companies that design, develop, manufacture, sell, and support general industrial machines and parts."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50204000" ;
+	skos:prefLabel	"Machinery: Industrial"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3234,9 +3417,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Machinery: Agricultural"@en ;
 	skos:definition	"Manufacturers and distributers of a range of farming equipment for irrigation, harvesting, plowing and other processes."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50204010" ;
+	skos:prefLabel	"Machinery: Agricultural"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3253,9 +3437,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Machinery: Construction & Handling"@en ;
 	skos:definition	"Companies that design, manufacture and market large-size industrial equipment for construction and ports."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50204020" ;
+	skos:prefLabel	"Machinery: Construction & Handling"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3272,9 +3457,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Machinery: Engines"@en ;
 	skos:definition	"Companies that manufacture and distribute energy output devices and component parts, including diesel engines and gas engines."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50204030" ;
+	skos:prefLabel	"Machinery: Engines"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3291,9 +3477,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Machinery: Tools"@en ;
 	skos:definition	"Companies that manufactures and market value-adding equipment for various heavy industries."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50204040" ;
+	skos:prefLabel	"Machinery: Tools"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3310,9 +3497,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Machinery: Specialty"@en ;
 	skos:definition	"Companies that design, manufacture and market a specific type or group of industrial machines and parts."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50204050" ;
+	skos:prefLabel	"Machinery: Specialty"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3327,8 +3515,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Industrial Engineering"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"502040" ;
+	skos:prefLabel	"Industrial Engineering"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3345,9 +3534,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Industrial Suppliers"@en ;
 	skos:definition	"Distributors and wholesalers of diversified products and equipment primarily used in the commercial and industrial sectors."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50205010" ;
+	skos:prefLabel	"Industrial Suppliers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3363,9 +3553,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Back Office Support, HR & Consulting"@en ;
 	skos:definition	"Companies that provide outsourced business operation services. This includes personnel services, consulting services, and all other aspects of outsourced business support services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50205020" ;
+	skos:prefLabel	"Back Office Support, HR & Consulting"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3382,9 +3573,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Business Training & Employment Agencies"@en ;
 	skos:definition	"Providers of business or management training courses and employment services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50205025" ;
+	skos:prefLabel	"Business Training & Employment Agencies"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3401,9 +3593,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Forms & Bulk Printing Services"@en ;
 	skos:definition	"Companies that provide printed business products including forms, checks, labels and IDs."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50205030" ;
+	skos:prefLabel	"Forms & Bulk Printing Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3420,9 +3613,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Security Services"@en ;
 	skos:definition	"Companies that provide security services, install, service and monitor alarm and security systems."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50205040" ;
+	skos:prefLabel	"Security Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3437,8 +3631,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Industrial Support Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"502050" ;
+	skos:prefLabel	"Industrial Support Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3455,9 +3650,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Trucking"@en ;
 	skos:definition	"Companies that provide commercial trucking services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50206010" ;
+	skos:prefLabel	"Trucking"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3474,9 +3670,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Commercial Vehicles & Parts"@en ;
 	skos:definition	"Companies that design, develop, manufacture, and distribute light, medium and heavy duty trucks and vans. Also includes related aftermarket distribution of parts."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50206015" ;
+	skos:prefLabel	"Commercial Vehicles & Parts"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3493,9 +3690,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Railroads"@en ;
 	skos:definition	"Companies that operate railway systems for transporting goods and passengers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50206020" ;
+	skos:prefLabel	"Railroads"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3512,9 +3710,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Railroad Equipment"@en ;
 	skos:definition	"Companies that manufacture, supply and distribute railroad supplies."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50206025" ;
+	skos:prefLabel	"Railroad Equipment"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3531,9 +3730,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Marine Transportation"@en ;
 	skos:definition	"Providers of on-water transportation for commercial markets, such as container shipping."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50206030" ;
+	skos:prefLabel	"Marine Transportation"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3550,9 +3750,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Delivery Services"@en ;
 	skos:definition	"Operators of mail and package delivery services for commercial and consumer use. Includes courier and logistic services primarily involving air transportation."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50206040" ;
+	skos:prefLabel	"Delivery Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3569,9 +3770,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Commercial Vehicle-Equipment Leasing"@en ;
 	skos:definition	"Companies that lease light, medium and heavy duty trucks and vans and related equipment."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50206050" ;
+	skos:prefLabel	"Commercial Vehicle-Equipment Leasing"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3588,9 +3790,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Transportation Services"@en ;
 	skos:definition	"Companies providing services to the Industrial Transportation sector, including companies that manage airports, train depots, roads, bridges, tunnels, ports, and providers of logistic services."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50206060" ;
+	skos:prefLabel	"Transportation Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3605,8 +3808,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Industrial Transportation"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"502060" ;
+	skos:prefLabel	"Industrial Transportation"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3621,8 +3825,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Industrial Goods & Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"5020" ;
+	skos:prefLabel	"Industrial Goods & Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3636,8 +3841,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Industrials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"50" ;
+	skos:prefLabel	"Industrials"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2019/> ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3654,9 +3861,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Diversified Materials"@en ;
 	skos:definition	"Companies involved in manufacturing a diversified range of materials (e.g., bauxite, abrasive materials and composite material)."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55101000" ;
+	skos:prefLabel	"Diversified Materials"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3673,9 +3881,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Forestry"@en ;
 	skos:definition	"Owners and operators of timber tracts, forest tree nurseries and sawmills."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55101010" ;
+	skos:prefLabel	"Forestry"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3692,9 +3901,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Paper"@en ;
 	skos:definition	"Companies that manufacture and market paper products including office paper, cardboard, tissue paper, newsprint, commercial pulp, etc."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55101015" ;
+	skos:prefLabel	"Paper"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3711,9 +3921,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Textile Products"@en ;
 	skos:definition	"Companies that produce and distribute various textile products such as cotton yarns, denims, and other finished fabrics."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55101020" ;
+	skos:prefLabel	"Textile Products"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3728,8 +3939,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Industrial Materials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"551010" ;
+	skos:prefLabel	"Industrial Materials"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3746,9 +3958,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"General Mining"@en ;
 	skos:definition	"Companies engaged in the exploration, extraction or refining of minerals not defined elsewhere within the Mining sector. Also includes companies engaged in diversified metals and mining."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55102000" ;
+	skos:prefLabel	"General Mining"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3765,9 +3978,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Iron & Steel"@en ;
 	skos:definition	"Companies that mine for iron ore and companies that produce, process, and distribute steel products."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55102010" ;
+	skos:prefLabel	"Iron & Steel"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3784,9 +3998,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Metal Fabricating"@en ;
 	skos:definition	"Companies that manufacture and supply fabricated metal components such as rings, piping materials, hinges, springs, etc."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55102015" ;
+	skos:prefLabel	"Metal Fabricating"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3803,9 +4018,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Aluminum"@en ;
 	skos:definition	"Companies that mine or process bauxite or manufacture and distribute aluminum bars, rods and other products for use by other industries."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55102035" ;
+	skos:prefLabel	"Aluminum"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3822,9 +4038,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Copper"@en ;
 	skos:definition	"Companies primarily involved in the mining, extraction and distribution of copper and related minerals."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55102040" ;
+	skos:prefLabel	"Copper"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3841,9 +4058,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Nonferrous Metals"@en ;
 	skos:definition	"Producers and traders of metals and primary metal products other than iron, aluminum and steel."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55102050" ;
+	skos:prefLabel	"Nonferrous Metals"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3858,8 +4076,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Industrial Metals & Mining"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"551020" ;
+	skos:prefLabel	"Industrial Metals & Mining"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3876,9 +4095,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Diamonds & Gemstones"@en ;
 	skos:definition	"Companies engaged in the exploration for and production of diamonds and other gemstones."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55103020" ;
+	skos:prefLabel	"Diamonds & Gemstones"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3895,9 +4115,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Gold Mining"@en ;
 	skos:definition	"Prospectors for and extractors or refiners of gold-bearing ores."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55103025" ;
+	skos:prefLabel	"Gold Mining"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3914,9 +4135,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Platinum & Precious Metals"@en ;
 	skos:definition	"Companies engaged in the exploration for and production of platinum, silver and other precious metals not defined elsewhere."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55103030" ;
+	skos:prefLabel	"Platinum & Precious Metals"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3931,8 +4153,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Precious Metals & Mining"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"551030" ;
+	skos:prefLabel	"Precious Metals & Mining"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3947,8 +4170,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Basic Resources"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"5510" ;
+	skos:prefLabel	"Basic Resources"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3965,9 +4189,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Chemicals: Diversified"@en ;
 	skos:definition	"Companies that manufacture and market a diversified range of industrial chemicals."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55201000" ;
+	skos:prefLabel	"Chemicals: Diversified"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -3984,9 +4209,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Chemicals & Synthetic Fibers"@en ;
 	skos:definition	"Companies that manufacture and distribute chemical fibers for various applications."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55201010" ;
+	skos:prefLabel	"Chemicals & Synthetic Fibers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4003,9 +4229,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Fertilizers"@en ;
 	skos:definition	"Companies that manufacture and market nitrogen fertilizers and other agricultural chemicals."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55201015" ;
+	skos:prefLabel	"Fertilizers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4022,9 +4249,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Specialty Chemicals"@en ;
 	skos:definition	"Companies that manufacture and market a specific type or group of chemicals."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55201020" ;
+	skos:prefLabel	"Specialty Chemicals"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4039,8 +4267,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Chemicals"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"552010" ;
+	skos:prefLabel	"Chemicals"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4055,8 +4284,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Chemicals"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"5520" ;
+	skos:prefLabel	"Chemicals"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4070,8 +4300,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Basic Materials"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"55" ;
+	skos:prefLabel	"Basic Materials"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2019/> ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4088,9 +4320,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Integrated Oil & Gas"@en ;
 	skos:definition	"Companies that engage in all three fields of petroleum production: Extraction (upstream), Transportation (midstream), and Refining and Marketing (downstream)."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"60101000" ;
+	skos:prefLabel	"Integrated Oil & Gas"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4107,9 +4340,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Oil: Crude Producers"@en ;
 	skos:definition	"Companies engaged in the exploration for and drilling, production, and supply of crude oil on land."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"60101010" ;
+	skos:prefLabel	"Oil: Crude Producers"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4126,9 +4360,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Offshore Drilling & Other Services"@en ;
 	skos:definition	"Companies that primarily explore and drill for oil and gas in offshore areas."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"60101015" ;
+	skos:prefLabel	"Offshore Drilling & Other Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4145,9 +4380,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Oil Refining and Marketing"@en ;
 	skos:definition	"Companies primarily engaged in the refining and marketing of petroleum products (downstream)."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"60101020" ;
+	skos:prefLabel	"Oil Refining and Marketing"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4164,9 +4400,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Oil Equipment & Services"@en ;
 	skos:definition	"Suppliers of equipment and services to oil fields and offshore platforms, such as drilling, exploration, seismic-information services and platform construction."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"60101030" ;
+	skos:prefLabel	"Oil Equipment & Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4183,9 +4420,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Pipelines"@en ;
 	skos:definition	"Operators of pipelines carrying oil, gas or other forms of fuel."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"60101035" ;
+	skos:prefLabel	"Pipelines"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4202,9 +4440,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Coal"@en ;
 	skos:definition	"Companies that mine, process and market coal."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"60101040" ;
+	skos:prefLabel	"Coal"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4219,8 +4458,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Non-Renewable Energy"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"601010" ;
+	skos:prefLabel	"Non-Renewable Energy"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4237,9 +4477,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Alternative Fuels"@en ;
 	skos:definition	"Companies that produce alternative fuels such as ethanol, methanol, hydrogen and bio-fuels that are mainly used to power vehicles."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"60102010" ;
+	skos:prefLabel	"Alternative Fuels"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4256,9 +4497,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Renewable Energy Equipment"@en ;
 	skos:definition	"Companies that develop or manufacture renewable energy equipment utilizing sources such as solar, wind, tidal, geothermal, hydro and waves."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"60102020" ;
+	skos:prefLabel	"Renewable Energy Equipment"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4273,8 +4515,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Renewable Energy"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"601020" ;
+	skos:prefLabel	"Renewable Energy"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4289,8 +4532,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Energy"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"6010" ;
+	skos:prefLabel	"Energy"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4304,8 +4548,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Energy"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"60" ;
+	skos:prefLabel	"Energy"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2019/> ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4322,9 +4568,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Alternative Electricity"@en ;
 	skos:definition	"Companies generating and distributing electricity from a renewable source. Includes companies that produce solar, water, wind and geothermal electricity."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"65101010" ;
+	skos:prefLabel	"Alternative Electricity"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4341,9 +4588,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Conventional Electricity"@en ;
 	skos:definition	"Companies generating and distributing electricity through the burning of fossil fuels such as coal, petroleum and natural gas, and through nuclear energy."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"65101015" ;
+	skos:prefLabel	"Conventional Electricity"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4358,8 +4606,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Electricity"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"651010" ;
+	skos:prefLabel	"Electricity"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4376,9 +4625,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Multi-Utilities"@en ;
 	skos:definition	"Companies that engage in multiple utilities that have no particular dominance over one another."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"65102000" ;
+	skos:prefLabel	"Multi-Utilities"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4395,9 +4645,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Gas Distribution"@en ;
 	skos:definition	"Distributors of gas to end users. Excludes providers of natural gas as a commodity, which are classified under the Oil & Gas industry."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"65102020" ;
+	skos:prefLabel	"Gas Distribution"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4414,9 +4665,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Water"@en ;
 	skos:definition	"Companies providing water to end users, including water treatment plants."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"65102030" ;
+	skos:prefLabel	"Water"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4431,8 +4683,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Gas, Water & Multi-utilities"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"651020" ;
+	skos:prefLabel	"Gas, Water & Multi-utilities"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4449,9 +4702,10 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Waste & Disposal Services"@en ;
 	skos:definition	"Providers of pollution control and environmental services for the management, recovery and disposal of solid and hazardous waste materials, such as landfills and recycling centers."@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"65103035" ;
+	skos:prefLabel	"Waste & Disposal Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4466,8 +4720,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Waste & Disposal Services"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"651030" ;
+	skos:prefLabel	"Waste & Disposal Services"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4482,8 +4737,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Utilities"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"6510" ;
+	skos:prefLabel	"Utilities"@en ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
 
@@ -4497,7 +4753,9 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	pav:sourceAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2018-07-13T15:51:11Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/icb/2019/> ;
-	rdfs:label	"Utilities"@en ;
+	skos:inScheme	<http://data.ga-group.nl/ics/icb/2019/> ;
 	skos:notation	"65" ;
+	skos:prefLabel	"Utilities"@en ;
+	skos:topConceptOf	<http://data.ga-group.nl/ics/icb/2019/> ;
 	tempo:validFrom	"2019-01-01"^^xsd:date ;
 	tempo:validTill	"2019-07-01"^^xsd:date .
