@@ -39,7 +39,7 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	owl:versionInfo	"2008"^^xsd:string ;
 	owl:versionIRI	<http://data.ga-group.nl/ics/rbss/2004/> ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
-	skos:prefLabel	"RBSS 2004"@en ;
+	rdfs:label	"RBSS 2004"@en ;
 	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
 	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
 	sm:copyright	"Copyright (c) 2004 Reuters Group" , "Copyright (c) 2022-2026 PAMIYA Strategic Advisors GmbH" ;

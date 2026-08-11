@@ -39,7 +39,7 @@ LSEG is responsible for assigning a TRBC classification to all major public as w
 	owl:versionInfo	"2012"^^xsd:string ;
 	owl:versionIRI	<http://data.ga-group.nl/ics/trbc/2012/> ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
-	skos:prefLabel	"TRBC 2012"@en ;
+	rdfs:label	"TRBC 2012"@en ;
 	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
 	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
 	sm:copyright	"Copyright (c) 2008 Thomson Reuters Corp" , "Copyright (c) 2022-2026 PAMIYA Strategic Advisors GmbH" ;

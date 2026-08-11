@@ -40,7 +40,7 @@ Bloomberg is responsible for assigning a BICS classification to all major public
 	owl:versionInfo	"2024"^^xsd:string ;
 	owl:versionIRI	<http://data.ga-group.nl/ics/bics/2024/> ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
-	skos:prefLabel	"BICS 2024"@en ;
+	rdfs:label	"BICS 2024"@en ;
 	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
 	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
 	sm:copyright	"Copyright (c) 2014 Bloomberg LLC" , "Copyright (c) 2022-2026 PAMIYA Strategic Advisors GmbH" ;

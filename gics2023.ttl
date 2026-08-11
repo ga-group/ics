@@ -40,7 +40,7 @@ S&P is responsible for assigning a GICS code to all major public companies.  The
 	owl:versionInfo	"2023"^^xsd:string ;
 	owl:versionIRI	<http://data.ga-group.nl/ics/gics/2023/> ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
-	skos:prefLabel	"gics 2023"@en ;
+	rdfs:label	"gics 2023"@en ;
 	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
 	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
 	sm:copyright	"Copyright (c) 1999 S&P Dow Jones Indices LLC" , "Copyright (c) 1999 MSCI Inc." , "Copyright (c) 2019-2026 PAMIYA Strategic Advisors GmbH" ;

@@ -39,7 +39,7 @@ FTSE/Russell is responsible for assigning an ICB classification to all major pub
 	owl:versionInfo	"2019"^^xsd:string ;
 	owl:versionIRI	<http://data.ga-group.nl/ics/icb/2019/> ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
-	skos:prefLabel	"icb 2019"@en ;
+	rdfs:label	"icb 2019"@en ;
 	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
 	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
 	sm:copyright	"Copyright (c) 2004 FTSE International Limited" , "Copyright (c) 2004 Dow Jones & Co, Inc." , "Copyright (c) 2022-2026 PAMIYA Strategic Advisors GmbH" ;
