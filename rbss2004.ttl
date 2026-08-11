@@ -39,7 +39,7 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	owl:versionInfo	"2008"^^xsd:string ;
 	owl:versionIRI	<http://data.ga-group.nl/ics/rbss/2004/> ;
 	sm:contentLanguage	<https://www.w3.org/TR/owl2-quick-reference/> ;
-	rdfs:label	"RBSS 2004"@en ;
+	skos:prefLabel	"RBSS 2004"@en ;
 	rdfs:seeAlso	<https://github.com/ga-group/ics> ;
 	sm:contributor	"PAMIYA Strategic Advisors GmbH" ;
 	sm:copyright	"Copyright (c) 2004 Reuters Group" , "Copyright (c) 2022-2026 PAMIYA Strategic Advisors GmbH" ;
@@ -64,8 +64,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Energy"@en ;
 	skos:notation	"50000" ;
+	skos:prefLabel	"Energy"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -81,8 +81,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Coal"@en ;
 	skos:notation	"50110" ;
+	skos:prefLabel	"Coal"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -98,8 +98,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Oil & Gas"@en ;
 	skos:notation	"50120" ;
+	skos:prefLabel	"Oil & Gas"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -115,8 +115,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Integrated Oil & Gas"@en ;
 	skos:notation	"50121" ;
+	skos:prefLabel	"Integrated Oil & Gas"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -132,8 +132,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Oil & Gas Exploration and Production"@en ;
 	skos:notation	"50122" ;
+	skos:prefLabel	"Oil & Gas Exploration and Production"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -149,8 +149,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Oil & Gas Refining and Marketing"@en ;
 	skos:notation	"50123" ;
+	skos:prefLabel	"Oil & Gas Refining and Marketing"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -166,8 +166,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Oil & Gas Related Equipment and Services"@en ;
 	skos:notation	"50130" ;
+	skos:prefLabel	"Oil & Gas Related Equipment and Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -183,8 +183,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Oil & Gas Drilling"@en ;
 	skos:notation	"50131" ;
+	skos:prefLabel	"Oil & Gas Drilling"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -200,8 +200,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Oil Related Services and Equipment"@en ;
 	skos:notation	"50132" ;
+	skos:prefLabel	"Oil Related Services and Equipment"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -217,8 +217,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Oil & Gas Transportation Services"@en ;
 	skos:notation	"50133" ;
+	skos:prefLabel	"Oil & Gas Transportation Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -234,8 +234,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Renewable Energy"@en ;
 	skos:notation	"50140" ;
+	skos:prefLabel	"Renewable Energy"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -251,8 +251,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Renewable Energy Equipment & Services"@en ;
 	skos:notation	"50141" ;
+	skos:prefLabel	"Renewable Energy Equipment & Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -268,8 +268,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Renewable Fuels"@en ;
 	skos:notation	"50142" ;
+	skos:prefLabel	"Renewable Fuels"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -285,8 +285,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Basic Materials"@en ;
 	skos:notation	"51000" ;
+	skos:prefLabel	"Basic Materials"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -302,8 +302,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Chemicals"@en ;
 	skos:notation	"51100" ;
+	skos:prefLabel	"Chemicals"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -319,8 +319,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Commodity Chemicals"@en ;
 	skos:notation	"51111" ;
+	skos:prefLabel	"Commodity Chemicals"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -336,8 +336,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Agricultural Chemicals"@en ;
 	skos:notation	"51112" ;
+	skos:prefLabel	"Agricultural Chemicals"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -353,8 +353,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Specialty Chemicals"@en ;
 	skos:notation	"51113" ;
+	skos:prefLabel	"Specialty Chemicals"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -370,8 +370,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Diversified Chemicals"@en ;
 	skos:notation	"51119" ;
+	skos:prefLabel	"Diversified Chemicals"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -387,8 +387,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Mineral Resources"@en ;
 	skos:notation	"51200" ;
+	skos:prefLabel	"Mineral Resources"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -404,8 +404,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Metals & Mining"@en ;
 	skos:notation	"51210" ;
+	skos:prefLabel	"Metals & Mining"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -421,8 +421,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Precious Metals & Minerals"@en ;
 	skos:notation	"51211" ;
+	skos:prefLabel	"Precious Metals & Minerals"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -438,8 +438,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Steel"@en ;
 	skos:notation	"51212" ;
+	skos:prefLabel	"Steel"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -455,8 +455,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Aluminum"@en ;
 	skos:notation	"51213" ;
+	skos:prefLabel	"Aluminum"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -472,8 +472,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Specialty Mining & Metals"@en ;
 	skos:notation	"51215" ;
+	skos:prefLabel	"Specialty Mining & Metals"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -489,8 +489,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Construction Materials"@en ;
 	skos:notation	"51220" ;
+	skos:prefLabel	"Construction Materials"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -506,8 +506,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Applied Resources"@en ;
 	skos:notation	"51300" ;
+	skos:prefLabel	"Applied Resources"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -523,8 +523,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Paper & Forest Products"@en ;
 	skos:notation	"51310" ;
+	skos:prefLabel	"Paper & Forest Products"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -540,8 +540,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Forest & Wood Products"@en ;
 	skos:notation	"51311" ;
+	skos:prefLabel	"Forest & Wood Products"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -557,8 +557,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Paper Products"@en ;
 	skos:notation	"51312" ;
+	skos:prefLabel	"Paper Products"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -574,8 +574,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Containers & Packaging"@en ;
 	skos:notation	"51320" ;
+	skos:prefLabel	"Containers & Packaging"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -591,8 +591,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Non-Paper Containers & Packaging"@en ;
 	skos:notation	"51321" ;
+	skos:prefLabel	"Non-Paper Containers & Packaging"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -608,8 +608,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Paper Packaging"@en ;
 	skos:notation	"51322" ;
+	skos:prefLabel	"Paper Packaging"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -625,8 +625,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Industrials"@en ;
 	skos:notation	"52000" ;
+	skos:prefLabel	"Industrials"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -642,8 +642,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Industrial Goods"@en ;
 	skos:notation	"52100" ;
+	skos:prefLabel	"Industrial Goods"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -659,8 +659,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Aerospace & Defense"@en ;
 	skos:notation	"52110" ;
+	skos:prefLabel	"Aerospace & Defense"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -676,8 +676,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Machinery, Equipment & Components"@en ;
 	skos:notation	"52120" ;
+	skos:prefLabel	"Machinery, Equipment & Components"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -693,8 +693,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Industrial Machinery & Equipment"@en ;
 	skos:notation	"52121" ;
+	skos:prefLabel	"Industrial Machinery & Equipment"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -710,8 +710,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Heavy Machinery & Vehicles"@en ;
 	skos:notation	"52122" ;
+	skos:prefLabel	"Heavy Machinery & Vehicles"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -727,8 +727,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Electrical Components & Equipment"@en ;
 	skos:notation	"52123" ;
+	skos:prefLabel	"Electrical Components & Equipment"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -744,8 +744,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Heavy Electrical Equipment"@en ;
 	skos:notation	"52124" ;
+	skos:prefLabel	"Heavy Electrical Equipment"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -761,8 +761,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Industrial Services"@en ;
 	skos:notation	"52200" ;
+	skos:prefLabel	"Industrial Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -778,8 +778,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Construction & Engineering"@en ;
 	skos:notation	"52210" ;
+	skos:prefLabel	"Construction & Engineering"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -795,8 +795,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Construction Supplies & Fixtures"@en ;
 	skos:notation	"52211" ;
+	skos:prefLabel	"Construction Supplies & Fixtures"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -812,8 +812,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Diversified Trading & Distributing"@en ;
 	skos:notation	"52220" ;
+	skos:prefLabel	"Diversified Trading & Distributing"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -829,8 +829,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Environmental Services"@en ;
 	skos:notation	"52231" ;
+	skos:prefLabel	"Environmental Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -846,8 +846,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Commercial Printing Services"@en ;
 	skos:notation	"52232" ;
+	skos:prefLabel	"Commercial Printing Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -863,8 +863,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Employment Services"@en ;
 	skos:notation	"52233" ;
+	skos:prefLabel	"Employment Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -880,8 +880,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Business Support Services"@en ;
 	skos:notation	"52234" ;
+	skos:prefLabel	"Business Support Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -895,8 +895,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Commercial Services & Supplies"@en ;
 	skos:notation	"52235" ;
+	skos:prefLabel	"Commercial Services & Supplies"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -912,8 +912,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Business Support Supplies"@en ;
 	skos:notation	"52236" ;
+	skos:prefLabel	"Business Support Supplies"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -929,8 +929,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Industrial Conglomerates"@en ;
 	skos:notation	"52300" ;
+	skos:prefLabel	"Industrial Conglomerates"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -946,8 +946,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Transportation"@en ;
 	skos:notation	"52400" ;
+	skos:prefLabel	"Transportation"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -963,8 +963,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Air Freight & Courier Services"@en ;
 	skos:notation	"52410" ;
+	skos:prefLabel	"Air Freight & Courier Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -980,8 +980,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Airline Services"@en ;
 	skos:notation	"52420" ;
+	skos:prefLabel	"Airline Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -997,8 +997,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Airlines"@en ;
 	skos:notation	"52421" ;
+	skos:prefLabel	"Airlines"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1014,8 +1014,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Airport Services"@en ;
 	skos:notation	"52422" ;
+	skos:prefLabel	"Airport Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1031,8 +1031,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Marine Services"@en ;
 	skos:notation	"52430" ;
+	skos:prefLabel	"Marine Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1048,8 +1048,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Marine Transportation"@en ;
 	skos:notation	"52431" ;
+	skos:prefLabel	"Marine Transportation"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1065,8 +1065,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Marine Port Services"@en ;
 	skos:notation	"52432" ;
+	skos:prefLabel	"Marine Port Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1082,8 +1082,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Transportation, Ground"@en ;
 	skos:notation	"52440" ;
+	skos:prefLabel	"Transportation, Ground"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1099,8 +1099,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Rails & Roads - Passengers"@en ;
 	skos:notation	"52441" ;
+	skos:prefLabel	"Rails & Roads - Passengers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1116,8 +1116,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Rails & Roads - Freights"@en ;
 	skos:notation	"52442" ;
+	skos:prefLabel	"Rails & Roads - Freights"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1133,8 +1133,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Highways & Rail Tracks"@en ;
 	skos:notation	"52443" ;
+	skos:prefLabel	"Highways & Rail Tracks"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1150,8 +1150,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Cyclical Consumer Goods & Services"@en ;
 	skos:notation	"53000" ;
+	skos:prefLabel	"Cyclical Consumer Goods & Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1167,8 +1167,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Automobiles & Auto Parts"@en ;
 	skos:notation	"53110" ;
+	skos:prefLabel	"Automobiles & Auto Parts"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1184,8 +1184,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Auto & Truck Manufacturers"@en ;
 	skos:notation	"53111" ;
+	skos:prefLabel	"Auto & Truck Manufacturers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1201,8 +1201,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Auto, Truck & Motorcycle Parts"@en ;
 	skos:notation	"53112" ;
+	skos:prefLabel	"Auto, Truck & Motorcycle Parts"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1218,8 +1218,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Tires & Rubber Products"@en ;
 	skos:notation	"53113" ;
+	skos:prefLabel	"Tires & Rubber Products"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1235,8 +1235,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Cyclical Consumer Products"@en ;
 	skos:notation	"53200" ;
+	skos:prefLabel	"Cyclical Consumer Products"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1252,8 +1252,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Homebuilding"@en ;
 	skos:notation	"53211" ;
+	skos:prefLabel	"Homebuilding"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1267,8 +1267,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Consumer Electronics"@en ;
 	skos:notation	"53212" ;
+	skos:prefLabel	"Consumer Electronics"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1284,8 +1284,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Appliances, Tools & Housewares"@en ;
 	skos:notation	"53213" ;
+	skos:prefLabel	"Appliances, Tools & Housewares"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1301,8 +1301,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Home Furnishing"@en ;
 	skos:notation	"53214" ;
+	skos:prefLabel	"Home Furnishing"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1318,8 +1318,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Recreational Products"@en , "Toys & Games"@en ;
 	skos:notation	"53215" ;
+	skos:prefLabel	"Recreational Products"@en , "Toys & Games"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1335,8 +1335,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Textiles & Apparel"@en ;
 	skos:notation	"53220" ;
+	skos:prefLabel	"Textiles & Apparel"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1352,8 +1352,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Textiles & Leather Goods"@en ;
 	skos:notation	"53221" ;
+	skos:prefLabel	"Textiles & Leather Goods"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1369,8 +1369,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Apparel & Accessories"@en ;
 	skos:notation	"53222" ;
+	skos:prefLabel	"Apparel & Accessories"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1386,8 +1386,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Footwear"@en ;
 	skos:notation	"53223" ;
+	skos:prefLabel	"Footwear"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1403,8 +1403,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Homebuilding & Construction Supplies"@en ;
 	skos:notation	"53230" ;
+	skos:prefLabel	"Homebuilding & Construction Supplies"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1420,8 +1420,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Household Goods"@en ;
 	skos:notation	"53240" ;
+	skos:prefLabel	"Household Goods"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1437,8 +1437,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Consumer Electronics"@en ;
 	skos:notation	"53242" ;
+	skos:prefLabel	"Consumer Electronics"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1454,8 +1454,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Leisure Products"@en ;
 	skos:notation	"53250" ;
+	skos:prefLabel	"Leisure Products"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1471,8 +1471,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Cyclical Consumer Services"@en ;
 	skos:notation	"53300" ;
+	skos:prefLabel	"Cyclical Consumer Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1488,8 +1488,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Hotels & Entertainment Services"@en ;
 	skos:notation	"53310" ;
+	skos:prefLabel	"Hotels & Entertainment Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1505,8 +1505,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Hotels, Motels & Cruise Lines"@en ;
 	skos:notation	"53311" ;
+	skos:prefLabel	"Hotels, Motels & Cruise Lines"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1522,8 +1522,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Restaurants"@en ;
 	skos:notation	"53312" ;
+	skos:prefLabel	"Restaurants"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1539,8 +1539,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Casinos & Gaming"@en ;
 	skos:notation	"53313" ;
+	skos:prefLabel	"Casinos & Gaming"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1556,8 +1556,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Leisure & Recreation"@en ;
 	skos:notation	"53314" ;
+	skos:prefLabel	"Leisure & Recreation"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1573,8 +1573,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Media & Publishing"@en ;
 	skos:notation	"53320" ;
+	skos:prefLabel	"Media & Publishing"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1590,8 +1590,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Advertising & Marketing"@en ;
 	skos:notation	"53321" ;
+	skos:prefLabel	"Advertising & Marketing"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1607,8 +1607,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Broadcasting"@en ;
 	skos:notation	"53322" ;
+	skos:prefLabel	"Broadcasting"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1624,8 +1624,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Entertainment Production"@en ;
 	skos:notation	"53323" ;
+	skos:prefLabel	"Entertainment Production"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1641,8 +1641,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Publishing"@en ;
 	skos:notation	"53324" ;
+	skos:prefLabel	"Publishing"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1658,8 +1658,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Diversified Media"@en ;
 	skos:notation	"53329" ;
+	skos:prefLabel	"Diversified Media"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1675,8 +1675,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Retailers"@en ;
 	skos:notation	"53400" ;
+	skos:prefLabel	"Retailers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1692,8 +1692,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Department Stores"@en ;
 	skos:notation	"53411" ;
+	skos:prefLabel	"Department Stores"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1709,8 +1709,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Discount Stores"@en ;
 	skos:notation	"53412" ;
+	skos:prefLabel	"Discount Stores"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1724,8 +1724,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Catalog & Internet Order"@en ;
 	skos:notation	"53413" ;
+	skos:prefLabel	"Catalog & Internet Order"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1741,8 +1741,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Apparel & Accessories Retailers"@en ;
 	skos:notation	"53414" ;
+	skos:prefLabel	"Apparel & Accessories Retailers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1758,8 +1758,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Computer & Electronics Retailers"@en ;
 	skos:notation	"53415" ;
+	skos:prefLabel	"Computer & Electronics Retailers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1775,8 +1775,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Specialty Retailers"@en ;
 	skos:notation	"53416" ;
+	skos:prefLabel	"Specialty Retailers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1792,8 +1792,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Diversified Retail"@en ;
 	skos:notation	"53420" ;
+	skos:prefLabel	"Diversified Retail"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1809,8 +1809,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Specialty Retailers"@en ;
 	skos:notation	"53430" ;
+	skos:prefLabel	"Specialty Retailers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1826,8 +1826,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Auto Vehicles, Parts & Service Retailers"@en ;
 	skos:notation	"53431" ;
+	skos:prefLabel	"Auto Vehicles, Parts & Service Retailers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1843,8 +1843,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Home Improvement Products & Services Retailers"@en ;
 	skos:notation	"53432" ;
+	skos:prefLabel	"Home Improvement Products & Services Retailers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1860,8 +1860,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Home Furnishings Retailers"@en ;
 	skos:notation	"53433" ;
+	skos:prefLabel	"Home Furnishings Retailers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1877,8 +1877,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Non-Cyclical Consumer Goods & Services"@en ;
 	skos:notation	"54000" ;
+	skos:prefLabel	"Non-Cyclical Consumer Goods & Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1894,8 +1894,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Food & Beverages"@en ;
 	skos:notation	"54100" ;
+	skos:prefLabel	"Food & Beverages"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1911,8 +1911,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Beverages"@en ;
 	skos:notation	"54110" ;
+	skos:prefLabel	"Beverages"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1928,8 +1928,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Brewers"@en ;
 	skos:notation	"54111" ;
+	skos:prefLabel	"Brewers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1945,8 +1945,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Distillers & Wineries"@en ;
 	skos:notation	"54112" ;
+	skos:prefLabel	"Distillers & Wineries"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1962,8 +1962,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Non-Alcoholic Beverages"@en ;
 	skos:notation	"54113" ;
+	skos:prefLabel	"Non-Alcoholic Beverages"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1979,8 +1979,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Food & Tobacco"@en ;
 	skos:notation	"54120" ;
+	skos:prefLabel	"Food & Tobacco"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -1996,8 +1996,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Fishing & Farming"@en ;
 	skos:notation	"54121" ;
+	skos:prefLabel	"Fishing & Farming"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2013,8 +2013,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Food Processing"@en ;
 	skos:notation	"54122" ;
+	skos:prefLabel	"Food Processing"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2030,8 +2030,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Tobacco"@en ;
 	skos:notation	"54123" ;
+	skos:prefLabel	"Tobacco"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2047,8 +2047,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Personal & Household Products & Services"@en ;
 	skos:notation	"54210" ;
+	skos:prefLabel	"Personal & Household Products & Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2064,8 +2064,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Household Products"@en ;
 	skos:notation	"54211" ;
+	skos:prefLabel	"Household Products"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2081,8 +2081,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Personal Products"@en ;
 	skos:notation	"54212" ;
+	skos:prefLabel	"Personal Products"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2098,8 +2098,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Personal Services"@en ;
 	skos:notation	"54213" ;
+	skos:prefLabel	"Personal Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2115,8 +2115,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Food & Drug Retailing"@en ;
 	skos:notation	"54310" ;
+	skos:prefLabel	"Food & Drug Retailing"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2132,8 +2132,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Drug Retailers"@en ;
 	skos:notation	"54311" ;
+	skos:prefLabel	"Drug Retailers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2149,8 +2149,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Food Distribution & Convenience Stores"@en ;
 	skos:notation	"54312" ;
+	skos:prefLabel	"Food Distribution & Convenience Stores"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2166,8 +2166,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Financials"@en ;
 	skos:notation	"55000" ;
+	skos:prefLabel	"Financials"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2183,8 +2183,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Banking & Investment Services"@en ;
 	skos:notation	"55100" ;
+	skos:prefLabel	"Banking & Investment Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2200,8 +2200,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Banking Services"@en ;
 	skos:notation	"55110" ;
+	skos:prefLabel	"Banking Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2217,8 +2217,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Banks"@en ;
 	skos:notation	"55111" ;
+	skos:prefLabel	"Banks"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2234,8 +2234,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Consumer Financial Services"@en ;
 	skos:notation	"55113" ;
+	skos:prefLabel	"Consumer Financial Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2251,8 +2251,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Investment Banking & Investment Services"@en ;
 	skos:notation	"55114" ;
+	skos:prefLabel	"Investment Banking & Investment Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2268,8 +2268,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Specialty Financials"@en ;
 	skos:notation	"55115" ;
+	skos:prefLabel	"Specialty Financials"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2285,8 +2285,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Investment Banking & Brokerage Services"@en ;
 	skos:notation	"55121" ;
+	skos:prefLabel	"Investment Banking & Brokerage Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2302,8 +2302,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Investment Management & Fund Operators"@en ;
 	skos:notation	"55122" ;
+	skos:prefLabel	"Investment Management & Fund Operators"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2319,8 +2319,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Diversified Investment Services"@en ;
 	skos:notation	"55123" ;
+	skos:prefLabel	"Diversified Investment Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2336,8 +2336,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Specialty Investment Services"@en ;
 	skos:notation	"55124" ;
+	skos:prefLabel	"Specialty Investment Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2353,8 +2353,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Financial & Commodity Market Operators"@en ;
 	skos:notation	"55125" ;
+	skos:prefLabel	"Financial & Commodity Market Operators"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2370,8 +2370,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Diversified Financial Services"@en ;
 	skos:notation	"55131" ;
+	skos:prefLabel	"Diversified Financial Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2387,8 +2387,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Insurance"@en ;
 	skos:notation	"55310" ;
+	skos:prefLabel	"Insurance"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2404,8 +2404,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Multiline Insurance"@en ;
 	skos:notation	"55311" ;
+	skos:prefLabel	"Multiline Insurance"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2421,8 +2421,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Property & Casualty Insurance"@en ;
 	skos:notation	"55312" ;
+	skos:prefLabel	"Property & Casualty Insurance"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2438,8 +2438,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Life & Health Insurance"@en ;
 	skos:notation	"55313" ;
+	skos:prefLabel	"Life & Health Insurance"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2455,8 +2455,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Reinsurance"@en ;
 	skos:notation	"55315" ;
+	skos:prefLabel	"Reinsurance"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2472,8 +2472,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Insurance Brokers"@en ;
 	skos:notation	"55316" ;
+	skos:prefLabel	"Insurance Brokers"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2489,8 +2489,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Real Estate"@en ;
 	skos:notation	"55400" ;
+	skos:prefLabel	"Real Estate"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2506,8 +2506,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Real Estate Operations"@en ;
 	skos:notation	"55411" ;
+	skos:prefLabel	"Real Estate Operations"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2523,8 +2523,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Residential & Commercial REITs"@en ;
 	skos:notation	"55412" ;
+	skos:prefLabel	"Residential & Commercial REITs"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2540,8 +2540,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Real Estate Development & Operations"@en ;
 	skos:notation	"55421" ;
+	skos:prefLabel	"Real Estate Development & Operations"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2557,8 +2557,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Real Estate Services"@en ;
 	skos:notation	"55422" ;
+	skos:prefLabel	"Real Estate Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2574,8 +2574,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Diversified REITs"@en ;
 	skos:notation	"55431" ;
+	skos:prefLabel	"Diversified REITs"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2591,8 +2591,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Commercial REITs"@en ;
 	skos:notation	"55432" ;
+	skos:prefLabel	"Commercial REITs"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2608,8 +2608,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Residential REITs"@en ;
 	skos:notation	"55433" ;
+	skos:prefLabel	"Residential REITs"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2625,8 +2625,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Investment Trusts"@en ;
 	skos:notation	"55500" ;
+	skos:prefLabel	"Investment Trusts"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2642,8 +2642,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Healthcare"@en ;
 	skos:notation	"56000" ;
+	skos:prefLabel	"Healthcare"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2659,8 +2659,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Healthcare Services"@en ;
 	skos:notation	"56100" ;
+	skos:prefLabel	"Healthcare Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2676,8 +2676,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Healthcare Equipment & Supplies"@en ;
 	skos:notation	"56110" ;
+	skos:prefLabel	"Healthcare Equipment & Supplies"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2693,8 +2693,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Advanced Medical Equipment"@en ;
 	skos:notation	"56111" ;
+	skos:prefLabel	"Advanced Medical Equipment"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2710,8 +2710,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Medical Equipment, Supplies & Distribution"@en ;
 	skos:notation	"56112" ;
+	skos:prefLabel	"Medical Equipment, Supplies & Distribution"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2727,8 +2727,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Healthcare Providers & Services"@en ;
 	skos:notation	"56120" ;
+	skos:prefLabel	"Healthcare Providers & Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2744,8 +2744,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Healthcare Facilities & Services"@en ;
 	skos:notation	"56121" ;
+	skos:prefLabel	"Healthcare Facilities & Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2761,8 +2761,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Managed Healthcare"@en ;
 	skos:notation	"56122" ;
+	skos:prefLabel	"Managed Healthcare"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2778,8 +2778,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Pharmaceuticals & Medical Research"@en ;
 	skos:notation	"56200" ;
+	skos:prefLabel	"Pharmaceuticals & Medical Research"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2795,8 +2795,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Pharmaceuticals"@en ;
 	skos:notation	"56210" ;
+	skos:prefLabel	"Pharmaceuticals"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2812,8 +2812,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Diversified Pharmaceuticals"@en ;
 	skos:notation	"56211" ;
+	skos:prefLabel	"Diversified Pharmaceuticals"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2829,8 +2829,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Biotechnology & Medical Research"@en ;
 	skos:notation	"56212" ;
+	skos:prefLabel	"Biotechnology & Medical Research"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2846,8 +2846,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Generic & Specialty Pharmaceuticals"@en ;
 	skos:notation	"56213" ;
+	skos:prefLabel	"Generic & Specialty Pharmaceuticals"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2863,8 +2863,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Technology"@en ;
 	skos:notation	"57000" ;
+	skos:prefLabel	"Technology"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2880,8 +2880,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Technology Equipment"@en ;
 	skos:notation	"57100" ;
+	skos:prefLabel	"Technology Equipment"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2897,8 +2897,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Semiconductors & Semiconductor Equipment"@en ;
 	skos:notation	"57110" ;
+	skos:prefLabel	"Semiconductors & Semiconductor Equipment"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2914,8 +2914,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Semiconductors"@en ;
 	skos:notation	"57111" ;
+	skos:prefLabel	"Semiconductors"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2931,8 +2931,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Semiconductor Equipment & Testing"@en ;
 	skos:notation	"57112" ;
+	skos:prefLabel	"Semiconductor Equipment & Testing"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2948,8 +2948,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Communications Equipment"@en ;
 	skos:notation	"57120" ;
+	skos:prefLabel	"Communications Equipment"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2965,8 +2965,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Communications & Office Equipment"@en ;
 	skos:notation	"57130" ;
+	skos:prefLabel	"Communications & Office Equipment"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2982,8 +2982,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Computer Hardware"@en ;
 	skos:notation	"57131" ;
+	skos:prefLabel	"Computer Hardware"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -2999,8 +2999,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Office Equipment"@en ;
 	skos:notation	"57132" ;
+	skos:prefLabel	"Office Equipment"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3016,8 +3016,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"IT Services & Consulting"@en ;
 	skos:notation	"57211" ;
+	skos:prefLabel	"IT Services & Consulting"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3033,8 +3033,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Software"@en ;
 	skos:notation	"57212" ;
+	skos:prefLabel	"Software"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3050,8 +3050,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Telecommunications Services"@en ;
 	skos:notation	"58110" ;
+	skos:prefLabel	"Telecommunications Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3067,8 +3067,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Integrated Telecommunications Services"@en ;
 	skos:notation	"58111" ;
+	skos:prefLabel	"Integrated Telecommunications Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3084,8 +3084,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Wireless Telecommunications Services"@en ;
 	skos:notation	"58112" ;
+	skos:prefLabel	"Wireless Telecommunications Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3101,8 +3101,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Utilities"@en ;
 	skos:notation	"59100" ;
+	skos:prefLabel	"Utilities"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3118,8 +3118,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Electric Utilities"@en ;
 	skos:notation	"59110" ;
+	skos:prefLabel	"Electric Utilities"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3135,8 +3135,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Natural Gas Utilities"@en ;
 	skos:notation	"59120" ;
+	skos:prefLabel	"Natural Gas Utilities"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3152,8 +3152,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Water & Other Utilities"@en ;
 	skos:notation	"59130" ;
+	skos:prefLabel	"Water & Other Utilities"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3169,8 +3169,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Multiline Utilities"@en ;
 	skos:notation	"59140" ;
+	skos:prefLabel	"Multiline Utilities"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3184,8 +3184,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Governmental Services"@en ;
 	skos:notation	"90000" ;
+	skos:prefLabel	"Governmental Services"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3199,8 +3199,8 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Non-profit Organizations"@en ;
 	skos:notation	"90010" ;
+	skos:prefLabel	"Non-profit Organizations"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
 
@@ -3214,7 +3214,7 @@ Reuters is responsible for assigning an RBSS classification code to all major pu
 	pav:sourceAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	pav:sourceLastAccessedOn	"2009-08-11T19:18:52Z"^^xsd:dateTime ;
 	rdfs:isDefinedBy	<http://data.ga-group.nl/ics/rbss/2004/> ;
-	rdfs:label	"Subject to Further Review"@en ;
 	skos:notation	"90099" ;
+	skos:prefLabel	"Subject to Further Review"@en ;
 	tempo:validFrom	"2004"^^xsd:gYear ;
 	tempo:validTill	"2008"^^xsd:gYear .
