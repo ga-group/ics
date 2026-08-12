@@ -15,7 +15,7 @@ FROM <http://data.ga-group.nl/ics/gics/2023/>
 WHERE {
 	?x skos:notation ?gics ;
 		tempo:validFrom ?from ;
-		rdfs:label ?text .
+		skos:prefLabel ?text .
 	BIND(LANG(?text) AS ?lang)
 	OPTIONAL {
 	?x skos:definition ?desc
