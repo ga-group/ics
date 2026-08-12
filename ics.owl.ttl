@@ -12,6 +12,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rbics: <http://data.ga-group.nl/ics/rbics/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -210,7 +211,7 @@ icb:SubsectorClassifier
 	rdfs:isDefinedBy	ics: ;
 	rdfs:label	"subsector classifier"@en ;
 	rdfs:subClassOf	fibo-sec-sec-cls:IndustryClassificationBenchmarkClassifier , ics:TieredClassifier ;
-	skos:definition	"The second-level tier in the Industry Classification Benchmark system."@en .
+	skos:definition	"The fourth-level tier in the Industry Classification Benchmark system."@en .
 
 ## useful additions to the TRBC ontology
 trbc:EconomicSector
@@ -296,6 +297,123 @@ bddc:BicsLevel8Segment
 	a	owl:Class ;
 	ics:ranksBelow	bddc:BicsLevel7Segment ;
 	rdfs:subClassOf	bics:Classifier , ics:TieredClassifier .
+
+rbics:Classifier
+	a	owl:Class ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"rbics classifier"@en ;
+	rdfs:subClassOf	fibo-fnd-arr-cls:IndustrySectorClassifier ;
+	skos:definition	"An instance of the six tiered classification scheme initiated by FactSet Revere."@en .
+
+rbics:EconomyClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	rbics:hasSector ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rbics:item	"ECON" ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"economy classifier"@en ;
+	rdfs:subClassOf	rbics:Classifier , ics:TieredClassifier ;
+	skos:definition	"The top-level tier in the FactSet Revere Business and Industry Classification System."@en .
+
+rbics:SectorClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:ranksBelow	rbics:EconomyClassifier ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	rbics:isSectorOf ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
+	] , [
+		a	owl:Restriction ;
+		owl:onProperty	rbics:hasSubsector ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rbics:item	"SECT" ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"sector classifier"@en ;
+	rdfs:subClassOf	rbics:Classifier , ics:TieredClassifier ;
+	skos:definition	"The second-level tier in the FactSet Revere Business and Industry Classification System."@en .
+
+rbics:SubsectorClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:ranksBelow	rbics:SectorClassifier ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	rbics:isSubsectorOf ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
+	] , [
+		a	owl:Restriction ;
+		owl:onProperty	rbics:hasIndustryGroup ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rbics:item	"SUBSECT" ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"subsector classifier"@en ;
+	rdfs:subClassOf	rbics:Classifier , ics:TieredClassifier ;
+	skos:definition	"The third-level tier in the FactSet Revere Business and Industry Classification System."@en .
+
+rbics:IndustryGroupClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:ranksBelow	rbics:SubsectorClassifier ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	rbics:isIndustryGroupOf ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
+	] , [
+		a	owl:Restriction ;
+		owl:onProperty	rbics:hasIndustry ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rbics:item	"INDGRP" ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"industry group classifier"@en ;
+	rdfs:subClassOf	rbics:Classifier , ics:TieredClassifier ;
+	skos:definition	"The fourth-level tier in the FactSet Revere Business and Industry Classification System."@en .
+
+rbics:IndustryClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:ranksBelow	rbics:IndustryGroupClassifier ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	rbics:isIndustryOf ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
+	] , [
+		a	owl:Restriction ;
+		owl:onProperty	rbics:hasSubindustry ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rbics:item	"IND" ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"industry classifier"@en ;
+	rdfs:subClassOf	rbics:Classifier , ics:TieredClassifier ;
+	skos:definition	"The fifth-level tier in the FactSet Revere Business and Industry Classification System."@en .
+
+rbics:SubindustryClassifier
+	a	ics:Tier ;
+	a	owl:Class ;
+	ics:ranksBelow	icb:IndustryClassifier ;
+	owl:equivalentClass	[
+		a	owl:Restriction ;
+		owl:onProperty	rbics:isSubindustryOf ;
+		owl:minCardinality	"1"^^xsd:nonNegativeInteger ;
+		owl:maxCardinality	"1"^^xsd:nonNegativeInteger ;
+	] ;
+	rbics:item	"SUBIND" ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"sub-industry classifier"@en ;
+	rdfs:subClassOf	rbics:Classifier , ics:TieredClassifier ;
+	skos:definition	"The sixth-level tier in the FactSet Revere Business and Industry Classification System."@en .
 
 #################################################################
 # Object Properties
@@ -468,6 +586,111 @@ icb:isSubsectorOf
 	rdfs:label	"is subsector of"@en ;
 	rdfs:subPropertyOf	ics:hasParent ;
 	skos:definition	"Links a subsector to its sector."@en .
+
+rbics:item
+	a	owl:DatatypeProperty ;
+	rdfs:label	"item" ;
+	skos:definition	"FactSet item abbreviation"@en .
+
+rbics:hasSector
+	a	owl:ObjectProperty ;
+	owl:inverseOf	rbics:isSectorOf ;
+	rdfs:domain	rbics:EconomyClassifier ;
+	rdfs:range	rbics:SectorClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has sector"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links an economy to its sectors."@en .
+
+rbics:isSectorOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	rbics:hasSector ;
+	rdfs:domain	rbics:SectorClassifier ;
+	rdfs:range	rbics:EconomyClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is sector of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a sector to its economy."@en .
+
+rbics:hasSubsector
+	a	owl:ObjectProperty ;
+	owl:inverseOf	rbics:isSubsectorOf ;
+	rdfs:domain	rbics:SectorClassifier ;
+	rdfs:range	rbics:SubsectorClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has subsector"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links a sector to its subsectors."@en .
+
+rbics:isSubsectorOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	rbics:hasSubsector ;
+	rdfs:domain	rbics:SubsectorClassifier ;
+	rdfs:range	rbics:SectorClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is subsector of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a subsector to its sector."@en .
+
+rbics:hasIndustryGroup
+	a	owl:ObjectProperty ;
+	owl:inverseOf	rbics:isIndustryGroupOf ;
+	rdfs:domain	rbics:SubsectorClassifier ;
+	rdfs:range	rbics:IndustryGroupClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has industry group"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links a subsector to its industry groups."@en .
+
+rbics:isIndustryGroupOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	rbics:hasIndustryGroup ;
+	rdfs:domain	rbics:IndustryGroupClassifier ;
+	rdfs:range	rbics:SubsectorClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is industry group of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links an industry group to its subsector."@en .
+
+rbics:hasIndustry
+	a	owl:ObjectProperty ;
+	owl:inverseOf	rbics:isIndustryOf ;
+	rdfs:domain	rbics:IndustryGroupClassifier ;
+	rdfs:range	rbics:IndustryClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has industry"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links an industry group to its industries."@en .
+
+rbics:isIndustryOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	rbics:hasIndustry ;
+	rdfs:domain	rbics:IndustryClassifier ;
+	rdfs:range	rbics:IndustryGroupClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is industry of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links an industry to its industry group."@en .
+
+rbics:hasSubindustry
+	a	owl:ObjectProperty ;
+	owl:inverseOf	rbics:isSubindustryOf ;
+	rdfs:domain	rbics:IndustryClassifier ;
+	rdfs:range	rbics:SubindustryClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"has sub-industry"@en ;
+	rdfs:subPropertyOf	ics:hasChild ;
+	skos:definition	"Links an industry to its sub-industries."@en .
+
+rbics:isSubindustryOf
+	a	owl:ObjectProperty ;
+	owl:inverseOf	rbics:hasSubindustry ;
+	rdfs:domain	rbics:SubindustryClassifier ;
+	rdfs:range	rbics:IndustryClassifier ;
+	rdfs:isDefinedBy	ics: ;
+	rdfs:label	"is sub-industry of"@en ;
+	rdfs:subPropertyOf	ics:hasParent ;
+	skos:definition	"Links a sub-industry to its industry."@en .
 
 bics:hasIndustryGroup
 	a	owl:ObjectProperty ;
